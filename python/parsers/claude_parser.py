@@ -98,8 +98,8 @@ SYSTEM_PROMPT = """당신은 한국 행사/팝업/전시 데이터를 표준 JSO
 - 아이 동반/체험/교육 언급이 있으면 is_family_friendly=true와 적절한 tags를 부여합니다.
 - tags는 한국어 해시태그 형태(예: #실내나들이)로 3~6개.
 - place_types는 장소 성격이 분명할 때만 고릅니다:
-  historical(궁·유적·역사관), nature_science(자연사·과학관·식물원), amusement_park(테마파크·워터파크),
-  park_playground(공원·놀이터), forest_recreation(숲체험·휴양림·수목원), cultural_center(문화센터·강좌), temple(사찰).
+  park_playground(공원·놀이터·놀이공원), historical(궁·성곽·왕릉·사적), museum(박물관·미술관·과학관),
+  cultural_space(아트센터·문화원·문화센터), nature(숲·휴양림·수목원·계곡·바다), religious(사찰·성당·교회), library(도서관).
 """
 
 INSTRUCTION = (

@@ -17,15 +17,15 @@ export type TargetAgeGroup = "all" | "toddler" | "kids" | "elementary";
 /** Event lifecycle status (화면에서는 날짜로 다시 계산한다) */
 export type EventStatus = "upcoming" | "ongoing" | "ended";
 
-/** 장소·나들이 유형 필터 (상단 통합 필터용) */
+/** 관광명소 세부 유형 (상세 필터·홈 아래 줄) */
 export type PlaceType =
-  | "historical"
-  | "nature_science"
-  | "amusement_park"
   | "park_playground"
-  | "forest_recreation"
-  | "cultural_center"
-  | "temple";
+  | "historical"
+  | "museum"
+  | "cultural_space"
+  | "nature"
+  | "religious"
+  | "library";
 
 /** Amenities stored in events.amenities JSONB */
 export interface EventAmenities {

@@ -1,7 +1,9 @@
-"""관광지 — 가 볼 만한 장소 (유적지·문화재·관광지·자연경관·박물관·미술관), API 키 불필요.
+"""관광명소 — 가 볼 만한 장소 (유적지·문화재·관광지·자연경관·박물관·미술관·도서관), API 키 불필요.
 
 - 공공데이터포털 전국관광지정보표준데이터 (15021141): 지정 관광지·관광단지
 - 공공데이터포털 전국박물관미술관정보표준데이터 (15017323): 박물관·미술관 (관람 시간·요금)
+- 공공데이터포털 전국도서관표준데이터 (15013109): 공공·어린이 도서관 — 'N월 문화프로그램 안내' 같은 글 대신
+  도서관 자체를 넣고 홈페이지(문화 프로그램)로 연결한다
 - 국가유산청 국가유산 공개 API: 사적(유적지)·명승(자연경관) — 소개 글·사진은 상세 API에서 (저장해 두고 새 곳만)
 
 행사가 아니라 '언제든 가는 곳'이라 기간을 오늘부터 400일로 두고 '#상시' 태그를 단다.
@@ -72,6 +74,7 @@ def _record(
     thumb: str | None = None,
     price: str | None = None,
     place: str | None = None,
+    place_types: list[str] | None = None,
 ) -> RawRecord:
     end = today + timedelta(days=OPEN_DAYS)
     raw = "\n".join(
@@ -106,7 +109,7 @@ def _record(
         title_hint=title,
         url=link,
         raw_text=raw,
-        meta={"category_hint": "attraction", "kind": kind},
+        meta={"category_hint": "attraction", "kind": kind, "place_types": place_types or []},
         facts={k: v for k, v in facts.items() if v not in (None, "")},
     )
 
@@ -183,6 +186,54 @@ def museum_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
         lng=_float(row.get("LONGITUDE")),
         link=homepage or None,
         price=museum_price(row),
+        place_types=["museum"],
+    )
+
+
+# 가족이 가는 도서관만 — 작은도서관·학교·대학·전문 도서관은 뺀다
+_LIBRARY_KINDS = re.compile(r"공공|어린이")
+
+
+def library_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
+    title = _clean(row.get("LBRRY_NM"))
+    kind = _clean(row.get("LBRRY_SE"))
+    if not title or not _LIBRARY_KINDS.search(kind):
+        return None
+    address = _clean(row.get("RDNMADR")) or " ".join(
+        x for x in (_clean(row.get("CTPRVN_NM")), _clean(row.get("SIGNGU_NM"))) if x
+    )
+    if not address:
+        return None
+    lines = []
+    open_, close = _hhmm(row.get("WEEKDAY_OPER_OPEN_HHMM")), _hhmm(row.get("WEEKDAY_OPER_COLSE_HHMM"))
+    if open_ and close:
+        lines.append(f"평일 {open_}~{close}")
+    sat_open, sat_close = _hhmm(row.get("SAT_OPER_OPER_OPEN_HHMM")), _hhmm(row.get("SAT_OPER_CLOSE_HHMM"))
+    if sat_open and sat_close:
+        lines.append(f"토요일 {sat_open}~{sat_close}")
+    closed = _clean(row.get("CLOSE_DAY"))
+    if closed:
+        lines.append(f"휴관 {closed[:60]}")
+    books = _won(row.get("BOOK_CO"))
+    if books:
+        lines.append(f"책 {books:,}권")
+    lines.append("이달의 문화 프로그램·강좌는 도서관 홈페이지에서 확인하세요.")
+    homepage = _clean(row.get("HOMEPAGE_URL"))
+    if homepage and not re.match(r"https?://", homepage):
+        homepage = f"https://{homepage}" if re.match(r"[\w.-]+\.[a-z]{2,}", homepage) else ""
+    return _record(
+        sid="l-" + _squash(f"{title}{address}")[:40],
+        title=title,
+        address=address,
+        today=today,
+        kind="어린이도서관" if "어린이" in kind else "도서관",
+        provider=f"공공데이터포털 전국도서관 ({_clean(row.get('INSTT_NM')) or '지자체'})",
+        description="\n".join(lines),
+        lat=_float(row.get("LATITUDE")),
+        lng=_float(row.get("LONGITUDE")),
+        link=homepage or None,
+        price="무료",
+        place_types=["library"],
     )
 
 
@@ -242,6 +293,8 @@ def heritage_to_raw(row: dict[str, str], detail: dict[str, str], *, today: date)
             f"&ccbaCtcd={row.get('ccbaCtcd')}"
         ),
         thumb=detail.get("image") or None,
+        # 사적 → 유적지, 명승 → 자연
+        place_types=["nature"] if row.get("ccbaKdcd") == "15" else ["historical"],
     )
 
 
@@ -290,7 +343,11 @@ class AttractionCollector:
         std = PublicDataCollector(self.client, check_robots=self.check_robots)
         std.throttle = self.throttle
         out: list[RawRecord] = []
-        for pk, convert in (("15021141", tour_row_to_raw), ("15017323", museum_row_to_raw)):
+        for pk, convert in (
+            ("15021141", tour_row_to_raw),
+            ("15017323", museum_row_to_raw),
+            ("15013109", library_row_to_raw),
+        ):
             try:
                 rows = std._rows(pk)
             except (httpx.HTTPError, KeyError, ValueError) as err:
@@ -313,14 +370,11 @@ class AttractionCollector:
                 cache = {}
         rows: list[dict[str, str]] = []
         for kd in HERITAGE_KINDS:
-            for page in range(1, 20):
-                self.throttle.wait()
-                resp = self.client.get(KHS_LIST, params={"ccbaKdcd": kd, "pageUnit": "100", "pageIndex": str(page)})
-                resp.raise_for_status()
-                batch = parse_heritage_list(resp.text)
-                rows.extend(batch)
-                if len(batch) < 100:
-                    break
+            # 종목별로 한 번에 받는다 (사적 610·명승 144건) — 지정 해제분을 빼면 쪽마다 개수가 달라 쪽 넘김 판단이 틀린다
+            self.throttle.wait()
+            resp = self.client.get(KHS_LIST, params={"ccbaKdcd": kd, "pageUnit": "2000", "pageIndex": "1"})
+            resp.raise_for_status()
+            rows.extend(parse_heritage_list(resp.text))
         fetched = 0
         out: list[RawRecord] = []
         stale = (today - timedelta(days=DETAIL_TTL_DAYS)).isoformat()

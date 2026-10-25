@@ -15,6 +15,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import math
 import os
 import re
 import tempfile
@@ -67,6 +68,88 @@ def loose_title(title: str) -> str:
             break
         t = stripped
     return _NON_WORD.sub("", t)
+
+
+# 같은 행사의 회차·시즌·방 표시 — '(1회)', '(2회차)', '(3월~10월)'
+_SHOWING = re.compile(r"\(\s*(?:\d+\s*회차?|\d{1,2}\s*월\s*[~\-]\s*\d{1,2}\s*월)\s*\)")
+_PAREN = re.compile(r"\([^)]*\)")
+
+
+def twin_title(row: dict[str, Any]) -> str:
+    """겹침 판단용 제목. 장소(관광지)는 괄호 속 별칭·관 이름까지 뺀다 — '서울 한양도성(서울성곽)' → '서울한양도성'."""
+    title = str(row.get("title") or "")
+    title = _PAREN.sub("", title) if row.get("category") == "attraction" else _SHOWING.sub("", title)
+    return loose_title(title)
+
+
+def _km(a: dict[str, Any], b: dict[str, Any]) -> float | None:
+    try:
+        la, lo, lb, lob = (float(a["latitude"]), float(a["longitude"]), float(b["latitude"]), float(b["longitude"]))
+    except (KeyError, TypeError, ValueError):
+        return None
+    p = math.pi / 180
+    h = math.sin((lb - la) * p / 2) ** 2 + math.cos(la * p) * math.cos(lb * p) * math.sin((lob - lo) * p / 2) ** 2
+    return 12742 * math.asin(math.sqrt(h))
+
+
+def _same_spot(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    """같은 곳인지 — 좌표가 둘 다 있으면 300m(장소는 500m) 안, 없으면 장소 이름이나 주소가 같을 때."""
+    km = _km(a, b)
+    if km is not None:
+        return km <= (0.5 if a.get("category") == "attraction" else 0.3)
+    loc = lambda r: _NON_WORD.sub("", str(r.get("location_name") or "").lower())  # noqa: E731
+    return bool(loc(a)) and loc(a) == loc(b) or bool(a.get("address")) and a.get("address") == b.get("address")
+
+
+def _keeper_rank(row: dict[str, Any]) -> tuple:
+    return (
+        OFFICIAL_PRIORITY.get(str(row.get("source")), len(OFFICIAL_PRIORITY)),
+        0 if row.get("thumbnail_url") else 1,
+        "(" in str(row.get("title") or ""),
+        -len(str(row.get("description") or "")),
+        str(row.get("id")),
+    )
+
+
+def merge_twins(rows: list[dict[str, Any]]) -> int:
+    """같은 행사·장소가 두 번 이상 들어온 것을 하나로 (제자리에서 고친다, 지운 개수를 돌려준다).
+
+    - 회차·방이 나뉘어 올라온 행사 ('충북예술제' 대공연장·소공연장, '서커스 (1회)·(2회)')
+    - 같은 출처가 다른 분류로 두 번 올린 것 ('종로 가족공연축제' 축제·키즈 체험)
+    - 관광지의 시즌·별칭 ('서대문형무소역사관(3월~10월)'·'(11월~2월)')
+    제목이 같아도 다른 곳(성수·롯데월드몰 팝업)이나 날짜가 겹치지 않는 회차는 그대로 둔다.
+    """
+    groups: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    for r in rows:
+        key = twin_title(r)
+        if len(key) >= 2:
+            groups.setdefault((str(r.get("region") or ""), key), []).append(r)
+    drop: set[int] = set()
+    for members in groups.values():
+        if len(members) < 2:
+            continue
+        members.sort(key=_keeper_rank)
+        for i, keep in enumerate(members):
+            if id(keep) in drop:
+                continue
+            for other in members[i + 1 :]:
+                if id(other) in drop:
+                    continue
+                if not _overlap(keep.get("start_date"), keep.get("end_date"), other.get("start_date"), other.get("end_date")):
+                    continue
+                if not _same_spot(keep, other):
+                    continue
+                if keep.get("category") != "attraction":
+                    # 회차를 합치면 기간은 처음~끝으로
+                    keep["start_date"] = min(str(keep["start_date"]), str(other["start_date"]))
+                    keep["end_date"] = max(str(keep["end_date"]), str(other["end_date"]))
+                for k in ("thumbnail_url", "description", "latitude", "longitude", "official_link"):
+                    if not keep.get(k) and other.get(k):
+                        keep[k] = other[k]
+                drop.add(id(other))
+    if drop:
+        rows[:] = [r for r in rows if id(r) not in drop]
+    return len(drop)
 
 
 @dataclass
@@ -419,6 +502,7 @@ class JsonEventStore:
                 row["district"] = detect_district(str(row["region"]), str(row.get("address") or ""))
             kept.append(row)
 
+        stats.deduplicated += merge_twins(kept)
         ensure_unique_ids(kept)
         kept.sort(key=lambda r: (str(r.get("start_date")), str(r.get("id"))))
         stats.total = len(kept)

@@ -101,7 +101,7 @@ def test_free_tag_only_from_price():
 
 def test_place_types_do_not_match_haengsa():
     assert classify_place_types("가을 행사 안내") == []
-    assert classify_place_types("○○사 템플스테이") == ["temple"]
+    assert classify_place_types("○○사 템플스테이") == ["religious"]
 
 
 def test_family_rules():

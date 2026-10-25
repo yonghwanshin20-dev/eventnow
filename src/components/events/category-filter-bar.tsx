@@ -1,10 +1,12 @@
 "use client";
 
 import type { ReactNode } from "react";
+import { MapPinned } from "lucide-react";
 
+import { PLACE_ICONS } from "@/components/events/family-filter";
 import { cn } from "@/lib/utils";
-import { CATEGORY_OPTIONS } from "@/lib/events";
-import type { EventCategory } from "@/types/event";
+import { CATEGORY_OPTIONS, PLACE_TYPE_OPTIONS, type ExplorerFilters } from "@/lib/events";
+import type { EventCategory, PlaceType } from "@/types/event";
 
 interface CategoryFilterBarProps {
   value: EventCategory | "all";
@@ -65,6 +67,79 @@ export function CategoryFilterBar({
                 {count}
               </span>
             )}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+interface PlaceFilterBarProps {
+  category: EventCategory | "all";
+  placeTypes: PlaceType[];
+  /** 'all' = 관광명소 전체, 나머지는 장소 유형별 건수 */
+  counts: Record<string, number>;
+  onChange: (next: Partial<ExplorerFilters>) => void;
+  className?: string;
+}
+
+/** 아래 줄 — 관광명소 전체 · 공원·놀이터 · 유적지 · 박물관 · 복합 문화공간 · 자연 · 절·교회 · 도서관 */
+export function PlaceFilterBar({ category, placeTypes, counts, onChange, className }: PlaceFilterBarProps) {
+  const onPlaces = category === "attraction";
+  const allSelected = onPlaces && placeTypes.length === 0;
+  const chip = (selected: boolean, empty: boolean) =>
+    cn(
+      "inline-flex shrink-0 items-center gap-1 rounded-full px-3.5 py-1.5 text-[13px] font-medium transition-colors",
+      selected
+        ? "bg-emerald-700 text-white shadow-sm"
+        : "bg-emerald-50/70 text-emerald-900 ring-1 ring-emerald-200/80 hover:bg-emerald-50",
+      empty && "opacity-45",
+    );
+  const count = (n: number | undefined, selected: boolean) => (
+    <span aria-hidden className={cn("text-[11px] tabular-nums", selected ? "text-white/75" : "text-emerald-700/60")}>
+      {n ?? 0}
+    </span>
+  );
+
+  return (
+    <div
+      role="group"
+      aria-label="관광명소 필터"
+      className={cn(
+        "flex gap-1.5 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+        className,
+      )}
+    >
+      <button
+        type="button"
+        aria-pressed={allSelected}
+        onClick={() =>
+          onChange(allSelected ? { category: "all", placeTypes: [] } : { category: "attraction", placeTypes: [] })
+        }
+        className={chip(allSelected, !counts.all && !allSelected)}
+      >
+        <MapPinned className="size-3.5" aria-hidden />
+        관광명소 전체
+        {count(counts.all, allSelected)}
+      </button>
+      {PLACE_TYPE_OPTIONS.map((option) => {
+        const selected = onPlaces && placeTypes.length === 1 && placeTypes[0] === option.value;
+        const Icon = PLACE_ICONS[option.value];
+        return (
+          <button
+            key={option.value}
+            type="button"
+            aria-pressed={selected}
+            title={option.description}
+            // 다시 누르면 관광명소 전체로
+            onClick={() =>
+              onChange({ category: "attraction", placeTypes: selected ? [] : [option.value] })
+            }
+            className={chip(selected, !counts[option.value] && !selected)}
+          >
+            <Icon className="size-3.5" aria-hidden />
+            {option.label}
+            {count(counts[option.value], selected)}
           </button>
         );
       })}

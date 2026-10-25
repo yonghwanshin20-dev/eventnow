@@ -190,7 +190,7 @@ export function EventDetail({ event, url }: EventDetailProps) {
             </Fact>
             <Fact icon={<Ticket className="size-[18px]" />} label="예약">
               {event.booking_required
-                ? (event.place_types ?? []).includes("cultural_center")
+                ? (event.place_types ?? []).some((t) => t === "cultural_space" || t === "library")
                   ? "프로그램별 신청 확인"
                   : "사전 예약 필요"
                 : "현장 방문 가능"}

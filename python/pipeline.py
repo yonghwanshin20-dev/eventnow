@@ -93,7 +93,14 @@ def _collect_one(
             existing = json.loads(settings.events_json_path.read_text(encoding="utf-8"))
         except (FileNotFoundError, json.JSONDecodeError):
             existing = []
-        known = [r.get("title", "") for r in existing if r.get("source") != "attraction"]
+        # 상시 장소(반년 넘게 여는 곳)와만 비교 — 도서관에서 하루 여는 북토크 때문에 도서관이 빠지지 않게
+        def long_running(r: dict) -> bool:
+            try:
+                return (date.fromisoformat(str(r["end_date"])[:10]) - date.fromisoformat(str(r["start_date"])[:10])).days >= 180
+            except (KeyError, ValueError):
+                return False
+
+        known = [r.get("title", "") for r in existing if r.get("source") != "attraction" and long_running(r)]
         with AttractionCollector(
             cache_path=settings.heritage_detail_cache_path, known_titles=known
         ) as collector:

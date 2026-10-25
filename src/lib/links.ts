@@ -1,6 +1,7 @@
 import type { Event } from "@/types/event";
 
-type LinkFields = Pick<Event, "official_link" | "title" | "location_name" | "address">;
+type LinkFields = Pick<Event, "official_link" | "title" | "location_name" | "address"> &
+  Partial<Pick<Event, "category" | "place_types">>;
 
 function normalizeUrl(url: string | null | undefined): string | null {
   if (!url) return null;
@@ -18,6 +19,13 @@ export function resolveInfoUrl(event: LinkFields): {
   kind: "official" | "search";
 } {
   const official = normalizeUrl(event.official_link);
+  // 도서관·문화공간(관광명소)은 그곳 홈페이지에서 이달의 문화 프로그램·강좌를 보게 된다
+  const programPlace =
+    event.category === "attraction" &&
+    (event.place_types ?? []).some((t) => t === "library" || t === "cultural_space");
+  if (official && programPlace) {
+    return { href: official, label: "문화 프로그램 보기", kind: "official" };
+  }
   if (official) {
     // 행사 공식 사이트가 아니라 안내 사이트로 가는 경우 그 이름으로 (버튼이 사실과 다르지 않게)
     const host = hostLabel(official);

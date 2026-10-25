@@ -207,8 +207,8 @@ export function buildFeed(
     },
     {
       key: "attraction",
-      title: "가 볼 만한 관광지",
-      hint: "유적지·박물관·자연경관 — 언제든 갈 수 있어요",
+      title: "가 볼 만한 관광명소",
+      hint: "유적지·박물관·자연·도서관 — 언제든 갈 수 있어요",
       items: take(imagesFirst(attractions)),
       seeAll: { category: "attraction" },
     },

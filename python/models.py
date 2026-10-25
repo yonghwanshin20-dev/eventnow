@@ -35,14 +35,15 @@ class EventStatus(str, Enum):
     ENDED = "ended"
 
 
+# 관광명소 세부 유형 — 화면의 '공원·놀이터·유적지·박물관·복합 문화공간·자연·절·교회·도서관'
 PLACE_TYPES = (
-    "historical",
-    "nature_science",
-    "amusement_park",
     "park_playground",
-    "forest_recreation",
-    "cultural_center",
-    "temple",
+    "historical",
+    "museum",
+    "cultural_space",
+    "nature",
+    "religious",
+    "library",
 )
 
 SourceName = Literal[

@@ -2,6 +2,7 @@
 
 import {
   Baby,
+  Building2,
   Car,
   Church,
   FerrisWheel,
@@ -9,10 +10,11 @@ import {
   Home,
   Landmark,
   Leaf,
+  Library,
   Milk,
-  Shrub,
   Sun,
   Tent,
+  Theater,
   Users,
 } from "lucide-react";
 
@@ -41,14 +43,14 @@ const FAMILY_TAG_OPTIONS: {
   { value: "outdoor", label: "야외 축제", icon: Sun },
 ];
 
-const PLACE_ICONS: Record<PlaceType, typeof Sun> = {
-  amusement_park: FerrisWheel,
-  park_playground: Tent,
-  forest_recreation: Shrub,
-  cultural_center: Users,
-  temple: Church,
+export const PLACE_ICONS: Record<PlaceType, typeof Sun> = {
+  park_playground: FerrisWheel,
   historical: Landmark,
-  nature_science: Leaf,
+  museum: Building2,
+  cultural_space: Theater,
+  nature: Leaf,
+  religious: Church,
+  library: Library,
 };
 
 const AMENITY_FILTERS: {
@@ -151,7 +153,7 @@ export function FamilyFilter({
       <div className="space-y-2">
         <p className="flex items-center gap-1.5 text-xs font-medium tracking-wide text-stone-500 uppercase">
           <Footprints className="size-3.5" />
-          놀이·공원·숲 장소
+          관광명소
         </p>
         <div className="flex flex-wrap gap-2">
           {PLACE_TYPE_OPTIONS.map((option) => {

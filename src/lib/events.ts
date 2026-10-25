@@ -36,7 +36,6 @@ export const CATEGORY_OPTIONS: {
   { value: "exhibition", label: "전시" },
   { value: "popup", label: "팝업" },
   { value: "kids_experience", label: "키즈 체험" },
-  { value: "attraction", label: "관광지" },
 ];
 
 export const AGE_GROUP_OPTIONS: {
@@ -54,49 +53,30 @@ export const PLACE_TYPE_OPTIONS: {
   label: string;
   description: string;
 }[] = [
-  {
-    value: "amusement_park",
-    label: "놀이공원",
-    description: "테마파크·워터파크",
-  },
-  {
-    value: "park_playground",
-    label: "공원·놀이터",
-    description: "한강·도시공원·놀이터",
-  },
-  {
-    value: "forest_recreation",
-    label: "숲체원·휴양림",
-    description: "숲체험·자연휴양림·수목원",
-  },
-  {
-    value: "cultural_center",
-    label: "문화센터",
-    description: "강좌·프로그램 사전 확인",
-  },
-  {
-    value: "temple",
-    label: "사찰·절",
-    description: "사찰·암자 나들이",
-  },
-  {
-    value: "historical",
-    label: "역사 장소",
-    description: "궁·유적·역사관",
-  },
-  {
-    value: "nature_science",
-    label: "자연·과학",
-    description: "자연사·과학·식물원",
-  },
+  { value: "park_playground", label: "공원·놀이터", description: "도시공원·한강·놀이터·놀이공원" },
+  { value: "historical", label: "유적지", description: "궁·성곽·왕릉·사적·한옥마을" },
+  { value: "museum", label: "박물관", description: "박물관·미술관·기념관·과학관" },
+  { value: "cultural_space", label: "복합 문화공간", description: "아트센터·문화원·문화센터" },
+  { value: "nature", label: "자연", description: "숲·휴양림·수목원·계곡·바다·명승" },
+  { value: "religious", label: "절·교회", description: "사찰·성당·교회·성지" },
+  { value: "library", label: "도서관", description: "공공·어린이 도서관 (문화 프로그램)" },
 ];
+
+/** 예전 링크의 장소 유형 값 → 지금 값 */
+const LEGACY_PLACE: Record<string, PlaceType> = {
+  amusement_park: "park_playground",
+  forest_recreation: "nature",
+  nature_science: "museum",
+  cultural_center: "cultural_space",
+  temple: "religious",
+};
 
 export const CATEGORY_LABELS: Record<EventCategory, string> = {
   popup: "팝업",
   exhibition: "전시",
   festival: "축제",
   kids_experience: "키즈 체험",
-  attraction: "관광지",
+  attraction: "관광명소",
 };
 
 export const STATUS_LABELS: Record<EventStatus, string> = {
@@ -448,9 +428,8 @@ export const DEFAULT_EXPLORER_FILTERS: ExplorerFilters = {
   view: "list",
 };
 
-const CATEGORY_VALUES = new Set(
-  CATEGORY_OPTIONS.map((o) => o.value).filter((v) => v !== "all"),
-);
+// 위 줄 칩(CATEGORY_OPTIONS)에 없는 '관광명소'도 링크로 들어올 수 있게 전체 분류로 검사
+const CATEGORY_VALUES = new Set(Object.keys(CATEGORY_LABELS) as EventCategory[]);
 const SCHEDULE_VALUES = new Set<ScheduleTypeFilter>([
   "all",
   "permanent",
@@ -565,10 +544,14 @@ export function searchParamsToFilters(params: SearchParamsLike): ExplorerFilters
     if (get(key) === "1") amenities[key] = true;
   }
 
-  const placeTypes = (get("place") ?? "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter((s): s is PlaceType => PLACE_TYPE_VALUES.has(s as PlaceType));
+  const placeTypes = [
+    ...new Set(
+      (get("place") ?? "")
+        .split(",")
+        .map((s) => LEGACY_PLACE[s.trim()] ?? s.trim())
+        .filter((s): s is PlaceType => PLACE_TYPE_VALUES.has(s as PlaceType)),
+    ),
+  ];
 
   const favorites = (get("fav") ?? "")
     .split(",")
@@ -737,8 +720,8 @@ function matchesQuery(event: Event, q: string): boolean {
   return terms.every((t) => (SEARCH_SYNONYMS[t] ?? [t]).some((alt) => blob.includes(alt)));
 }
 
-const OUTDOOR_PLACES = new Set(["park_playground", "forest_recreation", "amusement_park"]);
-const INDOOR_PLACES = new Set(["cultural_center", "nature_science"]);
+const OUTDOOR_PLACES = new Set(["park_playground", "nature"]);
+const INDOOR_PLACES = new Set(["cultural_space", "museum", "library"]);
 const INDOOR_VENUE = /미술관|박물관|전시관|기념관|도서관|과학관|아쿠아리움|갤러리|아트홀|문화센터|문화회관|예술회관|복합문화|센터|홀$|실내/;
 
 /**
@@ -790,6 +773,16 @@ export function filterEvents(
     if (filters.category !== "all" && event.category !== filters.category) {
       return false;
     }
+    // '전체'는 행사만 — 관광명소(언제든 가는 곳)는 아래 줄에서 따로 고른다.
+    // 다만 검색하거나 장소 유형(박물관·도서관…)을 고르면 관광명소도 함께 찾는다
+    if (
+      filters.category === "all" &&
+      event.category === "attraction" &&
+      !filters.q &&
+      filters.placeTypes.length === 0
+    ) {
+      return false;
+    }
 
     if (
       filters.scheduleType !== "all" &&
@@ -837,12 +830,7 @@ export function filterEvents(
       } else if (filters.familyTag === "outdoor") {
         const outdoorish =
           types.some((t) =>
-            [
-              "park_playground",
-              "forest_recreation",
-              "amusement_park",
-              "historical",
-            ].includes(t),
+            ["park_playground", "nature", "historical"].includes(t),
           ) || tags.some((t) => t.includes("야외"));
         if (!outdoorish) return false;
       } else if (filters.familyTag === "experience") {

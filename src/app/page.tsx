@@ -244,6 +244,16 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   for (const e of sameButCategory) {
     categoryCounts[e.category] = (categoryCounts[e.category] ?? 0) + 1;
   }
+  // 아래 줄 '관광명소' 칩 건수 — 관광명소 전체와 세부 유형별
+  const places = filterEvents(
+    snapshot.events,
+    { ...filters, category: "attraction", placeTypes: [] },
+    today,
+  );
+  const placeCounts: Record<string, number> = { all: places.length };
+  for (const e of places) {
+    for (const t of e.place_types ?? []) placeCounts[t] = (placeCounts[t] ?? 0) + 1;
+  }
   // "언제 갈까" 타일 건수 — 다른 조건은 그대로, 기간만 바꿔서 (기간 한정 행사만 센다)
   const noWhen = { ...filters, when: null, date: null };
   const planCounts = Object.fromEntries(
@@ -295,6 +305,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           locatable={locatable}
           scheduleCounts={scheduleCounts}
           categoryCounts={categoryCounts}
+          placeCounts={placeCounts}
           planCounts={planCounts}
           planWeather={planWeather}
           rainAdvice={rainAdvice}

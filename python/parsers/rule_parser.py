@@ -27,6 +27,21 @@ _KIDS = re.compile(r"어린이|키즈|유아|아이와|아이랑|아동|꿈나�
 _PERFORMANCE_ONLY = re.compile(r"^(콘서트|클래식|국악|무용|뮤지컬/오페라|연극|독주/독창회)$")
 
 
+# '10월 문화프로그램 안내', '4분기 정규강좌 안내', '가을 시즌 프로그램 안내', '10월 상영 프로그램' —
+# 행사가 아니라 기관의 정기 프로그램 묶음 안내. 그 기관(도서관 등)은 관광명소로 따로 넣는다.
+_PROGRAM_NOTICE = re.compile(
+    r"(?:\d{1,2}\s*월|\d\s*분기|상반기|하반기|봄|여름|가을|겨울)\s*(?:시즌\s*)?"
+    r"(?:문화|정규|교육|상영|평생학습)?\s*(?:프로그램|강좌|강의|교실)"
+    r"|문화\s*프로그램\s*안내|프로그램\s*안내|정규\s*강좌|강좌\s*안내|수강생\s*모집"
+)
+# 이런 말이 있으면 안내가 아니라 특별한 행사다 ('도서관 독서축제', '북 페스티벌', 'OO 이벤트')
+_SPECIAL_EVENT = re.compile(r"축제|페스티벌|페스타|festival|이벤트|박람회|마켓|북토크|공연|체험전|특별전|기념행사", re.I)
+
+
+def is_program_notice(title: str) -> bool:
+    return bool(_PROGRAM_NOTICE.search(title)) and not _SPECIAL_EVENT.search(title)
+
+
 def classify_category(record: RawRecord, title: str, body: str) -> str | None:
     hint = str(record.meta.get("category_hint") or "")
     codename = str(record.meta.get("codename") or "")
@@ -167,15 +182,25 @@ _TAG_RULES: list[tuple[str, re.Pattern[str]]] = [
 MAX_TAGS = 6
 
 _PLACE_RULES: list[tuple[str, re.Pattern[str]]] = [
-    ("forest_recreation", re.compile(r"숲|휴양림|수목원|숲체원")),
-    ("park_playground", re.compile(r"공원|놀이터|한강")),
-    ("historical", re.compile(r"궁\b|궁궐|유적|왕릉|읍성|향교|역사|성곽|고택|한옥마을")),
+    ("park_playground", re.compile(r"공원(?!묘지)|놀이터|한강|랜드|테마파크|워터파크|놀이공원|유원지|동물원|아쿠아리움")),
+    ("historical", re.compile(r"궁\b|궁궐|유적|왕릉|읍성|향교|서원|성곽|산성|고택|한옥마을|민속촌|[가-힣]릉\b|사적")),
+    ("museum", re.compile(r"박물관|미술관|기념관|과학관|전시관|역사관|자연사|천문대|뮤지엄|museum", re.I)),
+    ("cultural_space", re.compile(r"복합\s?문화|문화\s?공간|아트센터|문화센터|문화원|문화의\s?전당|문화예술회관|문화비축기지|문화역|DDP|동대문디자인플라자|생활문화")),
+    ("nature", re.compile(r"숲|휴양림|수목원|숲체원|식물원|생태|계곡|폭포|해변|해수욕장|호수|습지|오름|국립공원|자연경관|명승")),
     # "행사"·"회사"에 걸리지 않도록 일반 '~사' 패턴은 쓰지 않는다
-    ("temple", re.compile(r"사찰|템플스테이|산사음악회|연등|봉축|불교")),
-    ("nature_science", re.compile(r"과학|자연사|식물원|천문|생태|동물원|아쿠아리움")),
-    ("amusement_park", re.compile(r"랜드|테마파크|워터파크|놀이공원")),
-    ("cultural_center", re.compile(r"문화센터|문화원|도서관|평생학습")),
+    ("religious", re.compile(r"사찰|템플스테이|산사|연등|봉축|불교|성당|교회|성지|순교")),
+    ("library", re.compile(r"도서관|책마을|북카페")),
 ]
+# 관광명소 이름에만 쓰는 더 넓은 규칙 — 행사 장소('○○광장에서 축제')에 쓰면 너무 많이 걸린다
+_ATTRACTION_RULES: list[tuple[str, re.Pattern[str]]] = [
+    ("historical", re.compile(r"생가|가옥|고가|종택|[가-힣]댁\b|사당|묘\b|[가-힣]관$|원림|진지|봉수대|옛터|유허")),
+    ("museum", re.compile(r"문학관|전수관|체험관|문화관|홍보관|기록관")),
+    ("nature", re.compile(r"온천|포구|해안|강변|섬\b|[가-힣]도$|출렁다리|누리길|둘레길|산림욕|약수|바다|해수|산$|[가-힣]산\s|계곡|천$|강$|호$|저수지|댐|전망대|관광지$")),
+    ("park_playground", re.compile(r"리조트|파크|관광단지|테마|체험마을|농촌|어촌|휴양마을|월드|피아|스키|레저|캠핑|촬영장|세트장")),
+    ("cultural_space", re.compile(r"문화의?\s?거리|광장|마켓|몰$|아트밸리|예술촌|문화마을|벽화마을")),
+]
+# 절 이름 '…사'·'…암' — 장소(관광명소) 이름에만 쓴다
+_TEMPLE_NAME = re.compile(r"[가-힣]{1,4}(?:사|암)(?:\s|\(|$)")
 
 _PARKING_NO = re.compile(r"주차\s?(불가|어려|없음|공간\s?없)")
 
@@ -190,6 +215,22 @@ def classify_tags(text: str, price: str | None = None) -> list[str]:
 
 def classify_place_types(text: str) -> list[str]:
     return [value for value, pattern in _PLACE_RULES if pattern.search(text)]
+
+
+def place_types_for(record: RawRecord, title: str, core: str, category: str) -> list[str]:
+    """장소 유형. 관광명소는 이름으로 먼저 정하고(수집기가 준 유형 포함), 행사는 장소·설명에서 찾는다."""
+    if category != "attraction":
+        return classify_place_types(core)
+    found = classify_place_types(title)
+    for hint in record.meta.get("place_types") or []:
+        if hint not in found:
+            found.append(hint)
+    if _TEMPLE_NAME.search(title) and "religious" not in found and "museum" not in found:
+        found.append("religious")
+    if not found:
+        found = [v for v, p in _ATTRACTION_RULES if p.search(title)][:1]
+    # 이름에서 못 찾으면 설명까지 본다
+    return found or classify_place_types(core)[:1]
 
 
 def classify_amenities(text: str) -> dict[str, bool]:
@@ -299,6 +340,8 @@ class RuleEventParser:
         category = classify_category(record, title, body)
         if category is None:
             return None
+        if category != "attraction" and is_program_notice(title):
+            return None
 
         description = facts.get("description") or (
             _portal_description(record) if record.source == "culture_portal" else _summary(body)
@@ -349,7 +392,7 @@ class RuleEventParser:
             thumbnail_url=facts.get("thumbnail_url"),
             official_link=facts.get("official_link") or record.url,
             tags=classify_tags(text, price),
-            place_types=classify_place_types(core),
+            place_types=place_types_for(record, title, core, category),
             source=record.source,
             source_id=record.source_id,
             content_hash=record.content_hash,

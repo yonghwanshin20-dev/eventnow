@@ -18,7 +18,7 @@ import {
 
 import { ActiveFilterChips } from "@/components/events/active-filter-chips";
 import { BottomTabBar } from "@/components/events/bottom-tab-bar";
-import { CategoryFilterBar } from "@/components/events/category-filter-bar";
+import { CategoryFilterBar, PlaceFilterBar } from "@/components/events/category-filter-bar";
 import { EventGrid } from "@/components/events/event-grid";
 import { EventQuickView } from "@/components/events/event-quick-view";
 import { EventShelf } from "@/components/events/event-shelf";
@@ -92,6 +92,8 @@ interface EventExplorerProps {
   scheduleCounts: Record<ScheduleTypeFilter, number>;
   /** 카테고리 칩 건수 (카테고리만 바꿨을 때, 'all' 포함) */
   categoryCounts: Record<string, number>;
+  /** 아래 줄 관광명소 칩 건수 ('all' = 관광명소 전체, 나머지는 장소 유형별) */
+  placeCounts: Record<string, number>;
   /** "언제 갈까" 타일 건수 (기간만 바꿨을 때, 기간 한정 행사) */
   planCounts: Partial<Record<WhenFilter, number>>;
   /** 기간 타일 날씨 (예보를 못 받으면 빈 배열) */
@@ -192,6 +194,7 @@ export function EventExplorer({
   locatable,
   scheduleCounts,
   categoryCounts,
+  placeCounts,
   planCounts,
   planWeather,
   rainAdvice,
@@ -732,7 +735,12 @@ export function EventExplorer({
           <CategoryFilterBar
             value={filters.category}
             counts={categoryCounts}
-            onChange={(category) => updateFilters({ category })}
+            // 관광명소에서 위 줄로 옮기면 아래 줄에서 고른 장소 유형은 푼다
+            onChange={(category) =>
+              updateFilters(
+                filters.category === "attraction" ? { category, placeTypes: [] } : { category },
+              )
+            }
             className={scrollRow}
             leading={
               <>
@@ -753,6 +761,13 @@ export function EventExplorer({
                 <span className="my-2 w-px shrink-0 bg-stone-300 lg:hidden" aria-hidden />
               </>
             }
+          />
+          <PlaceFilterBar
+            category={filters.category}
+            placeTypes={filters.placeTypes}
+            counts={placeCounts}
+            onChange={(next) => updateFilters(next)}
+            className={scrollRow}
           />
 
           {/* 달력 보기: 날짜를 누르면 아래 목록이 그날 열리는 행사로 */}
