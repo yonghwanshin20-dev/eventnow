@@ -6,7 +6,7 @@ import { getEventById } from "@/lib/events-data";
 
 export const metadata: Metadata = {
   title: "주변 맛집",
-  description: "행사장 근처에서 블로그 글이 많은 식당 10곳을 골라 드려요.",
+  description: "행사장 근처에서 후기 많고 요즘도 인기 있는 맛집·카페를 골라 드려요.",
 };
 
 interface FoodPageProps {
