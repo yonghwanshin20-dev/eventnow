@@ -17,16 +17,20 @@ def test_consumer_fairs_kept_b2b_dropped():
     for title in ("2026 가을 고양가구박람회", "제2회 서울 가구·인테리어 박람회", "2026 코베 베이비페어",
                   "궁디팡팡 캣페스타", "2026 보드게임페스타", "서울일러스트레이션페어V.22"):
         assert is_consumer_fair(title), title
-    for title in ("한국건축산업대전 2026", "제51회 호주유학박람회", "WORLD HYDROGEN EXPO 2026",
-                  "2026 마이프차 프랜차이즈 박람회", "캐스크 카니발 2026", "AIoT 국제전시회",
-                  "2027학년도 정시 대학입학정보박람회", "FSG Korea 기능안전 컨퍼런스 2026"):
+    for title in ("한국건축산업대전 2026", "WORLD HYDROGEN EXPO 2026", "2026 서울 외국인 취업·채용 박람회",
+                  "2026 마이프차 프랜차이즈 박람회", "AIoT 국제전시회", "제433회 웨덱스 웨딩박람회",
+                  "FSG Korea 기능안전 컨퍼런스 2026", "지제역 반도체밸리 해링턴플레이스 입주박람회"):
         assert not is_consumer_fair(title), title
 
 
 def test_category_and_range():
     assert category_hint("제55회 맘앤베이비엑스포") == "kids_experience"
     assert category_hint("속도의 시대", "Pop-up/Event") == "popup"
-    assert category_hint("2026 가을 고양가구박람회") == "exhibition"
+    # 아이 없이 가는 엄마·아빠 관심 박람회
+    for title in ("2026 가을 고양가구박람회", "2026 서울건축박람회 (추계)", "2027 대한민국 재테크박람회",
+                  "제51회 호주유학박람회", "제25회 서울카페쇼", "캐스크 카니발 2026"):
+        assert category_hint(title) == "parents", title
+    assert category_hint("2026 보드게임페스타") == "exhibition"
     assert parse_range("2026.10.29~2026.11.01") == (date(2026, 10, 29), date(2026, 11, 1))
     assert parse_range(" 2026-11-21 ~ 2026-11-22") == (date(2026, 11, 21), date(2026, 11, 22))
     assert parse_range("2026.10.28 - 2026.10.30") == (date(2026, 10, 28), date(2026, 10, 30))

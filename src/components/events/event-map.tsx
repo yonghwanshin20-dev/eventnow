@@ -14,6 +14,7 @@ const CATEGORY_COLOR: Record<EventCategory, string> = {
   exhibition: "#57534e",
   popup: "#b45309",
   kids_experience: "#0369a1",
+  parents: "#be123c",
 };
 
 const KOREA_CENTER: [number, number] = [36.4, 127.8];

@@ -32,6 +32,9 @@ def classify_category(record: RawRecord, title: str, body: str) -> str | None:
     codename = str(record.meta.get("codename") or "")
     if hint == "popup" or _POPUP.search(title):
         return "popup"
+    if hint == "parents":
+        # 수집기가 '아이 없이 가는 박람회'로 정한 것 — 제목의 '전시'·'키즈' 등에 흔들리지 않게 먼저
+        return "parents"
     if _KIDS.search(title):
         return "kids_experience"
     if _EXHIBITION.search(title) or "전시" in codename:
@@ -66,7 +69,7 @@ _ADULT_ONLY = re.compile(r"성인\s?전용|19세\s?이상|미성년자?\s?(입�
 def is_family_friendly(category: str, text: str, age_info: str | None = None) -> bool:
     """명시적 가족 키워드, 또는 체험 프로그램이 있고 성인 전용이 아닌 행사."""
     blob = f"{age_info or ''}\n{text}"
-    if _ADULT_ONLY.search(blob):
+    if category == "parents" or _ADULT_ONLY.search(blob):
         return False
     if category == "kids_experience" or _FAMILY.search(blob):
         return True

@@ -18,6 +18,8 @@ class EventCategory(str, Enum):
     EXHIBITION = "exhibition"
     FESTIVAL = "festival"
     KIDS_EXPERIENCE = "kids_experience"
+    # 아이 없이 가는 엄마·아빠 관심 행사 (가구·리빙·재테크·유학 박람회 등)
+    PARENTS = "parents"
 
 
 class TargetAgeGroup(str, Enum):

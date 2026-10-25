@@ -24,6 +24,7 @@ export type ShelfKey =
   | "exhibition"
   | "next_month"
   | "festival"
+  | "parents"
   | "permanent";
 
 export interface FeedShelf {
@@ -125,6 +126,9 @@ export function buildFeed(
     "recommended",
     today,
   );
+  const parents = limited
+    .filter((e) => e.category === "parents")
+    .sort((a, b) => a.start_date.localeCompare(b.start_date));
   const festivals = limited
     .filter(
       (e) =>
@@ -196,6 +200,13 @@ export function buildFeed(
       hint: "한 달 반 안에 시작",
       items: take(imagesFirst(festivals)),
       seeAll: { scheduleType: "limited", category: "festival" },
+    },
+    {
+      key: "parents",
+      title: "엄마·아빠끼리 가 볼 곳",
+      hint: "가구·리빙·재테크·유학 박람회처럼 아이 없이 둘러볼 곳",
+      items: take(imagesFirst(parents)),
+      seeAll: { scheduleType: "limited", category: "parents" },
     },
     {
       key: "permanent",

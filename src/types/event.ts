@@ -7,7 +7,9 @@ export type EventCategory =
   | "popup"
   | "exhibition"
   | "festival"
-  | "kids_experience";
+  | "kids_experience"
+  /** 아이 없이 가는 엄마·아빠 관심 행사 (가구·리빙·재테크·유학 박람회 등) */
+  | "parents";
 
 /** Target age group for family-friendly filtering */
 export type TargetAgeGroup = "all" | "toddler" | "kids" | "elementary";
