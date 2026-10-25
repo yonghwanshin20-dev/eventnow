@@ -3,6 +3,7 @@ from datetime import date
 from collectors.venue_fairs import (
     VENUES,
     category_hint,
+    is_adult_interest,
     is_consumer_fair,
     item_to_raw,
     parse_kintex,
@@ -18,6 +19,7 @@ def test_consumer_fairs_kept_b2b_dropped():
                   "궁디팡팡 캣페스타", "2026 보드게임페스타", "서울일러스트레이션페어V.22"):
         assert is_consumer_fair(title), title
     for title in ("한국건축산업대전 2026", "WORLD HYDROGEN EXPO 2026", "2026 서울 외국인 취업·채용 박람회",
+                  "제51회 호주유학박람회", "2027학년도 정시 대학입학정보박람회",
                   "2026 마이프차 프랜차이즈 박람회", "AIoT 국제전시회", "제433회 웨덱스 웨딩박람회",
                   "FSG Korea 기능안전 컨퍼런스 2026", "지제역 반도체밸리 해링턴플레이스 입주박람회"):
         assert not is_consumer_fair(title), title
@@ -26,11 +28,13 @@ def test_consumer_fairs_kept_b2b_dropped():
 def test_category_and_range():
     assert category_hint("제55회 맘앤베이비엑스포") == "kids_experience"
     assert category_hint("속도의 시대", "Pop-up/Event") == "popup"
-    # 아이 없이 가는 엄마·아빠 관심 박람회
+    # 어른 관심 박람회는 '전시'로 넣되 아이 동반 추천에서는 뺀다
     for title in ("2026 가을 고양가구박람회", "2026 서울건축박람회 (추계)", "2027 대한민국 재테크박람회",
-                  "제51회 호주유학박람회", "제25회 서울카페쇼", "캐스크 카니발 2026"):
-        assert category_hint(title) == "parents", title
-    assert category_hint("2026 보드게임페스타") == "exhibition"
+                  "제25회 서울카페쇼", "캐스크 카니발 2026"):
+        assert category_hint(title) == "exhibition", title
+        assert is_adult_interest(title), title
+    assert not is_adult_interest("2026 보드게임페스타")
+    assert not is_adult_interest("2026 코베 베이비페어")
     assert parse_range("2026.10.29~2026.11.01") == (date(2026, 10, 29), date(2026, 11, 1))
     assert parse_range(" 2026-11-21 ~ 2026-11-22") == (date(2026, 11, 21), date(2026, 11, 22))
     assert parse_range("2026.10.28 - 2026.10.30") == (date(2026, 10, 28), date(2026, 10, 30))

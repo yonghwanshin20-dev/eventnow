@@ -157,8 +157,10 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   // '전체 + 추천순' 목록은 기간 한정 행사를 페이지로 보여주고, 상시 운영 장소는 미리보기만
   // (상시 200여 곳이 기간 한정 뒤에 묻혀 안 보이는 것을 막는다)
   const calendarView = filters.view === "calendar";
+  // 관광지를 고르면 전부 '언제든 가는 곳'이라 묶지 않고 그대로 목록으로
   const grouped =
     filters.view === "list" &&
+    filters.category !== "attraction" &&
     filters.scheduleType === "all" &&
     filters.sort === "recommended" &&
     !filters.includeEnded &&
@@ -203,10 +205,13 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         .map((e) => toListItem(e, filters.near, today))
     : null;
   // 지도 보기: 좌표 있는 결과 전체를 카드 데이터로 (마커를 누르면 같은 데이터로 빠른 보기)
+  // 전국 관광지 수천 곳까지 한꺼번에 보내면 무거워서, 관광지·지역을 골랐을 때만 지도에 함께 올린다
+  const mapWithPlaces = filters.category === "attraction" || filters.regions.length > 0;
   const mapItems =
     filters.view === "map"
       ? matchedEvents
           .filter((e) => e.latitude != null && e.longitude != null)
+          .filter((e) => mapWithPlaces || e.category !== "attraction")
           .map((e) => toListItem(e, filters.near, today))
       : null;
   const active = filterEvents(

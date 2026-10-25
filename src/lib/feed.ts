@@ -24,7 +24,7 @@ export type ShelfKey =
   | "exhibition"
   | "next_month"
   | "festival"
-  | "parents"
+  | "attraction"
   | "permanent";
 
 export interface FeedShelf {
@@ -37,6 +37,7 @@ export interface FeedShelf {
 }
 
 const SHELF_SIZE = 10;
+const CAPITAL_AREA = new Set<string>(["서울특별시", "경기도", "인천광역시"]);
 
 /** 사진이 있는 행사를 앞으로 (순서는 그 안에서 유지) — 첫 화면이 그림으로 보이게 */
 function imagesFirst(events: Event[]): Event[] {
@@ -126,9 +127,10 @@ export function buildFeed(
     "recommended",
     today,
   );
-  const parents = limited
-    .filter((e) => e.category === "parents")
-    .sort((a, b) => a.start_date.localeCompare(b.start_date));
+  // 관광지는 전국 수천 곳이라 첫 화면에는 수도권·사진 있는 곳을 먼저
+  const attractions = filterEvents(events, { ...base, category: "attraction" }, today).sort(
+    (a, b) => Number(!CAPITAL_AREA.has(a.region)) - Number(!CAPITAL_AREA.has(b.region)),
+  );
   const festivals = limited
     .filter(
       (e) =>
@@ -137,8 +139,9 @@ export function buildFeed(
         daysBetween(today, e.start_date) <= 45,
     )
     .sort((a, b) => a.start_date.localeCompare(b.start_date));
+  // 관광지는 따로 줄을 두고, '언제든 갈 곳'은 놀이터·공원·상설전시 같은 아이 나들이 장소로
   const permanent = filterEvents(events, { ...base, scheduleType: "permanent" }, today).filter(
-    (e) => getScheduleType(e) === "permanent",
+    (e) => getScheduleType(e) === "permanent" && e.category !== "attraction",
   );
 
   const shelves: FeedShelf[] = [
@@ -202,11 +205,11 @@ export function buildFeed(
       seeAll: { scheduleType: "limited", category: "festival" },
     },
     {
-      key: "parents",
-      title: "엄마·아빠끼리 가 볼 곳",
-      hint: "가구·리빙·재테크·유학 박람회처럼 아이 없이 둘러볼 곳",
-      items: take(imagesFirst(parents)),
-      seeAll: { scheduleType: "limited", category: "parents" },
+      key: "attraction",
+      title: "가 볼 만한 관광지",
+      hint: "유적지·박물관·자연경관 — 언제든 갈 수 있어요",
+      items: take(imagesFirst(attractions)),
+      seeAll: { category: "attraction" },
     },
     {
       key: "permanent",

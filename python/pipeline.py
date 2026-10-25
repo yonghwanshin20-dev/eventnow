@@ -26,14 +26,15 @@ logging.basicConfig(
 logger = logging.getLogger("pipeline")
 
 ALLOWED_SOURCES = {
-    "kfes", "culture", "seoulportal", "mcst", "city", "public", "venue", "tour", "popup", "web", "seoul",
+    "kfes", "culture", "seoulportal", "mcst", "city", "public", "venue", "places", "tour", "popup", "web", "seoul",
 }
 # 키 없이 동작하는 소스만 기본값. 키가 필요한 소스는 키가 있을 때 auto 로 추가된다.
 # kfes: 축제 달력 / culture: 문화포털 전시·아동·체험 / seoulportal: 서울문화포털(자치구 행사)
 # mcst: 문화체육관광부 지역축제(전국 시·군) / city: 시·군청 연간 행사 일정표 / popup: 팝업스토어
 # public: 공공데이터포털 표준데이터(지자체·문화재단이 등록한 축제·행사, 좌표 포함)
 # venue: 코엑스·킨텍스·세텍·수원메쎄 소비자 박람회(가구·베이비페어·펫쇼 등)
-KEYLESS_SOURCES = "kfes,culture,seoulportal,mcst,city,public,venue,popup"
+# places: 관광지(유적지·사적·명승·관광지·박물관·미술관) — 언제든 가는 곳
+KEYLESS_SOURCES = "kfes,culture,seoulportal,mcst,city,public,venue,places,popup"
 
 
 def default_sources() -> str:
@@ -83,6 +84,19 @@ def _collect_one(
         from collectors.public_data import PublicDataCollector
 
         with PublicDataCollector() as collector:
+            return collector.collect()
+    if name == "places":
+        from collectors.attractions import AttractionCollector
+
+        # 이미 다른 출처로 들어 있는 곳(상설전시·큐레이션 장소)과 겹치지 않게 제목을 넘긴다
+        try:
+            existing = json.loads(settings.events_json_path.read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError):
+            existing = []
+        known = [r.get("title", "") for r in existing if r.get("source") != "attraction"]
+        with AttractionCollector(
+            cache_path=settings.heritage_detail_cache_path, known_titles=known
+        ) as collector:
             return collector.collect()
     if name == "venue":
         from collectors.venue_fairs import VenueFairCollector

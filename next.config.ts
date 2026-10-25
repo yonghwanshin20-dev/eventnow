@@ -37,6 +37,11 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.mcst.go.kr",
       },
+      {
+        // 국가유산청 사적·명승 사진
+        protocol: "https",
+        hostname: "www.khs.go.kr",
+      },
     ],
     // 카드(폰 반 폭~데스크톱 1/4)와 상세 사진(최대 768px)에 필요한 크기만 — 기본값(최대 3840px)보다
     // 변형 수가 적어 srcset이 짧아지고 최적화 캐시도 덜 쓴다

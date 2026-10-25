@@ -14,7 +14,7 @@ const ACCENT: Record<EventCategory, string> = {
   exhibition: "#6d28d9",
   popup: "#b45309",
   kids_experience: "#0369a1",
-  parents: "#be123c",
+  attraction: "#4d7c0f",
 };
 
 /** 카카오톡 등에 링크를 공유할 때 보이는 미리보기: 제목 · 일정 · 장소 */

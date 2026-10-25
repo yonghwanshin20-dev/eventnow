@@ -45,6 +45,7 @@ OFFICIAL_PRIORITY = {
     "city_calendar": 6,
     "public_data": 7,
     "venue_fair": 8,
+    "attraction": 9,
 }
 OFFICIAL_SOURCES = set(OFFICIAL_PRIORITY)
 # 같은 행사로 볼 시작일 차이 (회차가 다른 작년 행사와는 구분)

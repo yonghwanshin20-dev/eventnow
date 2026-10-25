@@ -18,8 +18,8 @@ class EventCategory(str, Enum):
     EXHIBITION = "exhibition"
     FESTIVAL = "festival"
     KIDS_EXPERIENCE = "kids_experience"
-    # 아이 없이 가는 엄마·아빠 관심 행사 (가구·리빙·재테크·유학 박람회 등)
-    PARENTS = "parents"
+    # 언제든 가 볼 만한 장소 (유적지·문화재·관광지·자연경관·박물관)
+    ATTRACTION = "attraction"
 
 
 class TargetAgeGroup(str, Enum):
@@ -55,6 +55,7 @@ SourceName = Literal[
     "city_calendar",
     "public_data",
     "venue_fair",
+    "attraction",
     "web_search",
     "naver",
     "seoul_api",

@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       sources:
-        description: "수집 소스 (비우면 kfes,culture,seoulportal,mcst,city,public,venue,popup)"
+        description: "수집 소스 (비우면 kfes,culture,seoulportal,mcst,city,public,venue,places,popup)"
         required: false
         default: ""
         type: string
@@ -81,7 +81,7 @@ jobs:
         run: |
           SOURCES="${{ github.event.inputs.sources }}"
           if [ -z "${SOURCES}" ]; then
-            if [ "${QUICK}" = "true" ]; then SOURCES="kfes,culture,seoulportal,mcst,city,public,venue"; else SOURCES="kfes,culture,seoulportal,mcst,city,public,venue,popup"; fi
+            if [ "${QUICK}" = "true" ]; then SOURCES="kfes,culture,seoulportal,mcst,city,public,venue"; else SOURCES="kfes,culture,seoulportal,mcst,city,public,venue,places,popup"; fi
           fi
           ARGS=(--store json --parser rules --sources "${SOURCES}")
           if [ "${DRY_RUN}" = "true" ]; then
@@ -95,7 +95,7 @@ jobs:
         working-directory: .
         run: |
           # 새로 생긴 저장본(처음 실행)도 잡히게 diff 대신 status 로 본다
-          DATA="src/data/events.json src/data/events-meta.json python/data/osm_geocode_cache.json python/data/culture_detail_cache.json python/data/seoul_detail_cache.json python/data/osm_reverse_cache.json"
+          DATA="src/data/events.json src/data/events-meta.json python/data/osm_geocode_cache.json python/data/culture_detail_cache.json python/data/seoul_detail_cache.json python/data/osm_reverse_cache.json python/data/heritage_detail_cache.json"
           if [ -z "$(git status --porcelain -- $DATA)" ]; then
             echo "No data changes."
             exit 0

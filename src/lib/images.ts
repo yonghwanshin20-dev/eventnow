@@ -10,6 +10,7 @@ export const OPTIMIZED_IMAGE_HOSTS = [
   "culture.seoul.go.kr",
   "d8nffddmkwqeq.cloudfront.net", // 팝플리
   "www.mcst.go.kr", // 문화체육관광부 지역축제
+  "www.khs.go.kr", // 국가유산청 사적·명승
 ] as const;
 
 export function shouldOptimizeImage(url: string): boolean {

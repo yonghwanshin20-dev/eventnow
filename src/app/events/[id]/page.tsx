@@ -20,7 +20,8 @@ interface EventPageProps {
 
 export async function generateStaticParams() {
   const events = await getAllEvents();
-  return events.map((e) => ({ id: e.id }));
+  // 관광지(전국 수천 곳)는 미리 만들지 않고 처음 열 때 만든다 — 배포 시간이 너무 길어지지 않게
+  return events.filter((e) => e.category !== "attraction").map((e) => ({ id: e.id }));
 }
 
 export async function generateMetadata({

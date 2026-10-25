@@ -36,7 +36,7 @@ export const CATEGORY_OPTIONS: {
   { value: "exhibition", label: "전시" },
   { value: "popup", label: "팝업" },
   { value: "kids_experience", label: "키즈 체험" },
-  { value: "parents", label: "엄마·아빠 관심" },
+  { value: "attraction", label: "관광지" },
 ];
 
 export const AGE_GROUP_OPTIONS: {
@@ -96,7 +96,7 @@ export const CATEGORY_LABELS: Record<EventCategory, string> = {
   exhibition: "전시",
   festival: "축제",
   kids_experience: "키즈 체험",
-  parents: "엄마·아빠 관심",
+  attraction: "관광지",
 };
 
 export const STATUS_LABELS: Record<EventStatus, string> = {
@@ -253,6 +253,7 @@ const OFFICIAL_SOURCES = new Set([
   "city_calendar",
   "public_data",
   "venue_fair",
+  "attraction",
   "tour_api",
   "seoul_api",
   "popply",

@@ -66,6 +66,8 @@ class Settings(BaseSettings):
     # 문화포털 상세 화면 저장본 (커밋해 매일 새 행사만 읽게)
     culture_detail_cache_path: Path = BASE_DIR / "data" / "culture_detail_cache.json"
     seoul_detail_cache_path: Path = BASE_DIR / "data" / "seoul_detail_cache.json"
+    # 국가유산(사적·명승) 소개 글·사진 — 한 번 읽으면 저장해 두고 새 곳만 읽는다
+    heritage_detail_cache_path: Path = BASE_DIR / "data" / "heritage_detail_cache.json"
 
     raw_data_dir: Path = BASE_DIR / "data" / "raw"
     parsed_data_dir: Path = BASE_DIR / "data" / "parsed"

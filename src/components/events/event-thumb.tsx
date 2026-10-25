@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { Baby, Palette, PartyPopper, Sofa, Store } from "lucide-react";
+import { Baby, Landmark, Palette, PartyPopper, Store } from "lucide-react";
 
 import { isHttpUrl, shouldOptimizeImage } from "@/lib/images";
 import { cn } from "@/lib/utils";
@@ -30,10 +30,10 @@ const TILE: Record<EventCategory, { className: string; icon: typeof Palette; lab
     icon: Baby,
     label: "키즈 체험",
   },
-  parents: {
-    className: "bg-gradient-to-br from-rose-100 via-orange-50 to-stone-100 text-rose-700",
-    icon: Sofa,
-    label: "엄마·아빠 관심",
+  attraction: {
+    className: "bg-gradient-to-br from-emerald-100 via-lime-50 to-amber-100 text-emerald-800",
+    icon: Landmark,
+    label: "관광지",
   },
 };
 

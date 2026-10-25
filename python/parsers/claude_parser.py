@@ -29,7 +29,7 @@ EVENT_PROPERTIES: dict[str, Any] = {
     "title": {"type": "string"},
     "category": {
         "type": "string",
-        "enum": ["popup", "exhibition", "festival", "kids_experience", "parents"],
+        "enum": ["popup", "exhibition", "festival", "kids_experience", "attraction"],
     },
     "description": _NULLABLE_STR,
     "start_date": {"type": "string", "description": "YYYY-MM-DD"},

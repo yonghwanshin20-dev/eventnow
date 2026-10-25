@@ -1,9 +1,9 @@
 """수도권 전시장 일정 — 코엑스·킨텍스·세텍·수원메쎄 (API 키 불필요).
 
 베이비페어, 캣·펫쇼, 보드게임·일러스트·코믹 행사처럼 일반 관람객이 표를 끊고 가는 '소비자 박람회'와,
-가구·리빙·재테크·유학·뷰티·커피처럼 엄마·아빠가 아이 없이 가 볼 박람회('parents' 분류)를 채운다.
+가구·건축·재테크·뷰티·커피처럼 어른이 관심 가질 박람회(전시로 넣되 아이 동반 추천에서는 뺀다)를 채운다.
 전시장 공식 일정표 HTML(서버에서 그려 주는 목록)만 읽고,
-업계 전용 전시(산업·기술·의료), 회의·세미나, 채용·분양 박람회는 거른다.
+업계 전용 전시(산업·기술·의료), 회의·세미나, 채용·유학·입시·분양 박람회는 거른다.
 robots.txt: 코엑스(/wp-content/uploads 만 막음 — 사진은 쓰지 않음)·킨텍스·세텍·수원메쎄 모두 허용.
 1초 간격. 출처 표기: 각 전시장 행사 일정.
 """
@@ -32,7 +32,7 @@ MAX_PAGES = 8
 # 업계·업무용 행사 — 일반 관람객이 갈 일이 없다
 _B2B = re.compile(
     r"컨퍼런스|콘퍼런스|세미나|설명회|포럼|심포지엄|학술|총회|워크숍|시상식|경연대회|"
-    r"채용|취업|이민|웨딩|입주|분양|프랜차이즈|창업|소상공인|중소기업|우수상품|"
+    r"채용|취업|이민|유학|입학|입시|진학|교육\s?박람회|웨딩|입주|분양|프랜차이즈|창업|소상공인|중소기업|우수상품|"
     r"산업|기술|자동화|공구|용접|금속|소부장|에너지|바이오|인터펙스|의료|헬스케어|병원|치과|"
     r"반도체|건설|보안|물류|로봇|팩토리|플랜트|테크쇼|미디어테크|선물\s?박람회|"
     r"\bAI\b|AIoT|수소|hydrogen|드론|모빌리티|승강기|소싱|발명|상표|특허|테크|tech|"
@@ -41,10 +41,10 @@ _B2B = re.compile(
     r"\bB2B\b|바이어|수출|상담회|정책|공공기관|교육청",
     re.I,
 )
-# 아이 없이 엄마·아빠가 관심 가질 박람회 (가구·리빙·집·돈·교육·뷰티·커피·술)
-_PARENTS = re.compile(
+# 어른이 관심 가질 박람회 (가구·리빙·집·돈·뷰티·커피·술) — '전시'로 넣되 아이 동반 추천에서는 뺀다
+_ADULT_INTEREST = re.compile(
     r"가구|인테리어|리빙|홈\s?테이블|홈\s?데코|데코|건축|집짓기|전원주택|재테크|부동산|"
-    r"유학|입학|입시|진학|교육\s?박람회|뷰티|미용|화장품|코스메틱|"
+    r"뷰티|미용|화장품|코스메틱|"
     r"카페|커피|베이커리|주류|위스키|캐스크|와인|맥주|사케|칵테일|티\s?&|차\s?박람회|크래프트",
     re.I,
 )
@@ -66,9 +66,11 @@ def category_hint(title: str, kind: str = "") -> str:
         return "kids_experience"
     if re.search(r"pop-?up|팝업", f"{kind} {title}", re.I):
         return "popup"
-    if _PARENTS.search(title):
-        return "parents"
     return "exhibition"
+
+
+def is_adult_interest(title: str) -> bool:
+    return bool(_ADULT_INTEREST.search(title)) and not _KIDS.search(title)
 
 
 def _date(s: str) -> date | None:
@@ -232,7 +234,7 @@ def item_to_raw(venue: Venue, item: dict[str, Any], *, today: date) -> RawRecord
         return None
     if (
         not is_consumer_fair(title)
-        and not _PARENTS.search(title)
+        and not _ADULT_INTEREST.search(title)
         and "pop" not in item.get("kind", "").lower()
     ):
         return None
@@ -268,7 +270,11 @@ def item_to_raw(venue: Venue, item: dict[str, Any], *, today: date) -> RawRecord
         title_hint=title,
         url=facts["official_link"],
         raw_text=raw,
-        meta={"category_hint": category_hint(title, item.get("kind", "")), "venue": venue.key},
+        meta={
+            "category_hint": category_hint(title, item.get("kind", "")),
+            "venue": venue.key,
+            "adult_interest": is_adult_interest(title),
+        },
         facts=facts,
     )
 
