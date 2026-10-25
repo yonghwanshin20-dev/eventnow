@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T18:02:12.324514+00:00",
-  "total": 3780,
+  "generated_at": "2026-10-25T21:39:07.569443+00:00",
+  "total": 3783,
   "by_source": {
     "attraction": 2541,
     "city_calendar": 6,
@@ -8,23 +8,35 @@
     "curated": 294,
     "kfes": 128,
     "mcst_festival": 25,
-    "popply": 203,
+    "popply": 206,
     "public_data": 150,
     "seoul_portal": 119,
     "venue_fair": 38
   },
   "run": {
-    "status": "ok",
+    "status": "partial",
     "sources": [
-      "places"
+      "city",
+      "culture",
+      "kfes",
+      "mcst",
+      "places",
+      "popup",
+      "public",
+      "seoulportal",
+      "venue"
     ],
-    "inserted": 13,
-    "updated": 245,
+    "inserted": 5,
+    "updated": 2,
     "corrected": 0,
-    "deduplicated": 5,
+    "deduplicated": 2,
     "withdrawn": 0,
     "pruned": 0,
-    "rejected": 0,
-    "source_errors": {}
+    "rejected": 1,
+    "source_errors": {
+      "mcst": "PermissionError: robots.txt disallows https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp",
+      "public": "PermissionError: robots.txt disallows https://www.data.go.kr/download/standard.json",
+      "seoulportal": "PermissionError: robots.txt disallows https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do"
+    }
   }
 }
