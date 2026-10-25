@@ -192,12 +192,73 @@ def museum_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
 
 # 가족이 가는 도서관만 — 작은도서관·학교·대학·전문 도서관은 뺀다
 _LIBRARY_KINDS = re.compile(r"공공|어린이")
+# 동네 도서관은 빼고 '가 볼 만한' 곳만: 특색 있는 이름(숲속·한옥·그림책·음악·미술·만화·호수…)이거나
+# 큰 대표 도서관(건물 1만㎡ 이상). 멀어도 일부러 찾아갈 만한 곳들이다
+_NOTABLE_LIBRARY = re.compile(
+    r"국립|대표도서관|기적의\s?도서관|숲속\s?도서관|그림책|음악\s?도서관|미술\s?도서관|만화|디자인\s?도서관|"
+    r"문학\s?도서관|인문학\s?도서관|한옥|도서관\s?마을|지혜의\s?바다|생태\S*도서관|바다\s?도서관|정원\s?도서관|책정원|"
+    r"별마당|라이브러리|어린이청소년도서관|과학\s?도서관|여행\s?도서관|사진\s?도서관|건축\s?도서관|영화\s?도서관|"
+    r"기념\s?도서관|호수\s?도서관|공원\s?도서관|전망"
+)
+_BIG_LIBRARY_M2 = 10000
+
+
+def is_notable_library(name: str, building_m2: Any) -> bool:
+    if _NOTABLE_LIBRARY.search(name):
+        return True
+    try:
+        return float(re.sub(r"[^\d.]", "", str(building_m2 or "")) or 0) >= _BIG_LIBRARY_M2
+    except ValueError:
+        return False
+
+
+# 표준데이터(시·군 공공도서관)에 없는 국립·명소 도서관 — 좌표는 비워 두면 수집 때 주소로 채운다
+FAMOUS_LIBRARIES: list[dict[str, str]] = [
+    {"name": "국립중앙도서관", "address": "서울특별시 서초구 반포대로 201", "link": "https://www.nl.go.kr",
+     "desc": "우리나라 대표 국립도서관. 디지털도서관·전시실과 어린이 방문 프로그램이 있어요."},
+    {"name": "국립어린이청소년도서관", "address": "서울특별시 강남구 테헤란로7길 21", "link": "https://www.nlcy.go.kr",
+     "desc": "어린이·청소년 전문 국립도서관. 그림책·동화 자료실과 체험 프로그램이 많아요."},
+    {"name": "서울도서관", "address": "서울특별시 중구 세종대로 110", "link": "https://lib.seoul.go.kr",
+     "desc": "옛 서울시청 건물을 고친 도서관. 벽면 서가가 유명하고 서울광장과 붙어 있어요."},
+    {"name": "국회도서관", "address": "서울특별시 영등포구 의사당대로 1", "link": "https://www.nanet.go.kr",
+     "desc": "국회 안의 큰 도서관. 국회 견학과 함께 둘러보기 좋아요."},
+    {"name": "별마당 도서관 (스타필드 코엑스몰)", "address": "서울특별시 강남구 영동대로 513", "link": "https://www.starfield.co.kr/coexmall/",
+     "desc": "13m 높이 대형 서가로 유명한 열린 도서관. 쇼핑몰 안이라 들르기 쉬워요."},
+    {"name": "지혜의숲 (파주출판도시)", "address": "경기도 파주시 회동길 145", "link": "https://www.forestofwisdom.or.kr",
+     "desc": "천장까지 닿는 책장이 이어진 24시간 열린 도서관. 출판도시 나들이와 함께 가기 좋아요."},
+    {"name": "국립세종도서관", "address": "세종특별자치시 다솜3로 48", "link": "https://sejong.nl.go.kr",
+     "desc": "책을 펼친 모양의 건물로 유명한 국립도서관. 어린이 자료실이 넓어요."},
+    {"name": "의정부미술도서관", "address": "경기도 의정부시 민락로 248", "link": "https://www.uilib.go.kr",
+     "desc": "미술 특화 도서관. 전시 공간과 탁 트인 열람실이 있어요."},
+]
+
+
+def famous_libraries(today: date) -> list[RawRecord]:
+    return [
+        _record(
+            sid="l-" + _squash(f"{lib['name']}{lib['address']}")[:40],
+            title=lib["name"],
+            address=lib["address"],
+            today=today,
+            kind="도서관",
+            provider="가 볼 만한 도서관 (직접 고른 곳)",
+            description=f"{lib['desc']}\n이달의 문화 프로그램·전시는 도서관 홈페이지에서 확인하세요.",
+            lat=None,
+            lng=None,
+            link=lib["link"],
+            price="무료",
+            place_types=["library"],
+        )
+        for lib in FAMOUS_LIBRARIES
+    ]
 
 
 def library_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
     title = _clean(row.get("LBRRY_NM"))
     kind = _clean(row.get("LBRRY_SE"))
-    if not title or not _LIBRARY_KINDS.search(kind):
+    if not title or not _LIBRARY_KINDS.search(kind) or "작은도서관" in title:
+        return None
+    if not is_notable_library(title, row.get("BULD_AR")):
         return None
     address = _clean(row.get("RDNMADR")) or " ".join(
         x for x in (_clean(row.get("CTPRVN_NM")), _clean(row.get("SIGNGU_NM"))) if x
@@ -405,7 +466,7 @@ class AttractionCollector:
 
     def collect(self, *, today: date | None = None) -> list[RawRecord]:
         ref = today or today_kst()
-        records = self._standard(ref)
+        records = self._standard(ref) + famous_libraries(ref)
         try:
             records.extend(self._heritage(ref))
         except (httpx.HTTPError, ElementTree.ParseError) as err:

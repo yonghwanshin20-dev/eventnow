@@ -31,8 +31,19 @@ def test_attraction_types_use_name_and_hints():
     assert place_types_for(rec(["museum"]), "떡박물관", "떡박물관", "attraction") == ["museum"]
 
 
+def test_only_notable_libraries():
+    base = {"LBRRY_SE": "공공도서관", "RDNMADR": "서울특별시 강동구 1"}
+    today = date(2026, 10, 26)
+    assert library_row_to_raw({**base, "LBRRY_NM": "강동숲속도서관"}, today=today) is not None
+    assert library_row_to_raw({**base, "LBRRY_NM": "글마루한옥어린이도서관"}, today=today) is not None
+    assert library_row_to_raw({**base, "LBRRY_NM": "관악중앙도서관", "BULD_AR": "14279"}, today=today) is not None
+    # 그냥 동네 도서관은 뺀다
+    assert library_row_to_raw({**base, "LBRRY_NM": "하남시덕풍도서관", "BULD_AR": "2500"}, today=today) is None
+    assert library_row_to_raw({**base, "LBRRY_NM": "그림책마을 작은도서관"}, today=today) is None
+
+
 def test_library_rows():
-    row = {"LBRRY_NM": "은평구립도서관", "LBRRY_SE": "공공도서관", "RDNMADR": "서울특별시 은평구 진관3로 1",
+    row = {"LBRRY_NM": "은평구립숲속도서관", "LBRRY_SE": "공공도서관", "RDNMADR": "서울특별시 은평구 진관3로 1",
            "WEEKDAY_OPER_OPEN_HHMM": "0900", "WEEKDAY_OPER_COLSE_HHMM": "2200", "HOMEPAGE_URL": "lib.ep.go.kr",
            "LATITUDE": "37.6", "LONGITUDE": "126.9"}
     rec = library_row_to_raw(row, today=date(2026, 10, 26))
