@@ -22,7 +22,6 @@ const field =
 export function FeedbackForm({ enabled, initialType, eventId, eventTitle }: FeedbackFormProps) {
   const [type, setType] = useState<FeedbackType>(initialType);
   const [message, setMessage] = useState("");
-  const [contact, setContact] = useState("");
   const [report, setReport] = useState({ title: "", date: "", place: "", link: "" });
   const [website, setWebsite] = useState(""); // 봇 걸러내기용 숨은 칸
   const [state, setState] = useState<"idle" | "sending" | "done">("idle");
@@ -39,7 +38,6 @@ export function FeedbackForm({ enabled, initialType, eventId, eventTitle }: Feed
         body: JSON.stringify({
           type,
           message,
-          contact,
           website,
           eventId: type === "bug" ? eventId : undefined,
           eventTitle: type === "bug" ? eventTitle : undefined,
@@ -157,10 +155,8 @@ export function FeedbackForm({ enabled, initialType, eventId, eventTitle }: Feed
         onChange={(e) => setMessage(e.target.value)}
         aria-label="내용"
       />
-      <input className={field} placeholder="답을 받을 연락처 (선택 · 이메일 등)" value={contact} maxLength={100}
-        onChange={(e) => setContact(e.target.value)} aria-label="연락처" />
       <p className="text-[12px] leading-5 text-stone-500">
-        보낸 글은 운영자가 확인하는 게시판(GitHub 이슈)에 남아요. 연락처는 꼭 필요할 때만 적어 주세요.
+        이름·연락처 없이 내용만 전달돼요. 개인정보는 적지 말아 주세요.
       </p>
       {/* 사람에게는 안 보이는 칸 (봇 걸러내기) */}
       <input type="text" name="website" value={website} onChange={(e) => setWebsite(e.target.value)}

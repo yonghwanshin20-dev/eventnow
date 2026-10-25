@@ -78,6 +78,20 @@ GitHub Actions (무료)  ── 매일 04:00 KST 자동 실행
 - 확인·반영한 글은 이슈를 **Close** 하면 됩니다
 - 같은 사람이 10분에 5번 넘게 보내지 못하고, 스팸 봇용 숨은 칸으로 자동 글을 거릅니다
 
+## 2-0-1. [주변 맛집] 켜기 (선택, 무료)
+
+행사장 동네에서 **블로그 글이 많은 식당 10곳**을 보여줍니다 (네이버 검색 API, 하루 25,000회 무료).
+키가 없으면 맛집 화면에 "준비 중"과 네이버 검색 바로가기만 보입니다.
+
+1. https://developers.naver.com → **Application → 애플리케이션 등록**
+   - 이름: EventNow / 사용 API: **검색** / 환경: **WEB 설정** → 서비스 URL `https://eventnow.vercel.app`
+2. 만들어진 **Client ID**, **Client Secret** 을 Vercel 환경변수에 넣고 Redeploy
+
+   | 이름 | 값 |
+   |------|----|
+   | `NAVER_CLIENT_ID` | Client ID |
+   | `NAVER_CLIENT_SECRET` | Client Secret |
+
 ## 2-1. 카카오톡 사진 카드 공유 (선택, 무료)
 
 키가 없어도 [카카오톡] 버튼은 동작합니다 — 휴대폰에서는 공유 창(카카오톡 포함)이 뜨고, PC에서는 링크가 복사됩니다.

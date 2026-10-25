@@ -17,8 +17,6 @@ export const FEEDBACK_TYPES: { value: FeedbackType; label: string; hint: string 
 export interface FeedbackInput {
   type: FeedbackType;
   message: string;
-  /** 답을 받을 연락처 (선택) */
-  contact?: string;
   /** 오류 신고한 행사 */
   eventId?: string;
   eventTitle?: string;
@@ -44,7 +42,6 @@ export interface FeedbackConfig {
 
 const LIMITS = {
   message: 2000,
-  contact: 100,
   short: 120,
   link: 300,
 };
@@ -75,7 +72,6 @@ export function validateFeedback(raw: unknown): { ok: true; value: FeedbackInput
   const value: FeedbackInput = {
     type,
     message: clip(r.message, LIMITS.message),
-    contact: clip(r.contact, LIMITS.contact) || undefined,
     eventId: clip(r.eventId, 64).replace(/[^\w-]/g, "") || undefined,
     eventTitle: clip(r.eventTitle, LIMITS.short) || undefined,
     reportTitle: clip(r.reportTitle, LIMITS.short) || undefined,
@@ -120,7 +116,6 @@ export function buildIssue(input: FeedbackInput, siteUrl: string): { title: stri
     lines.push("", "### 신고한 행사", `- ${input.eventTitle || input.eventId}: ${siteUrl}/events/${input.eventId}`);
   }
   if (input.message) lines.push("", "### 내용", quote(input.message));
-  if (input.contact) lines.push("", `연락처: ${input.contact}`);
   if (input.page) lines.push("", `보낸 화면: ${input.page}`);
   lines.push("", "---", "앱의 [피드백]에서 보냈어요. 확인·반영하면 이슈를 닫아 주세요.");
   const subject =

@@ -15,6 +15,8 @@ describe("validateFeedback", () => {
   it("오류 신고·건의는 5자 이상", () => {
     expect(validateFeedback({ type: "bug", message: "틀림" }).ok).toBe(false);
     expect(validateFeedback({ type: "idea", message: "맛집 지도도 있으면 좋겠어요" }).ok).toBe(true);
+    const r = validateFeedback({ type: "idea", message: "연락처 칸은 안 받아요", contact: "a@b.c" });
+    expect(r.ok && "contact" in r.value).toBe(false);
     expect(validateFeedback({ type: "spam", message: "aaaaaa" }).ok).toBe(false);
   });
 

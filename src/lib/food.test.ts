@@ -1,53 +1,61 @@
 import { describe, expect, it } from "vitest";
 
-import { formatDistance, isValidKoreaCoord, nearbyQuery, parseOverpass, roundCoord, walkMinutes } from "./food";
+import { blogQuery, buildQueries, formatCount, getNaverConfig, rankPicks, toCandidates } from "./food";
 
-const origin = { lat: 37.579, lng: 126.936 };
-
-describe("parseOverpass", () => {
-  it("가까운 순으로, 종류·음식·아이 편의를 붙인다", () => {
-    const places = parseOverpass(
-      {
-        elements: [
-          { type: "node", id: 1, lat: 37.585, lon: 126.936, tags: { amenity: "restaurant", name: "먼식당", cuisine: "한식;갈비" } },
-          { type: "node", id: 2, lat: 37.5795, lon: 126.936, tags: { amenity: "cafe", name: "Cafe", "name:ko": "가까운카페", highchair: "yes" } },
-          { type: "way", id: 3, center: { lat: 37.58, lon: 126.937 }, tags: { shop: "bakery", name: "빵집" } },
-          { type: "node", id: 4, lat: 37.58, lon: 126.936, tags: { amenity: "restaurant" } }, // 이름 없음
-          { type: "node", id: 5, lat: 37.58, lon: 126.936, tags: { amenity: "cafe", name: "폐업", disused: "yes" } },
-        ],
-      },
-      origin,
-    );
-    expect(places.map((p) => p.name)).toEqual(["가까운카페", "빵집", "먼식당"]);
-    expect(places[0]).toMatchObject({ kind: "cafe", kids: true });
-    expect(places[1].kind).toBe("dessert");
-    expect(places[2]).toMatchObject({ kind: "meal", cuisine: "고기" });
+describe("buildQueries", () => {
+  it("동네·장소로 검색어 여러 개 (중복 없이)", () => {
+    expect(buildQueries({ district: "서대문구", dong: "홍은동", place: "홍제폭포" })).toEqual([
+      "서대문구 홍은동 맛집",
+      "홍제폭포 맛집",
+      "홍제폭포 근처 식당",
+      "홍은동 가족 외식",
+      "홍은동 한식 맛집",
+      "홍은동 아이랑 식당",
+    ]);
+    expect(buildQueries({})).toEqual([]);
   });
+});
 
-  it("같은 가게가 노드·건물로 두 번 오면 하나만", () => {
-    const tags = { amenity: "restaurant", name: "중복집", cuisine: "korean" };
-    const places = parseOverpass(
-      {
-        elements: [
-          { type: "node", id: 1, lat: 37.58, lon: 126.936, tags },
-          { type: "way", id: 2, center: { lat: 37.58001, lon: 126.93601 }, tags },
-        ],
-      },
+describe("toCandidates", () => {
+  it("태그를 지우고 카페·술집과 중복은 뺀다, 좌표는 ×10^7", () => {
+    const out = toCandidates([
+      { title: "<b>연희</b>칼국수", category: "한식>칼국수,만두", roadAddress: "서울 서대문구 연희로 1", mapx: "1269300000", mapy: "375700000" },
+      { title: "연희 칼국수", category: "한식>칼국수,만두" },
+      { title: "카페 연희", category: "카페,디저트>카페" },
+      { title: "연희 이자카야", category: "술집>이자카야" },
+    ]);
+    expect(out).toHaveLength(1);
+    expect(out[0]).toMatchObject({ name: "연희칼국수", category: "한식 · 칼국수,만두", lat: 37.57, lng: 126.93 });
+  });
+});
+
+describe("rankPicks", () => {
+  it("블로그 글 많은 순, 너무 먼 곳은 빼고 10곳까지", () => {
+    const origin = { lat: 37.57, lng: 126.93 };
+    const near = (name: string, blogCount: number) => ({ name, category: null, address: null, lat: 37.571, lng: 126.931, blogCount });
+    const picks = rankPicks(
+      [
+        near("보통집", 120),
+        near("인기집", 3400),
+        { ...near("먼집", 99999), lat: 37.7, lng: 127.1 },
+        ...Array.from({ length: 12 }, (_, i) => near(`집${i}`, i)),
+      ],
       origin,
+      { dong: "연희동" },
     );
-    expect(places).toHaveLength(1);
-    expect(places[0].cuisine).toBe("한식");
+    expect(picks).toHaveLength(10);
+    expect(picks[0].name).toBe("인기집");
+    expect(picks.some((p) => p.name === "먼집")).toBe(false);
+    expect(picks[0].link).toContain(encodeURIComponent("연희동 인기집"));
   });
 });
 
 describe("도우미", () => {
-  it("좌표·거리 표시", () => {
-    expect(roundCoord(37.57912)).toBe(37.579);
-    expect(isValidKoreaCoord(37.5, 127)).toBe(true);
-    expect(isValidKoreaCoord(0, 0)).toBe(false);
-    expect(formatDistance(234)).toBe("230m");
-    expect(formatDistance(1530)).toBe("1.5km");
-    expect(walkMinutes(700)).toBe(10);
-    expect(nearbyQuery({ name: "홍제폭포", area: "서대문구" })).toBe("서대문구 홍제폭포 맛집");
+  it("설정·검색어·숫자", () => {
+    expect(getNaverConfig({})).toBeNull();
+    expect(getNaverConfig({ NAVER_CLIENT_ID: "a", NAVER_CLIENT_SECRET: "b" })).toEqual({ id: "a", secret: "b" });
+    expect(blogQuery("연희칼국수", { dong: "연희동", district: "서대문구" })).toBe('"연희칼국수" 연희동');
+    expect(formatCount(1234)).toBe("1,234");
+    expect(formatCount(25000)).toBe("2.5만");
   });
 });
