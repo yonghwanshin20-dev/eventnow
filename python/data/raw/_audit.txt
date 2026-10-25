@@ -1,0 +1,18 @@
+active 574
+html entities 0 []
+bracket-prefixed titles 33 ['[온라인 특별전] 막걸리, 거친 일상의 벗', '[상설] 외규장각 의궤실 공개', '[상설전시] 강원도, 불교도의 이상향', '[실감 미디어아트 체험전 리뉴얼] NEW! The경주; 경주연대기', '[소마미술관] 조각이 꿈+틀(올림픽조각체험프로젝트#02)(상설전)', '[지역 공립박물관 순회전시] 국보순회전, 우리 동네에서 만나는 보물']
+long titles 15 ['GOOD MORNING MR. PAIK & JUNG - 정기용 컬렉션: 백남준, 존 케이지, 요제프 보이스가 그린 우정의 지도', '개관 20주년 기념 「북적북적(BOOK的BOOK積) 20년: 우리가 자란 시간, 우리가 그릴 미래」', '대구포럼 V 《바깥을 향한 속삭임 Whispers Toward the Outside》']
+culture desc samples:
+   '[출처] 문화포털 한눈에 보는 문화정보 [제목] 패트릭 블랑: 수직정원 [기간] 2018-06-16 ~ 2028-12-31 [문의] 부산현대미술관 051-220-7400~1'
+   '[출처] 문화포털 한눈에 보는 문화정보 [제목] 홍영철의 유산, 부산영화를 담다 [기간] 2018-10-05 ~ 2030-12-31 [문의] 부산영화체험박물관 051-715-4200'
+   '[출처] 문화포털 한눈에 보는 문화정보 [기간] 2020-01-01 ~ 2029-12-31 [장소] 화성어린이복합문화센터 아이누리극장 [문의] 031-5183-3200'
+culture desc starting with [출처]: 257
+price samples: [('무료', 310), ('유료', 85), ('현장 확인', 33), ('프로그램별 유료', 8), ('기관 안내', 8), ('유료 , 무료', 8), ('유료(사전확인)', 7), ('강좌별 — 사전 확인', 6), ('입장·시설 요금 사전확인', 4), ('공연·강좌별 — 사전 확인', 4), ('무료~기획전 별도', 3), ('자유이용권 등 유료', 3)]
+exact dup title+start 0
+same title diff dates []
+category x source: Counter({('culture_portal', 'exhibition'): 200, ('curated', 'kids_experience'): 110, ('curated', 'exhibition'): 84, ('kfes', 'festival'): 77, ('curated', 'festival'): 44, ('culture_portal', 'festival'): 37, ('culture_portal', 'kids_experience'): 20, ('kfes', 'kids_experience'): 2})
+exhibitions with kids words 3 ['고양어린이박물관 관람·체험', '[부산복합문화공간 새모] 무민가족의 모험전', '공성훈 개인전 《공성훈: 숭고의 아이러니 (The Irony of the Sublime)》']
+kids performances 4
+no image by source {'curated': 152}
+wikimedia thumbs active 86
+no official link by source {'culture_portal': 243, 'curated': 90}

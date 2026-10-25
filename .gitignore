@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+!python/.env.example
+
+# python pipeline staging
+python/data/raw/*.json
+python/data/parsed/*.json
+# 카카오 지오코딩 캐시는 로컬 전용 (OSM 캐시 osm_geocode_cache.json 은 커밋해 매일 재사용)
+python/data/geocode_cache.json
+python/__pycache__/
+python/**/__pycache__/
+python/.venv/
+
+# vercel
+.vercel
+.vercel-revalidate-secret.txt
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,9 @@
+# Vercel에 올릴 때 빼는 것 — 사이트 빌드에는 src·public·설정 파일만 필요하다.
+# (CLI로 바로 배포할 때 python 가상환경 수백 MB가 함께 올라가는 것을 막는다)
+/python
+/node_modules
+/.next
+/coverage
+*.log
+.env*
+!.env.example
