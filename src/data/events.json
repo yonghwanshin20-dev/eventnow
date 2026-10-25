@@ -36285,6 +36285,42 @@
     "updated_at": "2026-10-20T14:13:40.267525+00:00"
   },
   {
+    "title": "제51회 호주유학박람회",
+    "category": "parents",
+    "description": "코엑스 컨퍼런스룸(남) 3층, 307호에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "location_name": "코엑스 컨퍼런스룸(남) 3층, 307호",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/%ec%a0%9c51%ed%9a%8c-%ed%98%b8%ec%a3%bc%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/",
+    "tags": [],
+    "place_types": [],
+    "status": "ongoing",
+    "source": "venue_fair",
+    "source_id": "coex-aa87f8c298ca",
+    "content_hash": "b3e82c3a34b0919c1446507404d820cf0b21cced7ef3849fcdcfdd80c29278e4",
+    "id": "evt-2f8e8635d0",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "삼성동"
+  },
+  {
     "title": "평택 원평나루 억새축제",
     "category": "festival",
     "description": "2026 평택 원평나루 억새축제는 군문교 아래 억새밭 일대에서 열리는 가을 축제이다. 행사일은 10월 24일이며, 운영시간은 오전 11시부터 오후 9시까지이다. 원평나루의 억새 경관을 배경으로 공연과 체험 프로그램을 운영하는 행사이다. 주요 프로그램은 억새콘서트와 체험부스이며, 억새밭을 배경으로 사진 촬영용 포토존도 마련되는 축제이다. 먹거리를 판매하는 푸드트럭도 운영하는 행사이다. 낮부터 저녁까지 이어지는 일정으로 억새밭 관람과 공연 관람, 체험 참여가 가능한 축제이다. 원평나루의 풍경과 문화 프로그램, 먹거리를 한자리에서 만날 수 있는 축제이다.",
@@ -36684,6 +36720,49 @@
     "updated_at": "2026-10-20T13:46:55.788255+00:00",
     "age_min": null,
     "age_max": null
+  },
+  {
+    "title": "제주마축제",
+    "category": "festival",
+    "description": "2026년 제21회 제주마축제는 2026년 10월 24일부터 25일까지 이틀간 제주시 애월읍 렛츠런파크 제주 가족공원 일원에서 열리는 축제이다. 운영 시간은 매일 오전 9시 30분부터 오후 6시까지이며, 주최 기관은 한국마사회와 제주특별자치도이고 주관 기관은 한국마사회 제주본부이다. 전체 프로그램은 총 37종으로, 전시 8종, 산업·예술 12종, 놀이·체험 9종, 마켓·휴식 5종, 연계 3종의 구성이다. 행사장은 제주마 헤리티지 라운지, 말테우리 스튜디오, 레클리스 플레이파크, 제라진 피크닉마켓의\n운영 시간 09:30~18:00",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "location_name": "제주도 제주시",
+    "address": "제주도 제주시",
+    "latitude": null,
+    "longitude": null,
+    "region": "제주특별자치도",
+    "district": "제주시",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1792538778039.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=13559",
+    "tags": [
+      "#체험",
+      "#야외",
+      "#먹거리",
+      "#공연",
+      "#전통"
+    ],
+    "place_types": [
+      "park_playground"
+    ],
+    "status": "ongoing",
+    "source": "mcst_festival",
+    "source_id": "13559",
+    "content_hash": "fe17607473b9d4471cdaa85399e1bab842ba59026650f5d4c73e49b92c3d558a",
+    "id": "evt-65eb2e1240",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
   },
   {
     "title": "디저트베이커리 페스타",
@@ -37117,6 +37196,48 @@
     "dong": "가곡동"
   },
   {
+    "title": "강진만 춤추는 갈대축제",
+    "category": "festival",
+    "description": "1,572종의 생물이 서식하는 강진만 생태공원에서 아름다운 석양과 함께 다양한 공연과 체험 프로그램을 만나는 축제이다. 강진만 생태탐방로 걷기와 갈대밭 관람 등 남녀노소 누구나 참여할 수 있는 프로그램이 마련되어 있으며, 가을철 강진만의 자연경관과 생태환경을 함께 살펴볼 수 있다. 특히 어린이를 위한 참여형 체험 프로그램과 환경 프로그램을 운영하여 가족 단위 방문객이 자연 속에서 즐길 수 있도록 구성한 축제이다. 강진만 생태공원의 생태적 가치와 갈대밭의 계절 경관을 알리고, 자연환경 보호의 의미를\n운영 시간 10:00~19:00",
+    "start_date": "2026-10-24",
+    "end_date": "2026-11-01",
+    "location_name": "전남광주 강진군",
+    "address": "전남광주 강진군",
+    "latitude": 34.641917,
+    "longitude": 126.766959,
+    "region": "전라남도",
+    "district": "강진군",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1790641987016.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=11920",
+    "tags": [
+      "#체험",
+      "#야외",
+      "#공연"
+    ],
+    "place_types": [
+      "park_playground",
+      "nature_science"
+    ],
+    "status": "ongoing",
+    "source": "mcst_festival",
+    "source_id": "11920",
+    "content_hash": "91a1105cdcce241a38a2bbd8e296ecf382b1947e4118584437a932e7b95b4ac0",
+    "id": "evt-b0a887f3d5",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
+  },
+  {
     "title": "추령장승축제",
     "category": "festival",
     "description": "장승제+문화예술공연 등\n주관 순창추령장승제전위원회",
@@ -37231,47 +37352,6 @@
     "dong": "신사동"
   },
   {
-    "title": "강진만 춤추는 갈대축제",
-    "category": "festival",
-    "description": "가을의 정취와 추억, 살아있는 생태, 어린이들의 놀이터를 제공하는 남도답사 1번지 이미지 창출과 갈대·음악·자연을 대표하는 명품 축제\n주관 강진군축제추진위원회",
-    "start_date": "2026-10-24",
-    "end_date": "2026-11-01",
-    "location_name": "강진만 생태공원 일원",
-    "address": "전남광주통합특별시 강진군 강진읍 남당로 97-23",
-    "latitude": 34.6259705,
-    "longitude": 126.7724317,
-    "region": "전라남도",
-    "district": "강진군",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "http://www.gangjin.go.kr/culture/festival/gangjinman_reed",
-    "tags": [
-      "#야외"
-    ],
-    "place_types": [
-      "park_playground",
-      "nature_science"
-    ],
-    "status": "ongoing",
-    "source": "public_data",
-    "source_id": "f-b4a0a3521d54",
-    "content_hash": "7acfcfab9e5a4d81497e1d625262f5258db4b022309bc4ec025c240c0560ee00",
-    "id": "evt-bb49852cd3",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00",
-    "dong": "강진읍"
-  },
-  {
     "title": "포항스틸아트페스티벌",
     "category": "festival",
     "description": "스틸작품 전시스틸워크숍 및 예술교육프로그램+아트투어 등\n주관 포항문화재단",
@@ -37349,6 +37429,48 @@
     "dong": "왕십리도선동"
   },
   {
+    "title": "영등포선유도원축제",
+    "category": "festival",
+    "description": "선유도공원은 차가운 폐정수장 구조물 위에 푸른 자연을 피워낸 곳이다. 영등포선유도원축제는 우리나라 최초의 환경재생 생태공원인 선유도공원의 정취, 자연과 예술의 조화를 느낄 수 있도록 기획된 축제이다. 주요 프로그램으로는 탐조 활동을 통해 공원의 생태환경과 조류를 살펴보는 새산책, 가족과 연인 등이 참여할 수 있는 야외 요가, 공모를 통해 선발된 팀들의 공연으로 구성되는 거리예술축제가 있다. 또한 영등포 주민들이 기획한 ‘시월의 선유’ 플리마켓과 무대 프로그램이 함께 운영되어 풍성한 볼거리와 먹거리\n운영 시간 12:00 ~ 20:00",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "location_name": "서울시 영등포구",
+    "address": "서울시 영등포구",
+    "latitude": null,
+    "longitude": null,
+    "region": "서울특별시",
+    "district": "영등포구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1792108404416.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=13357",
+    "tags": [
+      "#야외",
+      "#먹거리",
+      "#공연"
+    ],
+    "place_types": [
+      "park_playground",
+      "nature_science"
+    ],
+    "status": "ongoing",
+    "source": "mcst_festival",
+    "source_id": "13357",
+    "content_hash": "51b03c14792ef83bfd561a08c31a73560fc43113f7076c757b4dd98756752119",
+    "id": "evt-d0990595e5",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
+  },
+  {
     "title": "누누숨 팝업",
     "category": "popup",
     "description": "성수·여의도 등에서 열리는 패션 팝업스토어예요. \n운영 시간 토~일 10:00 - 19:00 · 안내 및 주의사항 · 🐶 반려동물 동반 안내 · 실내 바닥에 카펫이 깔려 있어 매너벨트 착용을 부탁드려요. · 매너벨트는 현장에도 준비해 둘 예정입니다. · 🚗 주차 안내 · 팝업 \n자세한 내용은 팝플리 원문에서 확인하세요.",
@@ -37386,6 +37508,42 @@
     "created_at": "2026-10-25T03:53:31.544125+00:00",
     "updated_at": "2026-10-25T03:53:31.544125+00:00",
     "dong": "권농동"
+  },
+  {
+    "title": "2026 말레이시아 유학 박람회",
+    "category": "parents",
+    "description": "코엑스 컨퍼런스룸(남) 3F에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "location_name": "코엑스 컨퍼런스룸(남) 3F",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/2026-%eb%a7%90%eb%a0%88%ec%9d%b4%ec%8b%9c%ec%95%84-%ec%9c%a0%ed%95%99-%eb%b0%95%eb%9e%8c%ed%9a%8c/",
+    "tags": [],
+    "place_types": [],
+    "status": "ongoing",
+    "source": "venue_fair",
+    "source_id": "coex-a3fbf6ead37b",
+    "content_hash": "d86a5f28fc72a93f9e97cd1a260b89b9f1c6774d08e5c2604a4dbf469d962775",
+    "id": "evt-d4f395a742",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "삼성동"
   },
   {
     "title": "하우스 오브 이기초 팝업 : THE SECOND STEP",
@@ -37579,47 +37737,6 @@
     "age_min": null,
     "age_max": null,
     "dong": "낙안면"
-  },
-  {
-    "title": "2026 영등포선유도원축제",
-    "category": "festival",
-    "description": "운영 시간 00:00~00:00\n주관 영등포문화재단",
-    "start_date": "2026-10-24",
-    "end_date": "2026-10-25",
-    "location_name": "선유도공원",
-    "address": "서울특별시 영등포구 선유로 343",
-    "latitude": 37.54238323,
-    "longitude": 126.9018193,
-    "region": "서울특별시",
-    "district": "영등포구",
-    "is_family_friendly": false,
-    "target_age_group": "all",
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#야외",
-      "#무료"
-    ],
-    "place_types": [
-      "park_playground"
-    ],
-    "status": "ongoing",
-    "source": "public_data",
-    "source_id": "e-67b2503ef01b",
-    "content_hash": "7a3a1c6c9ba20c25e473338a60c93472cce239d93e00d2430d108c2af13ea487",
-    "id": "evt-fa837d08d3",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00",
-    "dong": "당산동"
   },
   {
     "title": "오슬로우 빈티지 마켓",
@@ -38321,7 +38438,7 @@
   },
   {
     "title": "2026 카페&베이커리페어 시즌2",
-    "category": "exhibition",
+    "category": "parents",
     "description": "킨텍스 전시홀 10에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-10-29",
     "end_date": "2026-11-01",
@@ -38354,7 +38471,7 @@
     "content_hash": "c29b5aebc5fda55534720e82b530f66a6186f81c7dd0debf4160d85f99e7ebf7",
     "id": "evt-111fb4e220",
     "created_at": "2026-10-25T14:09:04.017054+00:00",
-    "updated_at": "2026-10-25T14:09:04.017054+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "송포동"
   },
   {
@@ -38672,7 +38789,7 @@
   },
   {
     "title": "2026 가을 고양가구박람회",
-    "category": "exhibition",
+    "category": "parents",
     "description": "킨텍스 전시홀 9에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-10-29",
     "end_date": "2026-11-01",
@@ -38705,7 +38822,7 @@
     "content_hash": "541cad1bc0eb9a90861a0bf8973100b5d8e567cd2c8980c802afc722c3ce1a26",
     "id": "evt-ab04538014",
     "created_at": "2026-10-25T14:09:04.017054+00:00",
-    "updated_at": "2026-10-25T14:09:04.017054+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "송포동"
   },
   {
@@ -40340,6 +40457,42 @@
     "dong": "번3동"
   },
   {
+    "title": "IDP 세계유학박람회",
+    "category": "parents",
+    "description": "코엑스 컨퍼런스룸(남) 3F에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-10-31",
+    "end_date": "2026-11-01",
+    "location_name": "코엑스 컨퍼런스룸(남) 3F",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/idp-%ec%84%b8%ea%b3%84%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-6/",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "coex-d2fcae3de5fa",
+    "content_hash": "d33666da6aca51f9546bab9f29faf4c26924d25d9645b9b11a8003a793aa3220",
+    "id": "evt-61aa66e1be",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "삼성동"
+  },
+  {
     "title": "지평전통발효축제",
     "category": "festival",
     "description": "올해로 3회를 맞이하는 지평전통발효축제는 전통 발효문화의 가치를 널리 알리고, 지역의 우수한 농특산물과 먹거리를 통해 주민과 방문객이 함께 어우러지는 지역 화합형 축제다. 특히 지평전통발효축제는 우리 고유의 전통 발효음식을 직접 만들고 맛보며, 남녀노소 누구나 즐길 수 있는 다채로운 체험과 문화공연이 어우러진 풍성한 축제로 마련된다. 축제에서는 고추장 만들기, 김장 체험, 두부 만들기, 떡매치기 등 전통의 맛과 지혜를 직접 경험할 수 있는 다양한 체험 프로그램이 운영되며, 지역의 우수한 발효식품과 농특산물을 한자리에서 만나볼 수 있다. 또한 떡볶이 요리왕 선발대회, 막걸리 빨리 마시기 대회 등 이색 경연 프로그램과 초청 가수의 축하공연, 다채로운 문화공연이 펼쳐져 축제의 흥을 더한다. 이와 함께 막걸리를 시음할 수 있는 막걸리 ZONE과 트램폴린, 에어바운스, 플리마켓, 푸드트럭 등이 마련된 패밀리 ZONE을 운영해 온 가족이 함께 즐길 수 있는 특별한 추억을 선사한다. 2026년 10월 31일부터 11월 1일까지 지평면사무소 앞 광장 및 시장 일원에서 개최되는 이번 축제는 전통의 맛과 멋, 흥겨운 즐거움이 어우러지는 가을 나들이 명소로 방문객들을 맞이할 예정이다.",
@@ -40926,47 +41079,6 @@
     "created_at": "2026-10-25T04:22:48.014232+00:00",
     "updated_at": "2026-10-25T04:22:48.014232+00:00",
     "dong": "거제면"
-  },
-  {
-    "title": "제27회 화순운주문화축제",
-    "category": "festival",
-    "description": "토크콘서트+사찰음식 프로그램 등\n주관 (재)화순군문화관광재단",
-    "start_date": "2026-10-31",
-    "end_date": "2026-11-01",
-    "location_name": "도암면 운주사 일원",
-    "address": "전남광주통합특별시 화순군 능주면 죽수길 73",
-    "latitude": 34.9898585764,
-    "longitude": 126.9580363002,
-    "region": "전라남도",
-    "district": "화순군",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#먹거리",
-      "#공연"
-    ],
-    "place_types": [
-      "temple"
-    ],
-    "status": "upcoming",
-    "source": "public_data",
-    "source_id": "f-747751eb62f5",
-    "content_hash": "3e75ae7b4991829dc84c6de88a079e8392cc3694ef2b1f419b2ac8351f4a62a2",
-    "id": "evt-c0829d163e",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00",
-    "dong": "능주면"
   },
   {
     "title": "2026년 제24회 추사문화예술제",
@@ -41829,17 +41941,17 @@
     "content_hash": "6ca459598170dfbb59dd58d85c40c3720a1d18c802d16996fbecab1d4bba7d2f"
   },
   {
-    "title": "괴산김장축제",
-    "category": "festival",
-    "description": "RED하게 세상을 버무리다\n주관 충청북도 괴산군청",
+    "title": "2026 서울건축박람회 (추계)",
+    "category": "parents",
+    "description": "세텍(SETEC) 제1전시실, 제2전시실, 제3전시실에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-11-05",
     "end_date": "2026-11-08",
-    "location_name": "유기농엑스포광장+종합운동장 등",
-    "address": "충청북도 괴산군 괴산읍 임꺽정로 75",
-    "latitude": 36.8134403,
-    "longitude": 127.7885389,
-    "region": "충청북도",
-    "district": "괴산군",
+    "location_name": "세텍(SETEC) 제1전시실, 제2전시실, 제3전시실",
+    "address": "서울특별시 강남구 남부순환로 3104",
+    "latitude": 37.494003,
+    "longitude": 127.096243,
+    "region": "서울특별시",
+    "district": "강남구",
     "is_family_friendly": false,
     "target_age_group": null,
     "age_min": null,
@@ -41852,19 +41964,17 @@
     "booking_required": false,
     "price_info": null,
     "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#야외"
-    ],
+    "official_link": "https://www.setec.or.kr/front/schedule/list.do",
+    "tags": [],
     "place_types": [],
     "status": "upcoming",
-    "source": "public_data",
-    "source_id": "f-38afc7fc621d",
-    "content_hash": "3fdddd40e33061b6667269ed69f15716393d04cffd52923f1dc639f3fc90f2f3",
-    "id": "evt-1fa73c09a2",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00",
-    "dong": "괴산읍"
+    "source": "venue_fair",
+    "source_id": "setec-629c4454bee6",
+    "content_hash": "209fcaa0e2d520cb319cd2eee9e60171f261b51b40c73ee6c0c55f92c25d00f3",
+    "id": "evt-1fd5ed9efe",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "일원1동"
   },
   {
     "title": "[구산동도서관마을] 『니체 초인 수업』 강용수 저자와의 만남",
@@ -42143,6 +42253,46 @@
     "dong": "중동"
   },
   {
+    "title": "괴산김장축제",
+    "category": "festival",
+    "description": "2026 괴산김장축제는 2026년 11월 5일부터 8일까지 나흘간 충청북도 괴산군 유기농엑스포광장과 괴산종합운동장 일원에서 개최되는 김장문화 축제이다. 괴산에서 재배한 배추와 청결고추 등 지역 농산물을 김장 재료로 활용하여 참가자가 직접 김치를 담그는 행사이다. 대표 프로그램은 유기농엑스포광장에서 참가자가 사전예약한 절임배추와 속재료로 김치를 버무려 가져가는 ‘원-스톱 김장담그기’와 괴산종합운동장 내 개별 부스에 차량을 주차하고 김장을 담근 뒤 완성한 김치를 실어가는 ‘드라이브스루 김장’이다. 어\n운영 시간 10:00~20:00",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-08",
+    "location_name": "충청북도 괴산군",
+    "address": "충청북도 괴산군",
+    "latitude": 36.815,
+    "longitude": 127.7866,
+    "region": "충청북도",
+    "district": "괴산군",
+    "is_family_friendly": true,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": true,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1792108928186.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=11907",
+    "tags": [
+      "#체험",
+      "#야외",
+      "#먹거리"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "mcst_festival",
+    "source_id": "11907",
+    "content_hash": "dacd929d847716a06c115985472f55b98f71d94559db8da72918c37eb9ee32f4",
+    "id": "evt-e6d729aaa1",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "괴산읍"
+  },
+  {
     "title": "포항국제음악제",
     "category": "festival",
     "description": "메인공연+포커스스테이지+아티스트포항+찾아가는음악회\n주관 포항문화재단",
@@ -42180,6 +42330,45 @@
     "created_at": "2026-10-25T04:22:48.014232+00:00",
     "updated_at": "2026-10-25T04:22:48.014232+00:00",
     "dong": "대도동"
+  },
+  {
+    "title": "청춘양구 펀치볼 시래기사과축제",
+    "category": "festival",
+    "description": "2026 청춘양구 펀치볼 사과시래기축제는 청정 자연을 품은 양구 펀치볼의 대표 농특산물인 사과와 시래기를 주제로 펼쳐지는 가을 축제이다. 올해는 ‘펀치볼에 빠지다’를 주제로, 사과와 시래기의 맛부터 아름다운 자연과 다채로운 즐길 거리까지 펀치볼의 매력에 흠뻑 빠져볼 수 있다. 특히 새롭게 선보이는 사과와 시래기 캐릭터를 활용한 포토존과 굿즈 등으로 축제에 친근함과 재미를 더하며, 지역 농특산물을 활용한 먹거리와 체험 프로그램, 공연, 이벤트 등 온 가족이 함께 즐길 수 있는 풍성한 콘텐츠가 펼쳐진\n운영 시간 10:00~17:00",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-08",
+    "location_name": "강원도 양구군",
+    "address": "강원도 양구군",
+    "latitude": null,
+    "longitude": null,
+    "region": "강원특별자치도",
+    "district": "양구군",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1761698461217.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=13388",
+    "tags": [
+      "#체험",
+      "#먹거리",
+      "#공연"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "mcst_festival",
+    "source_id": "13388",
+    "content_hash": "f785e5db5fde9caba4f66ce81af4a7cf936cca3905ecadd7a97243e2f1ca98cc",
+    "id": "evt-2ae2f2afba",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
   },
   {
     "title": "도란도란 클래식 시즌 2 <베토벤>",
@@ -42751,6 +42940,45 @@
     "dong": "대곶면"
   },
   {
+    "title": "화순운주문화축제",
+    "category": "festival",
+    "description": "화순운주문화축제는 골짜기마다 천 개의 불상과 석탑이 깃든 신비로운 도량, 화순 운주사에서 펼쳐지는 대표 문화축제이다. 천년의 세월을 품고 누워있는 와불의 전설과 수많은 석탑이 어우러진 고즈넉한 경내에서, 남녀노소 누구나 함께 즐길 수 있는 다채로운 문화예술 프로그램이 펼쳐진다. 마음을 울리는 전통 타종과 풍물놀이를 비롯해 다채로운 장르의 음악 공연이 축제장의 흥을 돋우며, 운주사 곳곳을 둘러보는 참여형 미션과 전통·문화 체험이 풍성하게 마련된다. 깊어가는 가을, 천불천탑의 신비로운 전설 속으로 시\n운영 시간 10:00~17:00",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-08",
+    "location_name": "전남광주 화순군",
+    "address": "전남광주 화순군",
+    "latitude": 35.06431,
+    "longitude": 126.986431,
+    "region": "전라남도",
+    "district": "화순군",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1792649852731.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=12909",
+    "tags": [
+      "#체험",
+      "#공연",
+      "#전통"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "mcst_festival",
+    "source_id": "12909",
+    "content_hash": "c1f8ddf3cf4988d62a85fe8d20f4d454868f89173ffbeb917add7905bfcd6c5a",
+    "id": "evt-0192165063",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
+  },
+  {
     "title": "안산사이언스밸리(ASV) 과학축제",
     "category": "festival",
     "description": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단체 등과 협력하여 다양한 미래 과학기술을 직접 보고 체험할 수 있는 기회를 제공하는 안산시의 브랜드 축제이다. 특히 올해는 안산시 승격 40주년을 맞아 지역의 과학기술 발전과 미래 비전을 공유하는 특별 프로그램을 마련한다. AI와 로봇 등 첨단 과학기술을 비롯해 환경과 탄소중립을 주제로 한 전시·체험 프\n운영 시간 10:00~16:00",
@@ -42956,47 +43184,6 @@
     "dong": "산북면"
   },
   {
-    "title": "2026 의좋은형제축제",
-    "category": "festival",
-    "description": "주관 대흥현보존회",
-    "start_date": "2026-11-07",
-    "end_date": "2026-11-08",
-    "location_name": "대흥면 의좋은형제공원 일원",
-    "address": "충청남도 예산군 대흥면 의좋은형제길 3",
-    "latitude": 36.606439,
-    "longitude": 126.792013,
-    "region": "충청남도",
-    "district": "예산군",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#야외",
-      "#공연"
-    ],
-    "place_types": [
-      "park_playground"
-    ],
-    "status": "upcoming",
-    "source": "public_data",
-    "source_id": "f-6f80c1e133ee",
-    "content_hash": "99337ede837dd043840e3388dc432aa8ce7ec637733c0dc07c1c487eef5de9b1",
-    "id": "evt-6dbae7fcba",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00",
-    "dong": "대흥면"
-  },
-  {
     "title": "조선 마법사관 진준",
     "category": "kids_experience",
     "description": "국립중앙박물관 극장 용에서 열리는 어린이·가족 공연예요. 문의 1544-5955\n운영 시간 화요일~금요일 11:00 / 토요일~일요일 11:00, 14:00, 16:30 / *월 공연없음",
@@ -43033,6 +43220,42 @@
     "updated_at": "2026-10-20T13:46:55.788255+00:00",
     "age_min": 3.0,
     "age_max": null
+  },
+  {
+    "title": "2026 수원주류페스타",
+    "category": "parents",
+    "description": "수원메쎄에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-08",
+    "location_name": "수원메쎄",
+    "address": "경기도 수원시 권선구 세화로134번길 37",
+    "latitude": 37.264789,
+    "longitude": 126.99652,
+    "region": "경기도",
+    "district": "수원시",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://suwonmesse.com/event_document?uid=701&mod=document",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "suwonmesse-b1a8cd65d894",
+    "content_hash": "02e672ea55465cb59b5765d8ef89812ad84ca9e394f4ebda6f177821b4ac44a9",
+    "id": "evt-891888648a",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "서둔동"
   },
   {
     "title": "[고려대학교] 2026 모두의 AI·AX 캠프(초·중·고 대상)",
@@ -43203,18 +43426,60 @@
     "dong": "금호읍"
   },
   {
-    "title": "부산불꽃축제",
+    "title": "의좋은 형제 축제",
     "category": "festival",
-    "description": "불꽃 토크쇼+부산멀티불꽃쇼 등\n주관 (사)부산축제조직위원회",
+    "description": "의좋은형제축제는 충청남도 예산군 대흥면에 전해지는 의좋은형제 설화를 바탕으로 형제애와 나눔, 배려의 가치를 현대적으로 재해석한 가족 참여형 문화축제이다. 의좋은형제 동화 스토리텔링을 활용한 체험 프로그램을 비롯해 전통놀이, 가족 참여 이벤트, 문화공연, 지역 먹거리와 농특산물 장터 등을 운영하는 축제이며, 남녀노소가 참여할 수 있는 프로그램을 통해 지역의 역사와 문화를 체험하고 공동체의 가치를 이해할 수 있도록 구성된 행사이다. 축제 개최지 인근에는 예당호 출렁다리와 예당호 모노레일 등 예산군의 \n운영 시간 10:00~20:00",
     "start_date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "location_name": "광안리해수욕장",
-    "address": "부산광역시 수영구 광안해변로 219",
-    "latitude": 35.153773,
-    "longitude": 129.11852,
-    "region": "부산광역시",
-    "district": "수영구",
-    "is_family_friendly": false,
+    "end_date": "2026-11-08",
+    "location_name": "충청남도 예산군",
+    "address": "충청남도 예산군",
+    "latitude": 36.680899,
+    "longitude": 126.844874,
+    "region": "충청남도",
+    "district": "예산군",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1791761696794.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=11895",
+    "tags": [
+      "#체험",
+      "#먹거리",
+      "#공연",
+      "#전통"
+    ],
+    "place_types": [
+      "historical"
+    ],
+    "status": "upcoming",
+    "source": "mcst_festival",
+    "source_id": "11895",
+    "content_hash": "618cb4ccf0ccadcb149b7e0fa5dd1cefdf094f0689ffecb2084542001ca3b26f",
+    "id": "evt-a7059bee30",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
+  },
+  {
+    "title": "보물찾기 축제 - 금괴를 찾아라!",
+    "category": "festival",
+    "description": "제4회 보물찾기 축제 금괴를 찾아라!는 전북 익산시 인화동 솜리마을 일대에서 2026년 11월 7일부터 8일까지 이틀간 열린다. 근대역사문화마을인 솜리마을을 AR 보물찾기 게임 스테이지로 재구성해, 방문객은 스마트폰 지도를 통해 골목 곳곳에 숨겨진 단서를 찾아 금괴카드를 획득하고 경품 추첨에 참여할 수 있다. 축제 기간 동안 1920년대 근대의상을 체험하는 솜리부티크, 거점 공간을 탐방하는 솜리 스탬프투어, 럭키왕 이벤트 등 다양한 참여형 프로그램이 함께 운영된다. 이 외에도 거리공연, 마칭 퍼레\n운영 시간 10:00~18:00",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-08",
+    "location_name": "전라북도 익산시",
+    "address": "전라북도 익산시",
+    "latitude": 35.947929,
+    "longitude": 126.957802,
+    "region": "전북특별자치도",
+    "district": "익산시",
+    "is_family_friendly": true,
     "target_age_group": null,
     "age_min": null,
     "age_max": null,
@@ -43225,22 +43490,24 @@
     },
     "booking_required": false,
     "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "https://festivalbusan.com/",
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1791935223210.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=13541",
     "tags": [
-      "#야외",
-      "#꽃",
-      "#불꽃"
+      "#체험",
+      "#먹거리",
+      "#공연"
     ],
-    "place_types": [],
+    "place_types": [
+      "historical"
+    ],
     "status": "upcoming",
-    "source": "public_data",
-    "source_id": "f-b4f70edff067",
-    "content_hash": "d7bcee081b4f8ce35360807bb1fe652518f808b8d46450de289032b4e3463253",
-    "id": "evt-a555fc9018",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00",
-    "dong": "광안2동"
+    "source": "mcst_festival",
+    "source_id": "13541",
+    "content_hash": "08775424e619c72e2ebbb19a3513436fe61e88c9da6d1dddfc1cb4d2efb461ac",
+    "id": "evt-c4c778b7d2",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "남중동"
   },
   {
     "title": "2026 청주 원도심 골목길축제 <가을 : 잔치집,대성>",
@@ -43367,6 +43634,45 @@
     "created_at": "2026-10-25T04:22:48.014232+00:00",
     "updated_at": "2026-10-25T04:22:48.014232+00:00",
     "dong": "동부면"
+  },
+  {
+    "title": "부산불꽃축제",
+    "category": "festival",
+    "description": "부산불꽃축제는 광안리해수욕장과 광안대교 일대를 무대로 개최되는 대한민국 대표 해상 멀티미디어 불꽃 축제이다. 2005년 APEC 정상회의 기념 축하 불꽃쇼를 시작으로 개최되어 올해로 21주년을 맞이하는 부산의 대표적인 가을 문화행사이다. 축제는 광안대교의 특수 조명과 대형 연출 시스템을 활용하여 음악과 불꽃이 어우러지는 초대형 해상 멀티미디어 쇼를 선보인다. 광안리 밤바다의 지리적 특성을 활용한 독창적인 연출 기법과 대규모 불꽃 발사를 통해 매년 수많은 국내외 관람객이 방문하는 글로벌 축제로 자리\n운영 시간 13:00 ~ 20:00",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-07",
+    "location_name": "부산시 수영구",
+    "address": "부산시 수영구",
+    "latitude": null,
+    "longitude": null,
+    "region": "부산광역시",
+    "district": "수영구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1791420180391.jpg",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=11935",
+    "tags": [
+      "#야간",
+      "#꽃",
+      "#불꽃"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "mcst_festival",
+    "source_id": "11935",
+    "content_hash": "09d73152b976726ff1295d06084bbfd1828126ceeaf64f99dd1fa2a02ec4e087",
+    "id": "evt-ce0ff22cdd",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00"
   },
   {
     "title": "꿈의 극단 인천 서해구 제2회 정기공연",
@@ -43564,7 +43870,7 @@
   },
   {
     "title": "제25회 서울카페쇼",
-    "category": "exhibition",
+    "category": "parents",
     "description": "코엑스 전관에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-11-11",
     "end_date": "2026-11-14",
@@ -43595,7 +43901,7 @@
     "content_hash": "307de32e1407b4dd9d7abc86b781c26a36e77e09b8b7ddbf5e4769a766d76ee3",
     "id": "evt-8f905a296c",
     "created_at": "2026-10-25T14:09:04.017054+00:00",
-    "updated_at": "2026-10-25T14:09:04.017054+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "삼성동"
   },
   {
@@ -44750,6 +45056,44 @@
     "dong": "중동"
   },
   {
+    "title": "SMART HOME INTERIOR 2026: 실내건축의 새로운 패러다임",
+    "category": "parents",
+    "description": "코엑스 컨퍼런스룸(남) 4F에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-11-19",
+    "end_date": "2026-11-19",
+    "location_name": "코엑스 컨퍼런스룸(남) 4F",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/smart-home-interior-2026-%ec%8b%a4%eb%82%b4%ea%b1%b4%ec%b6%95%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ed%8c%a8%eb%9f%ac%eb%8b%a4%ec%9e%84/",
+    "tags": [
+      "#실내"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "coex-1484b06cf477",
+    "content_hash": "a78e850f0aa9f3c8de09abb8d51fbc0d24b345deb7acc3f895c3dd375036f826",
+    "id": "evt-c8a1807380",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "삼성동"
+  },
+  {
     "title": "글로벌 베이비페어",
     "category": "kids_experience",
     "description": "코엑스 Hall B에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
@@ -45336,6 +45680,42 @@
     "dong": "일원1동"
   },
   {
+    "title": "제55회 필리핀유학박람회",
+    "category": "parents",
+    "description": "코엑스 컨퍼런스룸(남) 3F에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "location_name": "코엑스 컨퍼런스룸(남) 3F",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/%ec%a0%9c55%ed%9a%8c-%ed%95%84%eb%a6%ac%ed%95%80%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "coex-2079273c4f1e",
+    "content_hash": "3950d296720c09b736d3ebf3b9513401b44ace4d78564cbb94cfa5252bea26c6",
+    "id": "evt-671e45c71f",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "삼성동"
+  },
+  {
     "title": "2026 경기미쌀디저트페스타",
     "category": "exhibition",
     "description": "수원메쎄에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
@@ -45410,6 +45790,42 @@
     "created_at": "2026-10-25T04:22:48.014232+00:00",
     "updated_at": "2026-10-25T04:22:48.014232+00:00",
     "dong": "대학동"
+  },
+  {
+    "title": "캐스크 카니발 2026",
+    "category": "parents",
+    "description": "세텍(SETEC) 제3전시실에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-22",
+    "location_name": "세텍(SETEC) 제3전시실",
+    "address": "서울특별시 강남구 남부순환로 3104",
+    "latitude": 37.494003,
+    "longitude": 127.096243,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.setec.or.kr/front/schedule/list.do",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "setec-a3fed2724fa1",
+    "content_hash": "c262f35ddee1aed3b338671eec13a56bd5971c0d89704627d440a0310782a220",
+    "id": "evt-fe98f14512",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "일원1동"
   },
   {
     "title": "[성동구립도서관] 11월 영어스토리텔링 수업",
@@ -47226,6 +47642,42 @@
     "dong": "서둔동"
   },
   {
+    "title": "2027학년도 정시 대학입학정보박람회",
+    "category": "parents",
+    "description": "코엑스 Hall A에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-12-11",
+    "end_date": "2026-12-13",
+    "location_name": "코엑스 Hall A",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/2026%ed%95%99%eb%85%84%eb%8f%84-%ec%a0%95%ec%8b%9c-%eb%8c%80%ed%95%99%ec%9e%85%ed%95%99%ec%a0%95%eb%b3%b4%eb%b0%95%eb%9e%8c%ed%9a%8c-2/",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "coex-b04f7fd6f64e",
+    "content_hash": "5408f9d0d9e15650d6c49b8fb0662a01f2dac4937c64c9db2330418f46a10ea2",
+    "id": "evt-d2b4836213",
+    "created_at": "2026-10-25T14:14:15.229119+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
+    "dong": "삼성동"
+  },
+  {
     "title": "2026년 12월 공연 <산타클로스와 브레맨 음악대>(1회)",
     "category": "kids_experience",
     "description": "운영 시간 11:00~12:00\n주관 전남광주통합특별시 장성군 문화교육과",
@@ -47577,7 +48029,7 @@
   },
   {
     "title": "2026 홈테이블데코페어",
-    "category": "exhibition",
+    "category": "parents",
     "description": "코엑스 Hall C, D에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-12-17",
     "end_date": "2026-12-20",
@@ -47608,12 +48060,12 @@
     "content_hash": "d2a4dcff436006bfc488c234805d20319e42ce3f504b98dce219fb87da6e2dc2",
     "id": "evt-9228dfabd2",
     "created_at": "2026-10-25T14:09:04.017054+00:00",
-    "updated_at": "2026-10-25T14:09:04.017054+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "삼성동"
   },
   {
     "title": "2026 티& 크래프트 페어(하)",
-    "category": "exhibition",
+    "category": "parents",
     "description": "세텍(SETEC) 제3전시실에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-12-17",
     "end_date": "2026-12-20",
@@ -47644,7 +48096,7 @@
     "content_hash": "beb14b4b56d5b8628aef5663ddb9b1a13791ecf54e8c65420b88fb9d5872247b",
     "id": "evt-b398036590",
     "created_at": "2026-10-25T14:09:04.017054+00:00",
-    "updated_at": "2026-10-25T14:09:04.017054+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "일원1동"
   },
   {
@@ -48223,7 +48675,7 @@
   },
   {
     "title": "제2회 서울 가구·인테리어 박람회",
-    "category": "exhibition",
+    "category": "parents",
     "description": "세텍(SETEC) 제3전시실에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
     "start_date": "2026-12-27",
     "end_date": "2026-12-29",
@@ -48254,7 +48706,7 @@
     "content_hash": "048339fff1c44cadb0b660e048fb9cb6be9eba193113f1d65147deb5efc19bf5",
     "id": "evt-6feebae006",
     "created_at": "2026-10-25T14:09:04.017054+00:00",
-    "updated_at": "2026-10-25T14:09:04.017054+00:00",
+    "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "일원1동"
   },
   {
