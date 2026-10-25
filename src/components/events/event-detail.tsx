@@ -47,6 +47,7 @@ const SOURCE_CREDITS: Record<string, string> = {
   mcst_festival: "문화체육관광부 지역축제",
   city_calendar: "시·군청 연간 행사 일정표",
   public_data: "공공데이터포털 (지자체·문화재단 등록 정보)",
+  venue_fair: "전시장 행사 일정 (코엑스·킨텍스·세텍·수원메쎄)",
 };
 
 const WHEN_TONE: Record<ReturnType<typeof whenLabel>["tone"], string> = {

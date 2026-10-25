@@ -10,7 +10,7 @@ export const WORKFLOW_FILE = "daily-crawler.yml";
 /** 같은 요청을 너무 자주 받지 않도록 마지막 실행 후 이 시간 동안은 다시 실행하지 않는다 */
 export const COOLDOWN_MS = 30 * 60 * 1000;
 /** 버튼으로 실행할 때는 빠른 소스만 (팝업 스크래퍼는 브라우저 설치가 필요해 느림) */
-export const QUICK_SOURCES = "kfes,culture,seoulportal,mcst,city,public";
+export const QUICK_SOURCES = "kfes,culture,seoulportal,mcst,city,public,venue";
 
 export interface RefreshConfig {
   token: string;

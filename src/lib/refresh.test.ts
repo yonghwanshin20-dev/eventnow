@@ -46,7 +46,7 @@ describe("requestRefresh", () => {
     expect(dispatch?.method).toBe("POST");
     expect(JSON.parse(dispatch!.body!)).toEqual({
       ref: "main",
-      inputs: { sources: "kfes,culture,seoulportal,mcst,city,public", quick: "true" },
+      inputs: { sources: "kfes,culture,seoulportal,mcst,city,public,venue", quick: "true" },
     });
   });
 

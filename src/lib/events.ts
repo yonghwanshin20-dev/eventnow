@@ -250,6 +250,7 @@ const OFFICIAL_SOURCES = new Set([
   "mcst_festival",
   "city_calendar",
   "public_data",
+  "venue_fair",
   "tour_api",
   "seoul_api",
   "popply",

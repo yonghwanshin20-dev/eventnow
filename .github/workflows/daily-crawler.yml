@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       sources:
-        description: "수집 소스 (비우면 kfes,culture,seoulportal,mcst,city,public,popup)"
+        description: "수집 소스 (비우면 kfes,culture,seoulportal,mcst,city,public,venue,popup)"
         required: false
         default: ""
         type: string
@@ -81,7 +81,7 @@ jobs:
         run: |
           SOURCES="${{ github.event.inputs.sources }}"
           if [ -z "${SOURCES}" ]; then
-            if [ "${QUICK}" = "true" ]; then SOURCES="kfes,culture,seoulportal,mcst,city,public"; else SOURCES="kfes,culture,seoulportal,mcst,city,public,popup"; fi
+            if [ "${QUICK}" = "true" ]; then SOURCES="kfes,culture,seoulportal,mcst,city,public,venue"; else SOURCES="kfes,culture,seoulportal,mcst,city,public,venue,popup"; fi
           fi
           ARGS=(--store json --parser rules --sources "${SOURCES}")
           if [ "${DRY_RUN}" = "true" ]; then
