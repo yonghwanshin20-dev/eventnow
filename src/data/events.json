@@ -11008,7 +11008,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "380351",
     "content_hash": "e6505e0df8c82d3d078920fa25076d9a1f1f40d6872ecd67c12dc9097be1ff2d",
@@ -11275,7 +11275,7 @@
       "#실내",
       "#무료"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-20T13:46:55.788255+00:00",
     "place_types": [],
@@ -11353,7 +11353,7 @@
     "place_types": [
       "amusement_park"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "402912",
     "content_hash": "15a2f0d31ec9baf3eca9905df32173e8bba97ea592f2b39091f617d8f9d74e9f",
@@ -12568,7 +12568,7 @@
       "#실내"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "400349",
     "content_hash": "75a00cbdf93fdde6f0a8bef9496d83465a7f0ddd8b864ee5617f08645f68af04",
@@ -12683,7 +12683,7 @@
     "tags": [
       "#실내"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-20T13:46:55.788255+00:00",
     "place_types": [],
@@ -12869,7 +12869,7 @@
       "#실내"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "388571",
     "content_hash": "5e76d5ae73d73ae9ba19c422e20026a30aeb833b61880d7dc600c076b3bdfecb",
@@ -12913,7 +12913,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159531",
     "content_hash": "44bd1ebb762d90ac5c9306ed5ccf08768e42ae1416a45ec73bbb6a6f4e2d77b8",
@@ -13103,7 +13103,7 @@
     "place_types": [
       "forest_recreation"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "383911",
     "content_hash": "b34187fd1c229a7212a54d8f94dcbf488c3ff6d132af94ea2745ccccfc0f282d",
@@ -13304,7 +13304,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "158246",
     "content_hash": "8119dd953b0e2b3b5e8296c39cad0a7263becbcd380013a0403e687be1f0ae65",
@@ -14134,7 +14134,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "394132",
     "content_hash": "cae2c1c630a6387e1339d61d867bf8a47f8b5f9a5c5fdf4e2ea598c95c84ce71",
@@ -14327,7 +14327,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "398419",
     "content_hash": "70503c4178fec26cf06cabd69e1b6e18f808bea9ad52d197f0fe26fe30dc3ab8",
@@ -14402,7 +14402,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "403139",
     "content_hash": "58551dc1a48d4e975126d8be7dc5a32c7a60ba6737cd09745e1f80764729efb2",
@@ -15178,7 +15178,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "393439",
     "content_hash": "b7c1edf17ecdcc61e498d6734217b6c7c2a490cf62d8f7a465f53ce5e4575fec",
@@ -15297,7 +15297,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "395525",
     "content_hash": "0fdeb494351838082299325311d6f9333b6cc39ef95827746b45a54037a1b885",
@@ -15989,7 +15989,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "10071",
     "content_hash": "d50fc3b81204d1e411f09bbccd72de4e124ae22fc017d8b544366c7c9e8baf28",
@@ -17608,7 +17608,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "12299",
     "content_hash": "d282c32caf1644504f1aa0837103c841fb84b25c7e2f4daba8253034f3a9cb4e",
@@ -21356,7 +21356,7 @@
       "park_playground",
       "nature_science"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "33289712-5138-4f15-acf7-acef760d393c",
     "content_hash": "08c0775dbd6b6b3c0b729aecd18fa3f5a239f6b3a3ea387e97cc2f2748546f86",
@@ -23525,7 +23525,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "8ccf08ba-3b3d-4df5-99da-cf9fcc6d403b",
     "content_hash": "2503f1751b86b6990fc1049b8a761d57d7a034cfdf0cdb201107feb91f9e09da",
@@ -23565,7 +23565,7 @@
       "#공연"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159734",
     "content_hash": "fc5867adef8f2c7240af4efcefce05ccc2040499d30ad5b58d1d7db9c2c6902b",
@@ -23689,7 +23689,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "6f1d62d7-97a3-4ca7-abc4-d084ccb700fb",
     "content_hash": "4494774480c6b2fe063e549f0bfb7f7d31869764a803bc2ebac55bf0337e59e8",
@@ -24126,7 +24126,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6092",
     "content_hash": "2aa105b8f1b9c38096e9ad24764aae81b9f7e2870ec1d04b72b4b9784dbdf3fa",
@@ -24716,7 +24716,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6091",
     "content_hash": "6186473fb730bafe9792bd7002d2dc8d0d72434e4cf764c4fe555b0e239209e2",
@@ -24883,7 +24883,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6295",
     "content_hash": "0746972203615b4c1c2dbc9e8072a8d311bc0d2d310e566d38db1833664745ae",
@@ -25344,7 +25344,7 @@
       "#공연"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159667",
     "content_hash": "04e0a67e30e3d9a7ed0ebba3d23a8d7d1451fce66ed419c9431eccc944cc232a",
@@ -26164,7 +26164,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6278",
     "content_hash": "1c0cc7f5418908be07604988492b304641dbcb73f44594f8b445935dff9f2b7d",
@@ -26500,7 +26500,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6251",
     "content_hash": "0f4932ac15a9bcb4ea767455e29ed3acdba3f9e93c3d6f4a4e1ed3784ed997b9",
@@ -27069,7 +27069,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6211",
     "content_hash": "cc5ee143d0b229f521d81f0ac882f1bad167b0a02b6ee8093996acba16893f49",
@@ -27914,7 +27914,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6299",
     "content_hash": "22548fdc36f490375103fa20f673910ca9e8d8d4a17852430cb8cc057302dd79",
@@ -28502,7 +28502,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6383",
     "content_hash": "a4a71f0517c5892c8634d5170456400bbd84cc3d480584034bbcdf3895d57587",
@@ -28615,7 +28615,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6359",
     "content_hash": "1f60b929223e3d89f13fa820a0483150d3484c74aeb619f0dd7320c90c6bb210",
@@ -28813,7 +28813,7 @@
       "#실내"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-79dfda915690",
     "content_hash": "1a77f3ab5d4f51e0883cd460c0c2d631a52d295b0a2c667496ec2e731b4a0ad3",
@@ -28851,7 +28851,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6352",
     "content_hash": "bd1e12a88b25592da60b2e10de7f93395c21de093908c903d4d92f75da1b55ae",
@@ -29133,7 +29133,7 @@
       "park_playground",
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "e9778b90-aaa8-4d30-b569-e1b5cf285640",
     "content_hash": "9473119105b98f38275c97b7c82ccd8598662c65fbf3ccb59ec26c6fa2bba7eb",
@@ -29211,7 +29211,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6237",
     "content_hash": "498cfa19ef2b1d774cbf8691300ea58376e28d7680921b0e4329997a302813c9",
@@ -29437,7 +29437,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6261",
     "content_hash": "047f6fcb69b199f5b2c0a6283b99aee0c8465cc54422c2d31fae6eaf7c909e6a",
@@ -29549,7 +29549,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6238",
     "content_hash": "5a33ba8fc6ade30a9da8f3ddb6e22ac1530542b1bf080423f4f0ee82a6e2c483",
@@ -29626,7 +29626,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6253",
     "content_hash": "f28303f2137687a8f6bbe7f6abf9672dc891625c7a6e0993135af8be27e6cd54",
@@ -29666,7 +29666,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "e4d60d11-0c7b-4ea6-8408-5c2cbebee4f6",
     "content_hash": "996a900086b9bd798aac56f6ae9df32b2c5a37d49ca7331973ec2e4ae55d96ae",
@@ -30292,7 +30292,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "11777",
     "content_hash": "b72b58d991bc8454af83d079065f099e117959e3c1007dfb5566f243aa0e5be0",
@@ -30643,7 +30643,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6239",
     "content_hash": "7665917cb82ed671421e1ba2e97cdb866aa9de3bdf5eca97cc8d897525451df5",
@@ -30753,7 +30753,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6301",
     "content_hash": "76ac8c4fbab335038d9dd647bdba30872619487a3fb2b71a780df873e41a74da",
@@ -30793,7 +30793,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "38f4bb98-11b4-43cd-ac5d-f3e6a22aa8a6",
     "content_hash": "a53c246564073eed67853f640f1ad714b9ee62b0a22c7a0ca1490b42b60f6817",
@@ -30985,7 +30985,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6334",
     "content_hash": "e473cb14d8c36e3e988b41b4317ae507019930e7706f02b85a8e440914d64815",
@@ -31144,7 +31144,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6223",
     "content_hash": "9278350fa175e95e8c4c35f18d44a163e8adecbe9ff02d0a09e73151d8489514",
@@ -31220,7 +31220,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159719",
     "content_hash": "e6e8e686ab15cf8c9a7ca729ba434ac6b8a81a3b216cf1676edf458c59a7a600",
@@ -31262,7 +31262,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-503ad410074f",
     "content_hash": "ed39aca6dcfa751309f6a1d10f73ceeae1a062540fcab980246584b73db6bb2b",
@@ -31453,7 +31453,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "ddee73b5-d818-4d73-b06e-8d5294df701b",
     "content_hash": "6a3ef9373322a7987bb769da1a4c01bc6e83c7ec4fd144d48b3dc694bc92ae7e",
@@ -31495,7 +31495,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6235",
     "content_hash": "0844a6577d2e0b0ad1a19eeb975e8298d8557a623b0f524371da0a5ba14b34b9",
@@ -31665,7 +31665,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "0f0615a4-dd1b-455f-a210-2e19a9b0bdde",
     "content_hash": "65ba36835253d08e9d72aaa4338106387fb8d733c84c8aaabb8d03dfa3f3dd9c",
@@ -31949,7 +31949,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6405",
     "content_hash": "9aeabe50437f2ff9727aa1be9ea7bba792fd189a82909211edf78227ca7c7604",
@@ -31987,7 +31987,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "e-711cf04788b3",
     "content_hash": "a18f6d356831e7fc91832a58bc7628c9b830a356b647be1a18d01c3610355980",
@@ -32025,7 +32025,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6403",
     "content_hash": "ecee48eba2b37df248bceeee0f631c30ee3d49de699803ffce623e4dd89dbda8",
@@ -32178,7 +32178,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "403143",
     "content_hash": "48e54507ae1f5cb673c8fe78d28662d805c6fab6b93d64da7582b4b945310087",
@@ -32257,7 +32257,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "402983",
     "content_hash": "abceeb67f40a29c9f5079be1e063c2d21d30b888dc00e06f56ff1ca3d9170d90",
@@ -32410,7 +32410,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "403141",
     "content_hash": "5d9d561fd152b8c86271c71120bcb1caef9172f28424ba429e566e5d6e3cd9f8",
@@ -32649,7 +32649,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "eff62395-e989-4993-b5ab-1b1808220401",
     "content_hash": "c6ec88b4a21bf0e5acc15e973fd38f496a089c082b3fa85adae637a8a0ba4b20",
@@ -32769,7 +32769,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159883",
     "content_hash": "e683b839381cbba63663e811bfc52b7baed7938d12ea2a514bd8e6c348de40a0",
@@ -32922,7 +32922,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6397",
     "content_hash": "5b61aee325ded33fe3ddd4917f9d230647968fdb1221aefd9a0a6bc94f2d6584",
@@ -33039,7 +33039,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6219",
     "content_hash": "96150cc49080bac2fa16c6611b5a2ae69100bcc6e2d1ec4b160d93d45283aea6",
@@ -33196,7 +33196,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6434",
     "content_hash": "0fdef6be5b4288b9d605939955dc81c62a21e3b3bd92773f61a502523c8feb85",
@@ -33390,7 +33390,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6332",
     "content_hash": "36b1b723ef9bfec0d5d8e22facf54d281b2a096625c89ed2dbce74d93d6d6884",
@@ -33542,7 +33542,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6407",
     "content_hash": "0561dba40654c7d54cbe56a83f4da9c0ffdd2603f3ac33a343634aceb8588a4d",
@@ -33701,7 +33701,7 @@
       "#야외"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-a01e348b65f0",
     "content_hash": "404a8c8bd5eec7b99877c7b1799dbfeda4f7e70fdf0b4c8a7950eb4f4088c75f",
@@ -33817,7 +33817,7 @@
     "place_types": [
       "nature_science"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "11909",
     "content_hash": "c359775eb282b3578e55044f6dbf8184bcc71906beb23eb2ea3825f4a6393eac",
@@ -33939,7 +33939,7 @@
     "place_types": [
       "amusement_park"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "694b2485-c0b4-4cce-9ea0-3fbb6e7ef986",
     "content_hash": "76eed325a0cdcd1cf07fcd2a4fb4801a614f3013d66cd8193a384ea30c4b0235",
@@ -34018,7 +34018,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6424",
     "content_hash": "45eadcb9d9c118dab2c3681fad1a097808819f9c038bde8864b4206d8ba21c38",
@@ -34102,7 +34102,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6427",
     "content_hash": "83f145be63860cbb7ef8e737aeb319bd61d97187249bf24ba1bfdee91a8b48c2",
@@ -34177,7 +34177,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6382",
     "content_hash": "f5c0dd6db1108ff298867e1d4206f029d3a2d5a892ad62e9a67d6f8d7cb674fa",
@@ -34249,7 +34249,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159934",
     "content_hash": "38aff1902cafefad2c65bbfab64d5bfa4f996a4b9f78543a8d79e7d0474d854b",
@@ -34363,7 +34363,7 @@
       "#야외",
       "#공연"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-25T04:27:45.325147+00:00",
     "place_types": [
@@ -34446,7 +34446,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "e4a6bd03-1f1b-4caa-aa6e-18d9f2d9afd3",
     "content_hash": "badcc27717a61cbfc0b08e5fa0b74919760a4ae078597e13c292149c7efabfc0",
@@ -34486,7 +34486,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6269",
     "content_hash": "b4d42a2c9de33d7a027796cabea1489d3c4f6947162d59aef9150a9fc1348816",
@@ -34604,7 +34604,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "159a6d3a-7a65-421b-9f93-6c1e6b74fb3a",
     "content_hash": "dfb20db3c5338d7479da199fd7c45be9aa9ac25883d246b2e9e07e7b2197a58d",
@@ -34683,7 +34683,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "e0645258-25e5-4f3e-9bdb-96987101bed3",
     "content_hash": "3ac7ef4a15fdbf58ba392850c494787d6667482c6085a08cd10ca7c16f13318e",
@@ -34721,7 +34721,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "402868",
     "content_hash": "4a8ac9ad3b4380c7ab808df430358a66ce0a44a317ce7c7a3b53736bd8d7857d",
@@ -34838,7 +34838,7 @@
       "#전통",
       "#무료"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-25T03:53:31.544125+00:00",
     "place_types": [
@@ -34884,7 +34884,7 @@
       "park_playground",
       "nature_science"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "13551",
     "content_hash": "b7d5883a1d1712dceaefb1773bab174889ac70722944d6e2c94fce18cbc4728c",
@@ -34963,7 +34963,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "13542",
     "content_hash": "b61a4a4b120323ddd7aa8da88e67e8ae1591f7ed51bd01936e852d1b3fb67331",
@@ -35001,7 +35001,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "ca86f9d5-33a9-4031-9ce2-409cc36c354f",
     "content_hash": "647ad9b07225cf65aad386bbb7714b18997fb61256cf4af9d33cf07e9d870454",
@@ -35043,7 +35043,7 @@
       "#전통",
       "#무료"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-20T13:26:20.263025+00:00",
     "place_types": [
@@ -35088,7 +35088,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-3216be5c8ff9",
     "content_hash": "3828c1d2bbfb346f7696e8d90ebe1070d52e90c97c29b354ab873dffb01fe4b9",
@@ -35130,7 +35130,7 @@
       "#먹거리",
       "#무료"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-20T13:26:20.263025+00:00",
     "place_types": [
@@ -35322,7 +35322,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "392490",
     "content_hash": "039e0584940add27ea3f5fd778551664044872721acae9e7a5107ac03b762e1a",
@@ -35443,7 +35443,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "f409fcdc-eac8-47f0-b734-326022cc2137",
     "content_hash": "0bece4ecc10e07483e47e1d174b388d8da97a183e5b82286e56e1686bede0dcc",
@@ -35487,7 +35487,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "08bd6352-0500-4b1d-9c1c-5e0a9f91c04e",
     "content_hash": "0e3edc68a0690ef414177a4af4336fc3bdf6d919b3a873e97ec7d5d3c455d0c5",
@@ -35529,7 +35529,7 @@
       "#공연"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "13337",
     "content_hash": "6c043349fa27dedb7ad72f40852cb22c1c4c14d227a908b561f51e101be12f20",
@@ -35566,7 +35566,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6417",
     "content_hash": "0caf82e581ab7ceafd000674ae2b5121fcd9604e86472396677af4abb8f61847",
@@ -35606,7 +35606,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "95eb25f4-aac1-447a-8921-22b9948cb01d",
     "content_hash": "f135d7dc23fe5266fe49a0cfe9dc64615eacd233668be78dd8973b0ec734858d",
@@ -35646,7 +35646,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6339",
     "content_hash": "797f71e2c2a259f118d8f47604906d4c0e6c099b83c41c45726fabaae85acfea",
@@ -35722,7 +35722,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6410",
     "content_hash": "783f914dad6b08b4111c312a1f25e5b3fc508546e19b110978543d6bb3232b16",
@@ -35845,7 +35845,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159925",
     "content_hash": "e34aa60552d5be8382f112c00b8a218c914c71d886ee193986aad3c10a11b223",
@@ -35883,7 +35883,7 @@
       "#먹거리",
       "#공연"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-25T04:27:45.325147+00:00",
     "place_types": [
@@ -35925,7 +35925,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6369",
     "content_hash": "b077dbf76c9dd27be901faf0bd0e77adba1cc7211a6513657a7353e906f018ef",
@@ -35968,7 +35968,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "187383a3-69e6-4908-9111-b4718d4a7d77",
     "content_hash": "76eeddf2cf2b5921e7d1486f243d959bd426208578d2ecb67f6f03e87d532e02",
@@ -36041,7 +36041,7 @@
     "official_link": "https://www.coex.co.kr/exhibitions/%ec%86%8d%eb%8f%84%ec%9d%98-%ec%8b%9c%eb%8c%80%ec%97%90%ec%84%9c-%eb%aa%a8%eb%91%90%ec%9d%98-%ec%9d%b4%eb%8f%99%ec%9c%bc%eb%a1%9c/",
     "tags": [],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "venue_fair",
     "source_id": "coex-7dd0ea3f8fbf",
     "content_hash": "77164c74ea45cf99e69d94ed65cb4103e44b2dc7ee360039d253fb8dcaeeff28",
@@ -36118,7 +36118,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "402758",
     "content_hash": "f7c37112ed79627eebf8a12aa2098f6a7e29944d0e02f1605076391f559dd522",
@@ -36159,7 +36159,7 @@
       "#공연",
       "#무료"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-25T03:53:31.544125+00:00",
     "place_types": [],
@@ -36236,7 +36236,7 @@
       "#공연"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "city_calendar",
     "source_id": "uijeongbu:2026-10-24:제19회의정부부대찌개축제",
     "content_hash": "2d3b33eaf65cfd098abaa04b7ba8c01b6876c1aacddd3b7d44ec178a09859066",
@@ -36397,7 +36397,7 @@
     "tags": [
       "#전통"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "created_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-10-25T04:27:45.325147+00:00",
     "place_types": [],
@@ -36439,7 +36439,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159631",
     "content_hash": "0d4eee7fdae75cf8d0372f10e875424eea65d5f9fef63707c05f9ba9cf327d70",
@@ -36477,7 +36477,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6392",
     "content_hash": "603971d3b6973fde917dafb350bc7684cd39d91a1d17b85f2a54689bbc162ec1",
@@ -36518,7 +36518,7 @@
     "place_types": [
       "cultural_center"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "1a1f5242-3c9b-473e-9380-6804b5a140a6",
     "content_hash": "28eec7fab6378aa45e5beb8123826acc385950762aeeba438b2e9fd50024b0a4",
@@ -36595,7 +36595,7 @@
     "official_link": null,
     "tags": [],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-f37cc8400f1c",
     "content_hash": "ddada0f47f706fcbe29f79a34df9f2a33624e03b5254373a50bdef75dd610739",
@@ -36720,7 +36720,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "13559",
     "content_hash": "fe17607473b9d4471cdaa85399e1bab842ba59026650f5d4c73e49b92c3d558a",
@@ -36758,7 +36758,7 @@
       "#전통"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-e74f8bcef3f7",
     "content_hash": "d37a6b812f6f8af31b10b0790833f9b646d93dea9ed33ba1f744dbd3968f21e3",
@@ -36796,7 +36796,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6419",
     "content_hash": "5210de8c71b058c6e22778ed088f50517fb2f8e13dbe783f75879990aed895e0",
@@ -36878,7 +36878,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_portal",
     "source_id": "159406",
     "content_hash": "18ecb0e79e3b50ea3b5cb244f3206ecc4e3ab4cc362e2364e18b116db72bc02c",
@@ -36949,7 +36949,7 @@
     "official_link": "https://suwonmesse.com/event_document?uid=692&mod=document",
     "tags": [],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "venue_fair",
     "source_id": "suwonmesse-f4e20e7c72e9",
     "content_hash": "27284d49f72b93a4b222584aff758049031d235fb757ce17cb7ff055daaa1b01",
@@ -36988,7 +36988,7 @@
     "place_types": [
       "nature_science"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "401794",
     "content_hash": "b971d70e6333d7b7e340d5a59b1599a7bfd7e1fd72514c5148deeb1c22f2adc1",
@@ -37028,7 +37028,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "a6720711-7378-4487-b153-8d1f92fbd457",
     "content_hash": "a7f1314cedfc712cd656263f85b0a8b451c4db7918322adf9d70de9b11778f83",
@@ -37148,7 +37148,7 @@
       "historical",
       "nature_science"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "402551",
     "content_hash": "4374104d67e001355c796641a22a3ecf522f3e802a268f26224078514a226e01",
@@ -37230,7 +37230,7 @@
       "#공연"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-a4b868d3f78d",
     "content_hash": "58b0040d8fa334d8ed2d3fc3f19df4c82ca1a1bbe18681bf14d0341d2f72ccf5",
@@ -37268,7 +37268,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "5938",
     "content_hash": "d94855adb2ce726352c98ff3de46b242eb87b3f49a2179435e8b10264be0f36b",
@@ -37383,7 +37383,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6248",
     "content_hash": "9f4560598b5c76368bfcfe250f23808a4897d9cc23944b6e5afd84d76874c657",
@@ -37426,7 +37426,7 @@
       "park_playground",
       "nature_science"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "mcst_festival",
     "source_id": "13357",
     "content_hash": "51b03c14792ef83bfd561a08c31a73560fc43113f7076c757b4dd98756752119",
@@ -37464,7 +37464,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6413",
     "content_hash": "e3522ed3e951f84cf14abf99b62f64fb4807e673169727e6048e59d921e1d8e2",
@@ -37505,7 +37505,7 @@
     "place_types": [
       "forest_recreation"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6408",
     "content_hash": "2c9fd1b6a9bf669a197b6fd926ee36a6ab807371c3c7a91e86ba7a72dca7161e",
@@ -37615,7 +37615,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6414",
     "content_hash": "5ae304c9dcf906fbecbd7dadba132b38fc109a081804f986ce207fa4963ed625",
@@ -37655,7 +37655,7 @@
     "place_types": [
       "historical"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "3df54690-2737-427a-83a1-c39c6547a346",
     "content_hash": "bb8fa741b791762ad4a676aa6b312e4b04cd9f92547545a04df161ae6c2f2476",
@@ -37696,7 +37696,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "5963",
     "content_hash": "bbcf021573a03e8556798d176cbbe064b866fd0cb9652b52a856931357c3c88e",
@@ -37738,7 +37738,7 @@
     "place_types": [
       "forest_recreation"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "f-3cfce11d5c8d",
     "created_at": "2026-10-20T15:00:00+00:00",
@@ -39710,7 +39710,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "401152",
     "content_hash": "360071a2babab6601d771f0f95da1ac934e25cd81c6c341bd93d558f9de2bbc7",
@@ -52694,7 +52694,8 @@
     "content_hash": "e2694bedadb5f987c41930533a3de19d8335283dddc193d4042d039ddda6123b",
     "id": "evt-2fbea48ab9",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "가양1동"
   },
   {
     "title": "청주고인쇄박물관",
@@ -52732,7 +52733,8 @@
     "content_hash": "4ff765ca041c7c1a4be1bec92b6e9bc0cbd30fe1a2720bb06062f49e81ea7ddc",
     "id": "evt-2fd9d2aaaf",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "운천동"
   },
   {
     "title": "온양민속박물관",
@@ -52770,7 +52772,8 @@
     "content_hash": "3fcb7a7ed2e8843a6e3a2933636a4d6dddbfea968ad965e4228d2f52438026f1",
     "id": "evt-2fee540b20",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "온천동"
   },
   {
     "title": "대장경테마파크",
@@ -52807,7 +52810,8 @@
     "content_hash": "4cad3e9f7911eb165672cdd4e5ebdcf1a0e75e23b6b6f10d23af5b6ef577cf9c",
     "id": "evt-301155bb61",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "가야면"
   },
   {
     "title": "장길환미술관",
@@ -52844,7 +52848,8 @@
     "content_hash": "b46bd3828a71551d244f84f73b6156de6fd4987980980c0f61b9041ac48ec7c3",
     "id": "evt-301a7db462",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "송정동"
   },
   {
     "title": "천안시립미술관",
@@ -52924,7 +52929,8 @@
     "content_hash": "84a4b9a2a8fe78f3b086ce7515ed09617b95833a0a94312f6351707e1bb4bb6f",
     "id": "evt-30831e8691",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "연동"
   },
   {
     "title": "도림사",
@@ -52964,7 +52970,8 @@
     "content_hash": "ca29b58d9a06f360610896bf0f7b60e13299a0e8a8cc8e4e4101dfe14c04765f",
     "id": "evt-308a5daa39",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "곡성읍"
   },
   {
     "title": "복권박물관",
@@ -53002,7 +53009,8 @@
     "content_hash": "453dd2345280aabd0f9c50e2b32f62567c01836bb49b71f04f9ea76de39fe872",
     "id": "evt-30ebc1d4fa",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "안서동"
   },
   {
     "title": "별밤미술관 in 수완",
@@ -53044,7 +53052,8 @@
     "content_hash": "b6ca21ceee14cd844648f304149448634bc4ed10d4b3ad76ba656ba05dd33469",
     "id": "evt-30fe8033cf",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "장덕동"
   },
   {
     "title": "봉화 청량산",
@@ -53079,7 +53088,8 @@
     "content_hash": "8939af3dd9d8a3f8f6f1e604edf656b3c566de1fdefeda2113959da3a28eba49",
     "id": "evt-30fef78317",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "명호면"
   },
   {
     "title": "미호박물관",
@@ -53116,7 +53126,8 @@
     "content_hash": "da8457eed7de63b4621462beab77b53ac9d80ef9b23b8ef3249e44af2ef8005e",
     "id": "evt-3106b4593b",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "수석동"
   },
   {
     "title": "한국대중음악박물관",
@@ -53153,7 +53164,8 @@
     "content_hash": "f68704ac275b31b883c0bcdc4c14fadc3c41fe3bbd70c5f05545f9f7e920b713",
     "id": "evt-310a82afdc",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "신평동"
   },
   {
     "title": "장산화이트미술관",
@@ -53191,7 +53203,8 @@
     "content_hash": "79dfcdffc2a4bd5381ca650850a01844240bb02eba388fbd4c9c709e2a7b5d60",
     "id": "evt-310bd83eb9",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "장산면"
   },
   {
     "title": "안성3.1운동기념관",
@@ -53228,7 +53241,8 @@
     "content_hash": "e5bbf3a215d4f5d93a961a7911dbaf90f30c5ab763717665b0fd6fbf08ad0d16",
     "id": "evt-311a6da30e",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "원곡면"
   },
   {
     "title": "부안 채석강·적벽강 일원",
@@ -53269,7 +53283,8 @@
     "content_hash": "4a07186b2592b26d527134810426b5e13c9acf6327973b543d6383ec36097634",
     "id": "evt-313d0c5daa",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "변산면"
   },
   {
     "title": "공주기독교박물관",
@@ -53308,7 +53323,8 @@
     "content_hash": "b2837efbb1cfb98022df85f82cdd5d89f4510a4030a240f623807bbf31ace003",
     "id": "evt-3191c834f7",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "반죽동"
   },
   {
     "title": "라비에벨",
@@ -53345,7 +53361,8 @@
     "content_hash": "4bce85e7199bcf967df875a8a256e1d517bddadadb070ca301d8f854bd30705e",
     "id": "evt-31a7937f4a",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "동산면"
   },
   {
     "title": "성균관대학교 박물관",
@@ -53383,7 +53400,8 @@
     "content_hash": "ecd325e82eb280321f7f0e45f44714c40dc0ea570d120ee4503aa95bd05dcd02",
     "id": "evt-31d74fc806",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "혜화동"
   },
   {
     "title": "영월화석박물관",
@@ -53421,7 +53439,8 @@
     "content_hash": "a431562a22881d9c35ae98ff4cf120f92d2d1f2f1339df18d078b557c0554cf2",
     "id": "evt-31e49052d9",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "주천면"
   },
   {
     "title": "거제박물관",
@@ -53460,7 +53479,8 @@
     "content_hash": "f2381d074f55fbe456ab2c78ab5b0a902f2be4f4e1ac8d983d24bde5db883dc4",
     "id": "evt-325d6fcb11",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "옥포동"
   },
   {
     "title": "삼성미술관 Leeum",
@@ -53498,7 +53518,8 @@
     "content_hash": "25edd2064e734b65ac0380f5e3beed52ba90d24965b7f2bbf295789f6a261fe9",
     "id": "evt-3270cc63b5",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "한남동"
   },
   {
     "title": "홍성스카이타워",
@@ -53535,7 +53556,8 @@
     "content_hash": "1f6213a766bf82d1178c26dd381b625e7d43897ea2dfe842be3c390b9dc1d050",
     "id": "evt-327d8b8df0",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "서부면"
   },
   {
     "title": "제주 서귀포 산방산",
@@ -53570,7 +53592,8 @@
     "content_hash": "e02777bc0bbf549c27b7e1742b9dbc02ca187b77c12580434988678d5e71ac41",
     "id": "evt-32afc9d204",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "안덕면"
   },
   {
     "title": "우주미술관",
@@ -53608,7 +53631,8 @@
     "content_hash": "d37e846e3772e6f0136c0b9c2a5448287ba153f8af5473ca53fe4413bf454733",
     "id": "evt-32b94d3ea0",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "정동면"
   },
   {
     "title": "광양 마로산성",
@@ -53678,7 +53702,8 @@
     "content_hash": "e7d057582fff3f994f0ea6e83b032fb8c75bcf8d99657ce18e61969bf63749f3",
     "id": "evt-32e0117337",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "월계동"
   },
   {
     "title": "경북대학교 캠퍼스",
@@ -53713,7 +53738,8 @@
     "content_hash": "c5c813c13789febbb812b2163b5226501863e3e2841dfb9225f44e157255978e",
     "id": "evt-32e72d928c",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "복현1동"
   },
   {
     "title": "안양박물관",
@@ -53792,7 +53818,8 @@
     "content_hash": "06c1b940dc562dfc289ea19a0a06c8361def5d48149be8f20295c4cd059d4fcf",
     "id": "evt-332a4ba5ff",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "사농동"
   },
   {
     "title": "안성맞춤박물관",
@@ -53829,7 +53856,8 @@
     "content_hash": "96b4c892d7f62ddf5cc8dec901fa48f98b16a73dde1b1eeaf2e7ddc46e67b9fa",
     "id": "evt-335ff2f943",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "대덕면"
   },
   {
     "title": "제천 의림지와 제림",
@@ -53870,7 +53898,8 @@
     "content_hash": "30994b715f58f156966792054540c46041530d459e30539c6015590d72a30141",
     "id": "evt-3394444f9b",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "모산동"
   },
   {
     "title": "화암사",
@@ -53907,7 +53936,8 @@
     "content_hash": "2fc27c542a33bae74de4ffe684b10278a4da77c8bec38fd2bbb3287d21e1a59c",
     "id": "evt-33948c755f",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "경천면"
   },
   {
     "title": "반구정습지",
@@ -53942,7 +53972,8 @@
     "content_hash": "80f9b8d68e2b435e63f30efc4878e9fb56827e5ed9f5aef72dac76e284e63bd9",
     "id": "evt-33de092e4d",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "석곡면"
   },
   {
     "title": "국립세계문자박물관",
@@ -53980,7 +54011,8 @@
     "content_hash": "bfd53c758cccff3b945b4d7f670d57cff75c48f595cf96929773c659261adc49",
     "id": "evt-341aa29736",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "송도2동"
   },
   {
     "title": "김영삼전대통령생가기록전시관",
@@ -54017,7 +54049,8 @@
     "content_hash": "ef1b8cc881b62ad83e693c5259535a55e6d436421351cfb4b1d24d1f82494201",
     "id": "evt-341e354108",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "장목면"
   },
   {
     "title": "삼척 죽서루와 오십천",
@@ -54052,7 +54085,8 @@
     "content_hash": "c663eb2a54cee00d97f35180534a9f29db590b98e09d197d8cf5ed4299d7bb2d",
     "id": "evt-3448dc14ca",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "성내동"
   },
   {
     "title": "당항포관광지",
@@ -54087,7 +54121,8 @@
     "content_hash": "f758736b80c99b8c4e3d185a297031bc01596831831239c574ce98eff98e92ad",
     "id": "evt-34588c4f94",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "회화면"
   },
   {
     "title": "에듀팜특구관광단지(벨포레리조트)",
@@ -54122,7 +54157,8 @@
     "content_hash": "9cd28a6454f3499d58bacb5d1e177677f187c81ad6ed0f330dc2fe923723556e",
     "id": "evt-351e83d509",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "도안면"
   },
   {
     "title": "사선대관광지",
@@ -54157,7 +54193,8 @@
     "content_hash": "16e94943dc35afe9b7609fe56d036d55e031bfbad713c0c7fa9bb7c5c8594750",
     "id": "evt-3524dbebaf",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "관촌면"
   },
   {
     "title": "남해 금산",
@@ -54194,7 +54231,8 @@
     "content_hash": "5477b89e70ece7ab303b87e0f291de7f46967c3b11b44719920e54f7982aeb18",
     "id": "evt-354e57cf3e",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "상주면"
   },
   {
     "title": "에디슨과학박물관",
@@ -54233,7 +54271,8 @@
     "content_hash": "12c300014442db10856bd6fb28d15c220af9941c488377d36802957311c3eb56",
     "id": "evt-35633044e3",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "저동"
   },
   {
     "title": "성곡미술관",
@@ -54270,7 +54309,8 @@
     "content_hash": "f4b46e1f96d584241c9ebdd55fe413bf76f8cab0ca9e1bb6a1ce5a8797c3d745",
     "id": "evt-35ac4b5372",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "내자동"
   },
   {
     "title": "이슬람 중앙성원",
@@ -54305,7 +54345,8 @@
     "content_hash": "2f3e476f36225b7f521315a1b333cd945ff2176d53179adf421ab9e7acfe8579",
     "id": "evt-35cb8bc8cb",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "한남동"
   },
   {
     "title": "이봉창 의사 집터",
@@ -54340,7 +54381,8 @@
     "content_hash": "a3942489821043ccb64a32f571f17288f83cb21463d016bd4499a5a20c796ee8",
     "id": "evt-35d3e6bdbc",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "효창동"
   },
   {
     "title": "무궁화오토캠핑장",
@@ -54377,7 +54419,8 @@
     "content_hash": "4a89f4e12bd38f374a4f6a4f3ff8ec7b57e4417b4687c905a110fc5496b0aee9",
     "id": "evt-360a9deb9d",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "고산면"
   },
   {
     "title": "덕소자연사박물관",
@@ -54416,7 +54459,8 @@
     "content_hash": "f4fb3d1f747e40352e3546fbc702abe3e5f348e9cfc9690e8663a878713bc150",
     "id": "evt-360b72032a",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "와부읍"
   },
   {
     "title": "김해시수도박물관",
@@ -54457,7 +54501,8 @@
     "content_hash": "acd1ea6c6204c17572e40618e20c624e2e5e72e4e24251ddeae49b336e4e5475",
     "id": "evt-361b2b06cb",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "한림면"
   },
   {
     "title": "제천 옥순봉",
@@ -54496,7 +54541,8 @@
     "content_hash": "cc3cac3212635eabb5a8fa895866c0add24c5cdc03e797edfff0392323908f01",
     "id": "evt-362fc72750",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "수산면"
   },
   {
     "title": "허가바위",
@@ -54531,7 +54577,8 @@
     "content_hash": "f913ef99bb710e543c26dd667f15a2cd234fc32c265973918d9dd56d1bd3cb3f",
     "id": "evt-366ae07436",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "가양동"
   },
   {
     "title": "아세안문화박물관",
@@ -54571,7 +54618,8 @@
     "content_hash": "f196aa362a6682456259d6a03fe9a3caa54ea611c5b29c8e490b7a3f3b98218e",
     "id": "evt-366e979884",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "좌동"
   },
   {
     "title": "두물머리",
@@ -54606,7 +54654,8 @@
     "content_hash": "5bd38ca3ab0383f141082c06e0445dfce06dff2d55a22118c965578713e4acb9",
     "id": "evt-3672d6e863",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "양서면"
   },
   {
     "title": "성남큐브미술관",
@@ -54644,7 +54693,8 @@
     "content_hash": "1b8ff77e292fefdbfca36a6778439deb64772ac91b578ef6dccc8b7c4f3c990b",
     "id": "evt-36887b0eda",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "이매동"
   },
   {
     "title": "삼성궁",
@@ -54681,7 +54731,8 @@
     "content_hash": "5beabc7e0e801125fbb797fbfbd5b29545681a59ef37db116495ae09598d3a72",
     "id": "evt-3697897fd3",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "청암면"
   },
   {
     "title": "용담호및주변시설",
@@ -54716,7 +54767,8 @@
     "content_hash": "f855f7614e9bdbfb8e7a8526056d010e41cc02c7e544a18d300903e0319f2293",
     "id": "evt-36a9f866f6",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "안천면"
   },
   {
     "title": "서소문성지역사박물관",
@@ -54756,7 +54808,8 @@
     "content_hash": "20f8c55b9361d63cb98f6169c3b71336b9cedd8d9718e24df9c4b8ab1724f8d0",
     "id": "evt-36bce5c9d4",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "중림동"
   },
   {
     "title": "봉화 청암정과 석천계곡",
@@ -54791,7 +54844,8 @@
     "content_hash": "3a3facbda746c10d57fb9b58f8f51573b503abb7f5ffd1bfcc28a0f136c364e6",
     "id": "evt-36df787549",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "봉화읍"
   },
   {
     "title": "한국족보박물관",
@@ -54832,7 +54886,8 @@
     "content_hash": "053043f95228571c74eb03e34ad51d95fbb0e391c4abfc1621a229c66e9561fc",
     "id": "evt-36ff4c3203",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "안영동"
   },
   {
     "title": "성신여대박물관",
@@ -54870,7 +54925,8 @@
     "content_hash": "3709ffc3ca63dbaf455bd43b1f97f74f0523560e451dcdc6a2d695ff0904e4b5",
     "id": "evt-370023ec68",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "동선동"
   },
   {
     "title": "순천자연휴양림",
@@ -54907,7 +54963,8 @@
     "content_hash": "9f766c7bef90197579224175c8d582947886f71420ef72fae3bc97ec03170bd9",
     "id": "evt-370ef41d46",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "서면"
   },
   {
     "title": "유엔군 초전기념관",
@@ -54946,7 +55003,8 @@
     "content_hash": "d5ce945c17b57028fa4c8540e4a1ceaf0887bfa98fb33481be10cfc2f16c2ef6",
     "id": "evt-3733705acd",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "내삼미동"
   },
   {
     "title": "문경새재 도립공원",
@@ -54987,7 +55045,8 @@
     "content_hash": "1750108507e8bf9e99644e40f47b42141e914f68b58cb1ac2159274176944379",
     "id": "evt-373ed02d42",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "문경읍"
   },
   {
     "title": "소래철교",
@@ -55022,7 +55081,8 @@
     "content_hash": "e13585d3ec4528e33a10e3b86d4b592632faedc7c47f5e0413510005daa5dd4d",
     "id": "evt-375b92a030",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "논현1동"
   },
   {
     "title": "청도자전거공원",
@@ -55063,7 +55123,8 @@
     "content_hash": "4ed2cea23fbd433aa70694009e4cc0a7de940a4f9a4a8b5b1d1e11ba8471eabb",
     "id": "evt-37871af65f",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "청도읍"
   },
   {
     "title": "조선대학교미술관",
@@ -55101,7 +55162,8 @@
     "content_hash": "234fc1f616b42eabd78e2c8293523329b63632980a00cbc258f82194c4fec2b3",
     "id": "evt-37e87a55b9",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "서석동"
   },
   {
     "title": "군산근대역사박물관",
@@ -55141,7 +55203,8 @@
     "content_hash": "d0ebb9b0e3043b0b37bd9a716bd9ce6a7c1f2b3fc6e7df7bd54c49a2f06f620b",
     "id": "evt-37f5531d05",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "영화동"
   },
   {
     "title": "조선민화박물관",
@@ -55180,7 +55243,8 @@
     "content_hash": "81a9a9c1c75b9b02fff65a9b4fbb56d37b516c265442349ac4fd250f88b78cd3",
     "id": "evt-38487b1d72",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "김삿갓면"
   },
   {
     "title": "유금와당박물관",
@@ -55218,7 +55282,8 @@
     "content_hash": "960ad68d237187a659bce24b54452488d0ff2af997b6b93ed8f56d512cef4906",
     "id": "evt-3853749b01",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "신영동"
   },
   {
     "title": "을지대학교 범석의학박물관",
@@ -55260,7 +55325,8 @@
     "content_hash": "d1a600bfe9f36763680ab80d565275c82d70c12fd006f40db2389ab87cbda745",
     "id": "evt-3865401cf7",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "양지동"
   },
   {
     "title": "해조류센터",
@@ -55300,7 +55366,8 @@
     "content_hash": "d4a8f4f015ea43f5f9ab1542a1ccbfc1541655886b5cb2895b31e6323aa4f748",
     "id": "evt-386626c71d",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "완도읍"
   },
   {
     "title": "테지움사파리",
@@ -55337,7 +55404,8 @@
     "content_hash": "7556a599de30f41e1e7e9f2be12dd64d44757bb2342efb0691ab40d3cb1a2352",
     "id": "evt-3893c41dab",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "애월읍"
   },
   {
     "title": "조희룡미술관",
@@ -55375,7 +55443,8 @@
     "content_hash": "d8ae7b132068deeeec6111d0c00e32d79718b03aebd93aa22d199a4aea362502",
     "id": "evt-38db21511e",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "임자면"
   },
   {
     "title": "손기정기념관",
@@ -55413,7 +55482,8 @@
     "content_hash": "971b8128a77cad30a356caea318ab3f599b88ab56ee06757da3a8461077d6275",
     "id": "evt-38e4ebd92d",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "만리동"
   },
   {
     "title": "모항해수욕장",
@@ -55448,7 +55518,8 @@
     "content_hash": "75c6a8ef075f8ba91d7dfbe5143fb4e1da823d4135df0d43d9503b2d2b2ebcb6",
     "id": "evt-38fb5fb27c",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "변산면"
   },
   {
     "title": "LIUSEUM 세계민족악기전시관",
@@ -55488,7 +55559,8 @@
     "content_hash": "98153abc31f651bad5e21d99d29d98a3c42bbf1b155f87320e1e769dc296d9d8",
     "id": "evt-395d286c68",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "남산면"
   },
   {
     "title": "옛 풍국제과 공장(현 오리온)",
@@ -55523,7 +55595,8 @@
     "content_hash": "82dfe4e473f39334cc87f7511bee7c643d3fac095939971a18e9b4d2e45812fc",
     "id": "evt-398e2086b2",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "문배동"
   },
   {
     "title": "예천박물관",
@@ -55561,7 +55634,8 @@
     "content_hash": "a1a140c8bd2f8463a54bfb6508aedff08b4daaba408967573fe71a1a8dcf01e0",
     "id": "evt-39bcbe1588",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "감천면"
   },
   {
     "title": "순창장류박물관",
@@ -55603,7 +55677,8 @@
     "content_hash": "a3ee2cd32d9061549a508a5b9fcd242cdf9a2be241fa221d04a6c1e5b44de2ac",
     "id": "evt-39c076574a",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "순창읍"
   },
   {
     "title": "피규어뮤지엄",
@@ -55640,7 +55715,8 @@
     "content_hash": "c795c5a922c93883a2f664395a2665798609a4e4ad8df8a0f70498824c11bde7",
     "id": "evt-39ca236625",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "안덕면"
   },
   {
     "title": "범어사성보박물관",
@@ -55678,7 +55754,8 @@
     "content_hash": "dc82c1f68e9c597845c570feda5eb5af7ab2c45e7ae8e80f5eee9c1a1ef57d3b",
     "id": "evt-39e61a9ed7",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "청룡동"
   },
   {
     "title": "경주 김유신묘",
@@ -55713,7 +55790,8 @@
     "content_hash": "534fa7e1f33c9902d6ebbb4ece244c52c56e1453915f768b6c76447dec14828e",
     "id": "evt-39e6ec65c9",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "충효동"
   },
   {
     "title": "임경대",
@@ -55748,7 +55826,8 @@
     "content_hash": "db7c60c60c3adf88399c7a819d559fb0f2b72dd7895b7a26557d45da3228a222",
     "id": "evt-39e7a8e405",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "원동면"
   },
   {
     "title": "신풍미술관",
@@ -55785,7 +55864,8 @@
     "content_hash": "8c54f7466b6a44c5bcce821b242d66a466a3298ad9158802c9dceff687b9cb0e",
     "id": "evt-3a827839f7",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "지보면"
   },
   {
     "title": "영인문학관",
@@ -55823,7 +55903,8 @@
     "content_hash": "8f23c97874d3f296043449908ba97800c32fbf8b94b3b766e81f125771a45fc8",
     "id": "evt-3ac8edb4f6",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "평창동"
   },
   {
     "title": "성마루미술관",
@@ -55865,7 +55946,8 @@
     "content_hash": "9ec24bb002123e343c7730dfb69259170f49e2582924c303e00fa02b8ebef1b4",
     "id": "evt-3acbc8e4b8",
     "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T14:56:00.451803+00:00"
+    "updated_at": "2026-10-25T14:56:00.451803+00:00",
+    "dong": "대소원면"
   },
   {
     "title": "신문박물관",
@@ -94726,7 +94808,7 @@
       "#야외"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "venue_fair",
     "source_id": "coex-8ddf6fad237a",
     "content_hash": "6de73bf0af7773c955663d9be4a9996c4e6cb3ac2d239c1dc02c4877bbab24e2",
@@ -106785,7 +106867,7 @@
     "official_link": "https://popply.co.kr/popup/6308",
     "tags": [],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6308",
     "content_hash": "3b3e005b04706a8952179077f8ca2a656314f51702780bbbffcdcc10d9193305",
@@ -108221,7 +108303,7 @@
       "nature_science",
       "cultural_center"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "kfes",
     "source_id": "bf11b53f-a4dc-4b51-bcde-7c7236579bf3",
     "content_hash": "98b5a24ffda78de1692f56d02f64ee47f1ca8ff7e6beca342a3cb1a956bc2b09",
@@ -110896,7 +110978,7 @@
       "#공연"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": null,
     "source_id": null,
     "created_at": "2026-10-20T15:00:00+00:00",
@@ -110938,7 +111020,7 @@
     "place_types": [
       "amusement_park"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "159816",
     "content_hash": "fafafa9dd5c118e61071d9d31e9d7488847951fb9d7e3a26fa08d45e0bcb891e",
