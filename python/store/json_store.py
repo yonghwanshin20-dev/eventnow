@@ -92,11 +92,29 @@ def _km(a: dict[str, Any], b: dict[str, Any]) -> float | None:
     return 12742 * math.asin(math.sqrt(h))
 
 
+def _radius_km(a: dict[str, Any], b: dict[str, Any]) -> float:
+    """같은 곳으로 볼 거리. 기본은 300m(장소 500m)이고, 같은 행사가 확실하면 3km까지.
+
+    - 같은 출처가 날짜까지 똑같이 두 번 올린 행사 ('팔공산 단풍축제' 갓바위광장·갓바위 일원)
+    - 긴 이름 장소에 괄호 별칭만 붙은 것 ('서울 한양도성'·'서울 한양도성(서울성곽)')
+      '중앙도서관'처럼 흔한 짧은 이름은 다른 곳일 수 있어 넓히지 않는다
+    """
+    if a.get("category") == "attraction":
+        alias = ("(" in str(a.get("title"))) != ("(" in str(b.get("title")))
+        return 3.0 if alias and len(twin_title(a)) >= 6 else 0.5
+    same_dates = (str(a.get("start_date")), str(a.get("end_date"))) == (str(b.get("start_date")), str(b.get("end_date")))
+    if same_dates and a.get("source") == b.get("source"):
+        # 같은 구·군이면 좌표가 틀려 멀리 찍혔어도 같은 행사 (원본 좌표가 가끔 엉뚱하다)
+        same_district = bool(a.get("district")) and a.get("district") == b.get("district")
+        return 50.0 if same_district else 3.0
+    return 0.3
+
+
 def _same_spot(a: dict[str, Any], b: dict[str, Any]) -> bool:
-    """같은 곳인지 — 좌표가 둘 다 있으면 300m(장소는 500m) 안, 없으면 장소 이름이나 주소가 같을 때."""
+    """같은 곳인지 — 좌표가 둘 다 있으면 _radius_km 안, 없으면 장소 이름이나 주소가 같을 때."""
     km = _km(a, b)
     if km is not None:
-        return km <= (0.5 if a.get("category") == "attraction" else 0.3)
+        return km <= _radius_km(a, b)
     loc = lambda r: _NON_WORD.sub("", str(r.get("location_name") or "").lower())  # noqa: E731
     return bool(loc(a)) and loc(a) == loc(b) or bool(a.get("address")) and a.get("address") == b.get("address")
 

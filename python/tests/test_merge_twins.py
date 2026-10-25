@@ -59,3 +59,17 @@ def test_attraction_aliases_merge_but_branches_stay():
     assert twin_title(rows[0]) == "서대문형무소역사관"
     assert merge_twins(rows) == 1
     assert len([r for r in rows if "국립현대" in r["title"]]) == 2
+
+
+def test_wider_radius_for_sure_twins():
+    a = lambda t, lat, lng: row(t, category="attraction", source="attraction", latitude=lat, longitude=lng)  # noqa: E731
+    rows = [
+        a("서울 한양도성", 37.580, 126.970),
+        a("서울 한양도성(서울성곽)", 37.590, 126.980),  # 1.4km — 별칭
+        a("중앙도서관", 37.500, 127.000),
+        a("중앙도서관(열람실)", 37.510, 127.000),  # 1.1km — 흔한 이름이라 그대로
+        row("팔공산 단풍축제", latitude=35.98, longitude=128.72),
+        row("2026년 제25회 팔공산 단풍축제", latitude=35.99, longitude=128.73),  # 같은 출처·같은 날짜
+    ]
+    assert merge_twins(rows) == 2
+    assert [r["title"] for r in rows if "도서관" in r["title"]] == ["중앙도서관", "중앙도서관(열람실)"]

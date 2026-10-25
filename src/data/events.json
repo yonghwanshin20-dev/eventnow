@@ -162496,43 +162496,6 @@
     "updated_at": "2026-10-25T17:40:21.346259+00:00"
   },
   {
-    "title": "서울 한양도성(서울성곽)",
-    "category": "attraction",
-    "description": "조선왕조 도읍지인 한성부의 경계를 표시하고 그 권위를 드러내며, 외부의 침입을 막기 위해 축조된 성이다.",
-    "start_date": "2026-10-26",
-    "end_date": "2027-11-30",
-    "location_name": "서울 한양도성(서울성곽)",
-    "address": "서울특별시 용산구 후암동 산1-2",
-    "latitude": 37.551483,
-    "longitude": 126.9853756,
-    "region": "서울특별시",
-    "district": "용산구",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [],
-    "place_types": [
-      "historical"
-    ],
-    "status": "ongoing",
-    "source": "attraction",
-    "source_id": "t-서울한양도성서울성곽서울특별시용산구후암동산12",
-    "content_hash": "7e1b6d1cbf3b7a9956a5e1628f7e385e042c0868d5ecfe0269436365f0ba2239",
-    "id": "evt-d6210d922c",
-    "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-10-25T17:40:21.346259+00:00"
-  },
-  {
     "title": "우정박물관",
     "category": "attraction",
     "description": "관람 시간 09:00~18:00\n휴관 토요일, 공휴일",
@@ -188149,7 +188112,7 @@
     "booking_required": false,
     "price_info": null,
     "thumbnail_url": null,
-    "official_link": null,
+    "official_link": "https://www.dong.daegu.kr/",
     "tags": [
       "#야외",
       "#공연"
@@ -188245,41 +188208,6 @@
     "created_at": "2026-10-20T14:13:40.267525+00:00",
     "updated_at": "2026-10-20T14:13:40.267525+00:00",
     "dong": "수유3동"
-  },
-  {
-    "title": "2026년 제25회 팔공산 단풍축제",
-    "category": "festival",
-    "description": "주관 대구광역시 동구",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-01",
-    "location_name": "팔공산 갓바위 시설지구 일원",
-    "address": "대구광역시 동구 아양로 207",
-    "latitude": 35.886807,
-    "longitude": 128.636074,
-    "region": "대구광역시",
-    "district": "동구",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "https://www.dong.daegu.kr/",
-    "tags": [],
-    "place_types": [],
-    "status": "upcoming",
-    "source": "public_data",
-    "source_id": "f-94b427db6791",
-    "content_hash": "f120380a8f8d8abe572a4e5ccc46703f4baa7a8748c87a6de4e5350c0fb6a956",
-    "id": "evt-4ea89ad2a6",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-10-25T04:22:48.014232+00:00"
   },
   {
     "title": "예산사과축제",
