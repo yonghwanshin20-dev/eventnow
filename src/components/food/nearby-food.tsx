@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { ChevronRight, LocateFixed, MessageSquareText } from "lucide-react";
 
-import { formatCount, formatDistance, naverSearchUrl, type FoodArea, type FoodPick } from "@/lib/food";
+import { formatCount, formatDistance, kakaoSearchUrl, type FoodArea, type FoodPick } from "@/lib/food";
 
 interface NearbyFoodProps {
   /** 행사에서 들어왔을 때 — 없으면 내 위치로 찾는다 */
@@ -122,12 +122,12 @@ export function NearbyFood({ eventId, fallbackQuery }: NearbyFoodProps) {
               </button>
             )}
             <a
-              href={naverSearchUrl(moreQuery)}
+              href={kakaoSearchUrl(moreQuery)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-10 items-center rounded-full bg-[#03c75a] px-4 font-semibold text-white"
+              className="inline-flex h-10 items-center rounded-full bg-[#fee500] px-4 font-semibold text-stone-900"
             >
-              네이버에서 &lsquo;{moreQuery}&rsquo; 보기
+              카카오맵에서 &lsquo;{moreQuery}&rsquo; 보기
             </a>
           </div>
         </div>
@@ -157,7 +157,7 @@ export function NearbyFood({ eventId, fallbackQuery }: NearbyFoodProps) {
                     <div className="min-w-0 flex-1">
                       <p className="truncate text-[15px] font-semibold text-stone-900">{p.name}</p>
                       <p className="mt-0.5 truncate text-[12.5px] text-stone-500">
-                        {[p.category, p.distance != null ? `행사장에서 ${formatDistance(p.distance)}` : null]
+                        {[p.category, p.distance != null ? `${eventId ? "행사장" : "내 위치"}에서 ${formatDistance(p.distance)}` : null]
                           .filter(Boolean)
                           .join(" · ")}
                       </p>
@@ -173,7 +173,7 @@ export function NearbyFood({ eventId, fallbackQuery }: NearbyFoodProps) {
             </ol>
           )}
           <p className="text-[11.5px] leading-5 text-stone-400">
-            네이버 지역 검색(리뷰 많은 순)과 블로그 글 수로 골랐어요. 누르면 리뷰·사진을 볼 수 있어요.
+            근처 {formatDistance(1500)} 안 식당을 블로그 글 수로 골랐어요. 누르면 카카오맵에서 별점·리뷰·사진을 볼 수 있어요.
           </p>
         </>
       )}

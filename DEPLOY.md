@@ -80,17 +80,18 @@ GitHub Actions (무료)  ── 매일 04:00 KST 자동 실행
 
 ## 2-0-1. [주변 맛집] 켜기 (선택, 무료)
 
-행사장 동네에서 **블로그 글이 많은 식당 10곳**을 보여줍니다 (네이버 검색 API, 하루 25,000회 무료).
-키가 없으면 맛집 화면에 "준비 중"과 네이버 검색 바로가기만 보입니다.
+행사장 근처 1.5km 안에서 **블로그 글이 많은 식당 10곳**을 보여줍니다
+(카카오 로컬 + 다음 블로그 검색, 무료). 키가 없으면 "준비 중"과 카카오맵 검색 바로가기만 보입니다.
+(네이버 검색 API는 2026년 7월부터 신규 신청이 막혀 카카오를 씁니다)
 
-1. https://developers.naver.com → **Application → 애플리케이션 등록**
-   - 이름: EventNow / 사용 API: **검색** / 환경: **WEB 설정** → 서비스 URL `https://eventnow.vercel.app`
-2. 만들어진 **Client ID**, **Client Secret** 을 Vercel 환경변수에 넣고 Redeploy
+1. https://developers.kakao.com → **내 애플리케이션 → 애플리케이션 추가하기** (이름: EventNow)
+   - 카카오톡 공유용으로 이미 만든 앱이 있으면 그 앱을 그대로 써도 됩니다
+2. 앱 → **제품 설정 → 카카오맵 → 사용 설정 ON** (안 켜면 403 오류)
+3. 앱 → **앱 키 → REST API 키** 복사 → Vercel 환경변수에 넣고 Redeploy
 
    | 이름 | 값 |
    |------|----|
-   | `NAVER_CLIENT_ID` | Client ID |
-   | `NAVER_CLIENT_SECRET` | Client Secret |
+   | `KAKAO_REST_API_KEY` | REST API 키 |
 
 ## 2-1. 카카오톡 사진 카드 공유 (선택, 무료)
 
