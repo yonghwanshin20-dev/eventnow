@@ -3,6 +3,7 @@ import {
   DEFAULT_EXPLORER_FILTERS,
   filterEvents,
   getScheduleType,
+  rankAttractions,
   isApproxDates,
   isIndoor,
   sortEvents,
@@ -128,7 +129,7 @@ export function buildFeed(
     today,
   );
   // 관광지는 전국 수천 곳이라 첫 화면에는 수도권·사진 있는 곳을 먼저
-  const attractions = filterEvents(events, { ...base, category: "attraction" }, today).sort(
+  const attractions = rankAttractions(filterEvents(events, { ...base, category: "attraction" }, today)).sort(
     (a, b) => Number(!CAPITAL_AREA.has(a.region)) - Number(!CAPITAL_AREA.has(b.region)),
   );
   const festivals = limited

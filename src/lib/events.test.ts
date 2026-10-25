@@ -4,6 +4,7 @@ import { detectRegionFromAddress, matchesSubregion } from "@/data/regions";
 import {
   DEFAULT_EXPLORER_FILTERS,
   PAGE_SIZE,
+  rankAttractions,
   filterEvents,
   filtersToSearchParams,
   formatLongRange,
@@ -301,5 +302,19 @@ describe("buildIcs", () => {
     expect(ics).toContain("DTSTART;VALUE=DATE:20261024");
     expect(ics).toContain("DTEND;VALUE=DATE:20261026");
     expect(ics.split("\r\n").every((l) => new TextEncoder().encode(l).length <= 75)).toBe(true);
+  });
+});
+
+describe("rankAttractions", () => {
+  it("사진·잘 알려진 곳을 먼저, 작은 갤러리·옛터는 뒤로", () => {
+    const p = (title: string, thumb = false) => ({ title, thumbnail_url: thumb ? "https://x/y.jpg" : null, description: null });
+    const out = rankAttractions([
+      p("(재)한원미술관"),
+      p("갤러리관악"),
+      p("국립중앙박물관"),
+      p("수원 화성", true),
+      p("떡박물관"),
+    ]).map((e) => e.title);
+    expect(out).toEqual(["수원 화성", "국립중앙박물관", "떡박물관", "(재)한원미술관", "갤러리관악"]);
   });
 });

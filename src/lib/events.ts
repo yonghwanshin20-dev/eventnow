@@ -892,6 +892,24 @@ function recommendedRank(event: Event, today: string): number {
   return status === "upcoming" ? 1 : 3;
 }
 
+const WELL_KNOWN_PLACE = /국립|시립|도립|궁$|궁궐|왕릉|성곽|산성|화성|한옥마을|민속촌|수목원|국립공원|자연휴양림/;
+const MINOR_PLACE = /^\(재\)|^\(사\)|갤러리|화랑|대학교|대학|사택|터$|지$|만세시위지|가옥$|고택$/;
+
+/** 관광지 추천순: 사진 → 잘 알려진 곳 → 소개가 긴 곳, 작은 갤러리·대학 박물관·옛터는 뒤로 (같은 점수면 원래 순서) */
+export function rankAttractions<T extends Pick<Event, "title" | "thumbnail_url" | "description">>(
+  events: T[],
+): T[] {
+  const score = (e: T) =>
+    (e.thumbnail_url ? 4 : 0) +
+    (WELL_KNOWN_PLACE.test(e.title) ? 3 : 0) +
+    ((e.description ?? "").length > 120 ? 1 : 0) -
+    (MINOR_PLACE.test(e.title) ? 3 : 0);
+  return events
+    .map((e, i) => ({ e, i, s: score(e) }))
+    .sort((a, b) => b.s - a.s || a.i - b.i)
+    .map((x) => x.e);
+}
+
 export function sortEvents(
   events: Event[],
   sort: SortOption,

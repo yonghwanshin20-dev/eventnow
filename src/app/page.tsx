@@ -29,6 +29,7 @@ import {
   getScheduleType,
   searchParamsToFilters,
   sortEvents,
+  rankAttractions,
   toListItem,
   whenTitle,
   type ExplorerFilters,
@@ -153,7 +154,12 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const ranked =
     filters.q && filters.sort === "recommended" ? rankByQuery(sorted, filters.q) : sorted;
   // 우리 아이 나이를 정해 두었으면 다른 연령 대상 행사는 뒤로 (추천순일 때만)
-  const matchedEvents = filters.sort === "recommended" ? preferKidAge(ranked, kidAge) : ranked;
+  const kidSorted = filters.sort === "recommended" ? preferKidAge(ranked, kidAge) : ranked;
+  // 관광지만 볼 때(추천순)는 사진·소개가 있고 잘 알려진 곳(국립·사적·명승)을 먼저
+  const matchedEvents =
+    filters.category === "attraction" && filters.sort === "recommended" && !filters.q
+      ? rankAttractions(kidSorted)
+      : kidSorted;
   // '전체 + 추천순' 목록은 기간 한정 행사를 페이지로 보여주고, 상시 운영 장소는 미리보기만
   // (상시 200여 곳이 기간 한정 뒤에 묻혀 안 보이는 것을 막는다)
   const calendarView = filters.view === "calendar";
