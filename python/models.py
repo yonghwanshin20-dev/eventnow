@@ -51,6 +51,7 @@ SourceName = Literal[
     "seoul_portal",
     "mcst_festival",
     "city_calendar",
+    "public_data",
     "web_search",
     "naver",
     "seoul_api",

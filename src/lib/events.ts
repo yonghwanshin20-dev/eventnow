@@ -194,12 +194,12 @@ export function formatLongRange(start: string, end: string): string {
  * - 그 외 → 장소명 + 주소
  */
 export function placeLines(
-  event: Pick<Event, "location_name" | "address" | "region" | "district">,
+  event: Pick<Event, "location_name" | "address" | "region" | "district" | "dong">,
 ): { main: string; sub: string | null } {
   const name = event.location_name?.trim() ?? "";
   const address = event.address?.trim() ?? "";
   const sub = detectSubregion(event.region, address, event.district);
-  const area = [regionShortLabel(event.region), sub].filter(Boolean).join(" ");
+  const area = [regionShortLabel(event.region), sub, sub ? event.dong : null].filter(Boolean).join(" ");
   if (!address) return { main: name || area, sub: name ? area : null };
   if (!name || address.startsWith(name)) return { main: address, sub: null };
   if (address.endsWith(name)) return { main: name, sub: area || null };
@@ -249,6 +249,7 @@ const OFFICIAL_SOURCES = new Set([
   "seoul_portal",
   "mcst_festival",
   "city_calendar",
+  "public_data",
   "tour_api",
   "seoul_api",
   "popply",
@@ -394,9 +395,13 @@ export interface ExplorerFilters {
   q: string;
   category: EventCategory | "all";
   scheduleType: ScheduleTypeFilter;
-  region: RegionCode | "all";
-  /** 구·군 또는 시·군 */
-  subregion: string | "all";
+  /** 고른 시·도 (여러 개 가능, 비면 전국) */
+  regions: RegionCode[];
+  /**
+   * 고른 구·군·시 — "경기도:의정부시" 꼴 (여러 개 가능).
+   * 어떤 시·도에서 구·시를 하나라도 골랐으면 그 시·도는 고른 구·시만, 안 골랐으면 시·도 전체.
+   */
+  subregions: string[];
   when: WhenFilter | null;
   /** 특정 날짜 (YYYY-MM-DD) — when보다 우선 */
   date: string | null;
@@ -422,8 +427,8 @@ export const DEFAULT_EXPLORER_FILTERS: ExplorerFilters = {
   q: "",
   category: "all",
   scheduleType: "all",
-  region: "all",
-  subregion: "all",
+  regions: [],
+  subregions: [],
   when: null,
   date: null,
   includeEnded: false,
@@ -455,6 +460,34 @@ const REGION_VALUES = new Set(REGION_OPTIONS.map((o) => o.value));
 const SORT_VALUES = new Set(SORT_OPTIONS.map((o) => o.value));
 const WHEN_VALUES = new Set(WHEN_OPTIONS.map((o) => o.value));
 
+/** 구·시 선택 값: "경기도:의정부시" */
+export function subregionKey(region: RegionCode, sub: string): string {
+  return `${region}:${sub}`;
+}
+
+export function parseSubregionKey(key: string): { region: RegionCode; sub: string } {
+  const [region, sub] = key.split(":", 2);
+  return { region: region as RegionCode, sub };
+}
+
+/**
+ * 지역 여러 개 고르기: 고른 시·도 중 하나에 들고, 그 시·도에서 구·시를 골랐다면 그중 하나에 들어야 한다.
+ * (서울 전체 + 경기 의정부·포천 처럼 섞어 고를 수 있다)
+ */
+export function matchesRegions(
+  event: Pick<Event, "region" | "address" | "district" | "location_name">,
+  regions: RegionCode[],
+  subregions: string[],
+): boolean {
+  if (regions.length === 0) return true;
+  if (!regions.includes(event.region)) return false;
+  const subs = subregions
+    .map(parseSubregionKey)
+    .filter((s) => s.region === event.region)
+    .map((s) => s.sub);
+  return subs.length === 0 || subs.some((sub) => matchesSubregion(event, sub));
+}
+
 /** 필터 → URL 쿼리 (기본값 필드는 생략) */
 export function filtersToSearchParams(filters: ExplorerFilters): URLSearchParams {
   const p = new URLSearchParams();
@@ -462,8 +495,8 @@ export function filtersToSearchParams(filters: ExplorerFilters): URLSearchParams
   if (q) p.set("q", q);
   if (filters.category !== "all") p.set("category", filters.category);
   if (filters.scheduleType !== "all") p.set("schedule", filters.scheduleType);
-  if (filters.region !== "all") p.set("region", filters.region);
-  if (filters.subregion !== "all") p.set("sub", filters.subregion);
+  if (filters.regions.length > 0) p.set("region", filters.regions.join(","));
+  if (filters.subregions.length > 0) p.set("sub", filters.subregions.join(","));
   if (filters.date) p.set("date", filters.date);
   else if (filters.when) p.set("when", filters.when);
   if (filters.includeEnded) p.set("ended", "1");
@@ -539,10 +572,33 @@ export function searchParamsToFilters(params: SearchParamsLike): ExplorerFilters
     .filter(Boolean)
     .slice(0, 200);
 
-  const parsedRegion =
-    region && REGION_VALUES.has(region as RegionCode)
-      ? (region as RegionCode)
-      : "all";
+  const parsedRegions = [
+    ...new Set(
+      (region ?? "")
+        .split(",")
+        .map((s) => s.trim())
+        .filter((s): s is RegionCode => s !== "all" && REGION_VALUES.has(s as RegionCode)),
+    ),
+  ];
+  // 구·시: "경기도:의정부시" 꼴. 예전 링크(region=…&sub=의정부시)도 받는다.
+  // 고른 시·도의 실제 구·시 이름만 받는다 (아무 글자나 제목·미리보기 그림에 찍히지 않게)
+  const rawSubs = (get("sub") || get("district") || get("gycity") || "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const parsedSubs = [
+    ...new Set(
+      rawSubs
+        .map((s) => {
+          const [r, name] = s.includes(":") ? s.split(":", 2) : [parsedRegions[0] ?? "", s];
+          return parsedRegions.includes(r as RegionCode) &&
+            SUBREGIONS_BY_REGION[r as RegionCode].includes(name)
+            ? subregionKey(r as RegionCode, name)
+            : null;
+        })
+        .filter((s): s is string => s != null),
+    ),
+  ];
 
   return {
     q: (get("q") ?? "").slice(0, 100),
@@ -554,13 +610,8 @@ export function searchParamsToFilters(params: SearchParamsLike): ExplorerFilters
       schedule && SCHEDULE_VALUES.has(schedule as ScheduleTypeFilter)
         ? (schedule as ScheduleTypeFilter)
         : "all",
-    region: parsedRegion,
-    // 그 지역의 실제 구·시 이름만 받는다 (아무 글자나 제목·미리보기 그림에 찍히지 않게)
-    subregion: (() => {
-      if (parsedRegion === "all") return "all";
-      const sub = get("sub") || get("district") || get("gycity");
-      return sub && SUBREGIONS_BY_REGION[parsedRegion].includes(sub) ? sub : "all";
-    })(),
+    regions: parsedRegions,
+    subregions: parsedSubs,
     when: when && WHEN_VALUES.has(when as WhenFilter) ? (when as WhenFilter) : null,
     date: isIsoDate(date) ? date : null,
     includeEnded: get("ended") === "1",
@@ -596,8 +647,8 @@ export function countActiveFilters(filters: ExplorerFilters): number {
   let n = 0;
   if (filters.category !== "all") n++;
   if (filters.scheduleType !== "all") n++;
-  if (filters.region !== "all") n++;
-  if (filters.subregion !== "all") n++;
+  n += filters.regions.length;
+  n += filters.subregions.length;
   if (filters.when || filters.date) n++;
   if (filters.includeEnded) n++;
   if (filters.familyFriendlyOnly) n++;
@@ -743,17 +794,7 @@ export function filterEvents(
       return false;
     }
 
-    if (filters.region !== "all" && event.region !== filters.region) {
-      return false;
-    }
-
-    if (
-      filters.region !== "all" &&
-      filters.subregion !== "all" &&
-      !matchesSubregion(event, filters.subregion)
-    ) {
-      return false;
-    }
+    if (!matchesRegions(event, filters.regions, filters.subregions)) return false;
 
     if (filters.familyFriendlyOnly && !event.is_family_friendly) {
       return false;
@@ -925,6 +966,7 @@ export function toListItem(
     address: event.address,
     region: event.region,
     district: event.district,
+    dong: event.dong ?? null,
     is_family_friendly: event.is_family_friendly,
     target_age_group: event.target_age_group ?? null,
     age_min: event.age_min ?? null,

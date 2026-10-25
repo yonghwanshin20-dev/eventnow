@@ -122,7 +122,8 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const kidAge = parseKidAge((await cookies()).get(KID_AGE_COOKIE)?.value);
   const [snapshot, forecast] = await Promise.all([
     getEventsSnapshot(),
-    getForecast(filters.region),
+    // 시·도를 하나만 골랐으면 그 지역 날씨, 여럿이거나 전국이면 서울 기준
+    getForecast(filters.regions.length === 1 ? filters.regions[0] : "all"),
   ]);
   const today = todayKst();
   // 기간 타일에 붙일 날씨 (오늘·이번 주말·다음 주말)

@@ -155,6 +155,153 @@ class _Budget(Exception):
     """이번 실행의 조회 상한 도달."""
 
 
+# --- 동·읍·면 (카드의 '서울 성동구 성수동') ------------------------------------------
+
+REVERSE_URL = "https://nominatim.openstreetmap.org/reverse"
+# '연희동', '성수동2가', '종로5가', '전곡읍', '신북면' (도로명 '…로'·'…길'은 아님)
+_DONG = re.compile(r"^[가-힣]{1,6}(?:\d{1,2}가|\d?동|\d?가|읍|면)$")
+_GA = re.compile(r"^([가-힣]+동)\d{1,2}가$")
+
+
+def _tidy_dong(name: str | None) -> str | None:
+    """'용산동4가' 같은 '…가'는 좌표가 조금만 어긋나도 틀리기 쉬워 '용산동'까지만.
+    '종로2가'처럼 앞이 '…동'이 아니면 동 이름으로 쓰기 애매해서 뺀다."""
+    if not name:
+        return None
+    if name.endswith("가") and re.search(r"\d가$", name):
+        m = _GA.match(name)
+        return m.group(1) if m else None
+    return name
+
+
+def dong_from_address(address: str | None, district: str | None) -> str | None:
+    """주소 글자에 동·읍·면이 적혀 있으면 그것 ('서울특별시 서대문구 연희동 산1-20' → 연희동).
+    구·시 바로 뒤에서만 찾는다 — 장소 이름 속 '…동'(예: '어린이회관 별관동')에 걸리지 않게."""
+    tokens = [t for t in re.split(r"[\s,()]+", address or "") if t]
+    if not district or district not in tokens:
+        return None
+    i = tokens.index(district)
+    nxt = tokens[i + 1] if i + 1 < len(tokens) else ""
+    return _tidy_dong(nxt) if _DONG.match(nxt) else None
+
+
+def dong_from_osm(address: dict[str, Any], district: str | None) -> str | None:
+    """Nominatim 역지오코딩 주소 → 동. 결과의 구·시·군이 행사의 것과 같을 때만 믿는다.
+
+    서울: quarter(법정동 '성수동2가') → suburb(행정동 '홍은2동')
+    경기 시: city_district('의정부2동') · 군/농촌: town('전곡읍', '신북면')
+    """
+    if not district:
+        return None
+    places = {address.get(k) for k in ("borough", "county", "city", "municipality")}
+    if district not in places:
+        return None
+    for key in ("quarter", "suburb", "city_district", "town"):
+        name = str(address.get(key) or "").strip()
+        dong = _tidy_dong(name) if name and _DONG.match(name) else None
+        if dong:
+            return dong
+    return None
+
+
+class OsmReverse:
+    """좌표 → 동. 같은 좌표는 다시 묻지 않는다 (소수 넷째 자리, 약 10m)."""
+
+    def __init__(
+        self,
+        cache_path: Path,
+        client: httpx.Client | None = None,
+        *,
+        min_interval: float = MIN_INTERVAL,
+        max_lookups: int = 200,
+    ) -> None:
+        self.cache_path = cache_path
+        try:
+            self.cache: dict[str, dict[str, Any] | None] = json.loads(cache_path.read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError):
+            self.cache = {}
+        self._owns_client = client is None
+        self.client = client or httpx.Client(
+            timeout=20.0, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko"}
+        )
+        self.min_interval = min_interval
+        self.max_lookups = max_lookups
+        self.lookups = 0
+        self._last = 0.0
+
+    def __enter__(self) -> OsmReverse:
+        return self
+
+    def __exit__(self, *args: object) -> None:
+        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+        self.cache_path.write_text(
+            json.dumps(dict(sorted(self.cache.items())), ensure_ascii=False, indent=0) + "\n",
+            encoding="utf-8",
+        )
+        if self._owns_client:
+            self.client.close()
+
+    def address_at(self, lat: float, lng: float) -> dict[str, Any] | None:
+        key = f"{lat:.4f},{lng:.4f}"
+        if key in self.cache:
+            return self.cache[key]
+        if self.lookups >= self.max_lookups:
+            raise _Budget()
+        wait = self._last + self.min_interval - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        self._last = time.monotonic()
+        self.lookups += 1
+        resp = self.client.get(
+            REVERSE_URL,
+            params={"lat": lat, "lon": lng, "format": "jsonv2", "zoom": 16, "addressdetails": 1},
+        )
+        resp.raise_for_status()
+        raw = resp.json().get("address") or {}
+        # 필요한 칸만 저장 (캐시 파일이 커지지 않게)
+        keep = {
+            k: raw[k]
+            for k in ("quarter", "suburb", "city_district", "town", "borough", "county", "city", "municipality")
+            if k in raw
+        }
+        self.cache[key] = keep or None
+        return self.cache[key]
+
+
+def backfill_dong(rows: list[dict[str, Any]], reverser: OsmReverse | None, *, today: str) -> dict[str, int]:
+    """진행·예정 행에 동(dong)을 채운다: 주소 글자 → (좌표가 있으면) 역지오코딩. 애매하면 비워 둔다."""
+    stats = {"from_address": 0, "from_osm": 0, "unknown": 0, "skipped_budget": 0}
+    targets = [r for r in rows if str(r.get("end_date") or "")[:10] >= today and not r.get("dong")]
+    for i, row in enumerate(targets):
+        district = row.get("district")
+        dong = dong_from_address(row.get("address"), district)
+        if dong:
+            row["dong"] = dong
+            stats["from_address"] += 1
+            continue
+        lat, lng = row.get("latitude"), row.get("longitude")
+        if reverser is None or lat is None or lng is None or not district:
+            stats["unknown"] += 1
+            continue
+        try:
+            addr = reverser.address_at(float(lat), float(lng))
+        except _Budget:
+            stats["skipped_budget"] = len(targets) - i
+            break
+        except httpx.HTTPError as exc:
+            logger.warning("Nominatim reverse failed: %s", exc)
+            stats["unknown"] += 1
+            continue
+        dong = dong_from_osm(addr or {}, district)
+        if dong:
+            row["dong"] = dong
+            stats["from_osm"] += 1
+        else:
+            stats["unknown"] += 1
+    logger.info("dong backfill: %s", stats)
+    return stats
+
+
 def backfill_coordinates(
     rows: list[dict[str, Any]],
     geocoder: OsmGeocoder,

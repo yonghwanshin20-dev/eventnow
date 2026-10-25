@@ -509,10 +509,9 @@ export function EventExplorer({
   const detailFilters = (
     <>
       <RegionFilter
-        region={filters.region}
-        subregion={filters.subregion}
-        onRegionChange={(region) => updateFilters({ region, subregion: "all" })}
-        onSubregionChange={(subregion) => updateFilters({ subregion })}
+        regions={filters.regions}
+        subregions={filters.subregions}
+        onChange={(next) => updateFilters(next)}
       />
       <FamilyFilter filters={filters} onChange={(next) => updateFilters(() => next)} />
       <label className="flex items-center justify-between gap-3 rounded-2xl bg-white/80 px-4 py-3 text-sm text-stone-700 ring-1 ring-stone-200/80">

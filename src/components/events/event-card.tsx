@@ -23,9 +23,12 @@ export const WHEN_TONE: Record<EventListItem["when"]["tone"], string> = {
   ended: "bg-stone-500 text-white",
 };
 
-export function placeLabel(event: Pick<EventListItem, "region" | "address" | "district">): string {
+/** 카드 아래 지역: "서울 성동구 성수동2가" — 동은 확인된 경우에만 (애매하면 구·시까지) */
+export function placeLabel(
+  event: Pick<EventListItem, "region" | "address" | "district"> & { dong?: string | null },
+): string {
   const sub = detectSubregion(event.region, event.address ?? "", event.district);
-  return [regionShortLabel(event.region), sub].filter(Boolean).join(" ");
+  return [regionShortLabel(event.region), sub, sub ? event.dong : null].filter(Boolean).join(" ");
 }
 
 interface EventCardProps {

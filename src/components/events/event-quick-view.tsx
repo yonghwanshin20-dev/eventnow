@@ -8,9 +8,11 @@ import {
   ChevronLeft,
   ChevronRight,
   ExternalLink,
+  Flag,
   MapPin,
   Navigation,
   Ticket,
+  UtensilsCrossed,
   Wallet,
   X,
 } from "lucide-react";
@@ -36,6 +38,7 @@ import {
   placeLines,
   scheduleHint,
 } from "@/lib/events";
+import { feedbackHref } from "@/lib/feedback";
 import { ageFit, kidAgeLabel } from "@/lib/kid-age";
 import { useKidAge } from "@/lib/use-kid-age";
 import { mapsUrl, resolveInfoUrl } from "@/lib/links";
@@ -318,6 +321,23 @@ export function EventQuickView({
                 {event.when.tone !== "ended" && event.when.tone !== "approx" && (
                   <CourseSuggestions key={event.id} event={event} planDay={planDay} />
                 )}
+
+                <div className="flex items-center justify-between gap-2 text-[13px]">
+                  <Link
+                    href={`/food?event=${encodeURIComponent(event.id)}`}
+                    className="inline-flex items-center gap-1 rounded-full bg-orange-50 px-3 py-1.5 font-semibold text-orange-800 ring-1 ring-orange-100"
+                  >
+                    <UtensilsCrossed className="size-3.5" aria-hidden />
+                    주변 맛집 보기
+                  </Link>
+                  <Link
+                    href={feedbackHref(event)}
+                    className="inline-flex items-center gap-1 font-medium text-stone-500 underline-offset-2 hover:underline"
+                  >
+                    <Flag className="size-3.5" aria-hidden />
+                    정보가 틀렸어요
+                  </Link>
+                </div>
               </div>
             </div>
 

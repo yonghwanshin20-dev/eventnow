@@ -61,6 +61,8 @@ class Settings(BaseSettings):
     osm_geocode: bool = True
     osm_max_lookups: int = 150
     osm_cache_path: Path = BASE_DIR / "data" / "osm_geocode_cache.json"
+    # 좌표 → 동 역지오코딩 저장본 (커밋해 매일 재사용)
+    osm_reverse_cache_path: Path = BASE_DIR / "data" / "osm_reverse_cache.json"
     # 문화포털 상세 화면 저장본 (커밋해 매일 새 행사만 읽게)
     culture_detail_cache_path: Path = BASE_DIR / "data" / "culture_detail_cache.json"
     seoul_detail_cache_path: Path = BASE_DIR / "data" / "seoul_detail_cache.json"

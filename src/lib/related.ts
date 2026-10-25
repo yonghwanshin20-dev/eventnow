@@ -4,6 +4,7 @@ import {
   DEFAULT_EXPLORER_FILTERS,
   filtersToQueryString,
   sortEvents,
+  subregionKey,
   toListItem,
 } from "@/lib/events";
 import { isHttpUrl } from "@/lib/images";
@@ -60,8 +61,8 @@ export function relatedShelves(
       items: nearbyItems.map((e) => toListItem(e, null, today)),
       seeAllHref: `/${filtersToQueryString({
         ...DEFAULT_EXPLORER_FILTERS,
-        region: event.region,
-        subregion: sub ?? "all",
+        regions: [event.region],
+        subregions: sub ? [subregionKey(event.region, sub)] : [],
       })}`,
     },
     {

@@ -53,7 +53,7 @@ describe("describeList (공유 링크 미리보기)", () => {
   });
 
   it("지역 + 이번 주말 (상시는 세지 않음)", () => {
-    const meta = describeList(f({ when: "weekend", region: "부산광역시" }), events, TUE)!;
+    const meta = describeList(f({ when: "weekend", regions: ["부산광역시"] }), events, TUE)!;
     expect(meta.title).toBe("부산 · 이번 주말 갈 만한 곳 2곳");
     expect(meta.eyebrow).toBe("10.24 – 10.25");
     expect(meta.lines.sort()).toEqual(["국화전시", "불꽃축제"]);
@@ -73,9 +73,9 @@ describe("미리보기 문구 보호", () => {
     const fake = searchParamsToFilters(
       new URLSearchParams({ region: "서울특별시", sub: "무료쿠폰 받기 evil.com" }),
     );
-    expect(fake.subregion).toBe("all");
+    expect(fake.subregions).toEqual([]);
     const real = searchParamsToFilters(new URLSearchParams({ region: "서울특별시", sub: "종로구" }));
-    expect(real.subregion).toBe("종로구");
+    expect(real.subregions).toEqual(["서울특별시:종로구"]);
     const meta = describeList(f({ q: "무료쿠폰 evil.com" }), [ev("불꽃축제")], TUE)!;
     expect(meta.title).toBe("검색 결과 0곳");
   });

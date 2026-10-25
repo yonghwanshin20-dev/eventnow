@@ -1,11 +1,14 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import {
   Baby,
   CalendarDays,
   ExternalLink,
+  Flag,
   MapPin,
   Navigation,
   Ticket,
+  UtensilsCrossed,
   Wallet,
 } from "lucide-react";
 
@@ -27,6 +30,7 @@ import {
   isApproxDates,
   whenLabel,
 } from "@/lib/events";
+import { feedbackHref } from "@/lib/feedback";
 import { hostLabel, mapsUrl, resolveInfoUrl } from "@/lib/links";
 import { venueTypeLabel } from "@/lib/thumbnails";
 import { cn } from "@/lib/utils";
@@ -42,6 +46,7 @@ const SOURCE_CREDITS: Record<string, string> = {
   seoul_portal: "서울문화포털 (서울특별시)",
   mcst_festival: "문화체육관광부 지역축제",
   city_calendar: "시·군청 연간 행사 일정표",
+  public_data: "공공데이터포털 (지자체·문화재단 등록 정보)",
 };
 
 const WHEN_TONE: Record<ReturnType<typeof whenLabel>["tone"], string> = {
@@ -264,6 +269,22 @@ export function EventDetail({ event, url }: EventDetailProps) {
             {info.kind === "official" ? `공식 사이트 ${hostLabel(info.href)} · ` : ""}
             일정·요금은 바뀔 수 있으니 방문 전 확인하세요.
           </p>
+          <div className="flex items-center justify-between gap-2 text-[13px]">
+            <Link
+              href={`/food?event=${encodeURIComponent(event.id)}`}
+              className="inline-flex items-center gap-1 rounded-full bg-orange-50 px-3 py-1.5 font-semibold text-orange-800 ring-1 ring-orange-100"
+            >
+              <UtensilsCrossed className="size-3.5" aria-hidden />
+              주변 맛집 보기
+            </Link>
+            <Link
+              href={feedbackHref(event)}
+              className="inline-flex items-center gap-1 font-medium text-stone-500 underline-offset-2 hover:underline"
+            >
+              <Flag className="size-3.5" aria-hidden />
+              정보가 틀렸어요
+            </Link>
+          </div>
         </div>
       </div>
 

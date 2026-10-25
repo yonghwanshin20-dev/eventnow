@@ -24,6 +24,50 @@ MCST_ITEM = """
 """
 
 
+def test_dong_from_address_and_osm():
+    from geocode_osm import dong_from_address, dong_from_osm
+
+    assert dong_from_address("서울특별시 서대문구 연희동 산1-20", "서대문구") == "연희동"
+    assert dong_from_address("경기도 남양주시 진접읍 광릉숲", "남양주시") == "진접읍"
+    assert dong_from_address("서울 성동구 성수이로 74", "성동구") is None  # 도로명뿐
+    assert dong_from_address("서울 종로구 어린이회관 별관동", "종로구") is None  # 장소 이름 속 '…동'
+    seongsu = {"quarter": "성수동2가", "suburb": "성수2가1동", "borough": "성동구", "city": "서울특별시"}
+    assert dong_from_osm(seongsu, "성동구") == "성수동"  # '…가'는 동까지만
+    jongno = {"quarter": "종로2가", "suburb": "종로1.2.3.4가동", "borough": "종로구"}
+    assert dong_from_osm(jongno, "종로구") is None  # 동 이름으로 애매하면 빼기
+    assert dong_from_osm(seongsu, "마포구") is None  # 구가 다르면 믿지 않는다
+    assert dong_from_osm({"town": "전곡읍", "county": "연천군"}, "연천군") == "전곡읍"
+    assert dong_from_osm({"city_district": "의정부2동", "city": "의정부시"}, "의정부시") == "의정부2동"
+    assert dong_from_osm({"road": "평화로", "county": "연천군"}, "연천군") is None
+
+
+def test_backfill_dong_uses_cache_and_budget(tmp_path):
+    import httpx
+
+    from geocode_osm import OsmReverse, backfill_dong
+
+    calls = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls.append(str(request.url))
+        return httpx.Response(200, json={"address": {"suburb": "홍은2동", "borough": "서대문구"}})
+
+    rows = [
+        {"end_date": "2026-12-01", "district": "서대문구", "address": "서울 서대문구 연희동 1", "latitude": 37.5, "longitude": 126.9},
+        {"end_date": "2026-12-01", "district": "서대문구", "address": "서울 서대문구 모래내로 1", "latitude": 37.5797, "longitude": 126.9333},
+        {"end_date": "2026-01-01", "district": "서대문구", "address": "x", "latitude": 37.1, "longitude": 126.1},  # 지난 행사
+    ]
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    with OsmReverse(tmp_path / "rev.json", client, min_interval=0) as rev:
+        stats = backfill_dong(rows, rev, today="2026-10-25")
+    assert rows[0]["dong"] == "연희동" and rows[1]["dong"] == "홍은2동" and "dong" not in rows[2]
+    assert stats["from_address"] == 1 and stats["from_osm"] == 1 and len(calls) == 1
+    rows[1].pop("dong")
+    with OsmReverse(tmp_path / "rev.json", client, min_interval=0) as rev:
+        backfill_dong(rows, rev, today="2026-10-25")
+    assert len(calls) == 1 and rows[1]["dong"] == "홍은2동"  # 저장본 재사용
+
+
 def test_mcst_period_variants():
     assert parse_period("2026. 10. 17. ~ 10. 21. | 10:00~22:00") == ("2026-10-17", "2026-10-21", "10:00~22:00")
     assert parse_period("2026. 10. 31. | 15:30~19:00") == ("2026-10-31", "2026-10-31", "15:30~19:00")

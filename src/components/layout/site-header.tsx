@@ -14,6 +14,13 @@ export function SiteHeader() {
         </Link>
         <div className="flex items-center gap-3">
           <p className="hidden text-sm text-stone-500 sm:block">패밀리 & 핫플레이스 큐레이션</p>
+          {/* 모바일은 하단 탭에 있어서 넓은 화면에서만 */}
+          <Link href="/food" className="hidden text-sm font-medium text-stone-700 hover:text-teal-800 lg:block">
+            주변 맛집
+          </Link>
+          <Link href="/feedback" className="hidden text-sm font-medium text-stone-700 hover:text-teal-800 lg:block">
+            피드백
+          </Link>
           <InstallButton />
         </div>
       </div>

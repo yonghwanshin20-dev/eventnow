@@ -120,17 +120,26 @@ describe("scheduleHint", () => {
 });
 
 describe("activeFilterChips", () => {
-  it("걸린 조건마다 칩, 지역을 빼면 세부 지역도 같이 빠진다", () => {
+  it("걸린 조건마다 칩, 지역을 빼면 그 안의 세부 지역도 같이 빠진다", () => {
     const chips = activeFilterChips({
       ...DEFAULT_EXPLORER_FILTERS,
       q: "불꽃",
-      region: "서울특별시",
-      subregion: "마포구",
+      regions: ["서울특별시", "경기도"],
+      subregions: ["서울특별시:마포구", "경기도:의정부시", "경기도:포천시"],
       when: "weekend",
       amenities: { parking: true },
     });
-    expect(chips.map((c) => c.label)).toEqual(["‘불꽃’", "이번 주말", "서울", "마포구", "주차"]);
-    expect(chips.find((c) => c.key === "region")?.clear).toEqual({ region: "all", subregion: "all" });
+    expect(chips.map((c) => c.label)).toEqual([
+      "‘불꽃’",
+      "이번 주말",
+      "서울 마포구",
+      "경기 의정부시·포천시",
+      "주차",
+    ]);
+    expect(chips.find((c) => c.key === "region-경기도")?.clear).toEqual({
+      regions: ["서울특별시"],
+      subregions: ["서울특별시:마포구"],
+    });
   });
   it("기본 상태면 칩 없음", () => {
     expect(activeFilterChips(DEFAULT_EXPLORER_FILTERS)).toEqual([]);

@@ -48,7 +48,8 @@ GitHub Actions (무료)  ── 매일 04:00 KST 자동 실행
 1. GitHub → 오른쪽 위 프로필 → **Settings → Developer settings → Personal access tokens →
    Fine-grained tokens → Generate new token**
    - Repository access: **Only select repositories** → 이 저장소만
-   - Permissions → Repository permissions → **Actions: Read and write** (나머지는 기본값)
+   - Permissions → Repository permissions → **Actions: Read and write**,
+     **Issues: Read and write** (피드백용 — 아래 2-0 참고, 나머지는 기본값)
    - 만료일은 원하는 대로 (만료되면 버튼만 동작하지 않고 매일 자동 업데이트는 계속됨)
 2. Vercel 프로젝트 → **Settings → Environment Variables** 에 추가 후 **Redeploy**
 
@@ -64,6 +65,18 @@ GitHub Actions (무료)  ── 매일 04:00 KST 자동 실행
 - 누가 이미 실행 중이면 새로 실행하지 않고 그 진행 상황을 보여줍니다
 - 마지막 실행 후 **30분 동안은 다시 실행하지 않습니다** (지인들이 여러 번 눌러도 안전)
 - 토큰은 서버에만 있고 화면·브라우저로 전달되지 않습니다
+
+## 2-0. [피드백] 받기 (선택, 무료)
+
+앱 하단의 **[피드백]** (오류 신고 · 행사 제보 · 건의)으로 보낸 글은 이 저장소의 **Issues** 탭에 쌓입니다.
+위 토큰에 **Issues: Read and write** 권한이 있으면 따로 할 일이 없습니다
+(피드백 전용 토큰을 쓰려면 `FEEDBACK_GITHUB_TOKEN` 에 넣기).
+토큰이 없으면 피드백 화면에 "준비 중"이 보이고 보내기 버튼이 꺼져 있습니다.
+
+- 이슈 제목 앞에 `[오류 신고]` `[행사 제보]` `[건의하기]` 가 붙고, 라벨(feedback · bug · event-report · idea)이 달립니다
+- 행사 화면의 [정보가 틀렸어요]로 보내면 그 행사 링크가 함께 적힙니다
+- 확인·반영한 글은 이슈를 **Close** 하면 됩니다
+- 같은 사람이 10분에 5번 넘게 보내지 못하고, 스팸 봇용 숨은 칸으로 자동 글을 거릅니다
 
 ## 2-1. 카카오톡 사진 카드 공유 (선택, 무료)
 

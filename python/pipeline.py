@@ -26,12 +26,13 @@ logging.basicConfig(
 logger = logging.getLogger("pipeline")
 
 ALLOWED_SOURCES = {
-    "kfes", "culture", "seoulportal", "mcst", "city", "tour", "popup", "web", "seoul",
+    "kfes", "culture", "seoulportal", "mcst", "city", "public", "tour", "popup", "web", "seoul",
 }
 # 키 없이 동작하는 소스만 기본값. 키가 필요한 소스는 키가 있을 때 auto 로 추가된다.
 # kfes: 축제 달력 / culture: 문화포털 전시·아동·체험 / seoulportal: 서울문화포털(자치구 행사)
 # mcst: 문화체육관광부 지역축제(전국 시·군) / city: 시·군청 연간 행사 일정표 / popup: 팝업스토어
-KEYLESS_SOURCES = "kfes,culture,seoulportal,mcst,city,popup"
+# public: 공공데이터포털 표준데이터(지자체·문화재단이 등록한 축제·행사, 좌표 포함)
+KEYLESS_SOURCES = "kfes,culture,seoulportal,mcst,city,public,popup"
 
 
 def default_sources() -> str:
@@ -76,6 +77,11 @@ def _collect_one(
         from collectors.city_calendar import CityCalendarCollector
 
         with CityCalendarCollector() as collector:
+            return collector.collect()
+    if name == "public":
+        from collectors.public_data import PublicDataCollector
+
+        with PublicDataCollector() as collector:
             return collector.collect()
     if name == "seoulportal":
         # 서울 자치구·구 문화재단 행사 (키 없음) — 상세 화면(대상·요금·시간)은 저장본 우선
@@ -248,10 +254,20 @@ def osm_backfill(store: Any) -> dict[str, int]:
 
     try:
         with OsmGeocoder(settings.osm_cache_path, max_lookups=settings.osm_max_lookups) as geo:
-            return fill_coordinates(store, geo)
+            stats = fill_coordinates(store, geo)
     except Exception:
         logger.exception("OSM geocoding failed; keeping data without new coordinates")
-        return {"filled": 0, "not_found": 0, "skipped_budget": 0}
+        stats = {"filled": 0, "not_found": 0, "skipped_budget": 0}
+    # 좌표가 생긴 김에 동(카드의 '성수동')도 채운다 — 실패해도 수집 결과는 그대로
+    try:
+        from geocode_osm import OsmReverse
+        from store.json_store import fill_dong
+
+        with OsmReverse(settings.osm_reverse_cache_path, max_lookups=settings.osm_max_lookups) as rev:
+            fill_dong(store, rev)
+    except Exception:
+        logger.exception("dong backfill failed; keeping data without dong")
+    return stats
 
 
 def make_json_store() -> Any:

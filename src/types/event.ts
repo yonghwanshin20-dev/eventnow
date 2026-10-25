@@ -54,6 +54,8 @@ export interface Event {
   region: RegionCode;
   /** 구·군·시 (모르면 null) */
   district: string | null;
+  /** 동·읍·면 (주소 또는 좌표로 확인된 것만, 모르면 없음) */
+  dong?: string | null;
 
   is_family_friendly: boolean;
   target_age_group: TargetAgeGroup | null;
@@ -134,6 +136,7 @@ export type EventListItem = Pick<
   | "address"
   | "region"
   | "district"
+  | "dong"
   | "is_family_friendly"
   | "target_age_group"
   | "age_min"

@@ -83,15 +83,22 @@ class Robots:
 
 @lru_cache(maxsize=32)
 def _robots_for(origin: str) -> Robots | None:
-    try:
-        resp = httpx.get(
-            f"{origin}/robots.txt",
-            headers={"User-Agent": USER_AGENT},
-            timeout=15.0,
-            follow_redirects=True,
-            verify=tls_verify(origin),
-        )
-    except httpx.HTTPError:
+    resp = None
+    # 잠깐 느린 것과 정말 닿지 않는 것을 구분하려고 한 번 더 묻는다
+    for attempt in range(2):
+        try:
+            resp = httpx.get(
+                f"{origin}/robots.txt",
+                headers={"User-Agent": USER_AGENT},
+                timeout=20.0,
+                follow_redirects=True,
+                verify=tls_verify(origin),
+            )
+            break
+        except httpx.HTTPError:
+            if attempt == 0:
+                time.sleep(3)
+    if resp is None:
         logger.warning("robots.txt unreachable for %s; treating as disallowed", origin)
         return None
     if resp.status_code >= 400:

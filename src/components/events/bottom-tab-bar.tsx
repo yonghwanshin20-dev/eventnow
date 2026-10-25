@@ -1,6 +1,7 @@
 "use client";
 
-import { CalendarDays, CalendarHeart, Heart, House, Map as MapIcon } from "lucide-react";
+import Link from "next/link";
+import { CalendarDays, CalendarHeart, Heart, House, Map as MapIcon, MessageSquareText } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -52,7 +53,7 @@ export function BottomTabBar(props: BottomTabBarProps) {
       aria-label="주요 메뉴"
       className="fixed inset-x-0 bottom-0 z-40 border-t border-stone-200/80 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md lg:hidden"
     >
-      <ul className="mx-auto grid max-w-xl grid-cols-5">
+      <ul className="mx-auto grid max-w-xl grid-cols-6">
         {tabs.map(({ key, label, icon: Icon, active, onClick, badge }) => (
           <li key={key}>
             <button
@@ -78,6 +79,15 @@ export function BottomTabBar(props: BottomTabBarProps) {
             </button>
           </li>
         ))}
+        <li>
+          <Link
+            href="/feedback"
+            className="flex h-14 w-full flex-col items-center justify-center gap-0.5 text-[11px] font-medium text-stone-500"
+          >
+            <MessageSquareText className="size-[22px]" strokeWidth={1.75} aria-hidden />
+            피드백
+          </Link>
+        </li>
       </ul>
     </nav>
   );

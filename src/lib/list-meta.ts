@@ -6,6 +6,7 @@ import {
   filtersToQueryString,
   formatShortRange,
   getScheduleType,
+  parseSubregionKey,
   sortEvents,
   whenTitle,
   type ExplorerFilters,
@@ -45,11 +46,15 @@ export function describeList(
     : filters.when
       ? whenTitle(filters.when, today)
       : null;
-  const where = filters.subregion !== "all"
-    ? filters.subregion
-    : filters.region !== "all"
-      ? regionShortLabel(filters.region)
-      : null;
+  // 구·시를 골랐으면 구·시 이름, 아니면 시·도 이름 (여럿이면 "·"로, 너무 길면 "외 n곳")
+  const places = filters.subregions.length
+    ? filters.subregions.map((s) => parseSubregionKey(s).sub)
+    : filters.regions.map((r) => regionShortLabel(r));
+  const where = places.length
+    ? places.length > 3
+      ? `${places.slice(0, 3).join("·")} 외 ${places.length - 3}곳`
+      : places.join("·")
+    : null;
   const what = filters.category !== "all" ? CATEGORY_LABELS[filters.category] : null;
 
   // 검색어는 실제로 찾은 행사가 있고 짧을 때만 제목에 넣는다 — 아무 문구(광고·주소)나

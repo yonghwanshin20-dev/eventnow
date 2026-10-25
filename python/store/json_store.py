@@ -43,6 +43,7 @@ OFFICIAL_PRIORITY = {
     "seoul_portal": 4,
     "mcst_festival": 5,
     "city_calendar": 6,
+    "public_data": 7,
 }
 OFFICIAL_SOURCES = set(OFFICIAL_PRIORITY)
 # 같은 행사로 볼 시작일 차이 (회차가 다른 작년 행사와는 구분)
@@ -328,6 +329,9 @@ class JsonEventStore:
             # 지역이 바뀌면 옛 지역의 구·군은 버린다
             if new.get("region") and new.get("region") != old.get("region"):
                 merged["district"] = new.get("district")
+            # 구·시가 바뀌면 예전 동도 맞지 않으므로 지운다 (다음 실행에서 다시 채운다)
+            if merged.get("district") != old.get("district"):
+                merged.pop("dong", None)
             # 이번 실행 시작 때와 비교해 정말 바뀐 경우에만 갱신 시각을 바꾼다
             base = originals.get(id(old), old)
             changed = _comparable(merged) != _comparable(base)
@@ -477,6 +481,17 @@ def fill_coordinates(store: JsonEventStore, geocoder: Any, *, today: date | None
     rows = store.load()
     stats = backfill_coordinates(rows, geocoder, today=(today or today_kst()).isoformat())
     if stats["filled"]:
+        _atomic_write(store.path, rows)
+    return stats
+
+
+def fill_dong(store: JsonEventStore, reverser: Any, *, today: date | None = None) -> dict[str, int]:
+    """진행·예정 행의 동(dong)을 채운다 (주소 글자 → 좌표 역지오코딩)."""
+    from geocode_osm import backfill_dong
+
+    rows = store.load()
+    stats = backfill_dong(rows, reverser, today=(today or today_kst()).isoformat())
+    if stats["from_address"] or stats["from_osm"]:
         _atomic_write(store.path, rows)
     return stats
 

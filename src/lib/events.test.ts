@@ -79,9 +79,26 @@ describe("filterEvents", () => {
   it("부산 서구 필터가 강서구 행사를 잡지 않는다", () => {
     const gangseo = ev({ id: "gs", region: "부산광역시", address: "부산광역시 강서구 낙동북로 1" });
     const seo = ev({ id: "s", region: "부산광역시", address: "부산광역시 서구 구덕로 1" });
-    const filters = f({ region: "부산광역시", subregion: "서구" });
+    const filters = f({ regions: ["부산광역시"], subregions: ["부산광역시:서구"] });
     expect(filterEvents([gangseo, seo], filters, TODAY).map((e) => e.id)).toEqual(["s"]);
     expect(matchesSubregion(gangseo, "강서구")).toBe(true);
+  });
+
+  it("지역 여러 개: 서울 전체 + 경기 의정부·포천만", () => {
+    const seoul = ev({ id: "seoul", region: "서울특별시", address: "서울특별시 마포구 월드컵로 1" });
+    const ui = ev({ id: "ui", region: "경기도", address: "경기도 의정부시 시민로 1" });
+    const po = ev({ id: "po", region: "경기도", address: "경기도 포천시 중앙로 87" });
+    const suwon = ev({ id: "suwon", region: "경기도", address: "경기도 수원시 팔달구 1" });
+    const busan = ev({ id: "busan", region: "부산광역시", address: "부산광역시 서구 1" });
+    const filters = f({
+      regions: ["서울특별시", "경기도"],
+      subregions: ["경기도:의정부시", "경기도:포천시"],
+    });
+    expect(filterEvents([seoul, ui, po, suwon, busan], filters, TODAY).map((e) => e.id)).toEqual([
+      "seoul",
+      "ui",
+      "po",
+    ]);
   });
 
   it("연령 정보 없는 행사는 연령 필터에서 빠지지 않는다", () => {
@@ -157,8 +174,8 @@ describe("URL 직렬화", () => {
   it("왕복 변환이 같은 필터를 만든다", () => {
     const filters = f({
       q: "불꽃",
-      region: "경기도",
-      subregion: "광주시",
+      regions: ["경기도", "서울특별시"],
+      subregions: ["경기도:광주시", "경기도:포천시"],
       when: "weekend",
       includeEnded: true,
       sort: "near",
@@ -179,7 +196,16 @@ describe("URL 직렬화", () => {
   });
 
   it("알 수 없는 지역 값은 무시", () => {
-    expect(searchParamsToFilters({ region: "<script>" }).region).toBe("all");
+    expect(searchParamsToFilters({ region: "<script>" }).regions).toEqual([]);
+  });
+
+  it("예전 한 지역 링크(region=…&sub=…)도 그대로 읽는다", () => {
+    expect(searchParamsToFilters({ region: "경기도", sub: "의정부시" })).toMatchObject({
+      regions: ["경기도"],
+      subregions: ["경기도:의정부시"],
+    });
+    // 고르지 않은 시·도의 구·시는 버린다
+    expect(searchParamsToFilters({ region: "서울특별시", sub: "경기도:의정부시" }).subregions).toEqual([]);
   });
 });
 

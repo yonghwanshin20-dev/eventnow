@@ -10,6 +10,7 @@ import {
   PLACE_TYPE_OPTIONS,
   SCHEDULE_TYPE_OPTIONS,
   WHEN_OPTIONS,
+  parseSubregionKey,
   type ExplorerFilters,
 } from "@/lib/events";
 
@@ -43,15 +44,20 @@ export function activeFilterChips(f: ExplorerFilters): Chip[] {
   if (f.category !== "all") {
     chips.push({ key: "category", label: CATEGORY_LABELS[f.category], clear: { category: "all" } });
   }
-  if (f.region !== "all") {
+  // 시·도마다 칩 하나: 구·시를 골랐으면 "경기 의정부시·포천시", 아니면 "서울"
+  for (const region of f.regions) {
+    const subs = f.subregions
+      .map(parseSubregionKey)
+      .filter((s) => s.region === region)
+      .map((s) => s.sub);
     chips.push({
-      key: "region",
-      label: regionShortLabel(f.region),
-      clear: { region: "all", subregion: "all" },
+      key: `region-${region}`,
+      label: [regionShortLabel(region), subs.join("·")].filter(Boolean).join(" "),
+      clear: {
+        regions: f.regions.filter((r) => r !== region),
+        subregions: f.subregions.filter((s) => parseSubregionKey(s).region !== region),
+      },
     });
-  }
-  if (f.subregion !== "all") {
-    chips.push({ key: "sub", label: f.subregion, clear: { subregion: "all" } });
   }
   if (f.familyFriendlyOnly) {
     chips.push({ key: "family", label: "아이 동반", clear: { familyFriendlyOnly: false } });
