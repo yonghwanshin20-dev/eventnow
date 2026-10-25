@@ -3,8 +3,12 @@ import { NextResponse } from "next/server";
 import { detectSubregion } from "@/data/regions";
 import { getEventById } from "@/lib/events-data";
 import {
+  BLOG_PAGES,
+  BLOG_PAGE_SIZE,
   FOOD_RADIUS_M,
   blogQuery,
+  countMentions,
+  type BlogDoc,
   buildQueries,
   getKakaoRestKey,
   isValidKoreaCoord,
@@ -106,12 +110,25 @@ export async function GET(request: Request) {
       }),
     );
     const candidates = toCandidates(pages.flatMap((p) => p.documents ?? [])).slice(0, MAX_CANDIDATES);
-    const counted = await inBatches<Candidate, Candidate & { blogCount: number }>(candidates, 5, async (c) => {
-      const blog = await kakao<{ meta?: { total_count?: number } }>(key, "/v2/search/blog", {
-        query: blogQuery(c.name, area, c.address),
-        size: "1",
-      }).catch(() => ({ meta: { total_count: 0 } }));
-      return { ...c, blogCount: blog.meta?.total_count ?? 0 };
+    type Counted = Candidate & { blogCount: number; blogMore: boolean };
+    const counted = await inBatches<Candidate, Counted>(candidates, 5, async (c) => {
+      // '전체 건수'는 믿을 수 없어 글을 받아 이 가게를 실제로 언급한 글만 센다 (최대 100건 확인)
+      let count = 0;
+      let more = false;
+      for (let page = 1; page <= BLOG_PAGES; page++) {
+        const blog = await kakao<{ documents?: BlogDoc[]; meta?: { is_end?: boolean } }>(key, "/v2/search/blog", {
+          query: blogQuery(c.name, area, c.address),
+          size: String(BLOG_PAGE_SIZE),
+          page: String(page),
+        }).catch(() => ({ documents: [], meta: { is_end: true } }));
+        const docs = blog.documents ?? [];
+        const hits = countMentions(docs, c.name, area, c.address);
+        count += hits;
+        // 받은 글이 거의 다 이 가게 글일 때만 다음 쪽까지 본다
+        more = page === BLOG_PAGES && hits >= docs.length * 0.8 && !blog.meta?.is_end;
+        if (blog.meta?.is_end || docs.length < BLOG_PAGE_SIZE || hits < docs.length * 0.8) break;
+      }
+      return { ...c, blogCount: count, blogMore: more };
     });
     return NextResponse.json(
       { picks: rankPicks(counted), area },

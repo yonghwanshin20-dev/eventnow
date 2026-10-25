@@ -39,7 +39,9 @@ export default function EventMap({ points, near, onSelect }: EventMapProps) {
   }, [points]);
 
   return (
-    <div className="h-full min-h-80 overflow-hidden rounded-2xl ring-1 ring-stone-200">
+    // isolate + z-0: Leaflet 안쪽 층(z-index 400~1000)이 이 상자 밖으로 새지 않게 —
+    // 그래야 빠른 보기 시트·위쪽 필터 줄이 지도 위로 올라온다
+    <div className="relative isolate z-0 h-full min-h-80 overflow-hidden rounded-2xl ring-1 ring-stone-200">
       <MapContainer
         key={`${points.length}-${bounds?.flat().join(",") ?? "none"}`}
         center={near ? [near.lat, near.lng] : KOREA_CENTER}

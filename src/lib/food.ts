@@ -13,8 +13,10 @@ export interface FoodPick {
   /** '한식 · 육류,고기' */
   category: string | null;
   address: string | null;
-  /** 블로그에 이 가게 이름+동네로 나온 글 수 */
+  /** 이 가게를 실제로 언급한 블로그 글 수 (확인한 범위 안에서) */
   blogCount: number;
+  /** 확인한 글이 전부 이 가게 글이라 더 있을 수 있음 → 'N건 이상' */
+  blogMore: boolean;
   /** 기준점에서 미터, 모르면 null */
   distance: number | null;
   /** 리뷰·사진을 볼 카카오맵 장소 화면 */
@@ -111,7 +113,41 @@ export function toCandidates(places: KakaoPlace[]): Candidate[] {
 /** 블로그 검색어 — 체인점이 다른 지점 글까지 세지 않게 동네를 붙인다 */
 export function blogQuery(name: string, area: FoodArea, address?: string | null): string {
   const near = area.dong || area.district || dongFromAddress(address) || "";
-  return `"${name}" ${near}`.trim();
+  return `${name} ${near}`.trim();
+}
+
+/** 블로그 검색 한 번에 받는 글 수 (다음 검색 최대 50) · 가게마다 확인하는 쪽 수 */
+export const BLOG_PAGE_SIZE = 50;
+export const BLOG_PAGES = 2;
+
+export interface BlogDoc {
+  title?: string;
+  contents?: string;
+}
+
+const squash = (s: string) => stripHtml(s).replace(/\s+/g, "").toLowerCase();
+function stripHtml(s: string): string {
+  return s.replace(/<[^>]+>/g, "").replace(/&[a-z#0-9]+;/gi, " ");
+}
+
+/**
+ * 검색 결과 중 이 가게를 실제로 언급한 글만 센다.
+ * 다음 검색의 '전체 건수'는 낱말만 겹쳐도 세어 '수빈'·'유우' 같은 짧은 이름은 수만 건이 나온다 —
+ * 그래서 가게 이름이 제목·본문에 그대로 있는 글만, 이름이 짧으면 동네 이름도 함께 있는 글만 센다.
+ */
+export function countMentions(docs: BlogDoc[], name: string, area: FoodArea, address?: string | null): number {
+  const key = squash(name);
+  if (!key) return 0;
+  const places = [area.dong, area.district, area.place, dongFromAddress(address)]
+    .filter((s): s is string => Boolean(s))
+    .map((s) => squash(s.replace(/\d+가$/, "")))
+    .filter((s) => s.length >= 2);
+  const short = key.length <= 3;
+  return docs.filter((d) => {
+    const text = squash(`${d.title ?? ""} ${d.contents ?? ""}`);
+    if (!text.includes(key)) return false;
+    return !short || places.length === 0 || places.some((p) => text.includes(p));
+  }).length;
 }
 
 /** '서울 서대문구 연희로 1' 같은 주소에서 구·시 이름 */
@@ -123,16 +159,18 @@ export function kakaoSearchUrl(query: string): string {
   return `https://map.kakao.com/?q=${encodeURIComponent(query)}`;
 }
 
-/** 블로그 글 많은 순 10곳 */
-export function rankPicks(candidates: (Candidate & { blogCount: number })[]): FoodPick[] {
+/** 블로그 글 많은 순 10곳 (글이 하나도 확인되지 않은 곳은 뺀다) */
+export function rankPicks(candidates: (Candidate & { blogCount: number; blogMore?: boolean })[]): FoodPick[] {
   return [...candidates]
-    .sort((a, b) => b.blogCount - a.blogCount)
+    .filter((c) => c.blogCount > 0)
+    .sort((a, b) => b.blogCount - a.blogCount || (a.distance ?? 1e9) - (b.distance ?? 1e9))
     .slice(0, FOOD_LIMIT)
-    .map(({ name, category, address, blogCount, distance, link }) => ({
+    .map(({ name, category, address, blogCount, blogMore, distance, link }) => ({
       name,
       category,
       address,
       blogCount,
+      blogMore: Boolean(blogMore),
       distance,
       link,
     }));

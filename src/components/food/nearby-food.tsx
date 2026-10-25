@@ -163,7 +163,7 @@ export function NearbyFood({ eventId, fallbackQuery }: NearbyFoodProps) {
                       </p>
                       <p className="mt-1 inline-flex items-center gap-1 text-[12.5px] font-medium text-orange-700">
                         <MessageSquareText className="size-3.5" aria-hidden />
-                        블로그 글 {formatCount(p.blogCount)}건
+                        블로그 후기 {formatCount(p.blogCount)}건{p.blogMore ? " 이상" : ""}
                       </p>
                     </div>
                     <ChevronRight className="size-4 shrink-0 text-stone-400" aria-hidden />
@@ -173,7 +173,8 @@ export function NearbyFood({ eventId, fallbackQuery }: NearbyFoodProps) {
             </ol>
           )}
           <p className="text-[11.5px] leading-5 text-stone-400">
-            근처 {formatDistance(1500)} 안 식당을 블로그 글 수로 골랐어요. 누르면 카카오맵에서 별점·리뷰·사진을 볼 수 있어요.
+            근처 {formatDistance(1500)} 안 식당 중 가게 이름이 실제로 나온 블로그 후기가 많은 순이에요 (가게당 최근 100건까지 확인).
+            누르면 카카오맵에서 별점·리뷰·사진을 볼 수 있어요.
           </p>
         </>
       )}

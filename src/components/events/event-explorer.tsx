@@ -926,16 +926,35 @@ export function EventExplorer({
               </div>
             ) : filters.view === "map" ? (
               <div className="space-y-2">
-                <div className="h-[calc(100dvh-14rem)] min-h-80">
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-[13px] text-stone-600">
+                    지도에 <b className="font-semibold text-stone-800">{mapPoints.length}건</b> · 점을 누르면 정보가 떠요
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => writeFilters({ ...filters, view: "list" })}
+                    className="inline-flex h-9 shrink-0 items-center gap-1 rounded-full bg-white px-3.5 text-[13px] font-semibold text-stone-800 ring-1 ring-stone-200"
+                  >
+                    <X className="size-4" aria-hidden />
+                    지도 닫기
+                  </button>
+                </div>
+                {/* 휴대폰에서는 화면을 다 덮지 않게 — 지도 밖을 밀어 화면을 내릴 수 있도록 */}
+                <div className="relative h-[58dvh] min-h-72 lg:h-[calc(100dvh-14rem)]">
                   <EventMap
                     points={mapPoints}
                     near={filters.near}
                     onSelect={(id) => quickApi.open(id, mapPoints.map((p) => p.id))}
                   />
+                  <button
+                    type="button"
+                    onClick={() => writeFilters({ ...filters, view: "list" })}
+                    className="absolute bottom-3 left-1/2 z-10 inline-flex h-10 -translate-x-1/2 items-center gap-1.5 rounded-full bg-stone-900 px-4 text-sm font-semibold text-white shadow-lg"
+                  >
+                    <List className="size-4" aria-hidden />
+                    목록으로 보기
+                  </button>
                 </div>
-                <p className="text-xs text-stone-500">
-                  위치 정보가 있는 {mapPoints.length}건 · 점을 누르면 바로 볼 수 있어요
-                </p>
               </div>
             ) : (
               <div className="space-y-4">
