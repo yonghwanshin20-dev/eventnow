@@ -5,6 +5,7 @@ import { Baby, Flame, LocateFixed, MessageSquareText, Star, Users } from "lucide
 
 import {
   FOOD_KIND_LABELS,
+  badgesFor,
   formatCount,
   formatDistance,
   kakaoSearchUrl,
@@ -218,15 +219,15 @@ export function NearbyFood({ eventId, fallbackQuery }: NearbyFoodProps) {
                         </span>
                       )}
                     </p>
-                    {(p.familyCount >= 2 || p.hotCount >= 3) && (
+                    {(badgesFor(p).family || badgesFor(p).hot) && (
                       <p className="flex flex-wrap gap-1.5">
-                        {p.familyCount >= 2 && (
+                        {badgesFor(p).family && (
                           <span className="inline-flex items-center gap-1 rounded-full bg-teal-50 px-2 py-0.5 text-[11.5px] font-semibold text-teal-800">
                             <Baby className="size-3" aria-hidden />
                             아이랑 가기 좋아요
                           </span>
                         )}
-                        {p.hotCount >= 3 && (
+                        {badgesFor(p).hot && (
                           <span className="inline-flex items-center gap-1 rounded-full bg-rose-50 px-2 py-0.5 text-[11.5px] font-semibold text-rose-700">
                             <Flame className="size-3" aria-hidden />
                             웨이팅 인기

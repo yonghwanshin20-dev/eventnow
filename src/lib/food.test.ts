@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   analyzeMentions,
+  badgesFor,
   blogQuery,
   buildQueries,
   countMentions,
@@ -99,6 +100,13 @@ describe("점수·순위", () => {
     ];
     expect(matchRating(c, google)?.rating).toBe(4.5);
     expect(matchRating(c, [google[1]])).toBeNull();
+  });
+});
+
+describe("배지", () => {
+  it("언급 비율이 충분할 때만", () => {
+    expect(badgesFor({ blogCount: 100, cafeCount: 20, familyCount: 9, hotCount: 10 })).toEqual({ family: true, hot: false });
+    expect(badgesFor({ blogCount: 30, cafeCount: 0, familyCount: 1, hotCount: 6 })).toEqual({ family: false, hot: true });
   });
 });
 

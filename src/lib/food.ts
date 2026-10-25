@@ -183,7 +183,20 @@ function dongFromAddress(address?: string | null): string | null {
 }
 
 const FAMILY_WORDS = /아기\s?의자|유아\s?의자|아이\s?의자|키즈\s?존|놀이방|아이랑|아기랑|애기랑|유모차|아기\s?식기|유아\s?식기|가족\s?외식|키즈\s?메뉴|어린이\s?메뉴/;
-const HOT_WORDS = /웨이팅|대기\s?(?:시간|줄)|줄\s?(?:서|을\s?서|이\s?길)|오픈\s?런|예약\s?필수|인생\s?맛집|재방문/;
+// 실제로 줄을 서는지 — '재방문'·'인생맛집' 같은 칭찬 말은 넣지 않는다
+const HOT_WORDS = /웨이팅|대기\s?(?:시간|줄|번호)|줄\s?(?:서|을\s?서|이\s?길)|오픈\s?런|캐치테이블|테이블링/;
+
+/** 배지 기준 — 언급 글 중 일정 비율 이상일 때만 (글이 많은 집이 우연히 걸리지 않게) */
+export function badgesFor(p: Pick<FoodPick, "blogCount" | "cafeCount" | "familyCount" | "hotCount">): {
+  family: boolean;
+  hot: boolean;
+} {
+  const total = p.blogCount + p.cafeCount;
+  return {
+    family: p.familyCount >= Math.max(3, total * 0.06),
+    hot: p.hotCount >= Math.max(4, total * 0.15),
+  };
+}
 
 export interface MentionStats {
   /** 이 가게를 실제로 언급한 글 */
