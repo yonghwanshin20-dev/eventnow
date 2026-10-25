@@ -172,6 +172,18 @@ export function NearbyFood({ base: initialBase, fallbackQuery }: NearbyFoodProps
       {status === "error" && error && (
         <p role="alert" className="rounded-2xl bg-white px-4 py-3 text-sm text-stone-700 ring-1 ring-stone-200">
           {error} 위의 지도 앱 바로가기로도 찾아볼 수 있어요.
+          {base && (
+            <button
+              type="button"
+              onClick={() => {
+                setStatus("loading");
+                load(base);
+              }}
+              className="ml-1 font-semibold text-teal-800 underline underline-offset-2"
+            >
+              다시 시도
+            </button>
+          )}
         </p>
       )}
 
