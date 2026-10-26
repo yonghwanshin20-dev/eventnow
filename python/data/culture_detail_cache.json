@@ -2043,5 +2043,23 @@
   "address": "경기도 부천시 원미구 장말로 107",
   "fetched": "2026-10-25",
   "homepage": "https://www.bcf.or.kr/base/board/read?boardManagementNo=25&amp;boardNo=153300&amp;searchCategory=&amp;page=1&amp;searchType=&amp;searchWord=&amp;menuLevel=2&amp"
+ },
+ "403251": {
+  "address": "인천광역시 부평구 아트센터로 166 부평아트센터",
+  "age": "36개월 이상 관람 권장",
+  "fetched": "2026-10-26",
+  "homepage": "https://www.bpcf.or.kr/bpcf/main/main.do",
+  "hours": "화-일 10:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "403465": {
+  "address": "서울",
+  "fetched": "2026-10-26",
+  "homepage": "https://blog.naver.com/jw-8229"
+ },
+ "403470": {
+  "address": "서울",
+  "fetched": "2026-10-26",
+  "homepage": "https://dtshappy.org/ko"
  }
 }
