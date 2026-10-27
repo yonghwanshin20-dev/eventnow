@@ -2129,5 +2129,102 @@
   "address": "서울",
   "fetched": "2026-10-27",
   "homepage": "https://www.molit.go.kr/molitum/USR/BORD0201/m_36917/DTL.jsp?id=um_6_3&amp;cate=&amp;mode=view&amp;idx=1344"
+ },
+ "405019": {
+  "age": "6세~8세",
+  "fetched": "2026-10-28"
+ },
+ "405020": {
+  "age": "6세~8세",
+  "fetched": "2026-10-28"
+ },
+ "405021": {
+  "age": "5~7세",
+  "fetched": "2026-10-28"
+ },
+ "405022": {
+  "age": "5~7세",
+  "fetched": "2026-10-28"
+ },
+ "405023": {
+  "age": "6~8세",
+  "fetched": "2026-10-28"
+ },
+ "405024": {
+  "age": "6세 ~ 8세",
+  "fetched": "2026-10-28"
+ },
+ "405025": {
+  "age": "6세 ~ 8세",
+  "fetched": "2026-10-28"
+ },
+ "405028": {
+  "address": "경기도 안양시 동안구 평촌대로 76 평촌아트홀",
+  "fetched": "2026-10-28",
+  "homepage": "https://ayac.or.kr/base/main/view",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료"
+ },
+ "405033": {
+  "address": "서울",
+  "fetched": "2026-10-28",
+  "homepage": "http://2026svbiz.com"
+ },
+ "405035": {
+  "address": "부산광역시 영도구 봉래나루로 33",
+  "fetched": "2026-10-28",
+  "homepage": "https://bto.or.kr/kor/CMS/Board/Board.do?mCode=MN045&amp;page=1&amp;mode=view&amp;mgr_seq=20&amp;board_seq=5498"
+ },
+ "405037": {
+  "fetched": "2026-10-28"
+ },
+ "405038": {
+  "address": "경상북도 포항시 북구 해안로 93",
+  "fetched": "2026-10-28",
+  "homepage": "https://phcf.or.kr/phcf/festival/submain.do?festival_id=FST_LIGHT_2026_001"
+ },
+ "405043": {
+  "address": "경상북도 성주군 수륜면 가야산식물원길 17",
+  "fetched": "2026-10-28",
+  "homepage": "https://blog.naver.com/sjtrip/224441081211"
+ },
+ "405044": {
+  "address": "충청남도 서천군 장항읍 장항로161번길 27",
+  "fetched": "2026-10-28",
+  "homepage": "https://www.seocheonctf.or.kr/board/performance/view/5025.do?searchword=&amp;searchkey=&amp;page=1"
+ },
+ "405045": {
+  "address": "경상북도 문경시 문경읍 새재로 932",
+  "fetched": "2026-10-28",
+  "homepage": "https://www.mgapple.or.kr/"
+ },
+ "405139": {
+  "address": "경상북도 경산시 경산로42길 22-11",
+  "fetched": "2026-10-28",
+  "homepage": "https://blog.naver.com/gyeongsan-si/224454390366"
+ },
+ "405146": {
+  "address": "전북특별자치도 완주군 구이면 모악산길 111-6 전북도립미술관",
+  "age": "전체연령",
+  "fetched": "2026-10-28",
+  "homepage": "http://www.jma.go.kr/",
+  "hours": "화-일 10:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "405147": {
+  "address": "전북특별자치도 완주군 구이면 모악산길 111-6 전북도립미술관",
+  "age": "전체연령",
+  "fetched": "2026-10-28",
+  "homepage": "http://www.jma.go.kr/",
+  "hours": "화-일 10:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "405148": {
+  "address": "전남광주통합특별시 동구 문화전당로 38 국립아시아문화전당",
+  "age": "전체연령",
+  "fetched": "2026-10-28",
+  "homepage": "https://www.acc.go.kr/main/contents.do?PID=06020204",
+  "hours": "화, 목, 금, 일요일 10:00-18:00 / 수, 토요일 10:00-20:00 / 매주 월요일 휴관",
+  "price": "무료"
  }
 }
