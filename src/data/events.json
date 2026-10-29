@@ -13045,7 +13045,7 @@
     "content_hash": "d9292f190282ec9a82d3315a04671c03b20c84c4279196f9b2f6321c19e41f61",
     "id": "evt-235ac23309",
     "created_at": "2026-10-19T08:41:14.802132+00:00",
-    "updated_at": "2026-10-29T12:18:44.126303+00:00",
+    "updated_at": "2026-10-29T12:56:38.120209+00:00",
     "age_min": null,
     "age_max": null,
     "dong": "구이면"
@@ -147511,6 +147511,46 @@
     "created_at": "2026-10-25T14:09:04.017054+00:00",
     "updated_at": "2026-10-25T14:09:04.017054+00:00",
     "dong": "송포동"
+  },
+  {
+    "title": "고흥유자축제",
+    "category": "festival",
+    "description": "고흥유자축제는 대한민국 최대 유자 주산지, 청정고흥에서 펼쳐지는 대표 가을축제이다. 따뜻한 남도의 햇살과 맑은 해풍을 가득 머금고 자란 고흥 유자의 짙은 풍미와 싱그러운 매력을 오감으로 만끽할 수 있는 축제이다. 눈앞에 펼쳐지는 드넓은 유자밭을 배경으로 향긋한 유자청 만들기, 지친 몸을 녹이는 유자스파, 오직 고흥에서만 맛볼 수 있는 특별한 유자 요리 시식까지 오감만족 체험이 펼쳐진다. 밤이 되면 환상적인 야간 경관 조명과 유자 테마 공간이 어우러져 한 폭의 그림 같은 가을밤의 로맨스를 선사한다.\n운영 시간 10:00~22:00",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-15",
+    "location_name": "전남광주 고흥군",
+    "address": "전남광주 고흥군",
+    "latitude": 34.604412,
+    "longitude": 127.276384,
+    "region": "전라남도",
+    "district": "고흥군",
+    "is_family_friendly": true,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "price_info": null,
+    "thumbnail_url": "https://www.mcst.go.kr/attachFiles/cultureInfoCourt/localFestival/notifyFestival/1791761720786.png",
+    "official_link": "https://www.mcst.go.kr/site/s_culture/festival/festivalView.jsp?pSeq=11905",
+    "tags": [
+      "#체험",
+      "#야간",
+      "#먹거리"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "mcst_festival",
+    "source_id": "11905",
+    "content_hash": "2aa9d4de35285375a45db599392dbb53c956df9bbf5b6ca7b91dc17596706fcf",
+    "id": "evt-3636eaaf61",
+    "created_at": "2026-10-29T12:56:38.120209+00:00",
+    "updated_at": "2026-10-29T12:56:38.120209+00:00",
+    "dong": "고흥읍"
   },
   {
     "title": "[마포구립서강도서관] 11월/도서관초대석 (김영찬 작가) [가르치지 않을 용기]",
