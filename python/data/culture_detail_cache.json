@@ -2306,5 +2306,53 @@
   "address": "광주",
   "fetched": "2026-10-29",
   "homepage": "https://www.muan.go.kr/www/openmuan/festivites/occasion?idx=15207204&mode=view"
+ },
+ "405481": {
+  "address": "서울특별시 성동구 왕십리로 281 성동문화원",
+  "fetched": "2026-10-29",
+  "homepage": "http://www.ssdc.or.kr/",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료"
+ },
+ "405484": {
+  "address": "경기도 오산시 현충로 100 오산시립미술관",
+  "age": "전체연령",
+  "fetched": "2026-10-29",
+  "homepage": "http://osan.go.kr/arts/contents.do?mId=0702010200",
+  "hours": "10:00~18:00(매주 월요일 휴관)",
+  "price": "무료"
+ },
+ "405485": {
+  "address": "강원특별자치도 강릉시 종합운동장길 84 강릉아트센터",
+  "fetched": "2026-10-29",
+  "homepage": "https://www.gn.go.kr/artscenter/",
+  "hours": "10:00~18:00",
+  "price": "무료"
+ },
+ "405544": {
+  "address": "서울특별시 용산구 이태원로 274 용산문화재단",
+  "age": "전체연령",
+  "fetched": "2026-10-29",
+  "homepage": "https://yongsanculture.or.kr/site/main/home",
+  "hours": "10:00~18:00, 일요일 휴관",
+  "price": "무료"
+ },
+ "405550": {
+  "address": "광주",
+  "fetched": "2026-10-29",
+  "homepage": "https://www.goheung.go.kr/index.do#"
+ },
+ "405554": {
+  "address": "충청남도 공주시 고마나루길 90 아트센터 고마",
+  "age": "전체연령",
+  "fetched": "2026-10-29",
+  "homepage": "http://www.gongjucf.or.kr/",
+  "hours": "화-일 10:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "405583": {
+  "address": "경기",
+  "fetched": "2026-10-29",
+  "homepage": "https://www.facebook.com/photo/?fbid=122269409474044842&amp;set=pcb.122269409648044842&amp;locale=ko_KR"
  }
 }
