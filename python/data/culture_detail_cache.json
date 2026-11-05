@@ -1958,9 +1958,88 @@
   "fetched": "2026-11-04",
   "homepage": "https://www.idfac.or.kr/bbs/board.php?bo_table=notice&amp;wr_id=485"
  },
+ "406022": {
+  "address": "서울특별시 성동구 왕십리로 281 성동문화원",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "http://www.ssdc.or.kr/",
+  "hours": "10:00~18:00",
+  "price": "무료"
+ },
+ "406023": {
+  "address": "부산광역시 남구 우암로 84-1 부산문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "http://www.bscf.or.kr/",
+  "hours": "10:30 - 20:00 (금,토,일 20:30까지 연장)",
+  "price": "무료"
+ },
+ "406024": {
+  "address": "부산광역시 남구 우암로 84-1 부산문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "http://www.bscf.or.kr/",
+  "hours": "10:30 - 18:30 (월요일 정기휴관)",
+  "price": "무료"
+ },
+ "406025": {
+  "address": "강원특별자치도 강릉시 종합운동장길 84 강릉아트센터",
+  "fetched": "2026-11-05",
+  "homepage": "https://www.gn.go.kr/artscenter/",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료"
+ },
+ "406028": {
+  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "http://www.wcf.or.kr/",
+  "hours": "[홈페이지 내용 참고]",
+  "price": "무료"
+ },
  "406030": {
   "address": "서울",
   "fetched": "2026-11-04",
+  "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
+ },
+ "406032": {
+  "address": "부산",
+  "age": "전연령 가능",
+  "fetched": "2026-11-05",
+  "homepage": "https://busandabom.net/play/view.nm?menuCd=5&amp;lang=ko&amp;url=play&amp;res_no=2026090009&amp;playoftoday=Y"
+ },
+ "406035": {
+  "address": "부산광역시 남구 우암로 84-1 부산문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "http://www.bscf.or.kr/",
+  "hours": "[홈페이지 참고]",
+  "price": "무료"
+ },
+ "406039": {
+  "address": "부산광역시 중구 동광길 49 40계단문화관 생활문화센터",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "https://www.bsjunggu.go.kr/tour/index.junggu?menuCd=DOM_000000208001001000&link=success&cpath=%2Ftour",
+  "hours": "화~금 10:00~18:00 / 토~일 10:00~17:00 ※ 월요일 및 공휴일 휴관",
+  "price": "무료"
+ },
+ "406054": {
+  "address": "전북특별자치도 전주시 완산구 경기전길 89 교동아트미술관",
+  "age": "전체연령",
+  "fetched": "2026-11-05",
+  "homepage": "http://www.gdart.co.kr/",
+  "hours": "10 : 00 ~ 18 : 00",
+  "price": "무료"
+ },
+ "406060": {
+  "address": "전남광주통합특별시 서구 대남대로 465",
+  "fetched": "2026-11-05",
+  "homepage": "https://www.gjcf.or.kr/cf/Board/87385/detailView.do"
+ },
+ "406234": {
+  "address": "서울",
+  "fetched": "2026-11-05",
   "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
  }
 }

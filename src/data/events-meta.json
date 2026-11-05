@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-03T23:59:42.716758+00:00",
-  "total": 3983,
+  "generated_at": "2026-11-05T00:15:46.056663+00:00",
+  "total": 4002,
   "by_source": {
     "attraction": 2558,
     "city_calendar": 7,
-    "culture_portal": 345,
-    "curated": 280,
-    "kfes": 135,
+    "culture_portal": 355,
+    "curated": 278,
+    "kfes": 133,
     "mcst_festival": 27,
-    "popply": 305,
+    "popply": 317,
     "public_data": 163,
     "seoul_portal": 119,
-    "venue_fair": 44
+    "venue_fair": 45
   },
   "run": {
     "status": "partial",
@@ -26,12 +26,12 @@
       "seoulportal",
       "venue"
     ],
-    "inserted": 84,
-    "updated": 2548,
-    "corrected": 2,
-    "deduplicated": 65,
-    "withdrawn": 0,
-    "pruned": 2,
+    "inserted": 89,
+    "updated": 2546,
+    "corrected": 4,
+    "deduplicated": 66,
+    "withdrawn": 1,
+    "pruned": 3,
     "rejected": 2,
     "source_errors": {
       "seoulportal": "PermissionError: robots.txt disallows https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do"
