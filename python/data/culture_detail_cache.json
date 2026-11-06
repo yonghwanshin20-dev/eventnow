@@ -2104,9 +2104,108 @@
   "fetched": "2026-11-06",
   "homepage": "http://www.amproject.kr"
  },
+ "406378": {
+  "address": "전북특별자치도 전주시 완산구 경기전길 89 교동아트미술관",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "http://www.gdart.co.kr/",
+  "hours": "10 : 00 ~ 18 : 00",
+  "price": "무료"
+ },
+ "406392": {
+  "address": "경기도 고양시 일산동구 중앙로 1286 고양시립 아람미술관",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "http://artgy.or.kr/aram/artgallery.aspx",
+  "hours": "10:00~18:00",
+  "price": "성인: 20,000원 · 청소년 (만 14세~만 18세) 16,000원 · 어린이(24개월~만 13세) 12,000원"
+ },
+ "406394": {
+  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "http://www.wcf.or.kr/",
+  "hours": "[홈페이지 참고]",
+  "price": "무료"
+ },
+ "406395": {
+  "address": "강원특별자치도 춘천시 서면 박사로 854 애니메이션박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "https://www.gica.or.kr/Ani/index",
+  "hours": "10:00~18:00",
+  "price": "[홈페이지 참고]"
+ },
+ "406397": {
+  "address": "경상남도 창녕군 창녕읍 우포2로 1189-25 창녕문화예술회관",
+  "fetched": "2026-11-07",
+  "homepage": "http://art.cng.go.kr",
+  "hours": "10:00~17:30",
+  "price": "무료"
+ },
  "406401": {
   "address": "서울",
   "fetched": "2026-11-06",
+  "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
+ },
+ "406405": {
+  "address": "부산광역시 남구 우암로 84-1 부산문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "http://www.bscf.or.kr/",
+  "hours": "평일 : 10:00 - 19:00, 주말·공휴일 : 12:00 - 18:00",
+  "price": "무료"
+ },
+ "406458": {
+  "address": "대구광역시 수성구 미술관로 40 대구미술관",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "https://daeguartmuseum.or.kr/",
+  "hours": "4-10월 10:00-19:00 / 11-3월 10:00-18:00 / 매주 월요일 휴관(단, 월요일이 공휴일인 경우에는 그 다음 평일이 휴관일)",
+  "price": "10,000원"
+ },
+ "406479": {
+  "address": "전남광주통합특별시 나주시 반남면 고분로 747 국립나주박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "https://naju.museum.go.kr/kor/index.do",
+  "hours": "화-일 09:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "406481": {
+  "address": "전남광주통합특별시 나주시 반남면 고분로 747 국립나주박물관",
+  "fetched": "2026-11-07",
+  "homepage": "https://naju.museum.go.kr/kor/index.do",
+  "hours": "화-일 오전 10:00~12:00 (입장마감 11:30) 오후 13:00~17:30 (입장마감 17:00) * 쉬어가는 시간 12:00~13:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "406490": {
+  "address": "서울특별시 서초구 반포대로 27 코스모스홀",
+  "age": "전체연령",
+  "fetched": "2026-11-07",
+  "homepage": "https://www.cosmosmusic.com/kor/about/store.html?bid=85",
+  "hours": "월요일 15:00",
+  "price": "무료"
+ },
+ "406540": {
+  "fetched": "2026-11-07"
+ },
+ "406541": {
+  "fetched": "2026-11-07"
+ },
+ "407033": {
+  "address": "충북",
+  "fetched": "2026-11-07",
+  "homepage": "https://www.goesan.go.kr/tour/selectBbsNttView.do?key=1421&bbsNo=219&nttNo=140080&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode="
+ },
+ "407039": {
+  "address": "경남",
+  "fetched": "2026-11-07",
+  "homepage": "https://www.jinju.go.kr/00130/00139/00140.web?amode=view&sno=561&listMode=all&"
+ },
+ "407040": {
+  "address": "서울",
+  "fetched": "2026-11-07",
   "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
  }
 }
