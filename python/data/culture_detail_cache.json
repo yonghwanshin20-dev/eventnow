@@ -2041,5 +2041,72 @@
   "address": "서울",
   "fetched": "2026-11-05",
   "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
+ },
+ "406240": {
+  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-06",
+  "homepage": "http://www.wcf.or.kr/",
+  "hours": "09:00 ~ 17:00",
+  "price": "무료"
+ },
+ "406258": {
+  "address": "서울특별시 용산구 이태원로 29 용산전쟁기념관",
+  "age": "전체연령",
+  "fetched": "2026-11-06",
+  "homepage": "https://www.warmemo.or.kr/front/main.do",
+  "hours": "화-일 09:30-17:40 / 월요일 휴관",
+  "price": "무료"
+ },
+ "406261": {
+  "address": "경기도 안산시 단원구 동산로 268 경기도미술관",
+  "age": "전체연령",
+  "fetched": "2026-11-06",
+  "homepage": "http://gmoma.ggcf.kr/",
+  "hours": "화-일 10:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "406267": {
+  "address": "서울특별시 강남구 영동대로 513",
+  "fetched": "2026-11-06",
+  "homepage": "https://touraz.kr/biznews/550919"
+ },
+ "406324": {
+  "address": "경기도 광명시 시청로 20 광명시민회관",
+  "fetched": "2026-11-06",
+  "homepage": "http://www.gmcf.or.kr/Main/Index",
+  "hours": "토요일 14:00",
+  "price": "전석 2만원"
+ },
+ "406334": {
+  "address": "경기도 안산시 단원구 동산로 268 경기도미술관",
+  "age": "전체연령",
+  "fetched": "2026-11-06",
+  "homepage": "http://gmoma.ggcf.kr/",
+  "hours": "화-일 10:00-18:00 / 월요일 휴관",
+  "price": "무료"
+ },
+ "406335": {
+  "address": "서울특별시 영등포구 양평로20길 8-1",
+  "fetched": "2026-11-06",
+  "homepage": "https://www.ydpcf.or.kr/postview.do?bid=1&amp;pid=2871"
+ },
+ "406338": {
+  "address": "충청남도 천안시 동남구 성남면 종합휴양지로 185 천안예술의전당",
+  "age": "전체연령",
+  "fetched": "2026-11-06",
+  "homepage": "http://www.cnac.or.kr/",
+  "hours": "10:00 ~ 17:00",
+  "price": "무료"
+ },
+ "406342": {
+  "address": "경기",
+  "fetched": "2026-11-06",
+  "homepage": "http://www.amproject.kr"
+ },
+ "406401": {
+  "address": "서울",
+  "fetched": "2026-11-06",
+  "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
  }
 }
