@@ -1433,7 +1433,7 @@
  "402883": {
   "address": "서울특별시 종로구 종로 26 SK 본사빌딩 4층 아트센터 나비",
   "age": "전체연령",
-  "fetched": "2026-10-25",
+  "fetched": "2026-11-09",
   "homepage": "http://www.nabi.or.kr/main/main.nab",
   "hours": "화요일-토요일 10:00-18:00",
   "price": "무료"
@@ -1462,54 +1462,10 @@
   "hours": "3-10월 10:00-19:00 / 11-2월 10:00-18:00 / 매주 월요일 휴관",
   "price": "성인 500원 / 어린이, 청소년, 군인, 대학생, 예술인 300원"
  },
- "402912": {
-  "address": "부산광역시 남구 우암로 84-1 부산문화재단",
-  "age": "전체연령",
-  "fetched": "2026-10-25",
-  "homepage": "http://www.bscf.or.kr/",
-  "hours": "10:00 ~ 19:00",
-  "price": "18,000원"
- },
- "402983": {
-  "address": "경상남도 밀양시 밀양대공원로 112 밀양아리랑아트센터",
-  "age": "전연령",
-  "fetched": "2026-10-25",
-  "homepage": "http://www.mycf.or.kr/main/",
-  "hours": "10:00 ~ 18:00",
-  "price": "무료"
- },
- "403104": {
-  "address": "충청남도 천안시 서북구 성정8길 5 3층 천안문화재단",
-  "age": "전체연령",
-  "fetched": "2026-10-25",
-  "homepage": "https://www.cfac.or.kr/",
-  "hours": "10:00~18:00",
-  "price": "무료"
- },
- "403139": {
-  "address": "서울",
-  "fetched": "2026-10-25",
-  "homepage": "https://yfac.kr/main/site/ticket/page2.do?proc_type=view&amp;tidx=497&amp;prepage=%2Fmain%2Fsite%2Fticket%2Fpage2.do"
- },
- "403141": {
-  "address": "경기도 오산시 현충로 100 오산시립미술관",
-  "age": "전체연령",
-  "fetched": "2026-10-25",
-  "homepage": "http://osan.go.kr/arts/contents.do?mId=0702010200",
-  "hours": "10:00 ~ 18:00",
-  "price": "무료"
- },
- "403143": {
-  "address": "강원특별자치도 강릉시 종합운동장길 84 강릉아트센터",
-  "fetched": "2026-10-25",
-  "homepage": "https://www.gn.go.kr/artscenter/",
-  "hours": "10:00~18:00",
-  "price": "무료"
- },
  "403145": {
   "address": "경기도 이천시 경충대로2697번길 263 경기도자미술관",
   "age": "전체연령",
-  "fetched": "2026-10-25",
+  "fetched": "2026-11-09",
   "homepage": "https://www.gmocca.org/",
   "hours": "10:00~18:00",
   "price": "[홈페이지 내용 참고]"
@@ -1517,19 +1473,19 @@
  "403183": {
   "address": "서울특별시 노원구 화랑로 727 태릉선수촌",
   "age": "전체연령",
-  "fetched": "2026-10-25",
+  "fetched": "2026-11-09",
   "homepage": "http://www.sports.or.kr/index.do",
   "hours": "월-금 10:00-17:00",
   "price": "무료"
  },
  "403214": {
   "address": "경기도 부천시 원미구 장말로 107",
-  "fetched": "2026-10-25",
+  "fetched": "2026-11-09",
   "homepage": "https://www.bcf.or.kr/base/board/read?boardManagementNo=25&amp;boardNo=153310&amp;searchCategory=&amp;page=1&amp;searchType=&amp;searchWord=&amp;menuLevel=2&amp"
  },
  "403215": {
   "address": "경기도 부천시 원미구 장말로 107",
-  "fetched": "2026-10-25",
+  "fetched": "2026-11-09",
   "homepage": "https://www.bcf.or.kr/base/board/read?boardManagementNo=25&amp;boardNo=153300&amp;searchCategory=&amp;page=1&amp;searchType=&amp;searchWord=&amp;menuLevel=2&amp"
  },
  "403251": {

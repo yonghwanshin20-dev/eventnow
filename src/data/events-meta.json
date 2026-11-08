@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T22:34:28.393103+00:00",
-  "total": 4065,
+  "generated_at": "2026-11-08T22:45:24.196154+00:00",
+  "total": 4068,
   "by_source": {
     "attraction": 2558,
     "city_calendar": 10,
@@ -8,7 +8,7 @@
     "curated": 274,
     "kfes": 134,
     "mcst_festival": 28,
-    "popply": 355,
+    "popply": 358,
     "public_data": 163,
     "seoul_portal": 119,
     "venue_fair": 47
@@ -26,10 +26,10 @@
       "seoulportal",
       "venue"
     ],
-    "inserted": 63,
+    "inserted": 38,
     "updated": 2544,
     "corrected": 0,
-    "deduplicated": 60,
+    "deduplicated": 35,
     "withdrawn": 0,
     "pruned": 0,
     "rejected": 2,
