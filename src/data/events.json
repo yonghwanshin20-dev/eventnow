@@ -245239,6 +245239,45 @@
     "apply_end": null
   },
   {
+    "title": "서울 청녕예술창업 페스타 2026",
+    "category": "festival",
+    "description": "청년예술청SAPY에서 열리는 행사예요. 문의 운영사무국 031-699-3262",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-24",
+    "location_name": "청년예술청SAPY",
+    "address": "서울 청년예술청SAPY",
+    "latitude": null,
+    "longitude": null,
+    "region": "서울특별시",
+    "district": null,
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": "https://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202611/6e6f24d3d5ea49bfa0f635a1439e879a.jpg",
+    "official_link": "https://www.sapy.kr/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "culture_portal",
+    "source_id": "407397",
+    "content_hash": "823146d476b717912733d8004638b3320081f82bf02ca1ce8236f06d8909195f",
+    "id": "evt-a17665e42f",
+    "created_at": "2026-11-09T04:19:30.681203+00:00",
+    "updated_at": "2026-11-09T04:19:30.681203+00:00"
+  },
+  {
     "title": "[마포구립서강도서관] 11월/어린이 [해봄+ing 미래를 달리다! 자율주행 코딩 챌린지]",
     "category": "kids_experience",
     "description": "2026 해봄+ing 미래를 달리다! 자율주행 코딩 챌린지 알티노 라이트 코딩과 주행 미션으로 자율주행을 체험해 보세요! 장소 : 마포구립서강도서관 3층 세미나실 대상 : 해봄이로 등록한 초등학교 4~6학년 16명 모집 : 2026. 11. 7.(토) 오전 9시 홈페이지 선착순 접수 강사 : 정소연 (AI·자율주행·로봇 코딩 전문 강사) 와이즈교육 국장, 초·중·고등학교 AI·자율주행·로봇 코딩 교육 과천과학관 AI·IoT 교육, 한국평생교육원 코딩지도사 영상 강의 해봄 | 마포구립서강도서관\n운영 시간 15:00~17:00",

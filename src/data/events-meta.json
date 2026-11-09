@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T04:14:24.743765+00:00",
-  "total": 5978,
+  "generated_at": "2026-11-09T04:19:59.841741+00:00",
+  "total": 5979,
   "by_source": {
     "attraction": 4431,
     "city_calendar": 10,
-    "culture_portal": 379,
+    "culture_portal": 380,
     "curated": 274,
     "kfes": 135,
     "mcst_festival": 27,
@@ -14,18 +14,27 @@
     "venue_fair": 47
   },
   "run": {
-    "status": "ok",
+    "status": "partial",
     "sources": [
       "city",
-      "seoulportal"
+      "culture",
+      "kfes",
+      "mcst",
+      "places",
+      "popup",
+      "public",
+      "seoulportal",
+      "venue"
     ],
-    "inserted": 21,
+    "inserted": 56,
     "updated": 0,
     "corrected": 0,
-    "deduplicated": 21,
+    "deduplicated": 55,
     "withdrawn": 0,
     "pruned": 0,
-    "rejected": 0,
-    "source_errors": {}
+    "rejected": 2,
+    "source_errors": {
+      "popup": "PermissionError: robots.txt disallows https://popply.co.kr/popup"
+    }
   }
 }
