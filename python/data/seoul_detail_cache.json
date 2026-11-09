@@ -975,12 +975,48 @@
   "price": "무료",
   "v": 2
  },
+ "160139": {
+  "age": "누구나(배리어프리)",
+  "contact": "070-8820-1084, 070-8857-6846",
+  "fetched": "2026-11-09",
+  "homepage": "https://seouleoullim.or.kr/site/course/list?t=CT",
+  "hours": "프로그램별 상이",
+  "price": "프로그램별 상이",
+  "v": 2
+ },
+ "160143": {
+  "age": "누구나 (프로그램별 상이-영유아/초등/청소년,성인)",
+  "contact": "02-6906-3166",
+  "fetched": "2026-11-09",
+  "homepage": "https://scae.sbculture.or.kr/",
+  "hours": "프로그램별 상이",
+  "price": "무료",
+  "v": 2
+ },
  "160144": {
   "age": "누구나",
   "contact": "02-3399-2900",
   "fetched": "2026-11-09",
   "homepage": "https://museum.seoul.go.kr/sulm/board/NR_boardList.do?bbsCd=1002",
   "hours": "9:00~18:00 (입장마감 : 17:30)",
+  "price": "무료",
+  "v": 2
+ },
+ "160145": {
+  "age": "성인",
+  "contact": "02-2051-1178",
+  "fetched": "2026-11-09",
+  "homepage": "https://library.gangnam.go.kr/ysplib/menu/10618/program/30013/lectureDetail.do?currentPageNo=1&searchCategory=&manageCd=MG&searchStatusCd=&lectureIdx=34178",
+  "hours": "19:00~21:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160151": {
+  "age": "누구나 (가족 단위 관람 환영)",
+  "contact": "02-2585-8520",
+  "fetched": "2026-11-09",
+  "homepage": "https://www.instagram.com/dorimchun_festa?vrfl=dnpmbHc0bnJxZTgz&utm_source=qr",
+  "hours": "11:00~19:30",
   "price": "무료",
   "v": 2
  },

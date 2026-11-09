@@ -21001,6 +21001,48 @@
     "apply_end": null
   },
   {
+    "title": "[팝업전시] 시간을 거슬러 옷의 처음으로 〈시간의 거울〉",
+    "category": "popup",
+    "description": "국립중앙과학관에서 열리는 전시예요. 문의 국립중앙과학관 042-601-7979\n운영 시간 화-일 09:30-17:30 / 월요일 휴관",
+    "start_date": "2026-09-22",
+    "end_date": "2026-11-29",
+    "location_name": "국립중앙과학관",
+    "address": "대전광역시 유성구 대덕대로 481 국립중앙과학관",
+    "latitude": 36.375258,
+    "longitude": 127.375534,
+    "region": "대전광역시",
+    "district": "유성구",
+    "is_family_friendly": false,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": "https://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202611/18d797fa26d04ffb9e30b2b3ff422fed.jpg",
+    "official_link": "http://www.science.go.kr/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "ongoing",
+    "source": "culture_portal",
+    "source_id": "407426",
+    "content_hash": "55c68fbe0613dc90f8f7b3d14e18e2f3fa2409e449ec8b1f5b7719dd7aab6f78",
+    "id": "evt-b34ebedb1e",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "구성동"
+  },
+  {
     "title": "개방 수장고: 국립현대미술관 소장품",
     "category": "exhibition",
     "description": "국립현대미술관 청주관에서 열리는 전시예요. 문의 국립현대미술관 청주관 043‒261‒1400\n운영 시간 화-일 10:00-18:00 / 월요일 휴관",
@@ -49193,6 +49235,50 @@
     "apply_end": null
   },
   {
+    "title": "[서울시어울림플라자] 문화예술관 11~12월 문화예술 프로그램",
+    "category": "kids_experience",
+    "description": "서울시 어울림플라자 - 문화예술관 11~12월 문화예술 프로그램 모집 신청 기간 | 2026년 11월 3일 ~ 정원 모집 시 신청 방법 | 서울시 어울림플라자 홈페이지 회원가입 > 수강신청 > 문화예술관 [연극] 어흥! 팥죽 할멈과 호랑이 강사 김민채 일시 11/28, 12/5 (토) 10:00-12:00 / 총 2회 대상 장애인 아동(초등학생) 5명 수강료 20,000원 장소 문화예술관 문화센터2 [연극] 몸으로 쓰는 이야기 강사 김민채 일시 11/28, 12/5 (토) 13:00-15:00 / 총 2회 대상 장애인 성인 5명 수\n운영 시간 프로그램별 상이",
+    "start_date": "2026-11-03",
+    "end_date": "2026-12-31",
+    "location_name": "서울시어울림플라자",
+    "address": "서울특별시 강서구 공항대로 489",
+    "latitude": 37.5535154167762,
+    "longitude": 126.861449995331,
+    "region": "서울특별시",
+    "district": "강서구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "프로그램별 상이",
+    "thumbnail_url": null,
+    "official_link": "https://seouleoullim.or.kr/site/course/list?t=CT",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "cultural_space"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160139",
+    "content_hash": "548d9b1066fa5f5d7ddeb8dc8a0983e1aaa702b0f1c4bc80daf3b8fd8ea9a535",
+    "id": "evt-1fa704a1e5",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "등촌1동"
+  },
+  {
     "title": "[성수아뜰리에]《이어지는 세계》 WORLDS IN CONTINUITY",
     "category": "exhibition",
     "description": "성동문화원에서 열리는 전시예요. 문의 02-2204-7579\n운영 시간 10:00~18:00",
@@ -49316,6 +49402,48 @@
     "created_at": "2026-11-09T02:56:45.633134+00:00",
     "updated_at": "2026-11-09T02:56:45.633134+00:00",
     "dong": "안국동"
+  },
+  {
+    "title": "K-뮤지엄 지역 순회 전시 이십사(24절기) : 하늘을 읽어 땅을 살리다",
+    "category": "exhibition",
+    "description": "국립중앙과학관에서 열리는 전시예요. 문의 국립중앙과학관 042-601-7979\n운영 시간 화-일 09:30-17:30 / 월요일 휴관",
+    "start_date": "2026-11-03",
+    "end_date": "2026-12-06",
+    "location_name": "국립중앙과학관",
+    "address": "대전광역시 유성구 대덕대로 481 국립중앙과학관",
+    "latitude": 36.375258,
+    "longitude": 127.375534,
+    "region": "대전광역시",
+    "district": "유성구",
+    "is_family_friendly": false,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": "https://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202611/0000dcbf9d2f47bc90ab5a2d89cd02e0.jpg",
+    "official_link": "http://www.science.go.kr/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "ongoing",
+    "source": "culture_portal",
+    "source_id": "407427",
+    "content_hash": "1190e75dd5382164a85185e0df60fe20f875fecc04c02e12fc1d2f525dd824e6",
+    "id": "evt-68021c4ae8",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "구성동"
   },
   {
     "title": "굼이와 함께하는 로컬 브랜드 기획전",
@@ -241794,6 +241922,48 @@
     "dong": "송정동"
   },
   {
+    "title": "국가중요과학기술자료 등록 100건 돌파 기념 『과학기술로 그려온 우리의 미래』",
+    "category": "exhibition",
+    "description": "국립중앙과학관에서 열리는 전시예요. 문의 국립중앙과학관 한국과학기술사과 042-601-7951\n운영 시간 화-일 09:30-17:30 / 월요일 휴관",
+    "start_date": "2026-11-10",
+    "end_date": "2026-12-06",
+    "location_name": "국립중앙과학관",
+    "address": "대전광역시 유성구 대덕대로 481 국립중앙과학관",
+    "latitude": 36.375258,
+    "longitude": 127.375534,
+    "region": "대전광역시",
+    "district": "유성구",
+    "is_family_friendly": false,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": "https://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202611/f46c70748ed14253bb360580761c8c57.jpg",
+    "official_link": "http://www.science.go.kr/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "culture_portal",
+    "source_id": "407429",
+    "content_hash": "46c80102cc6c465e9c603a0925e252fdfd254db5e62cd165cee1684cf7113a2d",
+    "id": "evt-05d1b7d1d5",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "구성동"
+  },
+  {
     "title": "능동형 창작주체 현장연계 프로젝트 《인간이라는 미지의 생물》",
     "category": "exhibition",
     "description": "교동아트미술관에서 열리는 전시예요. 문의 063-287-1245\n운영 시간 10 : 00 ~ 18 : 00",
@@ -241834,6 +242004,48 @@
     "updated_at": "2026-11-09T02:24:44.498548+00:00",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "STUDIO 50: CARRÉ DE NATURE #2 시민참여전시 <바닷속 컬러 스펙트럼>",
+    "category": "exhibition",
+    "description": "국립중앙과학관에서 열리는 전시예요. 문의 국립중앙과학관 자연사과 042-601-7985\n운영 시간 화-일 09:30-17:30 / 월요일 휴관",
+    "start_date": "2026-11-10",
+    "end_date": "2026-12-20",
+    "location_name": "국립중앙과학관",
+    "address": "대전광역시 유성구 대덕대로 481 국립중앙과학관",
+    "latitude": 36.375258,
+    "longitude": 127.375534,
+    "region": "대전광역시",
+    "district": "유성구",
+    "is_family_friendly": false,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": "https://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202611/b604a1d2973844d7b95489ae103d340e.PNG",
+    "official_link": "http://www.science.go.kr/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "culture_portal",
+    "source_id": "407425",
+    "content_hash": "2c582e12bc0ae06853b89806c3c5b898352751a36bc47e9c06f3d155bc92879c",
+    "id": "evt-97808b9b4f",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "구성동"
   },
   {
     "title": "제6회 ㅊㅊ-하다 페스티벌",
@@ -242974,6 +243186,50 @@
     "dong": "삼성2동"
   },
   {
+    "title": "진안고원 김치보쌈축제",
+    "category": "festival",
+    "description": "진안고원 김치보쌈축제는 전북특별자치도 진안군에서 개최되는 지역축제로, 우리나라 고유의 전통문화인 김장문화를 축제와 접목하여 가족과 이웃이 함께하는 공동체 문화를 확산하기 위해 마련된 축제이다. 핵가족화와 1인 가구 증가 등으로 점차 변화하는 식생활 환경 속에서 김장문화의 전통적 가치를 되새기고, 김치를 함께 담그고 나누는 과정을 통해 이웃 간 정을 나누는 데 목적이 있다. 진안고원의 청정 자연환경에서 생산된 지역 농산물을 활용한 김장 체험과 김치 및 보쌈 먹거리 프로그램 등 다양한 체험·참여 행사가 운영되며, 지역 농특산물의 우수성을 알리고 지역 농산물 소비를 촉진하는 역할도 하고 있다. 전통 김장문화의 계승과 지역 농산물의 가치를 함께 경험할 수 있는 축제이다.",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-15",
+    "location_name": "전북특별자치도 진안군",
+    "address": "전북특별자치도 진안군 진안읍 진무로 1166 진안로컬푸드진안점",
+    "latitude": 35.79531631244133,
+    "longitude": 127.43393002774478,
+    "region": "전북특별자치도",
+    "district": "진안군",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료 (일부 체험 프로그램 유료 - 우리집 김장담그기 체험 )",
+    "thumbnail_url": "https://kfescdn.visitkorea.or.kr/kfes/upload/contents/db/6f06d9ff-2f4a-4c99-ac44-92d831c88e77_25.jpeg",
+    "official_link": "https://www.jinankimchi.kr/",
+    "tags": [
+      "#체험",
+      "#먹거리",
+      "#공연",
+      "#전통",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "kfes",
+    "source_id": "6f06d9ff-2f4a-4c99-ac44-92d831c88e77",
+    "content_hash": "6c237151bfc75b31dcff008a246520ae2822d6f4d38d395466178e9f4b3a2d2d",
+    "id": "evt-3035ba9cd7",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "진안읍"
+  },
+  {
     "title": "서울카드페스타",
     "category": "exhibition",
     "description": "킨텍스 전시홀 6A에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
@@ -243016,7 +243272,7 @@
   {
     "title": "포항 해병대문화 축제",
     "category": "festival",
-    "description": "포항 해병대문화 축제는 해병대의 요람이자 해병대 1사단이 주둔하고 있는 포항에서 해병대의 역사와 정신을 시민, 관광객과 함께 나누는 대한민국 대표 군 문화 축제이다. 이 축제는 해병대와 지역사회가 오랜 세월 함께 쌓아 온 상생의 가치를 바탕으로 귀신 잡는 해병의 강인한 정신과 호국 보훈의 의미를 되새기고, 이를 누구나 즐길 수 있는 문화 콘텐츠로 풀어낸 결실이기도 하다. 축제는 매년 포항시 일원에서 열리며, 평소 쉽게 접할 수 없는 군 장비 전시와 군악대·의장대 공연, 밀리터리 퍼레이드 등 특색있\n운영 시간 10:00~17:00",
+    "description": "포항 해병대 문화 축제는 해병대의 요람이자 해병대 1사단이 주둔하고 있는 포항에서 해병대의 역사와 정신을 시민, 관광객과 함께 나누는 대한민국 대표 군 문화 축제이다. 이 축제는 해병대와 지역사회가 오랜 세월 함께 쌓아 온 상생의 가치를 바탕으로 귀신 잡는 해병의 강인한 정신과 호국 보훈의 의미를 되새기고, 이를 누구나 즐길 수 있는 문화 콘텐츠로 풀어낸 결실이기도 하다. 축제는 매년 포항시 일원에서 열리며, 평소 쉽게 접할 수 없는 군 장비 전시와 군악대·의장대 공연, 밀리터리 퍼레이드 등 특색\n운영 시간 10:00~17:00",
     "start_date": "2026-11-14",
     "end_date": "2026-11-15",
     "location_name": "경상북도 포항시",
@@ -243047,10 +243303,10 @@
     "status": "upcoming",
     "source": "mcst_festival",
     "source_id": "13567",
-    "content_hash": "58b269b68af806b7a735ea5bdee12474f947fc6e3aae4a395265d940a7c73829",
+    "content_hash": "ffde97bb2003f0347c4f1da3c54527714dbee29bd724acbd9ee61563c57e8bad",
     "id": "evt-3b45778541",
     "created_at": "2026-10-31T22:20:23.801205+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
     "dong": "대잠동",
     "apply_start": null,
     "apply_end": null
@@ -243139,6 +243395,50 @@
     "created_at": "2026-11-09T02:56:45.633134+00:00",
     "updated_at": "2026-11-09T02:56:45.633134+00:00",
     "dong": "증산동"
+  },
+  {
+    "title": "[성북문화예술교육센터] 2026 성북문화예술교육센터 [오늘도 예술로 겨울시즌]",
+    "category": "kids_experience",
+    "description": "누구나 누리는 성북창의예술교육 오늘도 예술로·겨울 11-12월 춤추고 노래하는 동물11.14 - 11.21(2회) 매주 토 10:30-11:30 대상: 24-48개월 영유아+보호자 11.28-12.5(2회) 매주 토 10:30-11:30 대상: 5-7세 유아+보호자 라이브 음악과 움직임을 통해 함께 움직여보는 영유아 특화 온몸의 감각을 깨우고 가족이 음악·무용 예술 놀이 음악 움직임 참여형공연 나의 하루 소리 상자 11.14-11.21(2회) 매주 토 14:00-16:00 대상: 초등2-5+가족 동반 12.3-12.10(2회) 매주\n운영 시간 프로그램별 상이",
+    "start_date": "2026-11-14",
+    "end_date": "2026-12-19",
+    "location_name": "성북문화예술교육센터",
+    "address": "서울특별시 성북구 장월로8길 38",
+    "latitude": 37.6102411295211,
+    "longitude": 127.049789635556,
+    "region": "서울특별시",
+    "district": "성북구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://scae.sbculture.or.kr/",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160143",
+    "content_hash": "42e9610e47c892ad9c7417fbe14c5bc307fb5aa648d72a73a09e051958b306f2",
+    "id": "evt-5c4fc08d4b",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "장위동"
   },
   {
     "title": "우포늪 생명길 걷기대회",
@@ -243346,6 +243646,49 @@
     "created_at": "2026-11-09T02:56:45.633134+00:00",
     "updated_at": "2026-11-09T02:56:45.633134+00:00",
     "dong": "고척동"
+  },
+  {
+    "title": "제2회 [별빛내린 도림천] 생태공예문화 페스타",
+    "category": "festival",
+    "description": "2026.11.14.(토)~11.15.(일) 11:00~19:00 안양천 생태초화원 잔디광장 서울특별시 구로구 신도림동 271-64 일대 주최·주관 건강한 도림천을 만드는 주민모임\n운영 시간 11:00~19:30",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-15",
+    "location_name": "안양천 생태초화원 잔디광장",
+    "address": "서울 구로구 신도림동 271-64",
+    "latitude": 37.51476771741695,
+    "longitude": 126.8792587242075,
+    "region": "서울특별시",
+    "district": "구로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.instagram.com/dorimchun_festa?vrfl=dnpmbHc0bnJxZTgz&utm_source=qr",
+    "tags": [
+      "#야외",
+      "#무료"
+    ],
+    "place_types": [
+      "nature"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160151",
+    "content_hash": "dc6a033f347043e24f07efb2b1b0b59f975e0919d0e05c1eb6b0bfb864797700",
+    "id": "evt-9c4e0abe8e",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "신도림동"
   },
   {
     "title": "포천펫스타",
@@ -243602,46 +243945,6 @@
     "created_at": "2026-11-09T02:56:45.633134+00:00",
     "updated_at": "2026-11-09T02:56:45.633134+00:00",
     "dong": "행당동"
-  },
-  {
-    "title": "제8회 진안고원 김치보쌈축제",
-    "category": "festival",
-    "description": "우리집 김치담그기+사랑의 김장나눔 등\n주관 진안YMCA",
-    "start_date": "2026-11-14",
-    "end_date": "2026-11-15",
-    "location_name": "진안홍삼한방센터 일원",
-    "address": "전북특별자치도 진안군 진안읍 진무로 1166",
-    "latitude": 35.7949205,
-    "longitude": 127.434257,
-    "region": "전북특별자치도",
-    "district": "진안군",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "https://jinankimchi.kr/",
-    "tags": [
-      "#실내"
-    ],
-    "place_types": [],
-    "status": "upcoming",
-    "source": "public_data",
-    "source_id": "f-dd7362020d97",
-    "content_hash": "3cb90ad6629ea055a1da12c15dcf177d2942ef3f3acb659ae4ecfdcd647b4534",
-    "id": "evt-f6213411f2",
-    "created_at": "2026-10-25T04:22:48.014232+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
-    "dong": "진안읍",
-    "apply_start": null,
-    "apply_end": null
   },
   {
     "title": "나의 박물관 : 타악",
@@ -244825,6 +245128,52 @@
     "dong": "창성동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[역삼푸른솔도서관] 작가힙톡(Hip-Talk) [지금, 삶을 쓰다]",
+    "category": "kids_experience",
+    "description": "[작가힙톡(Hip-Talk)] 지금, 삶을 쓰다 - 이서수 작가, 임선우 작가와의 만남 평범한 일상에서 발견한 이야기, 경험과 상상으로 새롭게 쓰이는 삶. 두 작가의 서로 다른 시선으로 소설이 탄생하는 순간을 들여다봅니다. 1차시 11.20(금) 19:00~21:00 이서수 작가 주거와 생계, 가족과 관계 등 일상의 현실을 들여다보고, 평범한 사람들의 삶이 어떻게 소설 속 이야기로 이어지는지 알아보는 시간 주요작 『우리 착한 나진』, 『그래도 춤을 추세요』, 『엄마를 절에 버리러』 등 2차시 11.27(금) 19:00~21:00 임\n운영 시간 19:00~21:00",
+    "start_date": "2026-11-20",
+    "end_date": "2026-11-27",
+    "location_name": "강남구립역삼푸른솔도서관",
+    "address": "서울특별시 강남구 테헤란로8길 36",
+    "latitude": 37.496499181425,
+    "longitude": 127.032028764698,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/ysplib/menu/10618/program/30013/lectureDetail.do?currentPageNo=1&searchCategory=&manageCd=MG&searchStatusCd=&lectureIdx=34178",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#야간",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160145",
+    "content_hash": "e50a9bf410ae9f6dc933ae7c404c76a2ad0a52b92eabd0df401bcafed8799de8",
+    "id": "evt-fb350dbe9c",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "역삼1동"
   },
   {
     "title": "송파구립소년소녀합창단 제10회 정기연주회 합창뮤지컬 [하늘을 나는 양탄자]",
@@ -248164,6 +248513,44 @@
     "apply_end": null
   },
   {
+    "title": "카카오 비즈니스 페어",
+    "category": "exhibition",
+    "description": "코엑스 Hall B에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-12-13",
+    "end_date": "2026-12-14",
+    "location_name": "코엑스 Hall B",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/%ec%b9%b4%ec%b9%b4%ec%98%a4-%eb%b9%84%ec%a6%88%eb%8b%88%ec%8a%a4-%ed%8e%98%ec%96%b4/",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "coex-6b3ec818a66e",
+    "content_hash": "d83f98b4624c26b440cd8732241c0d9c29a8bd2c7c6474a22a247a0773f33b89",
+    "id": "evt-4e292ca23b",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "삼성동"
+  },
+  {
     "title": "기획전시(사진협회)",
     "category": "exhibition",
     "description": "운영 시간 10:00~17:00\n주관 전남광주통합특별시 광양시",
@@ -248450,6 +248837,44 @@
     "dong": "일원1동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "2026 공예트렌드페어",
+    "category": "exhibition",
+    "description": "코엑스 Hall A에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
+    "start_date": "2026-12-17",
+    "end_date": "2026-12-20",
+    "location_name": "코엑스 Hall A",
+    "address": "서울특별시 강남구 영동대로 513",
+    "latitude": 37.512527,
+    "longitude": 127.058849,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://www.coex.co.kr/exhibitions/2026-%ea%b3%b5%ec%98%88%ed%8a%b8%eb%a0%8c%eb%93%9c%ed%8e%98%ec%96%b4/",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "venue_fair",
+    "source_id": "coex-386d65f2dbc7",
+    "content_hash": "04a360bf04ef5f047db48109ad8b7232f8f7d26e71dadce4307ca19cb63ceca2",
+    "id": "evt-c19918b58f",
+    "created_at": "2026-11-09T07:46:09.551454+00:00",
+    "updated_at": "2026-11-09T07:46:09.551454+00:00",
+    "dong": "삼성동"
   },
   {
     "title": "파리의 이방인",
