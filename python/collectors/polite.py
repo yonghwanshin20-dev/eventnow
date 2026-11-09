@@ -129,3 +129,20 @@ class Throttle:
         if delay > 0:
             time.sleep(delay)
         self._last = time.monotonic()
+
+
+# 상세 화면 본문에서 사전 신청·접수·예약 안내 줄을 찾는다 ('모집기간: 2026. 9. 1.(화) ~ 9. 22.(화)').
+# 날짜를 뽑는 일은 정제 단계(rule_parser.extract_apply_window)가 하고, 여기서는 그 줄만 원문에 붙인다.
+_APPLY_LINE = re.compile(r"(?:신청|접수|예약|모집|사전\s?등록)")
+_HAS_DATE = re.compile(r"\d{1,2}\s*[./월]\s*\d{1,2}")
+
+
+def find_apply_text(lines: list[str]) -> str | None:
+    for i, ln in enumerate(lines):
+        if not _APPLY_LINE.search(ln) or len(ln) > 160:
+            continue
+        # '모집기간:' 처럼 이름만 있는 줄이면 다음 줄까지 붙인다
+        text = ln if _HAS_DATE.search(ln) else f"{ln} {lines[i + 1] if i + 1 < len(lines) else ''}"
+        if _HAS_DATE.search(text):
+            return text.strip()[:160]
+    return None

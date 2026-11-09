@@ -74312,47 +74312,6 @@
     "apply_end": null
   },
   {
-    "title": "서대문형무소역사관(3월~10월)",
-    "category": "attraction",
-    "description": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.\n관람 시간 09:30~18:00\n휴관 월+1월1일+설 당일+추석 당일",
-    "start_date": "2026-11-09",
-    "end_date": "2027-12-14",
-    "location_name": "서대문형무소역사관(3월~10월)",
-    "address": "서울특별시 서대문구 통일로 251",
-    "latitude": 37.57460851,
-    "longitude": 126.9556118,
-    "region": "서울특별시",
-    "district": "서대문구",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "어른 3,000원 · 어린이 1,000원",
-    "thumbnail_url": null,
-    "official_link": "https://sphh.sscmc.or.kr/",
-    "tags": [
-      "#교육",
-      "#실내"
-    ],
-    "place_types": [
-      "museum"
-    ],
-    "status": "ongoing",
-    "source": "attraction",
-    "source_id": "m-서대문형무소역사관3월10월서울특별시서대문구통일로251",
-    "content_hash": "50e1d1fb6e41e2982928c38ff1625f24278de5b436d5ae0dbf5cadfe672f012d",
-    "id": "evt-1f0faed847",
-    "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-11-08T22:44:59.658033+00:00",
-    "dong": "현저동"
-  },
-  {
     "title": "매화공원",
     "category": "attraction",
     "description": "근린공원 · 넓이 약 17.6만㎡\n놀이시설 물놀이시설1",
@@ -104229,47 +104188,6 @@
     "dong": "양산동",
     "apply_start": null,
     "apply_end": null
-  },
-  {
-    "title": "서대문자연사박물관(11월~2월)",
-    "category": "attraction",
-    "description": "서대문자연사박물관은 살아있는 인성교육의 공간으로써 우리나라 최초의 학교나 개인이 아닌 지방자치단체에서 직접 계획하고 만든 자연사박물관 입니다.\n관람 시간 09:00~17:00\n휴관 월+1월1일+설 당일+추석 당일",
-    "start_date": "2026-11-09",
-    "end_date": "2027-12-14",
-    "location_name": "서대문자연사박물관(11월~2월)",
-    "address": "서울특별시 서대문구 연희로 32길 51",
-    "latitude": 37.57675199,
-    "longitude": 126.937836,
-    "region": "서울특별시",
-    "district": "서대문구",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "어른 7,000원 · 어린이 3,000원",
-    "thumbnail_url": null,
-    "official_link": "https://namu.sdm.go.kr",
-    "tags": [
-      "#교육",
-      "#실내"
-    ],
-    "place_types": [
-      "museum"
-    ],
-    "status": "ongoing",
-    "source": "attraction",
-    "source_id": "m-서대문자연사박물관11월2월서울특별시서대문구연희로32길51",
-    "content_hash": "9ac3a0975432db52866af90dfa2094cf68ad8d61ae7029b94975b47d4e7f3213",
-    "id": "evt-4de4068c84",
-    "created_at": "2026-10-25T14:56:00.451803+00:00",
-    "updated_at": "2026-11-08T22:44:59.658033+00:00",
-    "dong": "연희동"
   },
   {
     "title": "간절곶 공원",

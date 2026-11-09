@@ -303,10 +303,10 @@ def library_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
     )
 
 
-# 도시공원 — 동네 놀이터(어린이공원·소공원)는 빼고, 큰 근린공원(15만㎡↑)과 테마 공원(역사·문화·수변·체육 5만㎡↑)만
+# 도시공원 — 동네 놀이터(어린이공원·소공원)는 빼고, 큰 근린공원(10만㎡↑)과 테마 공원(역사·문화·수변·체육 5만㎡↑)만
 _PARK_SKIP = re.compile(r"어린이|소공원|묘지|가로")
 _PARK_THEME = re.compile(r"역사|문화|수변|체육|도시농업|기타")
-_BIG_PARK_M2 = 150000
+_BIG_PARK_M2 = 100000
 _THEME_PARK_M2 = 50000
 
 

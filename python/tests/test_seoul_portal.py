@@ -61,6 +61,7 @@ def test_detail_fills_price_age_hours_homepage():
         "price": "무료",
         "contact": "02-330-1576",
         "homepage": "https://www.sdm.go.kr/news/1",
+        "v": 2,
     }
     record = item_to_raw(_item(160001, "[서대문구] 다가가다! 가족축제", "2026-10-24", "2026-10-24"), "FESTIVAL")
     apply_detail(record, detail)

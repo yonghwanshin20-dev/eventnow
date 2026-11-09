@@ -65,3 +65,16 @@ def test_curated_year_round_places_keep_rolling():
     assert not extend_year_round({"source": "kfes", "start_date": "2026-01-01", "end_date": "2026-12-31"}, TODAY)
     assert not extend_year_round({"source": None, "start_date": "2026-11-01", "end_date": "2026-11-30"}, TODAY)
     assert not extend_year_round({"source": None, "start_date": "2026-01-01", "end_date": "2027-06-30"}, TODAY)
+
+
+def test_detail_pages_keep_registration_line():
+    from collectors.polite import find_apply_text
+    from collectors.seoul_portal import parse_detail
+
+    assert find_apply_text(["모집기간:", "2026. 9. 1.(화) ~ 9. 22.(화)", "대상"]) == "모집기간: 2026. 9. 1.(화) ~ 9. 22.(화)"
+    assert find_apply_text(["누구나 신청 가능", "문의 02-123"]) is None
+    html = "<div><p>장소</p><p>도서관</p><p>접수는 홈페이지에서 9월 14일 10:00 부터 입니다.</p></div>"
+    d = parse_detail(html)
+    assert d["apply"].startswith("접수는") and d["v"] == 2
+    start, end = date(2026, 9, 20), date(2026, 9, 20)
+    assert extract_apply_window(f"[신청] {d['apply']}", start, end) == (date(2026, 9, 14), None)

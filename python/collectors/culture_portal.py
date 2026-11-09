@@ -18,7 +18,7 @@ from urllib.parse import urljoin
 import httpx
 from bs4 import BeautifulSoup, Tag
 
-from collectors.polite import USER_AGENT, Throttle, robots_allowed
+from collectors.polite import find_apply_text, USER_AGENT, Throttle, robots_allowed
 from models import RawRecord
 from timeutil import now_utc, today_kst
 
@@ -30,6 +30,8 @@ DETAIL_URL = f"{BASE}/portal/cltInfo/oneCltInfo/oneCltInfoView.do"
 MAX_PAGES_PER_GENRE = 120
 # 상세 화면(관람 연령·도로명 주소·운영 시간·요금·홈페이지)은 한 번 읽으면 저장해 두고 이 기간 뒤에 다시 읽는다
 DETAIL_TTL_DAYS = 14
+# 상세에서 읽는 칸이 늘면 올린다 — 예전 저장본은 다시 읽는다 (2: 신청·접수 안내)
+DETAIL_VERSION = 2
 # 하루에 새로 읽는 상세 화면 수 상한 (1초 간격 — 첫 실행만 길고 이후엔 새 행사만)
 MAX_DETAILS_PER_RUN = 320
 
@@ -167,7 +169,7 @@ class CulturePortalCollector:
         for record in records:
             seq = record.source_id or ""
             hit = cache.get(seq)
-            if not hit or str(hit.get("fetched", "")) < fresh_after:
+            if not hit or str(hit.get("fetched", "")) < fresh_after or hit.get("v", 1) < DETAIL_VERSION:
                 if fetched >= MAX_DETAILS_PER_RUN:
                     if not hit:
                         continue
@@ -227,6 +229,12 @@ def parse_detail(html: str) -> dict[str, str]:
         value = _text(dl.select_one("dd"))
         if key and value and key not in out:
             out[key] = value[:160]
+    for t in soup(["script", "style"]):
+        t.decompose()
+    apply = find_apply_text([ln.strip() for ln in soup.get_text("\n").splitlines() if ln.strip()])
+    if apply:
+        out["apply"] = apply
+    out["v"] = DETAIL_VERSION
     return out
 
 
@@ -252,6 +260,7 @@ def apply_detail(record: RawRecord, detail: dict[str, str]) -> None:
         f"[관람연령] {detail['age']}" if detail.get("age") else "",
         f"[운영시간] {detail['hours']}" if detail.get("hours") else "",
         f"[주소] {address}" if address else "",
+        f"[신청] {detail['apply']}" if detail.get("apply") else "",
     ]
     record.raw_text = "\n".join([record.raw_text, *[x for x in extra if x]])
 

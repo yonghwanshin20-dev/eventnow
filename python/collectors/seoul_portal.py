@@ -19,7 +19,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 from collectors.culture_portal import _FAMILY, _NOTICE, _ONLINE, is_family_outing_exhibition
-from collectors.polite import USER_AGENT, Throttle, robots_allowed
+from collectors.polite import USER_AGENT, Throttle, find_apply_text, robots_allowed
 from models import RawRecord
 from timeutil import now_utc, today_kst
 
@@ -33,6 +33,8 @@ MAX_PAGES = 60
 # 앞으로 이 기간 안에 열리는 행사만 받는다
 WINDOW_DAYS = 120
 DETAIL_TTL_DAYS = 14
+# 상세에서 읽는 칸이 늘면 올린다 — 예전 저장본은 다시 읽는다 (2: 신청·접수 안내)
+DETAIL_VERSION = 2
 MAX_DETAILS_PER_RUN = 320
 
 # 분야 → 우리 카테고리 힌트
@@ -142,6 +144,10 @@ def parse_detail(html: str) -> dict[str, str]:
                 out[key] = value
     if homepage:
         out["homepage"] = homepage
+    apply = find_apply_text(lines)
+    if apply:
+        out["apply"] = apply
+    out["v"] = DETAIL_VERSION
     return out
 
 
@@ -159,7 +165,9 @@ def apply_detail(record: RawRecord, detail: dict[str, str]) -> None:
         desc = facts.get("description") or ""
         facts["description"] = f"{desc}\n운영 시간 {hours}".strip()
     record.raw_text += "".join(
-        f"\n[{label}] {detail[key]}" for key, label in (("age", "대상"), ("price", "요금"), ("hours", "시간")) if detail.get(key)
+        f"\n[{label}] {detail[key]}"
+        for key, label in (("age", "대상"), ("price", "요금"), ("hours", "시간"), ("apply", "신청"))
+        if detail.get(key)
     )
 
 
@@ -268,7 +276,8 @@ class SeoulPortalCollector:
         for record in records:
             code = record.source_id or ""
             hit = cache.get(code)
-            if (not hit or str(hit.get("fetched", "")) < fresh_after) and fetched < MAX_DETAILS_PER_RUN:
+            stale = not hit or str(hit.get("fetched", "")) < fresh_after or hit.get("v", 1) < DETAIL_VERSION
+            if stale and fetched < MAX_DETAILS_PER_RUN:
                 try:
                     self.throttle.wait()
                     resp = self.client.get(VIEW_URL, params={"cultcode": code, "menuNo": "200010"})
