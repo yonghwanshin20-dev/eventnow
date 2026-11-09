@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T02:57:10.656577+00:00",
+  "generated_at": "2026-11-09T04:11:04.040053+00:00",
   "total": 5978,
   "by_source": {
     "attraction": 4431,
@@ -19,8 +19,8 @@
       "city",
       "seoulportal"
     ],
-    "inserted": 57,
-    "updated": 48,
+    "inserted": 21,
+    "updated": 0,
     "corrected": 0,
     "deduplicated": 21,
     "withdrawn": 0,
