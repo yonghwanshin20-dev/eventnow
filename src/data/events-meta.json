@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T02:25:16.553299+00:00",
-  "total": 5491,
+  "generated_at": "2026-11-09T02:45:42.142672+00:00",
+  "total": 5942,
   "by_source": {
-    "attraction": 3981,
+    "attraction": 4431,
     "city_calendar": 10,
-    "culture_portal": 378,
+    "culture_portal": 379,
     "curated": 274,
     "kfes": 135,
     "mcst_festival": 27,
@@ -26,9 +26,9 @@
       "seoulportal",
       "venue"
     ],
-    "inserted": 1458,
-    "updated": 2968,
-    "corrected": 109,
+    "inserted": 487,
+    "updated": 2,
+    "corrected": 0,
     "deduplicated": 34,
     "withdrawn": 0,
     "pruned": 0,
