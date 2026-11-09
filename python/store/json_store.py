@@ -170,6 +170,29 @@ def merge_twins(rows: list[dict[str, Any]]) -> int:
     return len(drop)
 
 
+YEAR_ROUND_DAYS = 330
+ROLL_DAYS = 400
+
+
+def extend_year_round(row: dict[str, Any], ref: date) -> bool:
+    """직접 넣은 '1년 내내 여는 곳'(공원·사찰·상설전시 등)은 끝날 날이 다가오면 1년 남짓 더 늘린다.
+
+    '2026-01-01 ~ 2026-12-31'로 넣어 둔 장소가 새해에 목록에서 사라지지 않게 —
+    수집기가 다시 확인하는 출처 있는 행사는 건드리지 않는다.
+    """
+    if row.get("source"):
+        return False
+    try:
+        start = date.fromisoformat(str(row["start_date"])[:10])
+        end = date.fromisoformat(str(row["end_date"])[:10])
+    except (KeyError, ValueError):
+        return False
+    if (end - start).days < YEAR_ROUND_DAYS or (end - ref).days > 60:
+        return False
+    row["end_date"] = (ref + timedelta(days=ROLL_DAYS)).isoformat()
+    return True
+
+
 @dataclass
 class MergeStats:
     inserted: int = 0
@@ -246,6 +269,8 @@ def event_to_row(ev: NormalizedEvent) -> dict[str, Any]:
         "age_max": ev.age_max,
         "amenities": ev.amenities.model_dump(),
         "booking_required": ev.booking_required,
+        "apply_start": ev.apply_start.isoformat() if ev.apply_start else None,
+        "apply_end": ev.apply_end.isoformat() if ev.apply_end else None,
         "price_info": ev.price_info,
         "thumbnail_url": ev.thumbnail_url,
         "official_link": ev.official_link,
@@ -507,6 +532,7 @@ class JsonEventStore:
         cutoff = (ref - timedelta(days=self.retention_days)).isoformat()
         kept: list[dict[str, Any]] = []
         for row in deduped:
+            extend_year_round(row, ref)
             if str(row.get("end_date") or "9999")[:10] < cutoff:
                 stats.pruned += 1
                 continue

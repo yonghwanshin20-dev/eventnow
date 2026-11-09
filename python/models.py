@@ -106,6 +106,9 @@ class NormalizedEvent(BaseModel):
     amenities: EventAmenities = Field(default_factory=EventAmenities)
 
     booking_required: bool = False
+    # 사전 신청·예약 기간 (본문에 적혀 있을 때만). 오픈 날짜만 있으면 apply_end 는 None
+    apply_start: date | None = None
+    apply_end: date | None = None
     price_info: str | None = None
     thumbnail_url: str | None = None
     official_link: str | None = None

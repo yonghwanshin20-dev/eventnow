@@ -263,7 +263,7 @@ export function EventQuickView({
                     {event.price_info ?? <span className="text-stone-500">공식 정보 확인</span>}
                   </Row>
                   <Row icon={<Ticket className="size-4" />} label="예약">
-                    {event.booking_required ? "사전 예약 필요" : "현장 방문 가능"}
+                    {event.apply ? event.apply.text : event.booking_required ? "사전 예약 필요" : "현장 방문 가능"}
                   </Row>
                   {(ageText || event.target_age_group) && (
                     <Row icon={<Baby className="size-4" />} label="대상">

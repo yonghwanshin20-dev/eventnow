@@ -156,10 +156,17 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   // 우리 아이 나이를 정해 두었으면 다른 연령 대상 행사는 뒤로 (추천순일 때만)
   const kidSorted = filters.sort === "recommended" ? preferKidAge(ranked, kidAge) : ranked;
   // 관광지만 볼 때(추천순)는 사진·소개가 있고 잘 알려진 곳(국립·사적·명승)을 먼저
+  // '상시'(전체)는 놀이터·상설전시 같은 아이 나들이 장소를 먼저, 그 뒤에 관광명소(사진·유명한 곳 순)
+  const placesFirst = filters.sort === "recommended" && !filters.q;
   const matchedEvents =
-    filters.category === "attraction" && filters.sort === "recommended" && !filters.q
+    filters.category === "attraction" && placesFirst
       ? rankAttractions(kidSorted)
-      : kidSorted;
+      : filters.scheduleType === "permanent" && filters.category === "all" && placesFirst
+        ? [
+            ...kidSorted.filter((e) => e.category !== "attraction"),
+            ...rankAttractions(kidSorted.filter((e) => e.category === "attraction")),
+          ]
+        : kidSorted;
   // '전체 + 추천순' 목록은 기간 한정 행사를 페이지로 보여주고, 상시 운영 장소는 미리보기만
   // (상시 200여 곳이 기간 한정 뒤에 묻혀 안 보이는 것을 막는다)
   const calendarView = filters.view === "calendar";
@@ -233,10 +240,14 @@ export default async function HomePage({ searchParams }: HomePageProps) {
     today,
   );
   const limitedCount = sameButSchedule.filter((e) => getScheduleType(e) === "limited").length;
+  // '상시'는 관광명소까지 함께 보여주므로 따로 센다
+  const permanentCount = filterEvents(snapshot.events, { ...filters, scheduleType: "permanent" }, today).filter(
+    (e) => getScheduleType(e) === "permanent",
+  ).length;
   const scheduleCounts = {
     all: sameButSchedule.length,
     limited: limitedCount,
-    permanent: sameButSchedule.length - limitedCount,
+    permanent: permanentCount,
   };
   // 카테고리 칩 건수 — 카테고리만 바꿨을 때 몇 건이 나오는지 (0건 칩은 흐리게)
   const sameButCategory = filterEvents(snapshot.events, { ...filters, category: "all" }, today);

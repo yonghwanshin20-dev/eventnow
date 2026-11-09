@@ -67,6 +67,9 @@ export interface Event {
   amenities: EventAmenities;
 
   booking_required: boolean;
+  /** 사전 신청·예약 기간 (본문에 적혀 있을 때만, YYYY-MM-DD). 오픈 날짜만 있으면 apply_end 는 없음 */
+  apply_start?: string | null;
+  apply_end?: string | null;
   price_info: string | null;
   thumbnail_url: string | null;
   official_link: string | null;
@@ -144,6 +147,8 @@ export type EventListItem = Pick<
   | "age_min"
   | "age_max"
   | "booking_required"
+  | "apply_start"
+  | "apply_end"
   | "thumbnail_url"
   | "place_types"
   | "status"
@@ -154,6 +159,8 @@ export type EventListItem = Pick<
 > & {
   /** 가까운 순 정렬 시 km */
   distance_km?: number | null;
+  /** 사전 신청 안내 ('신청 D-5', '신청 중 · 3일 남음', '신청 마감') — 신청 기간을 알 때만 */
+  apply?: { text: string; tone: "urgent" | "soon" | "live" | "upcoming" | "ended" } | null;
   /** 남은 기간 라벨 (서버에서 KST 기준 계산) */
   when: {
     text: string;

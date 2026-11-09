@@ -33,6 +33,8 @@ _PROGRAM_NOTICE = re.compile(
     r"(?:\d{1,2}\s*월|\d\s*분기|상반기|하반기|봄|여름|가을|겨울)\s*(?:시즌\s*)?"
     r"(?:문화|정규|교육|상영|평생학습)?\s*(?:프로그램|강좌|강의|교실)"
     r"|문화\s*프로그램\s*안내|프로그램\s*안내|정규\s*강좌|강좌\s*안내|수강생\s*모집"
+    # '[○○과학관] 연장 운영 안내', '휴관 안내' — 무엇을 하는지 알 수 없는 운영 공지
+    r"|(?:연장|변경|단축|임시|동절기|하절기)?\s*운영\s*(?:시간\s*)?(?:안내|변경|공지)\s*$|휴관\s*(?:안내|공지)|재개관\s*안내|운영\s*중단"
 )
 # 이런 말이 있으면 안내가 아니라 특별한 행사다 ('도서관 독서축제', '북 페스티벌', 'OO 이벤트')
 _SPECIAL_EVENT = re.compile(r"축제|페스티벌|페스타|festival|이벤트|박람회|마켓|북토크|공연|체험전|특별전|기념행사", re.I)
@@ -40,6 +42,55 @@ _SPECIAL_EVENT = re.compile(r"축제|페스티벌|페스타|festival|이벤트|�
 
 def is_program_notice(title: str) -> bool:
     return bool(_PROGRAM_NOTICE.search(title)) and not _SPECIAL_EVENT.search(title)
+
+
+# --- 사전 신청·예약 기간 ------------------------------------------------------
+# "모집 기간 9월 1일(화) ~ 9월 22일(화)", "사전 예약 오픈: 2026. 10. 15 (목) 18시",
+# "신청: 2026. 10. 24.(토) 오전 9시부터", "접수 11월 19일(목) 10:00부터"
+_D = r"(?:(20\d{2})\s*[.\-/년]\s*)?(\d{1,2})\s*[.\-/월]\s*(\d{1,2})\s*일?\.?(?:\s*\([^)]{1,4}\))?"
+_APPLY_KEY = r"(?:신청|접수|모집|예약|사전\s?등록|티켓\s?오픈|예매)"
+_APPLY_RANGE = re.compile(_APPLY_KEY + r"[^\n]{0,30}?" + _D + r"[^\n\d~\-–]{0,14}[~\-–]\s*" + _D)
+_APPLY_OPEN = re.compile(
+    # '예약 오픈: 11/12' (날짜 앞에 오픈) 또는 '신청 11월 10일부터' (날짜 뒤에 부터·오픈)
+    _APPLY_KEY + r"\s*(?:오픈|시작|개시)\s*(?:일|일시|일정)?\s*[:：]?\s*" + _D
+    + r"|" + _APPLY_KEY + r"[^\n]{0,20}?" + _D + r"[^\n]{0,16}?(?:부터|오픈|시작|개시|~(?!\s*\d))"
+)
+
+
+def _mkdate(y: str | None, m: str, d: str, ref: date) -> date | None:
+    try:
+        out = date(int(y) if y else ref.year, int(m), int(d))
+    except ValueError:
+        return None
+    # 연도가 없으면 행사 연도로 — 행사보다 반년 넘게 뒤면 작년 일정
+    if not y and (out - ref).days > 180:
+        out = date(out.year - 1, out.month, out.day)
+    return out
+
+
+def extract_apply_window(body: str, start: date, end: date) -> tuple[date | None, date | None]:
+    """본문에서 사전 신청·예약 기간을 찾는다. 행사 기간 자체를 잘못 읽은 것 같으면 버린다."""
+    def ok(a: date | None, b: date | None) -> bool:
+        if a is None or a > end or (start - a).days > 150:
+            return False
+        if b is not None and (b < a or b > end):
+            return False
+        # '예약 안내 · 기간: (행사 기간)'처럼 행사 날짜를 그대로 읽은 경우
+        return not (a == start and (b is None or b == end))
+
+    m = _APPLY_RANGE.search(body)
+    if m:
+        a = _mkdate(m.group(1), m.group(2), m.group(3), start)
+        b = _mkdate(m.group(4) or m.group(1), m.group(5), m.group(6), start)
+        if ok(a, b):
+            return a, b
+    m = _APPLY_OPEN.search(body)
+    if m:
+        y, mo, d = (m.group(1), m.group(2), m.group(3)) if m.group(2) else (m.group(4), m.group(5), m.group(6))
+        a = _mkdate(y, mo, d, start)
+        if ok(a, None):
+            return a, None
+    return None, None
 
 
 def classify_category(record: RawRecord, title: str, body: str) -> str | None:
@@ -364,6 +415,8 @@ class RuleEventParser:
                 if v
             )
         )
+        # 사전 신청·예약 기간 — 설명은 잘려 있으니 원문 전체(body)에서 찾는다 (상시 장소는 해당 없음)
+        apply_start, apply_end = (None, None) if category == "attraction" else extract_apply_window(body, start, end)
         price = facts.get("price_info")
         if not price and re.search(r"무료\s?(입장|관람|참여)|입장료\s?무료", body):
             price = "무료"
@@ -387,7 +440,9 @@ class RuleEventParser:
             age_min=age_min,
             age_max=age_max,
             amenities=classify_amenities(text),
-            booking_required=bool(facts.get("booking_required")) or bool(_BOOKING.search(body)),
+            booking_required=bool(facts.get("booking_required")) or bool(_BOOKING.search(body)) or apply_start is not None,
+            apply_start=apply_start,
+            apply_end=apply_end,
             price_info=price,
             thumbnail_url=facts.get("thumbnail_url"),
             official_link=facts.get("official_link") or record.url,

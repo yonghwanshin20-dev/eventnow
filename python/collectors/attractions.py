@@ -2,6 +2,8 @@
 
 - 공공데이터포털 전국관광지정보표준데이터 (15021141): 지정 관광지·관광단지
 - 공공데이터포털 전국박물관미술관정보표준데이터 (15017323): 박물관·미술관 (관람 시간·요금)
+- 공공데이터포털 전국도시공원정보표준데이터 (15012890): 큰 근린공원·테마 공원 (동네 놀이터·소공원 제외)
+- 국립공원 24곳·이름난 온천은 직접 고른 목록
 - 공공데이터포털 전국도서관표준데이터 (15013109): 공공·어린이 도서관 — 'N월 문화프로그램 안내' 같은 글 대신
   도서관 자체를 넣고 홈페이지(문화 프로그램)로 연결한다
 - 국가유산청 국가유산 공개 API: 사적(유적지)·명승(자연경관) — 소개 글·사진은 상세 API에서 (저장해 두고 새 곳만)
@@ -40,6 +42,7 @@ HERITAGE_KINDS = {"13": "사적", "15": "명승"}
 MAX_DETAILS_PER_RUN = 250
 DETAIL_TTL_DAYS = 120
 
+_SEASON = re.compile(r"\s*\(\s*\d{1,2}\s*월\s*[~\-]\s*\d{1,2}\s*월\s*\)")
 _NOT_OPEN = re.compile(r"폐관|휴관\s?중|임시\s?휴관|리모델링|이전\s?준비")
 
 
@@ -77,6 +80,8 @@ def _record(
     place_types: list[str] | None = None,
 ) -> RawRecord:
     end = today + timedelta(days=OPEN_DAYS)
+    # '서대문형무소역사관(3월~10월)'처럼 계절 운영 시간 표시는 이름에서 뺀다
+    title = _SEASON.sub("", title).strip()
     raw = "\n".join(
         [
             f"[출처] {provider}",
@@ -298,6 +303,129 @@ def library_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
     )
 
 
+# 도시공원 — 동네 놀이터(어린이공원·소공원)는 빼고, 큰 근린공원(15만㎡↑)과 테마 공원(역사·문화·수변·체육 5만㎡↑)만
+_PARK_SKIP = re.compile(r"어린이|소공원|묘지|가로")
+_PARK_THEME = re.compile(r"역사|문화|수변|체육|도시농업|기타")
+_BIG_PARK_M2 = 150000
+_THEME_PARK_M2 = 50000
+
+
+def park_row_to_raw(row: dict[str, Any], *, today: date) -> RawRecord | None:
+    kind = _clean(row.get("PARK_SE"))
+    if not kind or _PARK_SKIP.search(kind):
+        return None
+    area = _won(row.get("PARK_AR")) or 0
+    if area < (_THEME_PARK_M2 if _PARK_THEME.search(kind) else _BIG_PARK_M2):
+        return None
+    name = re.sub(r"<[^>]*>|\([^)]*\)", "", _clean(row.get("PARK_NM"))).strip()
+    if re.fullmatch(r"(?:[가-힣]\s)+[가-힣]", name):  # '기 자 촌' → '기자촌'
+        name = name.replace(" ", "")
+    if not name:
+        return None
+    if not re.search(r"(?:공원|숲|원|산|정원|광장)$", name):
+        name = f"{name}공원"
+    address = _clean(row.get("RDNMADR")) or _clean(row.get("LNMADR"))
+    if not address:
+        return None
+    lines = [f"{kind} · 넓이 약 {area / 10000:,.1f}만㎡"]
+    play, culture = _clean(row.get("AMSMT_FCLTY")), _clean(row.get("CLTR_FCLTY"))
+    if play:
+        lines.append(f"놀이시설 {play[:80]}")
+    if culture:
+        lines.append(f"교양시설 {culture[:80]}")
+    types = ["park_playground"]
+    if re.search(r"산|숲|자연|생태|수변|호수|천$|강", f"{name} {kind}"):
+        types.append("nature")
+    if "역사" in kind:
+        types.append("historical")
+    return _record(
+        sid="p-" + _squash(f"{name}{address}")[:40],
+        title=name,
+        address=address,
+        today=today,
+        kind="공원",
+        provider=f"공공데이터포털 전국도시공원정보 ({_clean(row.get('INSTT_NM')) or '지자체'})",
+        description="\n".join(lines),
+        lat=_float(row.get("LATITUDE")),
+        lng=_float(row.get("LONGITUDE")),
+        price="무료",
+        place_types=types,
+    )
+
+
+# 국립공원(국립공원공단)·이름난 온천 — 표준데이터에 없어 직접 넣는다. 좌표는 대표 지점
+_NATIONAL_PARKS = (
+    ("북한산", "서울특별시 강북구 우이동", 37.6590, 126.9780),
+    ("지리산", "경상남도 산청군 시천면", 35.3370, 127.7306),
+    ("설악산", "강원특별자치도 속초시 설악동", 38.1190, 128.4650),
+    ("한라산", "제주특별자치도 제주시 오등동", 33.3617, 126.5292),
+    ("경주", "경상북도 경주시 진현동", 35.8340, 129.2190),
+    ("계룡산", "충청남도 공주시 반포면", 36.3430, 127.2050),
+    ("한려해상", "경상남도 통영시 산양읍", 34.7600, 128.4000),
+    ("속리산", "충청북도 보은군 속리산면", 36.5430, 127.8700),
+    ("내장산", "전북특별자치도 정읍시 내장동", 35.4880, 126.8890),
+    ("가야산", "경상남도 합천군 가야면", 35.8000, 128.1200),
+    ("덕유산", "전북특별자치도 무주군 설천면", 35.8580, 127.7460),
+    ("오대산", "강원특별자치도 평창군 진부면", 37.7940, 128.5430),
+    ("주왕산", "경상북도 청송군 주왕산면", 36.3930, 129.1660),
+    ("태안해안", "충청남도 태안군 태안읍", 36.7470, 126.1450),
+    ("다도해해상", "전라남도 완도군 완도읍", 34.3100, 126.7550),
+    ("치악산", "강원특별자치도 원주시 소초면", 37.3680, 128.0530),
+    ("월악산", "충청북도 제천시 한수면", 36.8550, 128.1080),
+    ("소백산", "경상북도 영주시 풍기읍", 36.9580, 128.4830),
+    ("월출산", "전라남도 영암군 영암읍", 34.7660, 126.7070),
+    ("변산반도", "전북특별자치도 부안군 변산면", 35.6200, 126.5300),
+    ("무등산", "광주광역시 동구 운림동", 35.1340, 126.9890),
+    ("태백산", "강원특별자치도 태백시 소도동", 37.0950, 128.9160),
+    ("팔공산", "대구광역시 동구 도학동", 36.0160, 128.6950),
+    ("금정산", "부산광역시 금정구 금성동", 35.2830, 129.0560),
+)
+_HOT_SPRINGS = (
+    ("동래온천", "부산광역시 동래구 온천동", 35.2205, 129.0830, "삼국시대부터 이름난 온천 거리. 노천 족욕탕(무료)과 온천시장이 있어요."),
+    ("유성온천", "대전광역시 유성구 봉명동", 36.3540, 127.3440, "도심 속 온천 거리. 유성온천공원 족욕체험장(무료)이 인기예요."),
+    ("온양온천", "충청남도 아산시 온천동", 36.7810, 127.0010, "조선 왕들이 찾던 온천. 온양온천역 앞 족욕장이 있어요."),
+    ("수안보온천", "충청북도 충주시 수안보면 온천리", 36.8460, 127.9930, "자연 용출 온천 마을. 족욕길과 물탕공원이 있어요."),
+    ("덕구온천", "경상북도 울진군 북면 덕구리", 37.0480, 129.3360, "계곡을 따라 걷는 자연 용출 온천과 온천 테마파크."),
+    ("부곡온천", "경상남도 창녕군 부곡면 거문리", 35.4350, 128.6200, "국내에서 가장 뜨거운 물이 나오는 온천 관광지."),
+)
+
+
+def famous_nature(today: date) -> list[RawRecord]:
+    out = [
+        _record(
+            sid="n-" + _squash(name)[:40],
+            title=f"{name} 국립공원",
+            address=address,
+            today=today,
+            kind="국립공원",
+            provider="국립공원 (직접 고른 곳)",
+            description=f"{name} 국립공원. 탐방로·탐방안내소·통제 정보는 국립공원공단 누리집에서 확인하세요.",
+            lat=lat,
+            lng=lng,
+            link="https://www.knps.or.kr",
+            price="무료 (일부 시설 유료)",
+            place_types=["nature"],
+        )
+        for name, address, lat, lng in _NATIONAL_PARKS
+    ]
+    out += [
+        _record(
+            sid="n-" + _squash(name)[:40],
+            title=name,
+            address=address,
+            today=today,
+            kind="온천",
+            provider="이름난 온천 (직접 고른 곳)",
+            description=desc,
+            lat=lat,
+            lng=lng,
+            place_types=["nature"],
+        )
+        for name, address, lat, lng, desc in _HOT_SPRINGS
+    ]
+    return out
+
+
 def parse_heritage_list(xml: str) -> list[dict[str, str]]:
     root = ElementTree.fromstring(xml)
     out = []
@@ -364,7 +492,7 @@ def drop_known(records: list[RawRecord], known_titles: list[str]) -> list[RawRec
     known = [_squash(t) for t in known_titles if t]
     out = []
     for r in records:
-        name = _squash(r.facts["title"])
+        name = _squash(re.sub(r"\([^)]*\)", "", r.facts["title"]))
         if len(name) >= 4 and any(name in k for k in known):
             continue
         out.append(r)
@@ -408,6 +536,7 @@ class AttractionCollector:
             ("15021141", tour_row_to_raw),
             ("15017323", museum_row_to_raw),
             ("15013109", library_row_to_raw),
+            ("15012890", park_row_to_raw),
         ):
             try:
                 rows = std._rows(pk)
@@ -466,7 +595,7 @@ class AttractionCollector:
 
     def collect(self, *, today: date | None = None) -> list[RawRecord]:
         ref = today or today_kst()
-        records = self._standard(ref) + famous_libraries(ref)
+        records = self._standard(ref) + famous_libraries(ref) + famous_nature(ref)
         try:
             records.extend(self._heritage(ref))
         except (httpx.HTTPError, ElementTree.ParseError) as err:

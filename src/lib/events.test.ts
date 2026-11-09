@@ -5,6 +5,7 @@ import {
   DEFAULT_EXPLORER_FILTERS,
   PAGE_SIZE,
   rankAttractions,
+  applyLabel,
   filterEvents,
   filtersToSearchParams,
   formatLongRange,
@@ -316,5 +317,29 @@ describe("rankAttractions", () => {
       p("떡박물관"),
     ]).map((e) => e.title);
     expect(out).toEqual(["수원 화성", "국립중앙박물관", "떡박물관", "(재)한원미술관", "갤러리관악"]);
+  });
+});
+
+describe("applyLabel (사전 신청)", () => {
+  const ev = (apply_start: string | null, apply_end: string | null, end_date = "2026-12-20") => ({ apply_start, apply_end, end_date });
+  it("오픈 전·신청 중·마감", () => {
+    expect(applyLabel(ev("2026-11-14", "2026-11-20"), "2026-11-09")).toEqual({ text: "신청 D-5 (11/14 오픈)", tone: "soon" });
+    expect(applyLabel(ev("2026-12-01", null), "2026-11-09")?.tone).toBe("upcoming");
+    expect(applyLabel(ev("2026-11-01", "2026-11-11"), "2026-11-09")).toEqual({ text: "신청 중 · 2일 남음 (~11/11)", tone: "urgent" });
+    expect(applyLabel(ev("2026-11-01", "2026-11-09"), "2026-11-09")?.text).toBe("오늘 신청 마감");
+    expect(applyLabel(ev("2026-10-01", "2026-10-15"), "2026-11-09")?.text).toBe("신청 마감");
+    expect(applyLabel(ev(null, null), "2026-11-09")).toBeNull();
+    expect(applyLabel(ev("2026-10-01", null, "2026-11-01"), "2026-11-09")).toBeNull(); // 행사도 끝남
+  });
+});
+
+describe("상시 탭과 관광명소", () => {
+  it("전체에서는 빠지지만 상시를 고르면 관광명소도 함께", () => {
+    const place = ev({ category: "attraction", start_date: "2026-11-01", end_date: "2027-12-01" });
+    const fest = ev({ category: "festival" });
+    const all = filterEvents([place, fest], DEFAULT_EXPLORER_FILTERS, "2026-11-09");
+    expect(all.map((e) => e.category)).not.toContain("attraction");
+    const perm = filterEvents([place, fest], { ...DEFAULT_EXPLORER_FILTERS, scheduleType: "permanent" }, "2026-11-09");
+    expect(perm.map((e) => e.category)).toContain("attraction");
   });
 });

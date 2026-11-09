@@ -774,12 +774,13 @@ export function filterEvents(
       return false;
     }
     // '전체'는 행사만 — 관광명소(언제든 가는 곳)는 아래 줄에서 따로 고른다.
-    // 다만 검색하거나 장소 유형(박물관·도서관…)을 고르면 관광명소도 함께 찾는다
+    // 다만 검색하거나, 장소 유형(박물관·도서관…)이나 '상시'를 고르면 관광명소도 함께 찾는다
     if (
       filters.category === "all" &&
       event.category === "attraction" &&
       !filters.q &&
-      filters.placeTypes.length === 0
+      filters.placeTypes.length === 0 &&
+      filters.scheduleType !== "permanent"
     ) {
       return false;
     }
@@ -843,6 +844,31 @@ export function filterEvents(
 
     return true;
   });
+}
+
+const shortDate = (iso: string) => `${Number(iso.slice(5, 7))}/${Number(iso.slice(8, 10))}`;
+
+/**
+ * 사전 신청 안내 — 행사가 한참 뒤여도 신청을 놓치지 않게 목록에 띄운다.
+ * 오픈 전: '신청 D-5 (11/12 오픈)' · 신청 중: '신청 중 · 3일 남음' · 지난 뒤: '신청 마감'
+ */
+export function applyLabel(
+  event: Pick<Event, "apply_start" | "apply_end" | "end_date">,
+  today: string = todayKst(),
+): { text: string; tone: "urgent" | "soon" | "live" | "upcoming" | "ended" } | null {
+  const start = event.apply_start;
+  if (!start || event.end_date < today) return null;
+  if (today < start) {
+    const d = daysBetween(today, start);
+    return { text: `신청 D-${d} (${shortDate(start)} 오픈)`, tone: d <= 7 ? "soon" : "upcoming" };
+  }
+  const end = event.apply_end;
+  if (!end) return { text: `신청 시작됨 (${shortDate(start)}~)`, tone: "live" };
+  if (today > end) return { text: "신청 마감", tone: "ended" };
+  const left = daysBetween(today, end);
+  return left === 0
+    ? { text: "오늘 신청 마감", tone: "urgent" }
+    : { text: `신청 중 · ${left}일 남음 (~${shortDate(end)})`, tone: left <= 3 ? "urgent" : "live" };
 }
 
 /** 두 좌표 사이 거리 (km, haversine) */
@@ -982,6 +1008,9 @@ export function toListItem(
     age_min: event.age_min ?? null,
     age_max: event.age_max ?? null,
     booking_required: event.booking_required,
+    apply_start: event.apply_start ?? null,
+    apply_end: event.apply_end ?? null,
+    apply: applyLabel(event, today),
     thumbnail_url: event.thumbnail_url,
     place_types: event.place_types ?? [],
     status: computeStatus(event.start_date, event.end_date, today),

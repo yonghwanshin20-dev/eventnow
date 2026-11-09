@@ -29,6 +29,7 @@ import {
   placeLines,
   isApproxDates,
   whenLabel,
+  applyLabel,
 } from "@/lib/events";
 import { feedbackHref } from "@/lib/feedback";
 import { hostLabel, mapsUrl, resolveInfoUrl } from "@/lib/links";
@@ -80,6 +81,7 @@ export function EventDetail({ event, url }: EventDetailProps) {
   const hasAmenity = Object.values(event.amenities ?? {}).some(Boolean);
   const credit = SOURCE_CREDITS[event.source ?? ""];
   const place = placeLines(event);
+  const apply = applyLabel(event);
 
   return (
     <article className="mx-auto w-full max-w-3xl pb-[calc(5.5rem+env(safe-area-inset-bottom))] sm:px-4 sm:py-8">
@@ -189,7 +191,15 @@ export function EventDetail({ event, url }: EventDetailProps) {
               {event.price_info ?? <span className="text-stone-500">공식 정보 확인</span>}
             </Fact>
             <Fact icon={<Ticket className="size-[18px]" />} label="예약">
-              {event.booking_required
+              {apply ? (
+                <>
+                  <span className="font-medium">{apply.text}</span>
+                  <span className="mt-0.5 block text-[13px] text-stone-500">
+                    신청 기간 {event.apply_start}
+                    {event.apply_end ? ` ~ ${event.apply_end}` : " 부터"} · 정원이 차면 일찍 마감될 수 있어요
+                  </span>
+                </>
+              ) : event.booking_required
                 ? (event.place_types ?? []).some((t) => t === "cultural_space" || t === "library")
                   ? "프로그램별 신청 확인"
                   : "사전 예약 필요"

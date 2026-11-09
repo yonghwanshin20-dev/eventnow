@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Infinity as InfinityIcon, Timer } from "lucide-react";
+import { ClipboardCheck, Infinity as InfinityIcon, Timer } from "lucide-react";
 
 import { EventThumb } from "@/components/events/event-thumb";
 import { FavoriteButton } from "@/components/events/favorite-button";
@@ -21,6 +21,15 @@ export const WHEN_TONE: Record<EventListItem["when"]["tone"], string> = {
   always: "bg-indigo-600 text-white",
   approx: "bg-white/95 text-amber-800",
   ended: "bg-stone-500 text-white",
+};
+
+/** 사전 신청 배지 색 — 마감 임박은 빨강, 곧 오픈은 노랑, 신청 중은 초록 */
+export const APPLY_TONE: Record<NonNullable<EventListItem["apply"]>["tone"], string> = {
+  urgent: "bg-rose-50 text-rose-700 ring-1 ring-rose-200",
+  soon: "bg-amber-50 text-amber-800 ring-1 ring-amber-200",
+  live: "bg-teal-50 text-teal-800 ring-1 ring-teal-200",
+  upcoming: "bg-sky-50 text-sky-800 ring-1 ring-sky-200",
+  ended: "bg-stone-100 text-stone-500",
 };
 
 /** 카드 아래 지역: "서울 성동구 성수동2가" — 동은 확인된 경우에만 (애매하면 구·시까지) */
@@ -103,6 +112,18 @@ export function EventCard({ event, className, priority }: EventCardProps) {
           >
             {event.date_text}
           </p>
+          {/* 사전 신청이 있으면 행사가 한참 뒤여도 미리 알린다 */}
+          {event.apply && (
+            <p
+              className={cn(
+                "inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-semibold",
+                APPLY_TONE[event.apply.tone],
+              )}
+            >
+              <ClipboardCheck className="size-3" aria-hidden />
+              {event.apply.text}
+            </p>
+          )}
           {(event.is_family_friendly || event.is_free || fit === "fit") && (
             <p className="flex gap-1 pt-0.5 text-[10.5px] font-semibold">
               {fit === "fit" ? (

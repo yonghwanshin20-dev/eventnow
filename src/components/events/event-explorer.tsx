@@ -55,12 +55,14 @@ import {
   WHEN_OPTIONS,
   countActiveFilters,
   filtersToQueryString,
+  searchParamsToFilters,
   whenRangeText,
   whenTitle,
   type ExplorerFilters,
   type ScheduleTypeFilter,
   type SortOption,
 } from "@/lib/events";
+import { saveLastList, stashBeforeFavorites, takeBeforeFavorites } from "@/lib/last-list";
 import { useFavorites } from "@/lib/favorites";
 import type { FeedShelf } from "@/lib/feed";
 import { cn } from "@/lib/utils";
@@ -362,6 +364,8 @@ export function EventExplorer({
   const writeFilters = (next: ExplorerFilters) => {
     latestFilters.current = next;
     const qs = filtersToQueryString(next);
+    // 피드백·맛집에 다녀와도 이 목록으로 돌아오게 (찜 보기는 따로 — 찜에서 나오면 원래 목록으로)
+    if (next.favorites.length === 0) saveLastList(qs);
     startTransition(() => {
       router.replace(`${pathname}${qs}`, { scroll: false });
     });
@@ -431,6 +435,27 @@ export function EventExplorer({
   const resetAll = () => {
     setQuery("");
     writeFilters(DEFAULT_EXPLORER_FILTERS);
+  };
+
+  // 링크로 바로 들어와도 지금 목록을 '보던 목록'으로 기억
+  useEffect(() => {
+    if (filters.favorites.length === 0) saveLastList(filtersToQueryString(filters));
+  }, [filters]);
+
+  /** 찜 보기 켜고 끄기 — 켤 때는 다른 조건 없이 찜 전부, 끌 때는 보던 목록(필터) 그대로 돌아간다 */
+  const toggleFavorites = () => {
+    const current = latestFilters.current;
+    if (current.favorites.length > 0) {
+      const before = takeBeforeFavorites();
+      writeFilters(
+        before != null
+          ? { ...searchParamsToFilters(new URLSearchParams(before)), limit: PAGE_SIZE }
+          : { ...current, favorites: [], limit: PAGE_SIZE },
+      );
+      return;
+    }
+    stashBeforeFavorites(filtersToQueryString(current));
+    writeFilters({ ...DEFAULT_EXPLORER_FILTERS, favorites: favorites.ids });
   };
 
   // 상단 칩(날짜·카테고리·찜)과 검색어는 따로 보이므로 시트 안 필터만 센다
@@ -616,7 +641,7 @@ export function EventExplorer({
             <button
               type="button"
               aria-pressed={favoritesOnly}
-              onClick={() => updateFilters({ favorites: favoritesOnly ? [] : favorites.ids })}
+              onClick={toggleFavorites}
               disabled={!favoritesOnly && favorites.ids.length === 0}
               title={favorites.ids.length === 0 ? "하트를 눌러 찜해 보세요" : undefined}
               className={cn(
@@ -1099,7 +1124,9 @@ export function EventExplorer({
         favoritesOnly={favoritesOnly}
         favoriteCount={favorites.ids.length}
         onHome={() => {
-          resetAll();
+          // 찜을 보다가 [홈]을 누르면 찜 들어가기 전 목록으로, 그 밖에는 처음 화면으로
+          if (favoritesOnly) toggleFavorites();
+          else resetAll();
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
         onWeekend={() =>
@@ -1119,7 +1146,7 @@ export function EventExplorer({
             setNavHint("하트를 눌러 찜하면 여기 모여요");
             return;
           }
-          updateFilters({ favorites: favoritesOnly ? [] : favorites.ids });
+          toggleFavorites();
         }}
       />
       {navHint && (

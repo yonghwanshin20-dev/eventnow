@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { HomeLink } from "@/components/layout/home-link";
 import { useState } from "react";
 import { CheckCircle2, Send } from "lucide-react";
 
@@ -83,9 +83,9 @@ export function FeedbackForm({ enabled, initialType, eventId, eventTitle }: Feed
           >
             하나 더 보내기
           </button>
-          <Link href="/" className="inline-flex h-11 items-center rounded-full bg-stone-900 px-5 text-sm font-semibold text-white">
-            첫 화면으로
-          </Link>
+          <HomeLink className="inline-flex h-11 items-center rounded-full bg-stone-900 px-5 text-sm font-semibold text-white">
+            보던 목록으로
+          </HomeLink>
         </div>
       </div>
     );
