@@ -26,7 +26,7 @@ logging.basicConfig(
 logger = logging.getLogger("pipeline")
 
 ALLOWED_SOURCES = {
-    "kfes", "culture", "seoulportal", "mcst", "city", "public", "venue", "places", "tour", "popup", "web", "seoul",
+    "kfes", "culture", "seoulportal", "mcst", "city", "public", "venue", "local", "places", "tour", "popup", "web", "seoul",
 }
 # 키 없이 동작하는 소스만 기본값. 키가 필요한 소스는 키가 있을 때 auto 로 추가된다.
 # kfes: 축제 달력 / culture: 문화포털 전시·아동·체험 / seoulportal: 서울문화포털(자치구 행사)
@@ -34,7 +34,8 @@ ALLOWED_SOURCES = {
 # public: 공공데이터포털 표준데이터(지자체·문화재단이 등록한 축제·행사, 좌표 포함)
 # venue: 코엑스·킨텍스·세텍·수원메쎄 소비자 박람회(가구·베이비페어·펫쇼 등)
 # places: 관광지(유적지·사적·명승·관광지·박물관·미술관) — 언제든 가는 곳
-KEYLESS_SOURCES = "kfes,culture,seoulportal,mcst,city,public,venue,places,popup"
+# local: 동네 도서관 강좌·행사(고양·은평·서대문)와 고양문화재단 공연·전시
+KEYLESS_SOURCES = "kfes,culture,seoulportal,mcst,city,public,venue,local,places,popup"
 
 
 def default_sources() -> str:
@@ -109,6 +110,11 @@ def _collect_one(
         from collectors.venue_fairs import VenueFairCollector
 
         with VenueFairCollector() as collector:
+            return collector.collect()
+    if name == "local":
+        from collectors.local_culture import LocalCultureCollector
+
+        with LocalCultureCollector(cache_path=settings.local_detail_cache_path) as collector:
             return collector.collect()
     if name == "seoulportal":
         # 서울 자치구·구 문화재단 행사 (키 없음) — 상세 화면(대상·요금·시간)은 저장본 우선

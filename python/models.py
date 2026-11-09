@@ -56,6 +56,7 @@ SourceName = Literal[
     "city_calendar",
     "public_data",
     "venue_fair",
+    "local_culture",
     "attraction",
     "web_search",
     "naver",

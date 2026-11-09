@@ -49,6 +49,7 @@ const SOURCE_CREDITS: Record<string, string> = {
   city_calendar: "시·군청 연간 행사 일정표",
   public_data: "공공데이터포털 (지자체·문화재단 등록 정보)",
   venue_fair: "전시장 행사 일정 (코엑스·킨텍스·세텍·수원메쎄)",
+  local_culture: "동네 문화기관 일정 (고양시·은평구·서대문구 도서관, 고양문화재단)",
   attraction: "공공데이터포털 관광지·박물관 정보, 국가유산청",
 };
 

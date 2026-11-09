@@ -30,21 +30,21 @@ Run git pull --rebase --autostash
 if ($LASTEXITCODE -ne 0) { Log "git pull failed"; exit 1 }
 
 Push-Location (Join-Path $repo "python")
-Run $python run.py --store json --parser rules --sources "seoulportal,city"
+Run $python run.py --store json --parser rules --sources "seoulportal,city,local"
 $code = $LASTEXITCODE
 Pop-Location
 if ($code -ne 0) { Log "crawler failed (exit $code)"; exit $code }
 
 $data = @(
     "src/data/events.json", "src/data/events-meta.json",
-    "python/data/seoul_detail_cache.json", "python/data/osm_geocode_cache.json",
+    "python/data/seoul_detail_cache.json", "python/data/local_detail_cache.json", "python/data/osm_geocode_cache.json",
     "python/data/osm_reverse_cache.json"
 ) | Where-Object { Test-Path $_ }
 
 if (-not (git status --porcelain -- $data)) { Log "no data changes"; exit 0 }
 
 Run git add -- @data
-Run git commit -m "data: local crawl $(Get-Date -Format 'yyyy-MM-dd HH:mm') (seoulportal,city)"
+Run git commit -m "data: local crawl $(Get-Date -Format 'yyyy-MM-dd HH:mm') (seoulportal,city,local)"
 Run git pull --rebase --autostash
 Run git push
 if ($LASTEXITCODE -ne 0) { Log "git push failed"; exit 1 }
