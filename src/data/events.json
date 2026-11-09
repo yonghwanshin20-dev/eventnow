@@ -9085,8 +9085,10 @@
     "content_hash": "908c58f9e309b0c80f1b15b993e455c5a77e6b0baefb040ac6153559772fcc67",
     "id": "evt-88f2f224d6",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "광희동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "광희동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026 소장품 상설전 《시대와 함께한 예술가, 이응노》",
@@ -9169,8 +9171,10 @@
     "content_hash": "24841bc594b91bd350b046d8c1100f13544a9588b82d7e4c16bbfa12f2e783e4",
     "id": "evt-1d5ab43714",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "용답동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "용답동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "10/10: 미술관 10년의 선택",
@@ -9577,8 +9581,10 @@
     "content_hash": "3b52fb0c289d941f5ae24889ad5831146a0ecb54a23aa83258668c93344a9811",
     "id": "evt-aa967d3c86",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "사직동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "사직동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "안녕, 마한! 우리 마을 이야기",
@@ -9626,13 +9632,13 @@
   {
     "title": "[서울문화재단] 2026 신당창작아케이드 [어쩌다 마주친 공예 in 노들섬]",
     "category": "exhibition",
-    "description": "[서울문화재단] 2026 신당창작아케이드 상설전시 [어쩌다 마주친 공예 in 노들섬] 참여 작가 김도영 김동욱 김보경 김수아 김승기 김아야 김예슬 김현지 노현주 박미서 박지은 백재원 서영민 안은경 양유진 이기은 이명희 이소명 이승진 이지수 임태완 정봉찬 정항수 조혜영 채민정 최민지 한우현 2026.3.27. Fri - OPEN RUN 노들섬 노들서가 1층 SEOUL MY SOUL 서울문화재단 신당창작아케이드\n운영 시간 [2-11월] 화-일 10:00~20:00 / [3-10월] 화-금 10:00~21:00 / 주말·공휴일 10:00 -22:00",
+    "description": "[서울문화재단] 2026 신당창작아케이드 상설전시 [어쩌다 마주친 공예 in 노들섬] 참여 작가 김도영 김동욱 김보경 김수아 김승기 김아야 김예슬 김현지 노현주 박미서 박지은 백재원 서영민 안은경 양유진 이기은 이명희 이소명 이승진 이지수 임태완 정봉찬 정항수 조혜영 채민정 최민지 한우현 2026.3.27. Fri - OPEN RUN 노들섬 노들서가 1층 SEOUL MY SOUL 서울문화재단 신당창작아케이드\n운영 시간 [2-11월] 화-일 10:00~20:00 / [3-10월] 화-금 10:00~21:00 / 주말·공휴일 10:00~22:00",
     "start_date": "2026-03-27",
     "end_date": "2026-12-31",
     "location_name": "노들섬",
-    "address": "서울특별시 용산구 양녕로 445",
-    "latitude": 37.5176638307111,
-    "longitude": 126.958036465507,
+    "address": "서울 용산구 이촌동 302-146",
+    "latitude": 37.517750239012145,
+    "longitude": 126.95804229917225,
     "region": "서울특별시",
     "district": "용산구",
     "is_family_friendly": true,
@@ -9655,11 +9661,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "157363",
-    "content_hash": "af53b208e447d219df69eb950c34b14095816aa07e6e1b95b5949243ec3cee5b",
+    "content_hash": "54a272c49973286f0e602f79a0ebbd58d0300063ca0dbf43e866e83a61adf31c",
     "id": "evt-92ea0fbb2d",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "이촌2동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "이촌2동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "[서울시립과학관] 2026 토요과학강연",
@@ -10159,11 +10167,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "158804",
-    "content_hash": "fdfe4d00efd67327f05e20227589451c156a2373965ba34e42c79740f124cb15",
+    "content_hash": "29aa474761d811552ea1f1d26827d65f0d4b833323b56cc1006179d9bffd99a6",
     "id": "evt-1c53a34fb5",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "오륜동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "오륜동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "[소마미술관] 조각이 꿈+틀(올림픽조각체험프로젝트#02)(상설전)",
@@ -10333,8 +10343,10 @@
     "content_hash": "0bc24af29447944c5660266c55cc0056d2375b3aee598760dbe805bbd952c084",
     "id": "evt-89f0c233d6",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "오륜동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "오륜동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "MMCA 필름앤비디오 2026",
@@ -10539,8 +10551,10 @@
     "content_hash": "19328b9506843adf10b17bd05ddca71e99fea1fb5aec21c120387ab322653bdc",
     "id": "evt-bff70d7da7",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "반포동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "반포동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "공예협력전시 《안동별궁, 시간의 겹》",
@@ -10996,8 +11010,10 @@
     "content_hash": "4fdedb456afd21a5c0de67f0d97764bacd593f8d5e4155492801f2acfdef5800",
     "id": "evt-77c6cda36e",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "청파동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "청파동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026년 K-뮤지엄 지역 순회 전시 및 투어 지원사업 <이음-확장>",
@@ -11254,7 +11270,7 @@
       "stroller": false,
       "nursing_room": false
     },
-    "booking_required": false,
+    "booking_required": true,
     "price_info": "어른: 3,000원, 청소년: 1,800원, 어린이: 1,200원",
     "thumbnail_url": null,
     "official_link": "https://www.jfac.or.kr/site/main/program/perf_exhi_list_view?pgIdx=2702",
@@ -11267,11 +11283,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "157807",
-    "content_hash": "b86bd32a2e520c081a90631451a86d962ee5ad79aa4c02ca494bd8386ee4b49d",
+    "content_hash": "89fde94a128e0b4177d11137c86f83d6154276a68bf0f43a567c3e032e2c731f",
     "id": "evt-bc3c171c9b",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "누하동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "누하동",
+    "apply_start": "2026-05-09",
+    "apply_end": null
   },
   {
     "title": "메르세데스-벤츠 스튜디오 서울 팝업",
@@ -11787,8 +11805,10 @@
     "content_hash": "9a3d19f5a47defdf1cd37cfe027b164335479bc1618b5fdd2ba85942907f8aad",
     "id": "evt-c8e045a620",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "대흥동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "대흥동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "온그리디언츠 플래그십 스토어",
@@ -11939,8 +11959,10 @@
     "content_hash": "b5d6fae4defd5e74fecb7cfccf2bd34307fbc4cd47bf0bf6437b310516ca2384",
     "id": "evt-6911ac8c5a",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "동교동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "동교동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "[금천문화재단] 2026 생활밀착형 문화예술교육 [가가호호:금천감각정원]",
@@ -12179,8 +12201,10 @@
     "content_hash": "8e2dc329b26a23224d8ac105c4e7fc024dfe41c3479244b09a314403b7d8855e",
     "id": "evt-4ffe9a32f3",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "운니동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "운니동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "진격의 거인展 FINAL 팝업",
@@ -12543,8 +12567,10 @@
     "content_hash": "6f68d2d7f02f6fb36f0eaa3d5b3b0721b8c9a23c826fa569864ca7b1251e36b4",
     "id": "evt-7f41bb74da",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "공평동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "공평동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026 양평군립미술관 신진작가전 - 뉴 앙데팡당: Hit the Spot",
@@ -14303,8 +14329,10 @@
     "content_hash": "ce22d2449d10f6af75d3c5f9a031a2a515147930da4717dab66898332576b905",
     "id": "evt-ca49457b01",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "상도동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "상도동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "《알루미늄 오이: 정연두》",
@@ -14544,8 +14572,10 @@
     "content_hash": "b15968af06070bcf6afd85e57a066d91971d8b4c63b58ea382e2d2e57173c5c0",
     "id": "evt-17846b16a9",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "혜화동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "혜화동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "[광진문화재단] 2026 생활밀착형 문화예술교육 지원사업 [가가호호(家家好好)] - 광진",
@@ -14611,7 +14641,7 @@
       "stroller": false,
       "nursing_room": false
     },
-    "booking_required": false,
+    "booking_required": true,
     "price_info": "무료",
     "thumbnail_url": null,
     "official_link": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2363&listname=normal",
@@ -14630,8 +14660,10 @@
     "content_hash": "03595898b772a36f138456671367e98e6bc926e43604d770d3c2ffd16abc046b",
     "id": "evt-376d10b74c",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "증산동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "증산동",
+    "apply_start": "2026-07-27",
+    "apply_end": null
   },
   {
     "title": "[노들섬] 오픈노들",
@@ -15725,8 +15757,10 @@
     "content_hash": "6383f603842e514e1e483cf3c7f055c4974257a3f7dd47d014a1e688d0849de5",
     "id": "evt-92541a3510",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "평창동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "평창동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "《오윤》",
@@ -15922,11 +15956,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "159385",
-    "content_hash": "f276dd71aac31714e5b1496dbfd6bc82618566b39df3956a427f65a6e76e7a5a",
+    "content_hash": "1c469e148eaba016477f22f77a3591541814cf91ff3a995aa33f40f4010ddcde",
     "id": "evt-9ff2203a52",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "창4동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "창4동",
+    "apply_start": "2026-09-04",
+    "apply_end": "2026-12-05"
   },
   {
     "title": "세계유산축전",
@@ -16008,8 +16044,10 @@
     "content_hash": "032d329c127b50f3e93fe4fad3464dfcdb526539444ff840e93a337adf7d1894",
     "id": "evt-14f2b9ab9e",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "송현동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "송현동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "소장품섬_심준섭: 기관의 순환",
@@ -16129,11 +16167,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "158814",
-    "content_hash": "9a3157471f3c934940bedbb5deb5169ce105798a2ebeec0952d6bc865603edcf",
+    "content_hash": "34f53333b2d5169209c3bd93c1faa098903e129cbc47f96e8aeafd2c2bf65ad3",
     "id": "evt-0163c1fe59",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "공릉1동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "공릉1동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026 경기도미술관 x 국립현대미술관 미술은행 소장품전 《다시 볼래? RE:VIEW》",
@@ -16300,8 +16340,10 @@
     "content_hash": "873fb91480af4cae73f0b1794f6936b39c5ad620204e400b7fb4108587be9975",
     "id": "evt-7d484fe735",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "증산동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "증산동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "오래오래 함께가게 팝업",
@@ -16654,8 +16696,10 @@
     "content_hash": "259c98fe30315ba5bd24b94cea33724b3bd9cf23fec1426ca949e633adb2f646",
     "id": "evt-b3b6b3e420",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "상봉동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "상봉동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "[서울식물원] 2026 서울식물원 기획전시 《다정한 균형: 서로를 비추는》 연계 어린이(가족) 대상 자율감상 프로그램 [마주 봄, 서로 봄: 식물원을 비추는 작품들]",
@@ -16696,8 +16740,10 @@
     "content_hash": "830740002b2b934e7214c848b5d0603996c21c4f837e14cbcfd5bae5eac9ccd4",
     "id": "evt-3d61575885",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "가양1동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "가양1동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "6·25전쟁 76주년 특별기획전 《그날, 나의 일상은 전쟁이 되었다》",
@@ -18043,8 +18089,10 @@
     "content_hash": "603c6e8b1eec9d7dc4ad7edebe5c7e307ca4c890c6be01b821118f41ba47c825",
     "id": "evt-8c798295d3",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "압구정동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "압구정동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "id": "evt-8fa2accf6d",
@@ -18758,7 +18806,7 @@
       "stroller": false,
       "nursing_room": false
     },
-    "booking_required": false,
+    "booking_required": true,
     "price_info": "무료",
     "thumbnail_url": null,
     "official_link": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=a&code=ED&mmode=content&mpid=SBM0402000000&pid=23515",
@@ -18774,11 +18822,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "159408",
-    "content_hash": "0d49836fd1a820f93bb60ce5026462a07d0cca1f21195a18ff0076794c30c4c4",
+    "content_hash": "5a53671c8fec4d5f3883c2e5fae7f2554876fdc6256c697f69248111922e2596",
     "id": "evt-36cb1e0e72",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "오륜동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "오륜동",
+    "apply_start": "2026-08-28",
+    "apply_end": null
   },
   {
     "id": "evt-4064408951",
@@ -19714,8 +19764,10 @@
     "content_hash": "5a024454281e328244835e8a51cbd10a45f0a63255aff8fa0690a56b6a85900d",
     "id": "evt-8d2d1488d9",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "개포동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "개포동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "그러나 우리는 아직도 이 바다 높은 물결 위에 있다 : 1945-1953",
@@ -20599,8 +20651,10 @@
     "content_hash": "9a00d462a6582e750cb7e16032baa6bb04103d4f6e8a22eb3040c81956e33be7",
     "id": "evt-c88ba6360f",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "광희동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "광희동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "id": "evt-d7edf50e79",
@@ -20941,8 +20995,10 @@
     "content_hash": "4ad4ec32ebcdf68f05e64a2ca57b2d44467966a89712d7228012e9c3f7c33ac7",
     "id": "evt-591c86b400",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "능동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "능동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "개방 수장고: 국립현대미술관 소장품",
@@ -21809,11 +21865,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "159410",
-    "content_hash": "c0be3094071cea24a5f45140b885c294b78c015b8d0111a0c27c0900a6e0afbe",
+    "content_hash": "f3d35b475a5df97fe6b2922959822056793db573cba7d0fddb8bc5a02daa6d46",
     "id": "evt-af2d094fa1",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "오륜동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "오륜동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "id": "evt-e193132c5a",
@@ -22523,7 +22581,7 @@
       "stroller": false,
       "nursing_room": false
     },
-    "booking_required": false,
+    "booking_required": true,
     "price_info": "무료",
     "thumbnail_url": null,
     "official_link": "https://docs.google.com/forms/d/e/1FAIpQLSe-Yv5k-c12JCVyLRLQVdMUow1O5LCGolKhlVMkZsvKHOsZSQ/viewform?usp=dialog",
@@ -22537,11 +22595,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "159319",
-    "content_hash": "9a3c5ae40962e6fb4bd66e3abd90a1b82491ffe88b3663f036332f97b8960fce",
+    "content_hash": "90aafef5bf41684782546a5471282f7212c4d95b7c14a2ba25a9e814fc1daa65",
     "id": "evt-6ecb30b57d",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "신정동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "신정동",
+    "apply_start": "2026-09-01",
+    "apply_end": "2026-09-22"
   },
   {
     "id": "evt-74d5eefd9a",
@@ -23173,8 +23233,10 @@
     "content_hash": "860ecd0e5425d4a8c200059a3d16422d94b94187a2d638a90c8f06cff81bb5f9",
     "id": "evt-cba20c28d1",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "서강동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "서강동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "[은평역사한옥박물관] 전시 [한옥이 된 나무, 솔이]",
@@ -23213,8 +23275,10 @@
     "content_hash": "7bdf93c2dcfaecdbc0761b953d93fc3fb00eeba791d878cff8825e518bcb7d7d",
     "id": "evt-cc0f58b70a",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "진관동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "진관동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "id": "evt-ced8e9c28d",
@@ -25167,8 +25231,10 @@
     "content_hash": "fd33e0cce126919ab69a545613562bc641e38b1f50222b664c6591bfb9d846f4",
     "id": "evt-f6c7f0ef77",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "본동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "본동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "랩투마스 팝업",
@@ -25531,8 +25597,10 @@
     "content_hash": "fe245dc55b1d37ac9f65e6cf2baf1f23650cbc30ad585b72777a942f73061527",
     "id": "evt-bbd4e01be2",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "능동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "능동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "파노라마 워크 준공 기념전 《PANORAMA WALK : THE INFINITE LIGHT》",
@@ -29591,8 +29659,10 @@
     "content_hash": "6d568c78a765968c9f7fdcd83ae80797134e24398459d06c9920deddba9cc172",
     "id": "evt-be877db57a",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "중계동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "중계동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "id": "evt-c6af635edc",
@@ -34209,6 +34279,49 @@
     "dong": "여의도동"
   },
   {
+    "title": "[서울공예박물관] 공예동행@쇼윈도 #6. 실루엣 Silhouette",
+    "category": "exhibition",
+    "description": "2026.10.21 - 12.06 오세린 Serin Oh 백재원 Jaewon Paek 서울공예박물관 SeMOCA 전시3동 1층 쇼윈도 갤러리\n운영 시간 전시3동  1층 쇼윈도 갤러리",
+    "start_date": "2026-10-21",
+    "end_date": "2026-12-06",
+    "location_name": "서울공예박물관",
+    "address": "서울특별시 종로구 율곡로3길 4",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/197",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160081",
+    "content_hash": "4207d43b5c38763a5e9fb4930766ee0e7642be323ccbaa6a05fad16f536a3cc1",
+    "id": "evt-d98fbfa3e5",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "안국동"
+  },
+  {
     "title": "이천시립박물관 시민참여문화유산 보호 지원사업",
     "category": "exhibition",
     "description": "문의 070-4914-5587",
@@ -36618,6 +36731,49 @@
     "dong": "치평동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "증언 - 다음 페이지 2,745번째 기록 ― 2026년 일본군 ’위안부’ 문제 전시",
+    "category": "exhibition",
+    "description": "10.23 FRI - 11.11 WED서울 아라 아트센터 11. 15 SUN - 12. 04 FRI 대구 아트스페이스 루모스\n운영 시간 10:30~18:00",
+    "start_date": "2026-10-23",
+    "end_date": "2026-11-11",
+    "location_name": "아라아트센터",
+    "address": "서울특별시 종로구 인사동9길 26",
+    "latitude": 37.5734697478172,
+    "longitude": 126.983623718252,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.araart.co.kr/14011",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "cultural_space"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160033",
+    "content_hash": "efb3ef3d21ad4b81faa16660632d7db15598af9b707ee7b929f8951d905122a0",
+    "id": "evt-99e653f42d",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "견지동"
   },
   {
     "title": "문화다양성 축제(MAMF) 2026",
@@ -40374,6 +40530,49 @@
     "dong": "소공동"
   },
   {
+    "title": "[서울공예박물관] 2026 신당창작아케이드 기획전시 《각각의 각》",
+    "category": "exhibition",
+    "description": "[서울문화재단 X 서울공예박물관] 2026 신당창작아케이드 기획전시 《각각의 각》 2026.10.27.(화) - 11.15.(일) 서울공예박물관 전시1동\n운영 시간 10:00~18:00 (평일, 주말 동일) 매주 금요일 21:00까지",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-15",
+    "location_name": "서울공예박물관",
+    "address": "서울특별시 종로구 율곡로3길 4",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/198",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160083",
+    "content_hash": "1beed995d02e9ee8e8be74a83788652f56a0ae39d9b8fb3f520e9de4d1627ea5",
+    "id": "evt-1fa30ddc13",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "안국동"
+  },
+  {
     "title": "독대 獨對 안중근이 남긴 여덟 글자",
     "category": "exhibition",
     "description": "국립고궁박물관에서 열리는 전시예요. 문의 국립고궁박물관 02-3701-7500\n운영 시간 월-금, 일 09:30-17:30 / 토 09:30-21:00",
@@ -41408,8 +41607,10 @@
     "content_hash": "fc11063b07c749842375c1dec3c27a42b1a2e58370d63888b8c5d33a9f0da8f1",
     "id": "evt-c62f70239b",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "역삼1동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "역삼1동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "K-아이웨어 홍보관",
@@ -46807,6 +47008,48 @@
     "dong": "수륜면"
   },
   {
+    "title": "팝업&페스티벌 [SSE PBR FEST]",
+    "category": "popup",
+    "description": "SSE POP-UP & FESTIVAL 팝업&페스티벌 [SSE PBR FEST] 10.31-11.23, 2026 SSE DDP SHOWROOM\n운영 시간 매일, 10:00~19:00",
+    "start_date": "2026-10-31",
+    "end_date": "2026-11-23",
+    "location_name": "DDP(동대문디자인플라자)",
+    "address": "서울특별시 중구 을지로 281",
+    "latitude": 37.56735731522952,
+    "longitude": 127.00977973484339,
+    "region": "서울특별시",
+    "district": "중구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://ddpshowroom.sba.kr/menu/news/view?idx=202",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [
+      "cultural_space"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160059",
+    "content_hash": "45ddad9ba4fa3ae27e712b6d3141dd9abef682fb72ecdacfcf09606b3d083f03",
+    "id": "evt-cc2a46864c",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "광희동"
+  },
+  {
     "title": "마토예술제",
     "category": "festival",
     "description": "마토예술제는 ‘마지막 주 토요일에 하는 예술제’라는 의미를 담은 안정리 대표 문화예술축제로, 6월과 10월 각 회차별 주제를 선정하여 계절과 지역의 특색을 반영한 테마형 축제로 운영된다. 10월에는 ‘브로드웨이 인 안정리(Broadway in Anjeong-ri)’를 주제로, 뮤지컬을 중심으로 한 공연과 이색 콘셉트의 체험·이벤트 프로그램을 구성하여 안정리 예술인광장을 하나의 뮤지컬 무대로 연출한다. 축제에서는 전문 뮤지컬 배우와 앙상블이 참여하는 주제 공연을 비롯해 미8군 군악대 관악 5중주, 지역 예술인 공연 등 다양한 공연 프로그램을 운영한다. 또한 관람객이 직접 브로드웨이 배우가 되어보는 스탬프 투어형 체험 프로그램과 이색 콘셉트의 체험·이벤트, 레드카펫 포토존 등을 마련하여 시민과 외국인, 방문객이 함께 즐길 수 있는 참여형 문화예술 콘텐츠를 제공한다. 특히 안정리 지역의 특성을 반영한 미8군 군악대 공연을 통해 지역사회와 미군 간 문화적 교류의 기회를 마련하고, 다양한 문화예술 콘텐츠를 통해 세대와 국적을 아우르는 축제 경험을 선사한다.",
@@ -47275,6 +47518,50 @@
     "dong": "사직동"
   },
   {
+    "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
+    "category": "exhibition",
+    "description": "11월 테마전시체험전 II - 테마로 즐기는 도서관 쓱쓱 싹싹 낙엽이 잔뜩 쌓였어요. 할아버지는 낙엽을 청소하죠. 그런데 우리 친구들은 그 낙엽으로 신나는 놀이를 하네요? 가을에 어울리는 색감으로 가득한 그림책, 쓱쓱 싹싹의 원화를 전시합니다. 지하 1층 북갤러리에 전시된 쓱쓱 싹싹의 원화를 감상하고 3층 가족열람실로 올라오세요. 즐거운 독후활동, 함께 해요! 일시 : 11월 1일(일) ~ 11월 25일(수) 장소 : 지하 1층 북갤러리 및 3층 가족열람실 협조 : 북극곰 문의 : 가족열람실 02)307-6030(내선 301, 30\n운영 시간 9:00~18:00",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-25",
+    "location_name": "구립증산도서관",
+    "address": "서울특별시 은평구 증산로5길 6",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "region": "서울특별시",
+    "district": "은평구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234631&manageCd=MB&searchTarget=&searchStatus=OPEN",
+    "tags": [
+      "#체험",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160116",
+    "content_hash": "d5397a5d63474078e9822b00b03774e1a6228a2b8ec679e7c330bebd7d99ffe0",
+    "id": "evt-0f1266dd0d",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "증산동"
+  },
+  {
     "title": "2026 시 읽는 서울지하철",
     "category": "festival",
     "description": "서울시 민간축제 지원 및 육성사업 2026 시의 날 이머시브 시 퍼포먼스 일시: 11월 1일(일), 12:00~14:00 장소: 지하철 2호선 1량(시청, 상왕십리, 강변, 역삼, 서울대입구, 문래, 신촌)\n운영 시간 12:00~14:00",
@@ -47347,6 +47634,49 @@
     "id": "evt-5a130d2a00",
     "created_at": "2026-10-29T23:12:46.473715+00:00",
     "updated_at": "2026-10-29T23:12:46.473715+00:00"
+  },
+  {
+    "title": "[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
+    "category": "exhibition",
+    "description": "책 따라 걷는 도서관 11월 원화 전시 쌀알 돌알 둥글고 하얀 쌀알들이 모여 평화로이 살아가는 세상. 어느 날, 하늘에서 커다란 목소리가 들려옵니다. 돌알만 골라내라. 까맣고 울퉁불퉁한 겉모습이 다른 돌알은 순식간에 ‘불량’으로 낙인찍혀 쫓겨나게 됩니다. 돌알이 사라진 뒤 쌀알 세상에 어떤 일이 벌어질까요? 쌀알과 돌알의 이야기를 원화로 감상하고 어린이열람실에서 독후활동도 함께 해보아요! 쌀알 돌알 - 지은이: 벼레 - 출판사 : 사계절 기간 : 2026. 11. 1. (일) ~ 11. 24. (화) 장소 : 구립증산도서관 1층 로\n운영 시간 9:00~20:00",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-24",
+    "location_name": "구립증산도서관",
+    "address": "서울특별시 은평구 증산로5길 6",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "region": "서울특별시",
+    "district": "은평구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234576&manageCd=MB&searchTarget=&searchStatus=OPEN",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160060",
+    "content_hash": "ce38925556b0796507158b74274095ce031c4100bb09cefb3bedfac39aaa671d",
+    "id": "evt-64062771d0",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "증산동"
   },
   {
     "title": "2026 통영미술제",
@@ -47754,6 +48084,49 @@
     "updated_at": "2026-11-09T02:24:44.498548+00:00",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[구립증산도서관] 가족열람실 11월 북큐레이션 [같이 만나자, 우주]",
+    "category": "exhibition",
+    "description": "미지의 세계, 마지막 개척지. 우주를 주제로 한 책을 모아보았습니다. 낭만과 지식, 모험과 꿈아 있는 책들을 우리, 함께 읽어 볼까요?\n운영 시간 9:00~18:00",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-30",
+    "location_name": "구립증산도서관",
+    "address": "서울특별시 은평구 증산로5길 6",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "region": "서울특별시",
+    "district": "은평구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234632&manageCd=MB&searchTarget=&searchStatus=OPEN",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160117",
+    "content_hash": "ab31de66351504220d50f8756e69db9da22a45812a78667847e912b5f072cce5",
+    "id": "evt-f7639e1438",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "증산동"
   },
   {
     "title": "한라산국립공원산악박물관",
@@ -48901,6 +49274,50 @@
     "updated_at": "2026-11-05T00:15:19.745653+00:00"
   },
   {
+    "title": "[서울공예박물관 어린이박물관] 《나무의 비밀》 - 소목장세미와 만나는 나무공예",
+    "category": "kids_experience",
+    "description": "2026 11.3 - 2027 9.19 교육동 3층 아이들스튜디오\n운영 시간 매주 화-일요일, 일일 4회차 (10:00 / 13:10 / 14:50 / 16:30부터 80분간 이용)",
+    "start_date": "2026-11-03",
+    "end_date": "2027-09-19",
+    "location_name": "서울공예박물관",
+    "address": "서울특별시 종로구 율곡로3길 4",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": null,
+    "age_min": 3.0,
+    "age_max": 9.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/199",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160085",
+    "content_hash": "7e1545368b4402eb1bf54c1e48edd09a9758d4933d7ebcf9e462143ba6e6f894",
+    "id": "evt-63e0a56f13",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "안국동"
+  },
+  {
     "title": "굼이와 함께하는 로컬 브랜드 기획전",
     "category": "popup",
     "description": "상상마당 디자인스퀘어에서 열리는 팝업스토어예요. \n운영 시간 월~일 11:00 - 21:00 \n자세한 내용은 팝플리 원문에서 확인하세요.",
@@ -49514,7 +49931,7 @@
       "stroller": false,
       "nursing_room": false
     },
-    "booking_required": false,
+    "booking_required": true,
     "price_info": "무료",
     "thumbnail_url": null,
     "official_link": "https://lib.guro.go.kr/#/libprg/culture-lecture/detail/7475",
@@ -49530,11 +49947,13 @@
     "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "159737",
-    "content_hash": "0b04deada64aa4b1badb4e11529c3418d12378b9bc63d7b73e01630d64b67ffd",
+    "content_hash": "160c557c94ae03488cf2d9416a86b1b4806542196a840891fd2ff6edb1bf1cc7",
     "id": "evt-583c2c82f9",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "개봉3동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "개봉3동",
+    "apply_start": "2026-10-04",
+    "apply_end": null
   },
   {
     "title": "블랙컴뱃 팝업",
@@ -50018,6 +50437,51 @@
     "created_at": "2026-10-25T14:14:15.229119+00:00",
     "updated_at": "2026-10-25T14:14:15.229119+00:00",
     "dong": "일원1동"
+  },
+  {
+    "title": "[마포구립서강도서관]  11월/어린이메이킹 [해봄아 노올자! 해봄맘껏Time]",
+    "category": "kids_experience",
+    "description": "해봄아 노올자 메이커스페이스 해봄에서 무한한 상상력으로 무엇이든 마음껏 만들어보세요! 대상 마포구립도서관 정회원, 해봄이로 등록한 초등학생 장소 4층 어린이실 해봄 기간 2026. 11. 5.(목)~11. 28.(토) 매주 목·금·토요일 15:00-17:00 모집 온라인 (4명) - 참여일 2주 전 '목'요일 오전 9시, 홈페이지 선착순 접수 서강도서관 홈페이지 - 문화행사마당 - 서강 MAKERS - 해봄 & BOOK C 소개 - 해봄 맘껏TIME 신청 오프라인 (2명) - 당일 14시 30분 해봄 현장 접수 해봄 현장 접수 명단\n운영 시간 매주 목·금·토요일 15:00~17:00",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-28",
+    "location_name": "마포구립서강도서관",
+    "address": "서울특별시 마포구 독막로 165",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "region": "서울특별시",
+    "district": "마포구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13647",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160040",
+    "content_hash": "ba96dd2f16b73b52b529e68c8f39c2ee928b56c390b0c1f97a2b569326392b04",
+    "id": "evt-27e91b34ef",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "서강동"
   },
   {
     "title": "SM x 아모레퍼시픽 팬시그널 립밤 팝업",
@@ -51289,6 +51753,49 @@
     "apply_end": null
   },
   {
+    "title": "[서울생활사박물관] 육아 가족의 성장",
+    "category": "exhibition",
+    "description": "2026.11.6.금-2027.3.28.일 서울생활사박물관 기획전시실 서울역사박물관\n운영 시간 9:00~18:00 (입장마감 : 17:30)",
+    "start_date": "2026-11-06",
+    "end_date": "2027-03-28",
+    "location_name": "서울생활사박물관",
+    "address": "서울특별시 노원구 동일로174길 27",
+    "latitude": 37.6201739154268,
+    "longitude": 127.076936195632,
+    "region": "서울특별시",
+    "district": "노원구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://museum.seoul.go.kr/sulm/board/NR_boardList.do?bbsCd=1002",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160144",
+    "content_hash": "162016e1bef90870336231f0b234b811c0d778c307cea069fef1cb0ca1bf24c9",
+    "id": "evt-543d47003b",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "공릉1동"
+  },
+  {
     "id": "evt-5e77efdfb6",
     "title": "구미라면 축제",
     "category": "festival",
@@ -52420,7 +52927,7 @@
       "stroller": false,
       "nursing_room": false
     },
-    "booking_required": false,
+    "booking_required": true,
     "price_info": "무료",
     "thumbnail_url": null,
     "official_link": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13547",
@@ -52439,8 +52946,10 @@
     "content_hash": "78e7ac126f57cf94ce69a52110a955929bebc1ce30839753773a4b0a5738e565",
     "id": "evt-249fae95c3",
     "created_at": "2026-10-25T03:53:31.544125+00:00",
-    "updated_at": "2026-10-25T03:53:31.544125+00:00",
-    "dong": "서강동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "서강동",
+    "apply_start": "2026-10-24",
+    "apply_end": null
   },
   {
     "title": "경주에 평화온:담",
@@ -52721,6 +53230,47 @@
     "created_at": "2026-11-03T01:32:06.317268+00:00",
     "updated_at": "2026-11-03T01:32:06.317268+00:00",
     "dong": "소초면"
+  },
+  {
+    "title": "[서울시어울림플라자] 보고, 느끼고, 함께 그리는 우리 가족 1박 2일 [어울림 아트캠프]",
+    "category": "kids_experience",
+    "description": "보고, 느끼고, 함께 그리는 우리 가족 1박2일 어울림 아트캠프 책과 예술로 만드는 우리 가족 이야기 1차 2026.11.07.(토) 10:00~11.08.(일) 12:30 2차 2026.11.28.(토) 10:00~11.29.(일) 12:30 참여대상 장애 아동(초등학교) 및 가족 회차별 8가족(최대 20명) 참가비용 2인 가족 9만원, 3~4인 가족 18만원 (장애인 할인 50% 적용 금액, 숙박비/식사비 포함) 신청기간 2026. 10. 21.(목) ~ 모집 마감 시까지 신청문의 교육연수팀 070-8820-1076 신청하기 Q\n운영 시간 프로그램별 상이",
+    "start_date": "2026-11-07",
+    "end_date": "2026-11-29",
+    "location_name": "서울시어울림플라자",
+    "address": "서울특별시 강서구 공항대로 489",
+    "latitude": 37.5535154167762,
+    "longitude": 126.861449995331,
+    "region": "서울특별시",
+    "district": "강서구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-10-21",
+    "apply_end": null,
+    "price_info": "2인 가족 90,000원, 3~4인 가족 150,000원(장애인 50% 적용가)",
+    "thumbnail_url": null,
+    "official_link": "https://seouleoullim.or.kr/site/board/board-view?id=713&board_type=notice",
+    "tags": [
+      "#체험",
+      "#교육"
+    ],
+    "place_types": [],
+    "status": "ongoing",
+    "source": "seoul_portal",
+    "source_id": "160061",
+    "content_hash": "105de0307a59b525dbc1fbf1a573e46a293a60a0a4c9a733695b83e23caf9d9b",
+    "id": "evt-76509229f0",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "등촌1동"
   },
   {
     "title": "코믹월드 339 일산",
@@ -206471,7 +207021,8 @@
     "content_hash": "08971500775baad858b1afa5b4c3484cc759e311b5c7704994ac0e4d1a959d2f",
     "id": "evt-d19d93cd8a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "와동"
   },
   {
     "title": "중대물빛공원",
@@ -206598,7 +207149,8 @@
     "content_hash": "ef766b125ac4c880b677f824933d27c0411543f06ccecae82245ae1e4baa8ccd",
     "id": "evt-d1d95bc103",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "역북동"
   },
   {
     "title": "소흥관(한중우호센터)",
@@ -206765,7 +207317,8 @@
     "content_hash": "6ba469b45e2a1956896ddda3d533dc60789ee938937691b03198539a63363d54",
     "id": "evt-d2483254b2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "중동"
   },
   {
     "title": "양지공원",
@@ -206807,7 +207360,8 @@
     "content_hash": "ddcca2a1b1d2efce7ccba49f59d2bd2ca717138254f113b5c07828c1ccc35ef2",
     "id": "evt-d24f39b9b7",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "양지동"
   },
   {
     "title": "국토발전전시관",
@@ -206974,7 +207528,8 @@
     "content_hash": "3d298427b7b0fbdfcf82b87c71e2b1d95097d1728f5941cf7396f443158143be",
     "id": "evt-d27d89b4ba",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "진관동"
   },
   {
     "title": "부평역사박물관",
@@ -207103,7 +207658,8 @@
     "content_hash": "759246e13799134259716f1d426f79ff7aa3389f7688758a88ebbadd601db830",
     "id": "evt-d2fa0d99fd",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "오룡동"
   },
   {
     "title": "백운산 칠족령",
@@ -207319,7 +207875,8 @@
     "content_hash": "34f71560894055a6723d4ec6454950f83fa482a36821657e9fd0f7d7b9a56c4a",
     "id": "evt-d337edc5e2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "도남동"
   },
   {
     "title": "나주복암리고분전시관",
@@ -207403,7 +207960,8 @@
     "content_hash": "f7fd12ef1cdaf0cfe6602555a73632381037b7ef3ddeec140b30ad28a68c2b52",
     "id": "evt-d34de9b299",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "구암동"
   },
   {
     "title": "어울림공원",
@@ -207446,7 +208004,8 @@
     "content_hash": "3600c6becc194b153b875f6113b6711fe70a4903e153adbcf00f8df5fa0787e3",
     "id": "evt-d36b48f9ee",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "금곡동"
   },
   {
     "title": "김달진미술자료박물관",
@@ -207615,7 +208174,8 @@
     "content_hash": "694dae9d20d1cb7596d0c30e7b1927bfe77b291550552f0cb0a281562539cb7f",
     "id": "evt-d3b89b95fe",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "금곡동"
   },
   {
     "title": "영산강대상근린공원",
@@ -207658,7 +208218,8 @@
     "content_hash": "8de203c34ced83bff7acf3b8c1af0ffbb06ad988bdbd2935eb11ce50519b45be",
     "id": "evt-d3ba448aeb",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "오룡동"
   },
   {
     "title": "대제3호공원",
@@ -207700,7 +208261,8 @@
     "content_hash": "33909edc2bf7fa1f1bd6d3d20996f69a4ca5cbb06176a291852c1102db7e1a80",
     "id": "evt-d3d0b5d62a",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "괴산읍"
   },
   {
     "title": "여수 상백도·하백도 일원",
@@ -207910,7 +208472,8 @@
     "content_hash": "65232c534b663017b57e5e5bbc791d6dd4c38943c8017c0ad5b2cf11fc35e090",
     "id": "evt-d3f4b6e836",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "영중면"
   },
   {
     "title": "청벽산",
@@ -207953,7 +208516,8 @@
     "content_hash": "436b77187de3f7695debb430ce74d5900387c16e4156b3d697626a314efce4ba",
     "id": "evt-d3f4e12dac",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "탑립동"
   },
   {
     "title": "보성군립백민미술관",
@@ -208123,7 +208687,8 @@
     "content_hash": "77cfd701815313698b7be401da196b2b85d56fd822b9c1c5623218c76fafb1d2",
     "id": "evt-d43a774785",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "부곡동"
   },
   {
     "title": "강진 만덕산 백련사와 다산초당 일원",
@@ -208208,7 +208773,8 @@
     "content_hash": "1fe4e640f07c6604f6fce7011d7eb229e484438591797dea1e580c880ac04964",
     "id": "evt-d47257cd03",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "세교동"
   },
   {
     "title": "사직공원",
@@ -208251,7 +208817,8 @@
     "content_hash": "725bbf1f9f773cfd29bd0510a221c9a01b5bbf9c4fd6c1d699126facd6186b35",
     "id": "evt-d485c4c7bc",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "사동"
   },
   {
     "title": "나들라온",
@@ -208333,7 +208900,8 @@
     "content_hash": "a67154f85860051b921969bc3db9cd4e140443eea58d60d9e055260f72b71127",
     "id": "evt-d4a351eee3",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "상남동"
   },
   {
     "title": "권선늘푸른공원",
@@ -208376,7 +208944,8 @@
     "content_hash": "b70d5715e0c86783787a835710d9a95da260854520428083b6871e4caceb9765",
     "id": "evt-d4ae4ff875",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "곡반정동"
   },
   {
     "title": "광명 영회원",
@@ -208458,7 +209027,8 @@
     "content_hash": "9d9e49f3048184a97680bed3bd82800f57bb2c3d3e324287d8167938dee22627",
     "id": "evt-d4ca09fcd9",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "동삭동"
   },
   {
     "title": "금강하구둑관광지",
@@ -208543,7 +209113,8 @@
     "content_hash": "18415d39e8664458e7410dc6b8cf4f2cb02f7a8d04530f873045222953353a70",
     "id": "evt-d4f3732ad2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "산월동"
   },
   {
     "title": "감계4호 근린공원",
@@ -208628,7 +209199,8 @@
     "content_hash": "7de4315305d7b3d5f2339a42a4471fb6da9d070118fd4e9bf813f3f6e089ea5e",
     "id": "evt-d4ff84f4cf",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "초전동"
   },
   {
     "title": "월산공원",
@@ -208671,7 +209243,8 @@
     "content_hash": "3afaf689f1623c73151856debab65c65f7ac068b719aed7788a8cea854871497",
     "id": "evt-d504a8726e",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "월산동"
   },
   {
     "title": "안동대학교박물관",
@@ -208756,7 +209329,8 @@
     "content_hash": "bcd413743ba5374909bce2c4bb356ff299422e1da6c426d8523625654d589bbc",
     "id": "evt-d52d4e736f",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "삼향읍"
   },
   {
     "title": "첨단산업클러스터5호 근린공원",
@@ -208799,7 +209373,8 @@
     "content_hash": "5807e5bfb277c0b8f68ea4d487ac13ea8b14ff38c9e298583fb09842d12cb2bc",
     "id": "evt-d531b8eb83",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "송도동"
   },
   {
     "title": "슬로시티청산도",
@@ -208924,7 +209499,8 @@
     "content_hash": "0fb20e1bd4c57fa14e2e6a64fec67b9deff60ae4ee8bba737c366bfedb427703",
     "id": "evt-d5df7b1b54",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "대정읍"
   },
   {
     "title": "한울공원 8호공원",
@@ -208966,7 +209542,8 @@
     "content_hash": "227488c5a30df4494edc551b3c440d114f5e1c827c6429ab161c5d1976f9504f",
     "id": "evt-d5e255f35f",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "동패동"
   },
   {
     "title": "장도공원",
@@ -209008,7 +209585,8 @@
     "content_hash": "5b05ea17c137aef5bc237bc1274b498226d393b11543852bbdfbc0111da41cf4",
     "id": "evt-d6008430fd",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "율촌면"
   },
   {
     "title": "아담원",
@@ -209129,7 +209707,8 @@
     "content_hash": "24eb6237026dda18ef24a518b63d72bda54c1ca316a9fc29f32b38ad16a559cd",
     "id": "evt-d6072b1255",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "지산동"
   },
   {
     "title": "능암온천",
@@ -209384,7 +209963,8 @@
     "content_hash": "f12f49e3788c420d5d14ab1d3c9998f731d030966c3610231ec0e42916e81fe7",
     "id": "evt-d65b393df3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "서후면"
   },
   {
     "title": "인왕산공원",
@@ -209427,7 +210007,8 @@
     "content_hash": "d66c33ecb3a962a83f916083678bc37b8fad1feae03a09330f06be537ec69984",
     "id": "evt-d66178bde9",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "옥인동"
   },
   {
     "title": "상서재서초 근린공원",
@@ -209469,7 +210050,8 @@
     "content_hash": "17b942ec4ec608958ea5d2dd28a0be07a5c11b1e4e690aa4f7035450068aca6b",
     "id": "evt-d672698952",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "동삭동"
   },
   {
     "title": "김대중노벨평화상기념관",
@@ -209553,7 +210135,8 @@
     "content_hash": "9c5d24ba4c98656cb3b57dfe8513291becec36819afd70f05db4092232105056",
     "id": "evt-d68cc070d3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "상매동"
   },
   {
     "title": "탑산약수온천",
@@ -209678,7 +210261,8 @@
     "content_hash": "4800ddeed3f4ca33dd4b602ec2776a2df65deff8eb456e8b48ebf06a232d9d0a",
     "id": "evt-d6bf9bdc9f",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "송도4동"
   },
   {
     "title": "수옥정",
@@ -209761,7 +210345,8 @@
     "content_hash": "9ae5661b292a8ca1f8f09b8d753a53300daa20b00da0d616a39f699168e02a72",
     "id": "evt-d6c9dc8d4a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "오목천동"
   },
   {
     "title": "경주 천관사지",
@@ -209974,7 +210559,8 @@
     "content_hash": "594cc96efb2abb42d471155ce8e57b62544fd9d389fa8a5da819a81efbc3605b",
     "id": "evt-d70c11e786",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "안양동"
   },
   {
     "title": "시안미술관",
@@ -210101,7 +210687,8 @@
     "content_hash": "227a83dd223fad9cd6ea9d3fc2ca86e6a48abaa4ac9593ea245002921fffa76d",
     "id": "evt-d75687c79a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "물금읍"
   },
   {
     "title": "연복사탑중창비",
@@ -210312,7 +210899,8 @@
     "content_hash": "6b69e32f09aadcdd725e58dc72de966e4e58b3c7adfef323475a9f87f4838907",
     "id": "evt-d7a4744d60",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "송도5동"
   },
   {
     "title": "다대포해수욕장",
@@ -210394,7 +210982,8 @@
     "content_hash": "d6cd7483d65a6493b66ad48b357e6b5623982bfe583cc2f4528278fbeaf67d30",
     "id": "evt-d7b97b0f13",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "충무공동"
   },
   {
     "title": "수원광교박물관 인근공원",
@@ -210439,7 +211028,8 @@
     "content_hash": "2f836ea68817cb3c7889a3d7e5c2c024ce82e8a74b9b0cb94ae3e2008d44c855",
     "id": "evt-d7ba880231",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "이의동"
   },
   {
     "title": "파주 이이 유적",
@@ -210684,7 +211274,8 @@
     "content_hash": "2d571f158c8b2127e1b7ee20764240d86b8537bd22a9bdd2863a063eb4312077",
     "id": "evt-d827f637c1",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "걸포동"
   },
   {
     "title": "46호공원",
@@ -210726,7 +211317,8 @@
     "content_hash": "8519ed9f76459ff9153b1c6aaa1f26563030134e8b42fe8469348d8b0aea5ea6",
     "id": "evt-d845e53565",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "청계동"
   },
   {
     "title": "한국교통대학교 박물관",
@@ -210853,7 +211445,8 @@
     "content_hash": "1676dac3d1af0c1aeba57848a9cc989b3128ce9c20f3a0493c0f7bb6dcb71fbd",
     "id": "evt-d85456e39d",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "야탑동"
   },
   {
     "title": "CICA미술관",
@@ -211106,7 +211699,8 @@
     "content_hash": "5b7f49cc84cc44461fe53152ccdca8f8e1d859cadb79f7cfb8fa7620260c41e2",
     "id": "evt-d8d2872267",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "일곡동"
   },
   {
     "title": "전주한옥마을역사관",
@@ -211440,7 +212034,8 @@
     "content_hash": "65a3fe711fd3623dbb171a7963c837fa32dd64ba2652f5d5c7b4a4380170bfbd",
     "id": "evt-d93c014d48",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "유가읍"
   },
   {
     "title": "성불산생태공원",
@@ -211484,7 +212079,8 @@
     "content_hash": "07dc86e61cd3eca91156aa54b54317297b4620206c28c94aa3df42a3d0e61f74",
     "id": "evt-d97227fe65",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "괴산읍"
   },
   {
     "title": "양양 낙산사 의상대와 홍련암",
@@ -211655,7 +212251,8 @@
     "content_hash": "5d45d20ae33faad3bc3d6e18e1f06df666369550370046f5169e97f093d25738",
     "id": "evt-d98971766d",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "하동읍"
   },
   {
     "title": "포이근린공원",
@@ -211697,7 +212294,8 @@
     "content_hash": "5c6e1fe940c5de96b94504016a07694a27c8e9599006f3a58f078e07aa748e9b",
     "id": "evt-d9931d9e47",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "개포동"
   },
   {
     "title": "거제해금강",
@@ -211779,7 +212377,8 @@
     "content_hash": "876ec8a0cb6ff3f9b26a3eb495351f9d3003a3786a8e08aca3dd4c5b341f5e15",
     "id": "evt-d9e5598d2b",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "노화읍"
   },
   {
     "title": "송파책박물관",
@@ -211864,7 +212463,8 @@
     "content_hash": "94dd16df683c372c6adcd2cd312ce1e932c298d0f90109bd7ccc2e3a5b43d3b0",
     "id": "evt-d9eecebd71",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "동패동"
   },
   {
     "title": "서울 선잠단지",
@@ -211989,7 +212589,8 @@
     "content_hash": "7df9e6f3ed07f23708102fca460c9abf9f31142b5fbc22778c963311969afad1",
     "id": "evt-d9ff5892fb",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "개봉동"
   },
   {
     "title": "백룡동굴",
@@ -212113,7 +212714,8 @@
     "content_hash": "2ed92886f174c86ba3563447feef88316e8be37e71238e31a71e1788dd3d17de",
     "id": "evt-da64a30522",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "고덕면"
   },
   {
     "title": "부천펄벅기념관",
@@ -212199,7 +212801,8 @@
     "content_hash": "94970168ae2b4497eedfd7600271888bcd7d32cac0367e8a7537de67ab9e4e8f",
     "id": "evt-daa2b468bd",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "두왕동"
   },
   {
     "title": "탄금공원",
@@ -212284,7 +212887,8 @@
     "content_hash": "896f4dee71aa7196521721dc82895b01c2588626b0ca35d321c817a362565717",
     "id": "evt-dac46ac09c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "신용동"
   },
   {
     "title": "서울 고려대학교 중앙도서관",
@@ -212369,7 +212973,8 @@
     "content_hash": "08ba4b2dace58496613b504809e4dd1926daaa9b3298864ed7d4f391f5838032",
     "id": "evt-dacd9ef014",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "성북동"
   },
   {
     "title": "북한산 진흥왕 순수비지",
@@ -212453,7 +213058,8 @@
     "content_hash": "e93c76a170fae786394481b79027f299cf161e7b825c32c90fb3d64a484f2d18",
     "id": "evt-dada097d5c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "고덕면"
   },
   {
     "title": "산들바람공원",
@@ -212496,7 +213102,8 @@
     "content_hash": "a370a11c893eae36a2b5182759773ed84cb320df0dd7c37a34a69558b1d441c7",
     "id": "evt-daf23bbacf",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "원당동"
   },
   {
     "title": "소래역사관",
@@ -212580,7 +213187,8 @@
     "content_hash": "2d2f972ff6f1f685b0e75856baab3563a9ecce12ad0957d14c5f4c6d47cb9b46",
     "id": "evt-db214e12a0",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "고색동"
   },
   {
     "title": "안정근린공원",
@@ -212622,7 +213230,8 @@
     "content_hash": "ac4d8ffaa7f5054c687f2d949f952b949d9d30bff26460673cdf5585407315de",
     "id": "evt-db23195e10",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "광도면"
   },
   {
     "title": "경주 성덕왕릉",
@@ -212918,7 +213527,8 @@
     "content_hash": "e2628fa493b148c1d2038f6825a95efaa12ece33a6623b8e928692c3932bd513",
     "id": "evt-db6bc2cf8e",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "서천읍"
   },
   {
     "title": "영월Y파크(술샘박물관)",
@@ -213130,7 +213740,8 @@
     "content_hash": "9f4789adbbecec25c3451861396fb9df1e2b38f661ca3b699996d2b24ecba74c",
     "id": "evt-db834619a6",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "행암동"
   },
   {
     "title": "운정건강공원 1공원",
@@ -213173,7 +213784,8 @@
     "content_hash": "cfe4755e0568703fbf5fd9da44d5214891906524dc56d681a69b25c72ccdedee",
     "id": "evt-db901b9dca",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "운정3동"
   },
   {
     "title": "부산현대미술관",
@@ -213302,7 +213914,8 @@
     "content_hash": "03ad63468b0fce82d611cc05407b3e0952c8d1e031a049d7f7bdc367ee9b0a3e",
     "id": "evt-dbbbe4aa44",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "청북면"
   },
   {
     "title": "수변노을공원",
@@ -213345,7 +213958,8 @@
     "content_hash": "f4149a322abafa715f1b8def4f3109b48f9b9eb32d21f0afab12d4850566f63d",
     "id": "evt-dbc37a85a8",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "도덕면"
   },
   {
     "title": "원주 강원감영",
@@ -213715,7 +214329,8 @@
     "content_hash": "02fd8e2bb5a59ff776408fcb9b5ecb88ab9a84ada6cd8963ef55e307875dc003",
     "id": "evt-dc28cc2d86",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "장지동"
   },
   {
     "title": "동탄13호 근린공원",
@@ -213842,7 +214457,8 @@
     "content_hash": "168aafeff604027499b78c28f73fc9d473e7c5a1bd9d82abd98c512609865803",
     "id": "evt-dc43b9e697",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "오선동"
   },
   {
     "title": "논산어린이청소년도서관",
@@ -213970,7 +214586,8 @@
     "content_hash": "779d4b70b630105d0a51f9401246c996c4333e243f93fdf6a07a48b8701d9aad",
     "id": "evt-dc5c26b2fe",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "대동면"
   },
   {
     "title": "강릉 굴산사지",
@@ -214179,7 +214796,8 @@
     "content_hash": "18bfbb56e1b88a064666222371819d0f742306f9a8aaf741b3a16c8d2df182e7",
     "id": "evt-dcbbb839c4",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "연천읍"
   },
   {
     "title": "효양공원",
@@ -214221,7 +214839,8 @@
     "content_hash": "8dd9a6efb7f01b1fcb622aad489ce90bd6fd6e57ec2197f50e3a70bc5b93b9c7",
     "id": "evt-dcd4b3c98d",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "부발읍"
   },
   {
     "title": "명당2지구공원",
@@ -214263,7 +214882,8 @@
     "content_hash": "271600b14508e4269b29b94583e65c64d48b3d2b2a5d008e7130ee26fd5a4afc",
     "id": "evt-dce12b0311",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "태인동"
   },
   {
     "title": "강진 백운동 원림",
@@ -214467,7 +215087,8 @@
     "content_hash": "c21f84b127d4cd6da53b162eedb7152626bb75aee41f6d799e68873cfa24e5c3",
     "id": "evt-dd357f4ce0",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "상일동"
   },
   {
     "title": "종이미술관",
@@ -214595,7 +215216,8 @@
     "content_hash": "5f4d34581b747c74b92b8d62940fdd70548c4684bb8435e396e4df9cedf44377",
     "id": "evt-dd456d38b8",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "금성면"
   },
   {
     "title": "국제한방발효박물관",
@@ -214724,7 +215346,8 @@
     "content_hash": "03222707425df34d06803495b5d00ffffa1f9ee9c0ad729895282653c2de2150",
     "id": "evt-dd826b86ac",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "하동읍"
   },
   {
     "title": "충렬사공원",
@@ -214767,7 +215390,8 @@
     "content_hash": "b2a8a9882165758d1ded3942085940309aafc5a7a27fa248649d8d389e88fc4e",
     "id": "evt-dd8316e658",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "안락동"
   },
   {
     "title": "내리 문화공원",
@@ -214809,7 +215433,8 @@
     "content_hash": "71e94b41b461e35d922a9b56e2f16215e6d02885c94d4799e8ef1a03557131ee",
     "id": "evt-dd9af0bb0a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "팽성읍"
   },
   {
     "title": "제5로 직봉 - 논산 황화대 봉수 유적",
@@ -214894,7 +215519,8 @@
     "content_hash": "c027f9160721138e708b97654becf5f947110a7fbfe5ad24945fa2e821978ed7",
     "id": "evt-dd9cfaccae",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "시천면"
   },
   {
     "title": "개포근린공원",
@@ -214937,7 +215563,8 @@
     "content_hash": "4acd9200b75e3268787a5041ff24a84a3a9a9e802e11c3811117337b745bbc9d",
     "id": "evt-ddab40c223",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "개포동"
   },
   {
     "title": "국립어린이청소년도서관",
@@ -215065,7 +215692,8 @@
     "content_hash": "7c4de565363d3348c24592feeacbf10a41e2e7b6ebc147841c7fda230c74d5e5",
     "id": "evt-ddefdc632c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "송도동"
   },
   {
     "title": "거창 둔마리 벽화 고분",
@@ -215147,7 +215775,8 @@
     "content_hash": "c3188e8a07a34adb9d600a1f1b0bbe4040f2badc0201e03471cccec2fc8cd617",
     "id": "evt-de034778c2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "항동"
   },
   {
     "title": "의암공원",
@@ -215189,7 +215818,8 @@
     "content_hash": "2dd9bfdafa5da6ac7d3760f0428cae66d547099d19ee93520f23e3767f887f71",
     "id": "evt-de03e046cd",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "장수읍"
   },
   {
     "title": "여수세계박람회장",
@@ -215316,7 +215946,8 @@
     "content_hash": "cb9c24f41ff131e650d63d90551b78a261655b0a664a07665d894488065ecb41",
     "id": "evt-de33433a13",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "영천동"
   },
   {
     "title": "천태암",
@@ -215437,7 +216068,8 @@
     "content_hash": "efbcd4d518382de8ed7ef39a19e7f6a044a9fa213a53d7939d07cd61073b39ff",
     "id": "evt-de9deb6c07",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "두암동"
   },
   {
     "title": "싸리고개근린공원",
@@ -215479,7 +216111,8 @@
     "content_hash": "32ce170e5f6f366fbdd73d5847fb66ebb39139b39871acc7b7ffc522f05a4dca",
     "id": "evt-deb15bc62b",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "도곡동"
   },
   {
     "title": "화천체육공원",
@@ -215521,7 +216154,8 @@
     "content_hash": "c8e44561a2cfafd9bca1b4eb690521cb2583ccb82587a6948ccd47cf2ea9f862",
     "id": "evt-ded5f3ba5a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "하남면"
   },
   {
     "title": "가산산성야영장",
@@ -215644,7 +216278,8 @@
     "content_hash": "fd25117a9fb3f19b42ff5d15fccd94c4265f869e96dd3202a81f8cc0911af24d",
     "id": "evt-df0ed49f66",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "고북면"
   },
   {
     "title": "천곡공원",
@@ -215686,7 +216321,8 @@
     "content_hash": "0a05164970e3f727acc35b2d31c84eaa3d55011be9b50bf90eda04b252787f4b",
     "id": "evt-df175d9a73",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "천곡동"
   },
   {
     "title": "이동녕기념관",
@@ -216024,7 +216660,8 @@
     "content_hash": "7583312638d499d09f69a72f1fd65e79b989d1902a8d8d7ec6dbd9a23b2cfb09",
     "id": "evt-df70b7a67c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "선부동"
   },
   {
     "title": "헬로우뮤지움",
@@ -216145,7 +216782,8 @@
     "content_hash": "665853c238c0a5dbac4541458404ce2761dbb8d87e4bdf25d2e2710cfd5b50c1",
     "id": "evt-df900474b3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "건입동"
   },
   {
     "title": "부여 청산성",
@@ -216518,7 +217156,8 @@
     "content_hash": "122afa1c7767537a4f3ce624105a3541101583daff1f0faec6d7cd39d885f942",
     "id": "evt-dfdc6d00e5",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "이충동"
   },
   {
     "title": "국가산단 3근린공원",
@@ -216561,7 +217200,8 @@
     "content_hash": "84d6213ded81abb8f33aaf4b86502147aeff32a54877174ea35c7f0f29cac1e0",
     "id": "evt-e017737252",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "구지면"
   },
   {
     "title": "평동역공원",
@@ -216603,7 +217243,8 @@
     "content_hash": "8f3a764917394cf92d2c746cb9b91ee96013a0debf6286f8a10aba38fde2ad8e",
     "id": "evt-e019fb64a6",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "월전동"
   },
   {
     "title": "아산조방원미술관",
@@ -216728,7 +217369,8 @@
     "content_hash": "a4a8590aaefa0a94110cce62acbe63719fad20cee640c406142545a15597a8b8",
     "id": "evt-e02d052cad",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "신당동"
   },
   {
     "title": "중외공원",
@@ -216770,7 +217412,8 @@
     "content_hash": "092b5a254819866b14d36d9844bab45de01be71240ce52459767a50e30634179",
     "id": "evt-e03bcfe7a3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "운암동"
   },
   {
     "title": "새섬공원",
@@ -216813,7 +217456,8 @@
     "content_hash": "90ea4accb7409aea32bb1a202953bc8bb7280d8f70486a7a214f2209fe3a6a43",
     "id": "evt-e03c07c77a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "서귀동"
   },
   {
     "title": "밀양시립박물관",
@@ -216898,7 +217542,8 @@
     "content_hash": "8edc9868cfd4da439f977c65e642b052b070fb6d0e7b1f76654726e3d5c24c65",
     "id": "evt-e08dffffb0",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "충무공동"
   },
   {
     "title": "동래-해운대공원",
@@ -216940,7 +217585,8 @@
     "content_hash": "3a3f8a91b9ed199eff86028076a94e9c7d4990bdfdd44416bd193b65fa278f16",
     "id": "evt-e09079cdd3",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "우동"
   },
   {
     "title": "판암양지공원",
@@ -216982,7 +217628,8 @@
     "content_hash": "91b4848c00009c02cc34314f07def9c875cc5e87e2bab586d782b8fef60c5ad5",
     "id": "evt-e0a35fa734",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "판암동"
   },
   {
     "title": "샛터공원",
@@ -217024,7 +217671,8 @@
     "content_hash": "bdc546d1c42a4a1833e480cc4c567900b0044f7c0df988222ce445d5cc973ab6",
     "id": "evt-e0a3bc151c",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "선부동"
   },
   {
     "title": "청운문학도서관",
@@ -217192,7 +217840,8 @@
     "content_hash": "435d47f5478aaf6993cb036d54d87c7bfc34a89d700e914acccb21ad71fc2909",
     "id": "evt-e0c25bbcd4",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "용동"
   },
   {
     "title": "공원87공원",
@@ -217234,7 +217883,8 @@
     "content_hash": "e426e0d6cde222b1d0b27e56f853c766c4509890817bf5f0a6921874ce9aab50",
     "id": "evt-e0d12cb006",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "대방동"
   },
   {
     "title": "오대산 국립공원",
@@ -217277,7 +217927,8 @@
     "content_hash": "6533844a4e2a2952e109061146ee71556cafb61478318f6c7bd9a354d188aaf8",
     "id": "evt-e0de4e8521",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "진부면"
   },
   {
     "title": "월정사 성보박물관",
@@ -217362,7 +218013,8 @@
     "content_hash": "2fba76288955cf860e8c48e3424b411c339cda9ecb90734a7d5c7b7e7ad79429",
     "id": "evt-e10e5c404f",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "임수동"
   },
   {
     "title": "후동앞뜰공원",
@@ -217404,7 +218056,8 @@
     "content_hash": "83faae5553e492babb7fdeadc7657ff45e4f34c373c391058c1f51f044542fec",
     "id": "evt-e114e9b3a9",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "일광읍"
   },
   {
     "title": "국립현대미술관(과천관)",
@@ -217487,7 +218140,8 @@
     "content_hash": "f06d8881f0b5c60246544f60ea04b3e18793f8ec5fb490ac8ba09dc056620c65",
     "id": "evt-e12e13bba7",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "범서읍"
   },
   {
     "title": "탄천공원",
@@ -217529,7 +218183,8 @@
     "content_hash": "56bef60b576acaf36e78b41340af267d387fe65bd91ba83d5780365cec36f2f2",
     "id": "evt-e1318fc8db",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "장지동"
   },
   {
     "title": "뮤지엄김치간",
@@ -217613,7 +218268,8 @@
     "content_hash": "9a00f5efffb7bf07be4b4c1c470101b44c02faccedc4f34454774d85d3b3648f",
     "id": "evt-e15528cef7",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "송도동"
   },
   {
     "title": "충주고구려천문과학관",
@@ -217738,7 +218394,8 @@
     "content_hash": "c0a80f1fc0c43d564d996d1755d4bc611080a1d9947af7e6ca059c8217053344",
     "id": "evt-e1964304c2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "중동"
   },
   {
     "title": "우제봉전망대",
@@ -217907,7 +218564,8 @@
     "content_hash": "e2955e7922d653a8abc7b3f6031342bab6fb062c44dd708e40a50df9e5bf068a",
     "id": "evt-e1db7db20b",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "물금읍"
   },
   {
     "title": "제1풍영정공원",
@@ -217949,7 +218607,8 @@
     "content_hash": "a4d2b7696c8f62ce4aa559aa25479759c77d812c26137d59fc64f99d4783e18d",
     "id": "evt-e1f2d55bef",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "월곡동"
   },
   {
     "title": "동 새들천 공원",
@@ -217991,7 +218650,8 @@
     "content_hash": "0606f1b45a5633b6d7c7180bdfddde4b3bf38d270efb00818ad36199eae3919b",
     "id": "evt-e211f98ee8",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "물금읍"
   },
   {
     "title": "천주교 순교성지 새남터 성당",
@@ -218073,7 +218733,8 @@
     "content_hash": "729dd0bfebe8d3a20bda57412f1d724f646f1c2491c30ba10071845ab27618b4",
     "id": "evt-e21a1d5a4d",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "동면"
   },
   {
     "title": "경북대학교 미술관",
@@ -218202,7 +218863,8 @@
     "content_hash": "466ae28dfd540ddcb1a869daafb91fe3c610c3eee6c864756d1d2c9c6f01afdd",
     "id": "evt-e2411ba1cd",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "담양읍"
   },
   {
     "title": "문화공원2공원",
@@ -218244,7 +218906,8 @@
     "content_hash": "4e994e9110aa893e6a48f76f9823a4e6178f23033e4da66cef8c166328a06323",
     "id": "evt-e24dabd99d",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "중앙동"
   },
   {
     "title": "새적굴공원",
@@ -218286,7 +218949,8 @@
     "content_hash": "947f0dd2df0de32d000065fdf1edb306b7ee696999d75088f92a228280ef990c",
     "id": "evt-e25504c28e",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "내덕동"
   },
   {
     "title": "자유수호평화박물관",
@@ -218413,7 +219077,8 @@
     "content_hash": "aab31b23501a4c3bf1fa994339087ee27ca8866e706de74e3ec398c1bc024939",
     "id": "evt-e26c83f07c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "대화동"
   },
   {
     "title": "백제문화체험박물관",
@@ -218712,7 +219377,8 @@
     "content_hash": "cf16b880ce8a3e61acd37831c73ffb1c85ad47363b0d2814e32ddea8ab836f32",
     "id": "evt-e2b3a247de",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "반포면"
   },
   {
     "title": "칠천량해전공원",
@@ -218876,7 +219542,8 @@
     "content_hash": "37afebe149ea0570617476d66282525e70f1c6e5a6c78ba538450657ce27a080",
     "id": "evt-e2d3ed8857",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "중산동"
   },
   {
     "title": "대운산자연휴양림",
@@ -218961,7 +219628,8 @@
     "content_hash": "6f0106ce8aa47ae7ff69451380bee111e715fb709b6721d5f9c409db35a99a08",
     "id": "evt-e2ecddc944",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "중산동"
   },
   {
     "title": "3호 근린공원",
@@ -219003,7 +219671,8 @@
     "content_hash": "a26c16a6222b47e1ff2494312f9a0e3cd7ed7e66c37857bc4ee3d1bbd057ffde",
     "id": "evt-e2efe08847",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "대정읍"
   },
   {
     "title": "감천문화마을",
@@ -219085,7 +219754,8 @@
     "content_hash": "d8e48c2bb5a1fe85753035a6ca46babd7f0851f36e3463fda57fd629e1ad8ca4",
     "id": "evt-e2f479da7d",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "판문동"
   },
   {
     "title": "한강주제5공원",
@@ -219128,7 +219798,8 @@
     "content_hash": "437d1ba333feb0051e493e9e8a396ff9a2b77a435e1d6f6370c50f5cafc02266",
     "id": "evt-e30137170a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "운양동"
   },
   {
     "title": "못자리골공원",
@@ -219170,7 +219841,8 @@
     "content_hash": "58a9700061c22d3ecb5ff46cb36e1b2ac1d68a79cc500f665da5853b1a33b3b9",
     "id": "evt-e305e8dac5",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "응암동"
   },
   {
     "title": "순천생태마을",
@@ -219376,7 +220048,8 @@
     "content_hash": "22d1a2d3a8809a1b94d71bff397f3a9e0a7504053ea858704f373dc5e8e3759c",
     "id": "evt-e359e1e2ff",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "월곡동"
   },
   {
     "title": "호림박물관 신사분관",
@@ -219503,7 +220176,8 @@
     "content_hash": "27927d563c8d702c20dce6a5520494dd9a186ec5f7a892b41c17e9e237ef6dd3",
     "id": "evt-e381eb104b",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "흥덕면"
   },
   {
     "title": "황령산관광지",
@@ -219585,7 +220259,8 @@
     "content_hash": "1aa7ca846aec290c78933a74458a421869bd4b0e7c4c64e7f967f60e7b802c42",
     "id": "evt-e3a0c378a1",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "목동동"
   },
   {
     "title": "계도어촌체험마을",
@@ -219757,7 +220432,8 @@
     "content_hash": "dd1d955200ed7e46623c4b83822320676463443e4036bc20cb2dde9baf7a330b",
     "id": "evt-e3d14188ba",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "남양읍"
   },
   {
     "title": "진천3호공원",
@@ -219799,7 +220475,8 @@
     "content_hash": "a14fbf0d4dcc83744a0b27491a3d1d46297db2b9badc8a40de4a0b1b1b05ae82",
     "id": "evt-e3e81f0fdd",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "진천읍"
   },
   {
     "title": "황방산공원",
@@ -219842,7 +220519,8 @@
     "content_hash": "69c3e037473672dd94835e14acfccbf0f5353ae446ec1aed53ec6eea9507de3e",
     "id": "evt-e3e913a4ff",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "팔복동"
   },
   {
     "title": "전혁림미술관",
@@ -219967,7 +220645,8 @@
     "content_hash": "5f7364d0086b2f1159d2906e517b807095d5d2d7480e187a5492f92dad273951",
     "id": "evt-e4062bf2c7",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "동천동"
   },
   {
     "title": "아이스뮤지엄",
@@ -220051,7 +220730,8 @@
     "content_hash": "adc11f6c77dd5759b7ac5a3b7db46db33edf869ac3367660d6626e79998a8833",
     "id": "evt-e430bfad7f",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "용남면"
   },
   {
     "title": "고색체육공원",
@@ -220093,7 +220773,8 @@
     "content_hash": "dbe900427b6999615d80ac6838fe378ef4e6a899bd2de702d9a3e7d85593ca74",
     "id": "evt-e449dc8b2c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "고색동"
   },
   {
     "title": "미관광장 10호공원",
@@ -220135,7 +220816,8 @@
     "content_hash": "23564ccfa3e0afeb67f0885fd0c964975f5d369b0bfe78fa8b4a37d1dfae03bf",
     "id": "evt-e453108073",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "능동"
   },
   {
     "title": "제주커피박물관 바움",
@@ -220307,7 +220989,8 @@
     "content_hash": "cd90eabcda56c4bd414538d8907bd6b3f5e01e901d3c3ffeee707ac5e60a05f2",
     "id": "evt-e4cdc451d6",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "압촌동"
   },
   {
     "title": "응암공원",
@@ -220350,7 +221033,8 @@
     "content_hash": "d5a7c57b6123a04de58cb643fcf70a7e2a5573d3cc96eee910eec14ca2eb5dd5",
     "id": "evt-e4f3abedc4",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "첨단1동"
   },
   {
     "title": "구덕문화공원",
@@ -220475,7 +221159,8 @@
     "content_hash": "058707e572274c4ea209f53d8fd33009f2c49d97b126c2f079ee12f963fbc7c8",
     "id": "evt-e53311b3a8",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "성연면"
   },
   {
     "title": "장기려더나눔센터",
@@ -220684,7 +221369,8 @@
     "content_hash": "c4f4e81b0dbec15dce2f83944758d40c03d7ecf5311b7f2ed8362a478b5950f7",
     "id": "evt-e56bcd6353",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "송도동"
   },
   {
     "title": "내초공원",
@@ -220726,7 +221412,8 @@
     "content_hash": "340ebc3daa18dee3263e42a6005306336f821cdf4219d6be20f8439e52d37071",
     "id": "evt-e56fffcf71",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "내초동"
   },
   {
     "title": "기타 공원시설/1공원",
@@ -220768,7 +221455,8 @@
     "content_hash": "c1c80b41245a964cf03b52dca15a80ab291e20d24b4e2977c4d08d97fc856422",
     "id": "evt-e58d140cdf",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "호암동"
   },
   {
     "title": "유동룡미술관",
@@ -221017,7 +221705,8 @@
     "content_hash": "9daeed9e4652361bdc25410903f6f923de8cf2fc86849da51d1862e0168110a0",
     "id": "evt-e608edb09c",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "충무공동"
   },
   {
     "title": "북한산공원",
@@ -221060,7 +221749,8 @@
     "content_hash": "ebf1099fca7204c0f6e2948ad9844a8586db555461024c3493313c9476b8c262",
     "id": "evt-e61a08b712",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "성북동"
   },
   {
     "title": "평창공원",
@@ -221102,7 +221792,8 @@
     "content_hash": "4c643d1eb4dd1edb715300d766217ec9e8398ed6ffbd406643d5a8ad324310af",
     "id": "evt-e62f01f64a",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "평창읍"
   },
   {
     "title": "예수병원의학박물관",
@@ -221230,7 +221921,8 @@
     "content_hash": "0e44ebc4a89694ac401fff763f6a686118e24df62e04f2226ddd47ca15235cf6",
     "id": "evt-e6584f2133",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "오목천동"
   },
   {
     "title": "백토공원",
@@ -221272,7 +221964,8 @@
     "content_hash": "e7f3eb279364b1707bf9a664d156a17445339969133a06f018ba090c2e42191c",
     "id": "evt-e659c90457",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "오금동"
   },
   {
     "title": "정읍 고사부리성",
@@ -221394,7 +222087,8 @@
     "content_hash": "84906200f86142a43efa157e150036af6c5a5e5111918891ce1f05e7e34146f3",
     "id": "evt-e675daa6b3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "청당동"
   },
   {
     "title": "황송공원",
@@ -221437,7 +222131,8 @@
     "content_hash": "26be977247bfbb8f4e73d5be950c06b65f5c3a4091af789e1c9b4185c37cda3a",
     "id": "evt-e67a05033f",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "금광동"
   },
   {
     "title": "바람소리공원",
@@ -221479,7 +222174,8 @@
     "content_hash": "86a197bf54f26e995221d497ce69dbc34656f9915c467b183130c85f8531ea75",
     "id": "evt-e6a2e194ae",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "금곡동"
   },
   {
     "title": "청주 정북동 토성",
@@ -221561,7 +222257,8 @@
     "content_hash": "ecef67c1e05dd6b5308dc3637ab6aec24d8248faca3de6be62afad0e4ddb99b4",
     "id": "evt-e6adfc87b1",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "서부동"
   },
   {
     "title": "능안공원",
@@ -221603,7 +222300,8 @@
     "content_hash": "e45cc2c71b49c3e51012aa293e2d316baaa43c1df0b6412aab9fb63ab7b4e1c6",
     "id": "evt-e6b447ce6e",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "산본2동"
   },
   {
     "title": "신산공원",
@@ -221647,7 +222345,8 @@
     "content_hash": "33fc42354262772891df70aa95531e39cd4666b08816d5b4ca6f33273600244e",
     "id": "evt-e6b4c06f03",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "일도이동"
   },
   {
     "title": "행촌미술관",
@@ -221773,7 +222472,8 @@
     "content_hash": "a2869f1e5970f85ee9f64dd3b9014aac84800764a3ac3492cb9674e890785d50",
     "id": "evt-e6e57774bf",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "비산1동"
   },
   {
     "title": "3.1운동 용산인쇄소 노동자 만세시위지",
@@ -221898,7 +222598,8 @@
     "content_hash": "16d41100bdb4076746e16e638cfb3e90181bcaa13bb7f767a1aeb087618b3fd4",
     "id": "evt-e7131991b6",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "좌3동"
   },
   {
     "title": "남고문",
@@ -222105,7 +222806,8 @@
     "content_hash": "f796aeaaaf2f9b601a0cbb3fde7b8e1954e079c3bb0997350b184cb85d576bab",
     "id": "evt-e76e749e6c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "신성동"
   },
   {
     "title": "화성 융릉과 건릉",
@@ -222405,7 +223107,8 @@
     "content_hash": "0d8ab2ea6f3d2a12ab6b37cdeb8a8993d5d447fd4f1f5979c6bd4b856ac5f8b5",
     "id": "evt-e7bb7fc79f",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "청수동"
   },
   {
     "title": "연천 경순왕릉",
@@ -222698,7 +223401,8 @@
     "content_hash": "920b0dc4985beebbe161904f16366a7dbf863c9ec1e705e75587c73867e1986b",
     "id": "evt-e833a79cc0",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "다운동"
   },
   {
     "title": "홍주의사총",
@@ -222901,7 +223605,8 @@
     "content_hash": "c23d48197a069c639912cb8bd8d4ea60deb866020b1b79b16e22c873ad261313",
     "id": "evt-e87fcea471",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "갈마2동"
   },
   {
     "title": "강화 홍릉",
@@ -223028,7 +223733,8 @@
     "content_hash": "05be9ed762e8c25044f90948cd4537cafa4b11092deeed54d731ef4e869e703b",
     "id": "evt-e8948489ca",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "녹산동"
   },
   {
     "title": "소바우공원",
@@ -223070,7 +223776,8 @@
     "content_hash": "a617e4db01f61e574b91e74520a2183ee0b68ece0d09e3cb4cac5acd73083d2e",
     "id": "evt-e897d2e294",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "우정동"
   },
   {
     "title": "광주향교",
@@ -223155,7 +223862,8 @@
     "content_hash": "94b0bc4410b6b74a6ac7c6ef74bde8b12ac0396ef9b1c2a4cca606e4a92149a6",
     "id": "evt-e8a581e417",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "매탄동"
   },
   {
     "title": "비전 근린공원",
@@ -223197,7 +223905,8 @@
     "content_hash": "edea5c9f172fe497148534e901f443f4eba7aaefa3bdd110ba9968d483221022",
     "id": "evt-e8b95e447c",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "비전동"
   },
   {
     "title": "성어공원",
@@ -223239,7 +223948,8 @@
     "content_hash": "11ae5f27350d38b48c76be13130283992d2b35397a6f39230bc2f5370846f194",
     "id": "evt-e8f3daf447",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "성포동"
   },
   {
     "title": "주안미술관",
@@ -223407,7 +224117,8 @@
     "content_hash": "73e941577de59bef3df3851ba042a2243d5c6fd8bbd226b53433302566fa8522",
     "id": "evt-e931dbd23d",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "연수1동"
   },
   {
     "title": "양구백자박물관",
@@ -223535,7 +224246,8 @@
     "content_hash": "1bc2bd6db2c76c70a97dfcbe41db0dd1122df03f29c488ce16914fecfa828ae2",
     "id": "evt-e946b32897",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "일직동"
   },
   {
     "title": "조안베어뮤지엄",
@@ -223659,7 +224371,8 @@
     "content_hash": "8ac0ef23e205c76ea86a42b6917803971cff0f8b6a5f5e1875dfd07368a6513c",
     "id": "evt-e961c14f49",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "이도2동"
   },
   {
     "title": "일곡제1근린공원",
@@ -223701,7 +224414,8 @@
     "content_hash": "d9e05b3a6eddb2b0af2cfb4ca84a3be2cb2e591e88066c2f5f9ff18d130ad1e3",
     "id": "evt-e9697e7141",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "일곡동"
   },
   {
     "title": "문화공원 3호공원",
@@ -223743,7 +224457,8 @@
     "content_hash": "abfd9c886a23e5d067f7c7b7e81d79cec96b9ceb437d491e1eb16a7cd01ebf6d",
     "id": "evt-e96e3b63c9",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "청라동"
   },
   {
     "title": "고양 서오릉",
@@ -223867,7 +224582,8 @@
     "content_hash": "b095bf9fa09719335034b31a5cc346f6350142495c056af7fec331fcfcb9fda3",
     "id": "evt-e9931bb94c",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "일원동"
   },
   {
     "title": "보은 법주사",
@@ -223950,7 +224666,8 @@
     "content_hash": "eb0f8276bbdd262e7cdeab3b4a3ebf96451ead4d02842115ca51d31457e38b39",
     "id": "evt-e9ae3447d5",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "춘의동"
   },
   {
     "title": "김해가야테마파크",
@@ -224077,7 +224794,8 @@
     "content_hash": "15ab7e7f7fa17ce8406cb958d6924a90cfd65337c3abaafcf43f76ab8610fc8f",
     "id": "evt-e9c5e5ead3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "종암동"
   },
   {
     "title": "사화공원",
@@ -224119,7 +224837,8 @@
     "content_hash": "bf55f6490c85967107fee1bdf9479d54c261c277e0290b541d80f5f01130bfea",
     "id": "evt-e9f0f63f55",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "사화동"
   },
   {
     "title": "달빛공원",
@@ -224205,7 +224924,8 @@
     "content_hash": "4d2718a16383f488c18ff4a9fdd5dcd96c9f6b67576c608d465ddc8be1f4a475",
     "id": "evt-ea036d1c85",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "사당동"
   },
   {
     "title": "효천공원",
@@ -224247,7 +224967,8 @@
     "content_hash": "2a3f81c01e455d222c0d23e46caea0f0a20cad2efc5847ecccdc7cc06868d79a",
     "id": "evt-ea07a08aa2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "임암동"
   },
   {
     "title": "뮤지엄원",
@@ -224416,7 +225137,8 @@
     "content_hash": "8550c0cb7b9293a9f70121cfad389ca800b099f1bcc1c84e7ce1b80cd6aa9769",
     "id": "evt-ea61b899ff",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "진례면"
   },
   {
     "title": "공원:현대제철산업단지:1공원",
@@ -224459,7 +225181,8 @@
     "content_hash": "bb5eed1ce758b4e82da1191358d6e01a3e3bed136b05a3c6c70f446ee090dbe5",
     "id": "evt-ea7661614a",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "송산면"
   },
   {
     "title": "익산 미륵사지",
@@ -224544,7 +225267,8 @@
     "content_hash": "bd82c57aaee950346ef7acf4fe46dc5778ce080a2d844acf32c9a6aed7daa478",
     "id": "evt-ea7d83a82f",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "목동동"
   },
   {
     "title": "석동2공원",
@@ -224586,7 +225310,8 @@
     "content_hash": "9b60dae7259ff15ee8702a3e17dfd078695479e65f94254d43bc96d85570606f",
     "id": "evt-ea84eb24e6",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "석동"
   },
   {
     "title": "송지호 관망타워",
@@ -224667,7 +225392,8 @@
     "content_hash": "d3fe9304a259387a747162fed2e5054e2152116d6bdcd6562ed9fedad481a6fc",
     "id": "evt-ea8ec92c88",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "무주읍"
   },
   {
     "title": "한국미술관",
@@ -224919,7 +225645,8 @@
     "content_hash": "b0fffe627f4fb3158bc222f36fe17186857b205808e82b1cbf889784c7fe3d5d",
     "id": "evt-ead1ffd118",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "장지동"
   },
   {
     "title": "태안동학농민혁명기념관",
@@ -225051,7 +225778,8 @@
     "content_hash": "55b16c36746bf6c5ababe1c53c4af04e543a88cc17dd17bfe50a43beb7a10c57",
     "id": "evt-eaeaed9fa3",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "옥암동"
   },
   {
     "title": "인천어린이박물관",
@@ -225177,7 +225905,8 @@
     "content_hash": "aa76bdc0024389f12b9d5c5bcc1131cdfcc98b71d83ab8bdbfd45f047afd6a92",
     "id": "evt-eb1b22bf44",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "청계동"
   },
   {
     "title": "조병화문학관",
@@ -225261,7 +225990,8 @@
     "content_hash": "2c5a4cdfe8414e624c39fea7e71cb13bece1e134c1e0641ccc640c81529715dd",
     "id": "evt-eb4e19c3f2",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "하양읍"
   },
   {
     "title": "원천공원",
@@ -225303,7 +226033,8 @@
     "content_hash": "d0690ac667afa01972aaa7c72c3ed6dedab2471389783b3223a0af357a26cbaf",
     "id": "evt-eb55826c0b",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "상동"
   },
   {
     "title": "부여생활사박물관",
@@ -225435,7 +226166,8 @@
     "content_hash": "8f3ded37dab33f4192a00dd744e030b9b9b697009a4abab22cb0b45882aef030",
     "id": "evt-eb9d62ede8",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "간전면"
   },
   {
     "title": "고성 건봉사지",
@@ -225562,7 +226294,8 @@
     "content_hash": "cd9020f8f720ce6ae928601bd3fd4ff6149e7b6a11e29590c8253535d23ece9a",
     "id": "evt-ebc3d2f258",
     "created_at": "2026-11-09T02:24:44.498548+00:00",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00"
+    "updated_at": "2026-11-09T02:24:44.498548+00:00",
+    "dong": "다율동"
   },
   {
     "title": "대가야생활촌",
@@ -225727,7 +226460,8 @@
     "content_hash": "6913d747a6b9bb5ece8256203090c654eeb4792ba42b1e28a00db07e13d33b51",
     "id": "evt-ebf7041d36",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "김량장동"
   },
   {
     "title": "내성공원",
@@ -225769,7 +226503,8 @@
     "content_hash": "09c1b83677b968985e5d3aaa2ec3fb83720b5005ab69719200bff71769b00b56",
     "id": "evt-ec0c4ba689",
     "created_at": "2026-11-09T02:44:48.815582+00:00",
-    "updated_at": "2026-11-09T02:44:48.815582+00:00"
+    "updated_at": "2026-11-09T02:44:48.815582+00:00",
+    "dong": "봉화읍"
   },
   {
     "title": "증평민속체험박물관",
@@ -240964,6 +241699,86 @@
     "apply_end": null
   },
   {
+    "title": "제6회 ㅊㅊ-하다 페스티벌",
+    "category": "festival",
+    "description": "제6회 ㅊㅊ하다 페스티벌 11월 10일 성악 | 11월 11일 기악 | 11월 12일 무용 | 11월 13일 연희 청년이 청-하다 청춘이 채우다 공연일자 2026. 11. 10. - 11. 13. 19:00 장소 서울남산국악당 크라운해태홀 한국문화예술위원회 THE ONE ART. korea\n운영 시간 19:00~",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-13",
+    "location_name": "서울남산국악당",
+    "address": "서울특별시 중구 퇴계로34길 28 서울남산국악당",
+    "latitude": 37.5583499463987,
+    "longitude": 126.994021611776,
+    "region": "서울특별시",
+    "district": "중구",
+    "is_family_friendly": false,
+    "target_age_group": "kids",
+    "age_min": 7.0,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "전석 20,000원",
+    "thumbnail_url": null,
+    "official_link": "https://booking.naver.com/booking/12/bizes/1510915",
+    "tags": [
+      "#실내",
+      "#공연",
+      "#전통"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160100",
+    "content_hash": "4804b0dcddd2f6725c56e0ff24279b7185812cc2baa06332f8f3901401b67fbe",
+    "id": "evt-d5f68065d4",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
+    "title": "[서초문화재단] 서리풀청년아트갤러리 전시 [그 장면은 내 눈앞에서 고무처럼 늘어났다]",
+    "category": "exhibition",
+    "description": "2026. 11. 10. Tue ~ 11. 29. Sun 11:00~22:00 월요일 및 공휴일 휴관 서울특별시 서초구 남부순환로 2406 예술의전당 앞 지하보도 seoripulgallery.com 02-3477-2074 서리풀청년아트갤러리 시각예술 전시기획 공모 선정작\n운영 시간 화-일 11:00~22:00 (월요일, 공휴일 휴관)",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-29",
+    "location_name": "서리풀청년아트갤러리",
+    "address": "서울특별시 서초구 남부순환로323길 1",
+    "latitude": 37.481137954971,
+    "longitude": 127.013504028268,
+    "region": "서울특별시",
+    "district": "서초구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.instagram.com/p/DfUEzZlz4_c/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160124",
+    "content_hash": "c376f256479f592431da607f52cabda40e7c310edfafc93b7ae433cc1e32ff1e",
+    "id": "evt-e54565c077",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "제14회 서울시와 함께하는 GAF 시민공연예술제",
     "category": "festival",
     "description": "갈산문화예술센터 아이누리홀에서 열리는 행사예요. 문의 jw-8229@naver.com",
@@ -241040,8 +241855,10 @@
     "content_hash": "6a403fc90e59e3f98dec4d3b663d1c3240f1be71c084daea5e6621c73a3e36e0",
     "id": "evt-07a40b7e79",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "반포4동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "반포4동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026년 서점의 날 기념식",
@@ -241123,6 +241940,49 @@
     "dong": "삼성동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[2026공연봄날 공식선정작] 호두까기인형",
+    "category": "kids_experience",
+    "description": "/ 코리아발레스타즈 11.11.(수) - 11.12.(목) 10:30 | 19:30 | 송파문화예술회관 송파아트홀, 관람료 전석 무료, 관람대상 청소년 및 청소년을 동반한 가족 관람객, 2026 초중고등학생 문화공연 관람 지원\n운영 시간 11.11.(수) - 11.12.(목) 10:30 | 19:30",
+    "start_date": "2026-11-11",
+    "end_date": "2026-11-12",
+    "location_name": "송파문화예술회관",
+    "address": "서울특별시 송파구 백제고분로 242",
+    "latitude": 37.5023578475607,
+    "longitude": 127.093490160793,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EB%AC%B4%EC%9A%A9&k_gubun2=2&kkno=b73ce398c39f506af761d2277d853a92&gubun2=11",
+    "tags": [
+      "#실내",
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [
+      "cultural_space"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160091",
+    "content_hash": "508afcf7b569fabb12395f15dea4ec4a96aa9492c11b58bde2137662c254c22d",
+    "id": "evt-e847095d0b",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "메가푸드쇼 2026",
@@ -241247,8 +242107,10 @@
     "content_hash": "59045044cd1cd0acd7f3e7729d20031f4e6bca2f0715d46985839c0e22324f6b",
     "id": "evt-4fae34f84e",
     "created_at": "2026-10-25T03:53:31.544125+00:00",
-    "updated_at": "2026-10-25T03:53:31.544125+00:00",
-    "dong": "서강동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "서강동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "장애인아카데미 수업 결과 전시회",
@@ -241289,6 +242151,94 @@
     "dong": "영등포동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[구산동도서관마을] 개관 11주년 기념 북토크 [사랑과 결함] 예소연 저자와의 만남",
+    "category": "kids_experience",
+    "description": "[구산동도서관마을] 개관 11주년 기념 북토크 「사랑과 결함」예소연 저자와의 만남 ？일시 : 11월 12일(목) 19:30~21:00 내용 : 「사랑과 결함」을 바탕으로 여러 관계 안에서의 나를 조명하고 저자와 함께 마음의 그늘을 나누어보는 시간 장소 : 구산동도서관마을 3층 힐링캠프 대상 : 청소년 이상 누구나 강사 : 예소연 (작가) 접수 : 홈페이지, 방문, 전화, 구글폼 접수 문의 : 02-357-0100 (내선 3번, 문화사업) ** 작가 소개 ** 2021년 『현대문학』 신인 추천을 통해 작품 활동을 시작했다. 소설집 『\n운영 시간 19:30~21:00",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-12",
+    "location_name": "구립구산동도서관마을",
+    "address": "서울 은평구 연서로13길 29-23 구산동도서관마을",
+    "latitude": 37.6101785198664,
+    "longitude": 126.9126891869,
+    "region": "서울특별시",
+    "district": "은평구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.eplib.or.kr/gsvlib/menu/11020/bbs/20001/bbsPostDetail.do?currentPageNo=1&bbsPostIdx=232865&manageCd=MI",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159962",
+    "content_hash": "1f65376ef5968f11f3b88681ed5e507efab388dd47783cfd69688bfa41a9039a",
+    "id": "evt-7d2e303ca9",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
+    "title": "2026 복작복작 오늘전통축제",
+    "category": "festival",
+    "description": "2026.11.12. - 11.15. 문화역서울284 문화체육관광부 주관 한국공예·디자인문화진흥원 Koree Craft and Design Foundation 후원 국립고궁박물관 국립무형유산원 한국관광공사 THE BAREUN 협찬 TTEOK 주최 dozamm ONGO 온모주溫母酒 woong HWAYO QR코드 스캔 https://www.instagram.com/k_festival.official\n운영 시간 10:00~18:00 (프로그램 별 상이)",
+    "start_date": "2026-11-12",
+    "end_date": "2026-11-15",
+    "location_name": "문화역서울284",
+    "address": "서울 중구 통일로 1 문화역서울284",
+    "latitude": 37.5560581817344,
+    "longitude": 126.972115894161,
+    "region": "서울특별시",
+    "district": "중구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.instagram.com/k_festival.official",
+    "tags": [
+      "#실내",
+      "#전통",
+      "#무료"
+    ],
+    "place_types": [
+      "museum",
+      "cultural_space"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160138",
+    "content_hash": "7405343caa399a90c7b06016c8031a12934c15f8cba4dfd2fca450084d601ab6",
+    "id": "evt-bdb1feb525",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "2026 부천악기은행 성과공유회",
@@ -241411,6 +242361,47 @@
     "dong": "영등포동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[영등포문화재단] 2026 창의예술주간 둥둥제",
+    "category": "festival",
+    "description": "2026 창의예술주간 둥둥제 잠들면 열리는 상상의 섬 당신의 꿈을 삽니다 2026.11.13(금)-11.28(토) YOP창의예술교육센터 화~금 10:30~20:00 토 10:30~19:00 영등포구 영등포문화재단 YDP 창의예술교육센터 QR코드 스캔 https://litt.ly/artsedu\n운영 시간 화-금 10:30~20:00 / 토 10:30~19:00",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-28",
+    "location_name": "YDP창의예술교육센터",
+    "address": "서울 영등포구 양평로20길 8-1 YDP창의예술교육센터",
+    "latitude": 37.5377136039448,
+    "longitude": 126.895802789396,
+    "region": "서울특별시",
+    "district": "영등포구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.instagram.com/p/DfHQGbpnc0C/?img_index=1",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160104",
+    "content_hash": "0dd61497861a0ef71dd66faa45c53d2cc2e0c51e5d8b0052faa3eb5ade4c5751",
+    "id": "evt-2f624c9fd6",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "미술전",
@@ -241671,6 +242662,43 @@
     "apply_end": null
   },
   {
+    "title": "hnei(이석희) 작곡발표회 [비누, 비노, 배누, 비눌, 비널 그리고 사분]",
+    "category": "kids_experience",
+    "description": "2026.11.13.-14. Fri. 19:30 | Sat. 14:00 PLATFORM-L Platform Live (B2) 이삭치(hnei) 작곡표회 이석희 | 작곡, 지휘 강나래 | 글리산도 플루트 김원태 | 색소폰 곽예지 | 트럼본 이규진 | 타악기 김아영 | 하프 서성은 첼로 영상 | 김혜연, 아동학 무대이술 | 김하나 의상 | 이지민 조명 | 정하영 주희, 주관, 기획 | 이식회 후원 | 한국문화예술위원회\n운영 시간 11.13.(금) 19:30 / 11.14.(토) 14:00",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-14",
+    "location_name": "플랫폼엘",
+    "address": "서울특별시 강남구 언주로133길 11",
+    "latitude": 37.51616471154578,
+    "longitude": 127.0342339545498,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "kids",
+    "age_min": 7.0,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "전석 30,000원 / 1차 예매 20,000원 / 2차 예매 25,000원 / 예술인패스 25,000원",
+    "thumbnail_url": null,
+    "official_link": "https://nol.yanolja.com/ticket/products/26015252",
+    "tags": [],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159973",
+    "content_hash": "2e261f1de0c9db5263bd5b59f664506bb123fae790bf86d1db3aa48f64b8b70c",
+    "id": "evt-d641167bfd",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "2026 둥둥제",
     "category": "exhibition",
     "description": "운영 시간 10:30~19:00\n주관 영등포문화재단",
@@ -241711,6 +242739,93 @@
     "dong": "양평동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[마포구립서강도서관] 11월/어린이메이킹 해봄이웃집Maker [그림책으로 만나는 슈링클스 키캡 만들기]",
+    "category": "kids_experience",
+    "description": "[해봄이웃집Maker X 그로우북 평생학습동아리] 그림책으로 만나는 슈링클스 키캡 만들기 2026. 11. 14.(토) 11:00~12:00 『사랑 사랑 사랑』을 함께 읽고, 내가 생각하는 사랑을 그림으로 표현해 나만의 키캡을 만들어 봐요! 『사랑 사랑 사랑』 맥 바넷 글, 카슨 엘리스 그림 접수 2026. 11. 1.(일) 오전 9시부터 홈페이지 대상 해봄이로 등록한 초등학교 1-3학년 12명 장소 3층 세미나실 진행 이주희(독서지도사) | 그로우북 평생학습동아리 회원 ※ 독서지도 전문성을 바탕으로 ‘배움-성장-나눔’을 실천하며 \n운영 시간 11:00~12:00",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "location_name": "마포구립서강도서관",
+    "address": "서울특별시 마포구 독막로 165",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "region": "서울특별시",
+    "district": "마포구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-01",
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13569",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159910",
+    "content_hash": "5a7edd0b1b159f7b73659f514b3220c5666a207f8b6bb1fa657d2d8afb4f7115",
+    "id": "evt-008905cd75",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
+    "title": "조선왕릉 톺아보기: 조선왕릉 골든벨",
+    "category": "kids_experience",
+    "description": "조선왕릉 골든벨 2026. 11. 14 [토] 선정릉 골든벨 울리고 장원급제! 친구와 함께 도전에 참여하고, 조선 최고 지혜왕에 도전하세요! 문의사항 02-5238-1770 주요 프로그램 조선왕릉 & 역사 골든벨 퀴즈 장원급제 시상식 기념사진 촬영 대상 및 부문 ① 초등 고학년 부문 ② 외국인 부문 시상 대상 [각 부문별 1명) - 20만원 상품권 우수상 [각 부문별 1명) - 10만원 상품권 장려상(각 부문별 1명) - 5만원 상품권\n운영 시간 초등 고학년 부문 13:00~14:00, 외국인 부문 4:30~15:30",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "location_name": "선정릉",
+    "address": "서울 강남구 선릉로100길 1 선릉정릉",
+    "latitude": 37.5073677154051,
+    "longitude": 127.047165945717,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 10.0,
+    "age_max": 12.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.instagram.com/p/Desm5bzkrsQ/?utm_source=ig_web_copy_link&mdxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#무료"
+    ],
+    "place_types": [
+      "historical"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159985",
+    "content_hash": "8508beab0cbf2e2a6be50a60322237cc3ede49a24ff1ab732751105c185a7393",
+    "id": "evt-1d47f47b19",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "서울카드페스타",
@@ -241833,6 +242948,50 @@
     "updated_at": "2026-11-09T02:24:44.498548+00:00",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[구립증산도서관] 보드게임과 함께하는 어린이 투자교실 [용돈을 부탁해!]",
+    "category": "kids_experience",
+    "description": "보드게임과 함께하는 어린이 투자교실 용돈을 부탁해! 용돈 관리가 투자의 첫걸음! 보드게임으로 직접 돈을 관리하며, 똑똑한 용돈 사용법을 알아봐요~ 일시 2026.11.14.(토) 오전 10시 ~ 12시 대상 초등 1~2학년 어린이와 보호자 8팀 *해당 연령 자녀 이름으로 로그인 접수 2026.11.07.(토) 09:00~ 마감 시 장소 지하 문화강좌실 문의 어린이열람실(307-6030, 내선 303~4) ※ 도서관은 공공기관으로서 사업 결과 및 홍보 등의 사회적 기능을 필요로 하며, 행사 참여 시 비영리적 목적에 한하여 사진 촬영 \n운영 시간 10:00~12:00",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "location_name": "구립증산도서관",
+    "address": "서울특별시 은평구 증산로5길 6",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "region": "서울특별시",
+    "district": "은평구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-07",
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=233891&manageCd=MB&searchTarget=&searchStatus=OPEN",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160010",
+    "content_hash": "d65f6f7a33e18c498dd8f813743bd327a4628408c55e687962dda30182ed5cd6",
+    "id": "evt-4dce554c7e",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "우포늪 생명길 걷기대회",
@@ -242000,6 +243159,45 @@
     "age_max": null,
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "2026 K-콘텐츠 서울여행주간",
+    "category": "festival",
+    "description": "with MMA2026 SEOUL K-CONTENT WEEK November 14-20, 2026 @Seoul SCAN TO JOIN https://seoulkcontent.com/\n운영 시간 12:00~18:00",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-20",
+    "location_name": "고척스카이돔",
+    "address": "서울 구로구 경인로 430 고척스카이돔",
+    "latitude": 37.4982125677913,
+    "longitude": 126.867088741096,
+    "region": "서울특별시",
+    "district": "구로구",
+    "is_family_friendly": false,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-05",
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://seoulkcontent.com/",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160109",
+    "content_hash": "434a7235b8a8438266146dd9fe57097c0efc35054e7b6ce5491a43fc464724b8",
+    "id": "evt-98edc1f89b",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "포천펫스타",
@@ -242213,6 +243411,50 @@
     "apply_end": null
   },
   {
+    "title": "[성동구립도서관] 하반기 원어민 특강 [Here To Hero]",
+    "category": "kids_experience",
+    "description": "[QUESST] 원어민 선생님과 함께 잠들어 있는 나만의 히어로를 깨울 시간! [ MISSION] 운영 일시 2026.11.14.(토) 6~7세 : 10시~10시 50분 8~10세 : 11시~11시 50분 참여 대상 Kids Hero 6~7세 : 10명 Junior Hero 8~10세 : 10명 운영 장소 성동구립도서관 어린이영어세상 강의실 운영 내용 1. 히어로 관련 영어 원서 읽기 2. 나만의 파워 찾아보기 3. 나만의 히어로 가면 만들기 접수방법 2026. 11.3.(화) 오전 10시 홈페이지 문화마당 - 문화행사 문의 02-\n운영 시간 [6~7세] 10:00 [8~10세] 11:00",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "location_name": "성동구립도서관",
+    "address": "서울 성동구 고산자로10길 9 성동문화정보센터",
+    "latitude": 37.5591798757923,
+    "longitude": 127.034960654281,
+    "region": "서울특별시",
+    "district": "성동구",
+    "is_family_friendly": true,
+    "target_age_group": "kids",
+    "age_min": 6.0,
+    "age_max": 10.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.sdlib.or.kr/SD/edusat/view.do?edu_idx=2578",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159886",
+    "content_hash": "e33c39a88a2f0666a69716da8cddc2c9fc290e22c5bed90e15b07e346df41e67",
+    "id": "evt-eb99250978",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "제8회 진안고원 김치보쌈축제",
     "category": "festival",
     "description": "우리집 김치담그기+사랑의 김장나눔 등\n주관 진안YMCA",
@@ -242336,6 +243578,48 @@
     "dong": "신북면"
   },
   {
+    "title": "2026 서울경기춤페스타",
+    "category": "festival",
+    "description": "2026년 서울시 민간축제 지원·육성 사업 2026 서울경기춤페스타 모두를 위한 소원 서울을 향한 염원 서울남산골한옥마을 SEOUL NAMSANGOL HANOK VILLAGE 26.11.15. SUN 11:00 - 18:00 주최 | 서울경기춤연구회 후원 | 서울특별시 대한불교조계종진관사\n운영 시간 11:00~18:00",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "location_name": "남산골한옥마을",
+    "address": "서울특별시 중구 퇴계로34길 28",
+    "latitude": 37.559304933707146,
+    "longitude": 126.994440072131,
+    "region": "서울특별시",
+    "district": "중구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://sgdance.imweb.me/Festival_introduction",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [
+      "historical",
+      "religious"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160103",
+    "content_hash": "9f8bb0221ce8d0751c90592d74040b2c6ceb591f27e081fc901b0947ca6632f2",
+    "id": "evt-620ac738c2",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "부산종합민속예술제",
     "category": "festival",
     "description": "제6회 부산종합민속예술제는 부산광역시가 주최하여 부산의 무형유산과 전통민속문화를 공연과 체험으로 소개하는 전통문화 축제이다. 2026년 10월 24일부터 25일까지 부산시민공원 다솜광장에서 부산시민과 관광객을 대상으로 개최되는 행사이다. 주요 프로그램은 공연 중심의 풍류마당, 체험 중심의 솜씨마당, 참여 프로그램 중심의 잔치마당으로 구성된 축제이다. 풍류마당은 개막식과 부산·타시도 무형유산 공연, 전수학교 공연, 글로벌 공연, 특별공연 및 시민참여 프로그램을 운영하는 공간이다. 솜씨마당은 기능·예능 무형유산 체험, 전통문화 만들기 체험, 전통 먹거리 체험, 문화유산돌봄 체험 등을 운영하는 공간이다. 잔치마당은 전통놀이 체험존, 부산 무형유산 아트페어, 한복문화주간 연계 전통·공예 마켓, 스탬프투어와 소원지 쓰기, 한복 대여 및 전통 장신구 체험 등을 운영하는 공간이다. 공연 관람과 참여형 체험을 통해 부산의 무형유산과 전통문화를 접할 수 있도록 구성된 축제이다.",
@@ -242382,6 +243666,89 @@
     "dong": "범전동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[2026공연봄날 공식선정작] 어둑시니",
+    "category": "kids_experience",
+    "description": "/ 창작조직 성찬파 11.16.(월) - 11.20.(금) 10:30 | 14:00 | 17:00 | 19:30 | 서울여성플라자 아트홀봄, 관람료 전석 무료, 관람대상 청소년 및 청소년을 동반한 가족 관람객, 2026 초중고등학생 문화공연 관람 지원\n운영 시간 11.16.(월) - 11.20.(금) 10:30 | 14:00 | 17:00 | 19:30",
+    "start_date": "2026-11-16",
+    "end_date": "2026-11-20",
+    "location_name": "서울여성플라자",
+    "address": "서울특별시 동작구 여의대방로54길 18",
+    "latitude": 37.5116087174603,
+    "longitude": 126.927226422645,
+    "region": "서울특별시",
+    "district": "동작구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EC%97%B0%EA%B7%B9&k_gubun2=2&kkno=a5e00132373a7031000fd987a3c9f87b&gubun2=11",
+    "tags": [
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160092",
+    "content_hash": "6f4765830c2c85756d2c44d112e9dce3242cd5b2f314900760ebca1932c4f796",
+    "id": "evt-74c1b028bc",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
+    "title": "[서울역사박물관] 다시 모은 조각들, 인사동의 시간",
+    "category": "exhibition",
+    "description": "2026.11.17.-2027.3.28. 인사도시유적전시관 기획전시실\n운영 시간 9:00~18:00(입장마감 17:30)",
+    "start_date": "2026-11-17",
+    "end_date": "2027-03-28",
+    "location_name": "인사도시유적전시관",
+    "address": "서울특별시 종로구 종로11길 18  G1 서울 지하1층",
+    "latitude": 37.5707849313822,
+    "longitude": 126.986198735519,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok®Pwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=¤tPage=&seq=20261106093257087&ctgCd=&showSummaryYn=N",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "historical",
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160152",
+    "content_hash": "cc5a482043d9c95636fc78cae1db056261db6a948755697c6b319cdc78caf3f8",
+    "id": "evt-31d3c4c647",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "제4회 문화체육관광 디지털혁신 포럼",
@@ -242460,8 +243827,10 @@
     "content_hash": "6eeaf2926c3591987e90d4c2c5a3579e8228375acce45dc041f4e409246f9602",
     "id": "evt-3718e2d1ec",
     "created_at": "2026-10-25T03:53:31.544125+00:00",
-    "updated_at": "2026-10-25T03:53:31.544125+00:00",
-    "dong": "반포4동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "반포4동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026 전국환경사진대전 입상작 전시회 및 시상식",
@@ -243305,6 +244674,89 @@
     "apply_end": null
   },
   {
+    "title": "송파구립소년소녀합창단 제10회 정기연주회 합창뮤지컬 [하늘을 나는 양탄자]",
+    "category": "kids_experience",
+    "description": "2026.11.21.(SAT) 5PM 송파문화예술회관 3층 송파아트홀 예술감독&지휘 정태영 연출 및 안무 김희연 작곡 우효원 반주 이지현 지도 조은영 우정출연 송파소년소녀합창단 어린이반 퍼커션 김성광 신디사이저 김은경\n운영 시간 17:00~ (80분)",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "location_name": "송파문화예술회관",
+    "address": "서울특별시 송파구 백제고분로 242",
+    "latitude": 37.5023578475607,
+    "longitude": 127.093490160793,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://booking.naver.com/booking/5/bizes/1757782/items/8172091",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "cultural_space"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160114",
+    "content_hash": "898f8f97550fa2dd35c672d9109e4cef833d72095bb99589fd4eb52617d96852",
+    "id": "evt-008edbdf45",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
+    "title": "[동작문화재단] 본동어울마당 아트홀 '본동 세레나데' 11회차 [아트컴퍼니 행복자의 3인극 종이아빠]",
+    "category": "kids_experience",
+    "description": "2026 본동어울마당 아트홀 하반기 정기 기획공연 [아트컴퍼니 행복자의 3인극 종이아빠] 2026. 11. 21.(토) 오후 2시 본동어울마당 아트홀\n운영 시간 14:00~15:00",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "location_name": "본동어울마당 아트홀",
+    "address": "서울특별시 동작구 노량진로32길 79",
+    "latitude": 37.5105308023837,
+    "longitude": 126.956894813525,
+    "region": "서울특별시",
+    "district": "동작구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.idfac.or.kr/bbs/board.php?bo_table=gallery_info&wr_id=335",
+    "tags": [
+      "#실내",
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160013",
+    "content_hash": "623e388b0887af0f05abf8a5ee8114997ce3b3532412fa79cfaa1123029e3315",
+    "id": "evt-298deaa5b2",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "묵호 도째비페스타",
     "category": "festival",
     "description": "개막식+공연행사+먹거리+체험거리부스운영\n주관 동해문화관광재단",
@@ -243427,8 +244879,10 @@
     "content_hash": "3f38d401d958a42bdd206e029505aaee53923bc60c4c37e0f56639223f765b23",
     "id": "evt-4fad1cb9cb",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "필동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "필동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "키즈 콘서트Ⅳ <클랩 그림책 콘서트>",
@@ -243630,6 +245084,51 @@
     "apply_end": null
   },
   {
+    "title": "[마포구립서강도서관] 11월/어린이 [해봄+ing 미래를 달리다! 자율주행 코딩 챌린지]",
+    "category": "kids_experience",
+    "description": "2026 해봄+ing 미래를 달리다! 자율주행 코딩 챌린지 알티노 라이트 코딩과 주행 미션으로 자율주행을 체험해 보세요! 장소 : 마포구립서강도서관 3층 세미나실 대상 : 해봄이로 등록한 초등학교 4~6학년 16명 모집 : 2026. 11. 7.(토) 오전 9시 홈페이지 선착순 접수 강사 : 정소연 (AI·자율주행·로봇 코딩 전문 강사) 와이즈교육 국장, 초·중·고등학교 AI·자율주행·로봇 코딩 교육 과천과학관 AI·IoT 교육, 한국평생교육원 코딩지도사 영상 강의 해봄 | 마포구립서강도서관\n운영 시간 15:00~17:00",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "location_name": "마포구립서강도서관",
+    "address": "서울특별시 마포구 독막로 165",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "region": "서울특별시",
+    "district": "마포구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13648",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum",
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160042",
+    "content_hash": "59357e7b1adb02be6300f826e6b2d269d4414e7c9a5e95511bb340a78ca80f82",
+    "id": "evt-a45d77992d",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "순창 KOREA 떡볶이 페스타",
     "category": "festival",
     "description": "K-FOOD를 대표하는 아이콘인 떡볶이를 주제로 지역 특화 축제가 발효의 고장 순창에서 열린다. 이 축제는 지역의 전통장을 활용한 이색적인 떡볶이 레시피를 중심으로, 전시·시식·체험·포토존 등 다양한 콘텐츠를 결합해 미식과 관광의 융합을 이룬다. 순창 고유의 발효 문화와 K-FOOD의 대중성을 접목해 남녀노소 누구나 즐길 수 있는 다채로운 즐길 거리를 제공하며, 가족 단위 방문객은 물론 MZ세대까지 아우르는 오감만족형 콘텐츠로 구성되어 있다. 맛의 재미는 물론, 사진으로 남기기 좋은 포토존과 체험형 콘텐츠를 통해 공유하고 싶은 특별한 순간을 선사하며 지역경제 활성화에도 기여하는 대표 먹거리 축제이다.",
@@ -243796,8 +245295,55 @@
     "content_hash": "ba6ac197b68cb637ec83dfa0ace08e7d917489ed0682a80c927b7865343aa617",
     "id": "evt-b0a09c84e0",
     "created_at": "2026-10-25T03:53:31.544125+00:00",
-    "updated_at": "2026-10-25T03:53:31.544125+00:00",
-    "dong": "행당동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "행당동",
+    "apply_start": null,
+    "apply_end": null
+  },
+  {
+    "title": "[구립증산도서관] 유아 미술 책놀이 [냠냠 그림책 미술놀이]",
+    "category": "kids_experience",
+    "description": "냠냠 그림책 미술놀이 냠냠~ 그림책을 색다르게 즐겨볼까요? 책도 읽고, 맛있는 미술활동도 함께해요! 일시 : 2026.11.23.(월), 11.30.(월) 16:40 ~ 18:00 (2차시) 대상 : 6~7세 유아 12명 *해당 연령 자녀 이름으로 로그인 접수 : 2026.11.16.(월) 09:00~ 마감 시 도서관 홈페이지 선착순 접수 장소 : 지하 문화강좌실 문의 : 어린이열람실(307-6030, 내선 303~4) 첫 번째 시간 : 알록달록 곡물 모자이크 만들기 두 번째 시간 : 말랑말랑 점토 케이크 만들기 * 도서관은 공공기\n운영 시간 16:40~18:00",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-30",
+    "location_name": "구립증산도서관",
+    "address": "서울특별시 은평구 증산로5길 6",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "region": "서울특별시",
+    "district": "은평구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": 6.0,
+    "age_max": 7.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-16",
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234168&manageCd=MB&searchTarget=&searchStatus=OPEN",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#먹거리",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160029",
+    "content_hash": "53a81b652341de57973634fbe4368cbeac535a6b1c285c8eb9136260307cf540",
+    "id": "evt-2949a607af",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "성탄트리 점등식",
@@ -244039,8 +245585,10 @@
     "content_hash": "93cd0796ea75998fdc91caf5116fe7a3a1dac05890c402b05a595bdac626c949",
     "id": "evt-a1c59b073e",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "반포4동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "반포4동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026 대한민국 정부혁신박람회",
@@ -244740,6 +246288,86 @@
     "apply_end": null
   },
   {
+    "title": "[성동문화재단] 오페레타 [유쾌한 미망인]",
+    "category": "kids_experience",
+    "description": "[성동문화재단] Die Lustige Witwe 오페레타 [유쾌한 미망인] 2026. 11. 27. (금) 19:30 - 28. (토) 16:00 소월아트홀 한나 이경진 | 다닐로 오바울 | 발랑시엔 조예희 | 카미유 오의영 제타 이천초 | 생 브리오슈 남승모 | 카스카다 심동성 | 네구스 김시은 예술감독 및 지휘 정월태 | 연출 최이순 | 음악감독 박진희 김순정발레단 메트오페라합창단 | Universal Philharmonic Orchestra 주최, 주관 성동구 스마트포용도시 성동문화재단 Seongdong Foundation C\n운영 시간 11.27.(금) 19:30 / 11.28.(토) 16:00",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-28",
+    "location_name": "소월아트홀",
+    "address": "서울 성동구 왕십리로 281 소월아트홀",
+    "latitude": 37.5593072327953,
+    "longitude": 127.036006376334,
+    "region": "서울특별시",
+    "district": "성동구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "전석3만원 (성동구민 1만5천원)",
+    "thumbnail_url": null,
+    "official_link": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1674",
+    "tags": [
+      "#실내",
+      "#공연"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159872",
+    "content_hash": "963b997d546043af80d4d07814064ffe99516989e249a9cfd2c559ef891e05e3",
+    "id": "evt-ea1b378bb2",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
+    "title": "[서울시어울림플라자] 책 속 상상의 세계를 함께 여행하는 가족뮤지컬 「난 책이 좋아요」",
+    "category": "kids_experience",
+    "description": "2026.11.28. (토) 서울시 어울림플라자 공연장 11월 3일 (화) 10시 접수 시작 장애인 및 장애인 가족 신청 11:00(1회차]/ 14:00(2회차) 11월 6일 (금) 10시 접수 시작 일반 신청 11:00(1회차) 주최 서울시 어울림플라자 제작 극단 별의별 관람연령 5세 이상(2021년 생 이상) 소요시간 60분 내외 관람료 전석 무료 예매 서울시 어울림플라자 홈페이지 회원가입 후 신청가능 문의 02-3663-5123\n운영 시간 (1회차) 11:00 / (2회차) 14:00",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "location_name": "서울시어울림플라자",
+    "address": "서울특별시 강서구 공항대로 489",
+    "latitude": 37.5535154167762,
+    "longitude": 126.861449995331,
+    "region": "서울특별시",
+    "district": "강서구",
+    "is_family_friendly": true,
+    "target_age_group": "kids",
+    "age_min": 5.0,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://seouleoullim.or.kr/site/board/board-view?id=727&board_type=notice",
+    "tags": [
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160063",
+    "content_hash": "a7041acbf39f566f04d183af1327631b18e1a093c7fb7b10fa44f6523884c961",
+    "id": "evt-22cd784509",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "꿈의 무용단 인천 서해구 제1회 정기공연",
     "category": "kids_experience",
     "description": "운영 시간 00:00~00:00\n주관 인천광역시 서해구문화재단",
@@ -244947,6 +246575,47 @@
     "apply_end": null
   },
   {
+    "title": "2026 민간 국악행사 지원사업 [도깨비와 함께 신화 여행]",
+    "category": "kids_experience",
+    "description": "2026.11.28(토) 오후 14시 장소 관악청소년회관 후원 서울특별시 주최주관 생황과사람들 협찬 주식회사 신봉그린\n운영 시간 14:00~15:00",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "location_name": "관악청소년센터",
+    "address": "서울특별시 관악구 신림로23길 17",
+    "latitude": 37.4702439018707,
+    "longitude": 126.935243319909,
+    "region": "서울특별시",
+    "district": "관악구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://blog.naver.com/shengnice/224415043578",
+    "tags": [
+      "#실내",
+      "#전통",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159538",
+    "content_hash": "6c76e5840fba2a44658daf4345ef3c1a1eb8408e61ec339f1ea623980b416967",
+    "id": "evt-90989ce01a",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "2026 토요키즈클래식 11월",
     "category": "kids_experience",
     "description": "정환호 해설, 엘란앙상블 연주의 어린이의 눈높이에 맞춘 클래식 공연\n운영 시간 15:00~16:00\n주관 ㈜아트스토리",
@@ -245024,6 +246693,48 @@
     "dong": "일원1동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "활동가 실무 역량강화 교육 [노션으로 홈페이지 만들기]",
+    "category": "kids_experience",
+    "description": "기 풀뿌리활동가 스킬업 노션으로 홈페이지 만들기 본 과정은 활동가를 위한 노션 활용 IT 기초 교육입니다 일시 11월 30일(월), 12월 2일(수) 16:00~18:00(총2회) 기 장소 서초여성가족플라자 잠원센터 비용 무료 대상 활동가 15명 선발 *선발기준: ① 서초구 활동가 ② 교육 신청 동기 준비물 개인 노트북 지참(대여 불가) 노션 계정 가입(google 계정으로 가입 가능) www.notion.com ~11월 13일 선정안내 11월 16일 *선정자 대상 개별 문자 연락 교육문의 서초구양성평등활동센터 070-7163-25\n운영 시간 11월 30일(월), 12월 2일(수) 16:00~18:00",
+    "start_date": "2026-11-30",
+    "end_date": "2026-12-02",
+    "location_name": "서초여성가족플라자",
+    "address": "서울특별시 서초구 잠원로8길 38",
+    "latitude": 37.5135511855315,
+    "longitude": 127.012106396494,
+    "region": "서울특별시",
+    "district": "서초구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://seochoequality.org/board_TwMT47/6494",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160030",
+    "content_hash": "33e2c5b52a5b6e4bf1fba65d896ecd3d80b3d613ef42b4f7c5e423df8293908f",
+    "id": "evt-eabca5dd04",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "전시",
@@ -245591,8 +247302,10 @@
     "content_hash": "24cf4bdbd7b240e39a80fd388d667ecb01246b2e373f7099a101e1d31a58ec42",
     "id": "evt-013a1e4c56",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "신천동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "신천동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "꿈의 오케스트라 인천 서해구 제2회 정기연주회",
@@ -245710,8 +247423,10 @@
     "content_hash": "efffbf5b9e57fad3aa2701651c7fbb6367865c13fc1734e330c2d87849ff16f2",
     "id": "evt-827c3b2cad",
     "created_at": "2026-10-20T14:13:40.267525+00:00",
-    "updated_at": "2026-10-20T14:13:40.267525+00:00",
-    "dong": "반포4동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "반포4동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "판타지 가족오페라 <물의 아이>",
@@ -245997,6 +247712,46 @@
     "dong": "점촌동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "2026 광화문마켓",
+    "category": "festival",
+    "description": "2026 광화문 마켓 2026. 12. 11.(Fri) ~2027. 1. 10.(Sun) 광화문광장\n운영 시간 (일~목) 17:30~22:00 / (금~토) 17:30~23:00",
+    "start_date": "2026-12-11",
+    "end_date": "2027-01-10",
+    "location_name": "광화문광장",
+    "address": "서울특별시 종로구 세종대로 175",
+    "latitude": 37.5718478584908,
+    "longitude": 126.976168275947,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.stolantern.com/",
+    "tags": [
+      "#야외",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "159960",
+    "content_hash": "f1e82a32abcb6833c1b63ea7a0129a31673897172a8b25ff65e422287fd72866",
+    "id": "evt-927b72ddd3",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
   },
   {
     "title": "2026 수원 일러스트코리아",
@@ -246339,6 +248094,49 @@
     "apply_end": null
   },
   {
+    "title": "2026 제11회 서화·공예 명장대전",
+    "category": "exhibition",
+    "description": "서울특별시 시각예술분야 전시지원사업 2026 제11회 대한민국 서화·공예 명장대전 수상작전시 및 체험행사 전시일정 12.16(수)~12.21(월) 한국미술관 3층(인사동) 개막행사 26.12.16(수) 10:00 휘호시연(한글, 한문) 체험행사 26.12.19(토)~20(일) | 14:00~17:00 한글 서예(족자,부채) 한문 서예(족자, 부채) 캘리그래피(족자, 부채, 두방지) 주최: (사)대한민국기로미술협회 02-3272-9770 주관 : 2026 제11회 대한민국 서화·공예 명장대전 운영위원회 후원 : 문화체육관광부 서울특별\n운영 시간 10:00~18:00",
+    "start_date": "2026-12-16",
+    "end_date": "2026-12-21",
+    "location_name": "한국미술관",
+    "address": "서울 종로구 인사동길 12 대일빌딩 2층",
+    "latitude": null,
+    "longitude": null,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.kiroart.or.kr/",
+    "tags": [
+      "#체험",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160056",
+    "content_hash": "ab2067de745673c73ec836d33ec26cee02c416be9f58d874930a52fc5e736658",
+    "id": "evt-bdc138e6eb",
+    "created_at": "2026-11-09T02:56:45.633134+00:00",
+    "updated_at": "2026-11-09T02:56:45.633134+00:00"
+  },
+  {
     "title": "2026 K-핸드메이드페어",
     "category": "exhibition",
     "description": "코엑스 Hall B에서 열리는 박람회예요. 입장료·사전등록은 공식 안내를 확인하세요.",
@@ -246572,8 +248370,10 @@
     "content_hash": "6b8b2452c75c83263e8022f11330e1f3007ba7975fac7164c6b05999c7c58190",
     "id": "evt-564f7ed8a5",
     "created_at": "2026-10-25T03:53:31.544125+00:00",
-    "updated_at": "2026-10-25T03:53:31.544125+00:00",
-    "dong": "소공동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "소공동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "Beaver Rocks 인디게임 & 컬처 페스티벌",
@@ -246816,8 +248616,10 @@
     "content_hash": "2dd9144493ff70490d94667677d9210021655183502d741dfccbbc566583a0b3",
     "id": "evt-999044f266",
     "created_at": "2026-10-25T03:53:31.544125+00:00",
-    "updated_at": "2026-10-25T03:53:31.544125+00:00",
-    "dong": "반포4동"
+    "updated_at": "2026-11-09T02:56:45.633134+00:00",
+    "dong": "반포4동",
+    "apply_start": null,
+    "apply_end": null
   },
   {
     "title": "2026 제천 겨울왕국 페스티벌 시즌 2",
