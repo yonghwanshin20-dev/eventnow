@@ -1734,11 +1734,6 @@
   "homepage": "https://blog.naver.com/jw-8229",
   "v": 2
  },
- "403470": {
-  "address": "서울",
-  "fetched": "2026-10-26",
-  "homepage": "https://dtshappy.org/ko"
- },
  "404828": {
   "address": "강원",
   "fetched": "2026-10-27",
@@ -2393,6 +2388,15 @@
   "fetched": "2026-11-07",
   "homepage": "https://www.goesan.go.kr/tour/selectBbsNttView.do?key=1421&bbsNo=219&nttNo=140080&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode="
  },
+ "407036": {
+  "address": "서울특별시 종로구 율곡로3길 4 서울공예박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-10",
+  "homepage": "https://craftmuseum.seoul.go.kr/main",
+  "hours": "[홈페이지 내용 참고]",
+  "price": "무료",
+  "v": 2
+ },
  "407039": {
   "address": "경남",
   "fetched": "2026-11-07",
@@ -2402,6 +2406,51 @@
   "address": "서울",
   "fetched": "2026-11-07",
   "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
+ },
+ "407042": {
+  "address": "인천광역시 연수구 청량로160번길 26 인천광역시립박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-10",
+  "homepage": "https://www.incheon.go.kr/museum/index",
+  "hours": "[홈페이지 내용 참고]",
+  "price": "무료",
+  "v": 2
+ },
+ "407043": {
+  "address": "대전광역시 유성구 도안대로 398 대전시립박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-10",
+  "homepage": "https://www.daejeon.go.kr/his/index.do",
+  "hours": "10:00~18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "407044": {
+  "address": "인천광역시 제물포구 차이나타운로 56-14 짜장면박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-10",
+  "homepage": "https://www.jcf.or.kr/main/space/museum4.jsp",
+  "hours": "09:00 ~ 18:00",
+  "price": "1,000원",
+  "v": 2
+ },
+ "407047": {
+  "address": "서울특별시 강남구 선릉로 668 강남문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-10",
+  "homepage": "http://www.gfac.kr/",
+  "hours": "화-토: 11:00~19:00",
+  "price": "무료",
+  "v": 2
+ },
+ "407051": {
+  "address": "서울특별시 노원구 동일로174길 27 서울생활사박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-10",
+  "homepage": "https://museum.seoul.go.kr/sulm/index.do",
+  "hours": "09:00~18:00",
+  "price": "무료",
+  "v": 2
  },
  "407369": {
   "address": "충청북도 청주시 서원구 충렬로18번길 50",
