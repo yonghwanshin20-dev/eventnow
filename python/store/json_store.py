@@ -47,6 +47,7 @@ OFFICIAL_PRIORITY = {
     "public_data": 7,
     "venue_fair": 8,
     "local_culture": 8,
+    "seoul_reservation": 8,
     "attraction": 9,
 }
 OFFICIAL_SOURCES = set(OFFICIAL_PRIORITY)

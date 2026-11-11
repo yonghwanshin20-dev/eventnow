@@ -57,6 +57,7 @@ SourceName = Literal[
     "public_data",
     "venue_fair",
     "local_culture",
+    "seoul_reservation",
     "attraction",
     "web_search",
     "naver",

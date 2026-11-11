@@ -59,6 +59,8 @@ class SeoulCultureCollector:
                     continue
                 if (record.facts.get("end_date") or "") < today:
                     continue
+                if not is_family_row(row):
+                    continue
                 records.append(record)
             start = end + 1
         logger.info("Seoul culture collected %s ongoing/upcoming records (total=%s)", len(records), total)
@@ -75,6 +77,22 @@ class SeoulCultureCollector:
         resp = self.client.get(url)
         resp.raise_for_status()
         return resp.json()
+
+
+def is_family_row(row: dict[str, Any]) -> bool:
+    """서울문화포털 수집기와 같은 기준: 축제는 모두, 전시는 공공 기관·아이 대상, 공연·교육은 가족 대상만."""
+    from collectors.culture_portal import _FAMILY, _NOTICE, _ONLINE, is_family_outing_exhibition
+
+    title = str(row.get("TITLE") or "")
+    code = str(row.get("CODENAME") or "")
+    if _ONLINE.search(title) or _NOTICE.search(title):
+        return False
+    if code.startswith("축제"):
+        return True
+    if "전시" in code:
+        return is_family_outing_exhibition(title, str(row.get("PLACE") or ""))
+    blob = " ".join(str(row.get(k) or "") for k in ("TITLE", "USE_TRGT", "PROGRAM", "THEMECODE"))
+    return bool(_FAMILY.search(blob))
 
 
 def _date(value: Any) -> str | None:

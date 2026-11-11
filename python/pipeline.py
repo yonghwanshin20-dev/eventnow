@@ -143,9 +143,14 @@ def _collect_one(
             logger.warning("SEOUL_API_KEY not set; skipping seoul source")
             return []
         from collectors.seoul_culture import SeoulCultureCollector
+        from collectors.seoul_reservation import SeoulReservationCollector
 
+        # 서울 문화행사(가족 대상만) + 공공서비스예약(유아숲·키즈카페·목공 체험 등 자치구 시설 예약)
         with SeoulCultureCollector() as collector:
-            return collector.collect()
+            records = collector.collect()
+        with SeoulReservationCollector() as collector:
+            records += collector.collect()
+        return records
     if name == "web":
         from collectors.web_search import WebSearchCollector, default_queries
 
@@ -263,7 +268,13 @@ def make_parser(kind: str) -> Any:
 
 
 # 목록 전체를 끝까지 읽는 수집기 (사라진 행사 = 취소·제외로 볼 수 있음) → 레코드 출처 이름
-COMPLETE_LISTING_SOURCES = {"kfes": "kfes", "culture": "culture_portal"}
+# (예약 마감·접수 종료된 공공서비스예약, 끝나거나 마감된 도서관 프로그램도 목록에서 빠지면 뺀다)
+COMPLETE_LISTING_SOURCES = [
+    ("kfes", "kfes"),
+    ("culture", "culture_portal"),
+    ("seoul", "seoul_reservation"),
+    ("local", "local_culture"),
+]
 
 
 def complete_listings(
@@ -271,7 +282,7 @@ def complete_listings(
 ) -> dict[str, set[str]]:
     """오류 없이 끝난 전체 목록 수집기별로 받은 source_id 집합."""
     out: dict[str, set[str]] = {}
-    for name, record_source in COMPLETE_LISTING_SOURCES.items():
+    for name, record_source in COMPLETE_LISTING_SOURCES:
         if name in source_errors:
             continue
         ids = {r.source_id for r in records if r.source == record_source and r.source_id}

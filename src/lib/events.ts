@@ -234,6 +234,7 @@ const OFFICIAL_SOURCES = new Set([
   "public_data",
   "venue_fair",
   "local_culture",
+  "seoul_reservation",
   "attraction",
   "tour_api",
   "seoul_api",
