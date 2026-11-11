@@ -22,6 +22,7 @@ export type ShelfKey =
   | "ending"
   | "next_weekend"
   | "kids"
+  | "performance"
   | "exhibition"
   | "next_month"
   | "festival"
@@ -123,6 +124,11 @@ export function buildFeed(
     "recommended",
     today,
   );
+  const performances = sortEvents(
+    limited.filter((e) => e.category === "performance"),
+    "recommended",
+    today,
+  );
   const exhibitions = sortEvents(
     limited.filter((e) => e.category === "exhibition"),
     "recommended",
@@ -179,10 +185,17 @@ export function buildFeed(
     },
     {
       key: "kids",
-      title: "아이랑 체험·공연",
+      title: "아이랑 체험",
       hint: "어린이·가족 대상 프로그램",
       items: take(imagesFirst(kids)),
       seeAll: { scheduleType: "limited", category: "kids_experience" },
+    },
+    {
+      key: "performance",
+      title: "아이랑 보는 공연",
+      hint: "어린이 뮤지컬·인형극·가족 발레",
+      items: take(imagesFirst(performances)),
+      seeAll: { scheduleType: "limited", category: "performance" },
     },
     {
       key: "exhibition",

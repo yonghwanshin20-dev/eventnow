@@ -273,6 +273,7 @@ COMPLETE_LISTING_SOURCES = [
     ("kfes", "kfes"),
     ("culture", "culture_portal"),
     ("seoul", "seoul_reservation"),
+    ("seoul", "seoul_api"),
     ("local", "local_culture"),
 ]
 

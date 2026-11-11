@@ -36,6 +36,7 @@ export const CATEGORY_OPTIONS: {
   { value: "exhibition", label: "전시" },
   { value: "popup", label: "팝업" },
   { value: "kids_experience", label: "키즈 체험" },
+  { value: "performance", label: "공연" },
 ];
 
 export const AGE_GROUP_OPTIONS: {
@@ -76,6 +77,7 @@ export const CATEGORY_LABELS: Record<EventCategory, string> = {
   exhibition: "전시",
   festival: "축제",
   kids_experience: "키즈 체험",
+  performance: "공연",
   attraction: "관광명소",
 };
 
@@ -738,7 +740,7 @@ export function isIndoor(
   if (tags.some((t) => t.includes("야외"))) return false;
   const types = event.place_types ?? [];
   if (types.some((t) => OUTDOOR_PLACES.has(t))) return false;
-  if (event.category === "exhibition" || event.category === "popup") return true;
+  if (event.category === "exhibition" || event.category === "popup" || event.category === "performance") return true;
   if (types.some((t) => INDOOR_PLACES.has(t))) return true;
   return INDOOR_VENUE.test(event.location_name ?? "");
 }

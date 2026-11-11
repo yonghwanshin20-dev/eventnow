@@ -81,7 +81,8 @@ class SeoulCultureCollector:
 
 def is_family_row(row: dict[str, Any]) -> bool:
     """서울문화포털 수집기와 같은 기준: 축제는 모두, 전시는 공공 기관·아이 대상, 공연·교육은 가족 대상만."""
-    from collectors.culture_portal import _FAMILY, _NOTICE, _ONLINE, is_family_outing_exhibition
+    from collectors.culture_portal import _FAMILY, _NOTICE, _ONLINE, is_family_outing_exhibition, min_show_age
+    from parsers.rule_parser import _NO_KIDS
 
     title = str(row.get("TITLE") or "")
     code = str(row.get("CODENAME") or "")
@@ -91,6 +92,13 @@ def is_family_row(row: dict[str, Any]) -> bool:
         return True
     if "전시" in code:
         return is_family_outing_exhibition(title, str(row.get("PLACE") or ""))
+    target = str(row.get("USE_TRGT") or "")
+    # '8세 이상 (미취학아동 입장불가)', '14세 이상' — 아이가 볼 수 없는 공연·강좌
+    if _NO_KIDS.search(target):
+        return False
+    lo = min_show_age(target)
+    if lo is not None and lo > 7 and not re.search(r"초등|어린이", target):
+        return False
     blob = " ".join(str(row.get(k) or "") for k in ("TITLE", "USE_TRGT", "PROGRAM", "THEMECODE"))
     return bool(_FAMILY.search(blob))
 

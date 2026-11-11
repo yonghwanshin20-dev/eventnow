@@ -33,7 +33,7 @@ DETAIL_TTL_DAYS = 14
 # 상세에서 읽는 칸이 늘면 올린다 — 예전 저장본은 다시 읽는다 (2: 신청·접수 안내)
 DETAIL_VERSION = 2
 # 하루에 새로 읽는 상세 화면 수 상한 (1초 간격 — 첫 실행만 길고 이후엔 새 행사만)
-MAX_DETAILS_PER_RUN = 320
+MAX_DETAILS_PER_RUN = 600
 
 
 def detail_url(seq: str) -> str:
@@ -45,7 +45,22 @@ GENRES: dict[str, str] = {
     "09": "kids_experience",  # 아동/가족
     "12": "kids_experience",  # 교육/체험
     "11": "festival",  # 행사/축제
+    # 공연 장르 — 가족이 볼 수 있는 것만 남긴다 (is_family_performance)
+    "08": "performance",  # 뮤지컬/오페라
+    "01": "performance",  # 연극
+    "05": "performance",  # 무용/발레
+    "02": "performance",  # 음악/콘서트
+    "04": "performance",  # 국악
 }
+# 연극·뮤지컬·무용은 관람 연령으로도 판단 (48개월 이상 발레 등) — 음악·국악은 가족 공연이라 밝힌 것만
+_STAGE_GENRES = {"01", "05", "08"}
+# 공연은 '청소년'을 가족 대상으로 보지 않는다
+_KID_SHOW = re.compile(
+    r"어린이|아동|가족|키즈|유아|초등|아이(?:와|랑|들|가|를|의|\s|$)|부모|엄마|아빠|자녀|꿈나무|인형극|그림자극|동화|그림책"
+)
+_NOT_KID_SHOW = re.compile(r"청소년\s*(?:극|연극|뮤지컬)|성인|19금|부부")
+# 가족 공연으로 보는 최대 '최소 관람 나이' (만 나이) — 48개월 이상 발레, 5세 이상 뮤지컬
+KID_SHOW_MAX_MIN_AGE = 5
 
 # 교육/체험은 성인 강좌가 많아 가족 대상만 받는다
 # '아이'는 '아이러니'·'아이디어'에 걸리지 않게 뒤 글자까지 본다
@@ -72,6 +87,31 @@ REGION_SHORT = {
     "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "경기", "강원",
     "충북", "충남", "전북", "전남", "경북", "경남", "제주",
 }
+
+
+def is_family_performance(title: str, age: str | None = None, *, stage: bool = True) -> bool:
+    """가족이 아이와 볼 만한 공연인지 — 제목에 아이·가족 대상이라 적혀 있거나, 어린 나이부터 볼 수 있는 무대 공연."""
+    if _NOT_KID_SHOW.search(title):
+        return False
+    lo = min_show_age(age or "")
+    if lo is not None and lo > 7:
+        # '잔혹동화'처럼 제목에 아이 말이 있어도 '만 16세 이상'이면 어른 공연
+        return False
+    if _KID_SHOW.search(title):
+        return True
+    return stage and lo is not None and lo <= KID_SHOW_MAX_MIN_AGE
+
+
+_MIN_AGE = re.compile(r"(\d{1,2})\s*(개월|세)")
+
+
+def min_show_age(age: str) -> float | None:
+    """관람 연령 표기의 최소 나이 (만 나이, 년) — '48개월 이상' → 4, '만 16세 이상' → 16, '전체관람가' → None."""
+    m = _MIN_AGE.search(age)
+    if not m:
+        return None
+    n = int(m.group(1))
+    return n / 12 if m.group(2) == "개월" else float(n)
 
 
 def is_family_outing_exhibition(title: str, venue: str) -> bool:
@@ -124,6 +164,7 @@ class CulturePortalCollector:
         skipped_adult = 0
         skipped_gallery = 0
         skipped_online = 0
+        skipped_show = 0
         for code, hint in self.genres.items():
             for page in range(1, MAX_PAGES_PER_GENRE + 1):
                 items = parse_list(self._fetch(code, page), genre_hint=hint)
@@ -149,6 +190,12 @@ class CulturePortalCollector:
                     ):
                         skipped_gallery += 1
                         continue
+                    if hint == "performance" and not is_family_performance(record.title_hint or ""):
+                        if code not in _STAGE_GENRES:
+                            skipped_show += 1
+                            continue
+                        # 관람 연령은 상세 화면에만 있다 — 읽은 뒤 다시 본다
+                        record.meta["check_age"] = True
                     records.append(record)
         logger.info(
             "culture portal collected %s events (skipped %s adult classes, %s gallery shows, %s online)",
@@ -159,7 +206,16 @@ class CulturePortalCollector:
         )
         if self.details:
             self._enrich(records, today or today_kst())
-        return records
+        kept = []
+        for record in records:
+            # 공연은 상세의 관람 연령까지 보고 다시 거른다 ('잔혹동화' 제목이어도 만 16세 이상이면 뺀다)
+            if record.meta.pop("check_age", False) or record.meta.get("category_hint") == "performance":
+                if not is_family_performance(record.title_hint or "", record.facts.get("age_info")):
+                    skipped_show += 1
+                    continue
+            kept.append(record)
+        logger.info("culture portal: kept %s (skipped %s shows not for kids)", len(kept), skipped_show)
+        return kept
 
     def _enrich(self, records: list[RawRecord], today: date) -> None:
         """상세 화면으로 관람 연령·도로명 주소·운영 시간·요금·홈페이지를 채운다 (저장본 우선)."""

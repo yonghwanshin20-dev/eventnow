@@ -25,6 +25,23 @@ _POPUP = re.compile(r"팝업|pop[\s-]?up", re.I)
 _EXHIBITION = re.compile(r"전시|특별전|기획전|展|비엔날레|아트페어|사진전|미술관|박물관")
 _KIDS = re.compile(r"어린이|키즈|유아|아이와|아이랑|아동|꿈나무|동화|그림책|놀이터")
 _PERFORMANCE_ONLY = re.compile(r"^(콘서트|클래식|국악|무용|뮤지컬/오페라|연극|독주/독창회)$")
+# 무대에 올리는 공연 (보러 가는 것) — 직접 해 보는 체험·수업은 아니다
+_SHOW = re.compile(
+    r"뮤지컬|인형극|그림자극|연극|발레|오페라|콘서트|음악회|연주회|마술\s?쇼|매직\s?쇼|마임|넌버벌|버블\s?쇼|서커스|"
+    r"국악\s?공연|[가-힣]*공연(?!장)|씨어터|극장판|오케스트라|합창"
+)
+_NOT_SHOW = re.compile(
+    r"체험|만들기|교실|워크숍|워크샵|클래스|배우기|수업|강좌|강의|모집|오디션|캠프|아카데미|놀이터|그리기|"
+    r"공연장\s?(?:투어|탐방)|백스테이지|상영|영화"
+)
+
+
+# '8세 이상 (미취학아동 입장불가)' — 아이 말이 있지만 아이는 못 들어간다
+_NO_KIDS = re.compile(r"미취학\S*\s*(?:입장|관람)\s*(?:불가|제한)")
+
+
+def is_show(title: str) -> bool:
+    return bool(_SHOW.search(title)) and not _NOT_SHOW.search(title)
 
 
 # '10월 문화프로그램 안내', '4분기 정규강좌 안내', '가을 시즌 프로그램 안내', '10월 상영 프로그램' —
@@ -101,15 +118,20 @@ def classify_category(record: RawRecord, title: str, body: str) -> str | None:
     if hint == "attraction":
         # 관광지·박물관·유적지 목록에서 온 '장소' — 제목의 '어린이'·'전시' 등에 흔들리지 않게 먼저
         return "attraction"
+    if hint == "performance":
+        # 공연 장르 목록에서 온 것 (수집기가 가족 공연만 남겼다)
+        return "performance"
     if _KIDS.search(title):
-        return "kids_experience"
+        return "performance" if is_show(title) else "kids_experience"
     if _EXHIBITION.search(title) or "전시" in codename:
         return "exhibition"
     if codename and _PERFORMANCE_ONLY.match(codename):
         # 일반 공연은 가족 나들이 큐레이션 범위 밖 — 어린이 대상만 받는다
-        return "kids_experience" if _KIDS.search(body) else None
+        return "performance" if _KIDS.search(body) and not _NO_KIDS.search(body) else None
     if "교육" in codename or "체험" in codename:
         return "kids_experience" if _KIDS.search(body) else "festival"
+    if hint == "kids_experience" and is_show(title):
+        return "performance"
     if hint in ("festival", "exhibition", "popup", "kids_experience"):
         return hint
     return "festival"
@@ -137,7 +159,7 @@ def is_family_friendly(category: str, text: str, age_info: str | None = None) ->
     blob = f"{age_info or ''}\n{text}"
     if _ADULT_ONLY.search(blob):
         return False
-    if category in ("kids_experience", "attraction") or _FAMILY.search(blob):
+    if category in ("kids_experience", "attraction", "performance") or _FAMILY.search(blob):
         return True
     return "체험" in blob
 

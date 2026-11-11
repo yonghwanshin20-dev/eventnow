@@ -42,7 +42,7 @@ GROUPS: dict[str, str] = {
     "FESTIVAL": "festival",
     "EDUEXP": "kids_experience",
     "EXHIBITION": "exhibition",
-    "SHOW": "kids_experience",
+    "SHOW": "performance",
 }
 
 

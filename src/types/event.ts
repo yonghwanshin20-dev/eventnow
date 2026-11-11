@@ -8,6 +8,8 @@ export type EventCategory =
   | "exhibition"
   | "festival"
   | "kids_experience"
+  /** 아이와 보러 가는 공연 — 어린이 뮤지컬·인형극·가족 발레 등 */
+  | "performance"
   /** 언제든 가 볼 만한 장소 — 유적지·문화재·관광지·자연경관·박물관·미술관 */
   | "attraction";
 

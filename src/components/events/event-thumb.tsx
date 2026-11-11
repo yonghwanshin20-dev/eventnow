@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { Baby, Landmark, Palette, PartyPopper, Store } from "lucide-react";
+import { Baby, Drama, Landmark, Palette, PartyPopper, Store } from "lucide-react";
 
 import { isHttpUrl, shouldOptimizeImage } from "@/lib/images";
 import { cn } from "@/lib/utils";
@@ -29,6 +29,11 @@ const TILE: Record<EventCategory, { className: string; icon: typeof Palette; lab
     className: "bg-gradient-to-br from-sky-100 via-cyan-50 to-lime-100 text-sky-700",
     icon: Baby,
     label: "키즈 체험",
+  },
+  performance: {
+    className: "bg-gradient-to-br from-rose-100 via-pink-50 to-amber-100 text-rose-700",
+    icon: Drama,
+    label: "공연",
   },
   attraction: {
     className: "bg-gradient-to-br from-emerald-100 via-lime-50 to-amber-100 text-emerald-800",

@@ -14,6 +14,7 @@ const CATEGORY_COLOR: Record<EventCategory, string> = {
   exhibition: "#57534e",
   popup: "#b45309",
   kids_experience: "#0369a1",
+  performance: "#be123c",
   attraction: "#4d7c0f",
 };
 
