@@ -39313,7 +39313,7 @@
     "content_hash": "bd81a8af605448e7e40b64dd8ed43fa94a7f312eca1c1a084bb80a4754eea50b",
     "id": "evt-5c3867d7fa",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
-    "updated_at": "2026-11-11T00:01:56.316751+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
     "dong": "역촌동"
   },
   {
@@ -244845,7 +244845,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "gnlib-34214",
-    "content_hash": "85f68248ff3a7513cabb2753497dd2a8b360e0043b1f874f637c0b2329d2f6f3",
+    "content_hash": "60bc85ded87adc0cdbca49a94780df573b730d6730e3392ff3e8d5d3571109ef",
     "id": "evt-68293b11e9",
     "created_at": "2026-11-11T00:01:56.316751+00:00",
     "updated_at": "2026-11-11T00:01:56.316751+00:00",
@@ -245105,6 +245105,49 @@
     "dong": "송포동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "[서울식물원] 전시온실 야간개장",
+    "category": "exhibition",
+    "description": "사전예약 안내 11.13.~11.14./11.27.~11.28. / 12.11.~12.12. / 12.24.~12.27. 시간: 18:30~20:30 장소 | 전시온실 예 서울특별시 공공서비스예약(yeyak.seoul.go.kr)에서 사전 예약 약 [11월 야간개장 예약] 11/3(화) 10:00부터 예약 가능 [12월 야간개장 예약] 12/1(화) 10:00부터 예약 가능 서울특별시 서울식물원\n운영 시간 금, 토 18:30 ~ 20:30 (18:30 이후 자유 입장 및 관람)",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-28",
+    "location_name": "서울식물원",
+    "address": "서울특별시 강서구 마곡동로 161",
+    "latitude": 37.569657094189104,
+    "longitude": 126.83500723721524,
+    "region": "서울특별시",
+    "district": "강서구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-13",
+    "apply_end": "2026-11-14",
+    "price_info": "1인 5,000원 (36개월 미만 유아 무료, 65세 이상 어르신도 사전예약 필수)",
+    "thumbnail_url": null,
+    "official_link": "https://botanicpark.seoul.go.kr/front/board/newsView.do?sn=20821&searchCondition=&searchKeyword=&pageIndex=1",
+    "tags": [
+      "#야간",
+      "#무료"
+    ],
+    "place_types": [
+      "nature"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160174",
+    "content_hash": "4b51ea1a5b61b3863dad1156d84aa91a4eadc1aae13f2d4a312cd766e22aa9ee",
+    "id": "evt-14b3f588e4",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "가양1동"
   },
   {
     "title": "2026 화동미술학원 전시회",
@@ -247114,6 +247157,47 @@
     "dong": "신북면"
   },
   {
+    "title": "[한국문화의집 KOUS] 전선미·오정희 [이화(二花)-두 개의 꽃]",
+    "category": "kids_experience",
+    "description": "전선미,오정희 이화(二花)-두 개의 꽃 / 11월15일(일) 오후5시 한국문화의집 KOUS 전선미 교방굿거리춤 통영검무 진도북춤 오정희 태평무 살풀이춤 진도북춤 관람료 30,000원 | 관람연령 취학아동 이상 문의 전화 02-2263-4680 공연기획MCT\n운영 시간 17:00~18:00",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "location_name": "한국문화의집 KOUS",
+    "address": "서울특별시 강남구 테헤란로92길 12-9",
+    "latitude": 37.5068278109456,
+    "longitude": 127.060465476538,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "30,000원",
+    "thumbnail_url": null,
+    "official_link": "https://nol.yanolja.com/ticket/products/26015959",
+    "tags": [
+      "#꽃",
+      "#공연"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160155",
+    "content_hash": "41b0f70cadc3119468ea7f4ed0e090488c2137e578a58915e48e89097283d297",
+    "id": "evt-349f24fdb9",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "대치동"
+  },
+  {
     "title": "2026 서울경기춤페스타",
     "category": "festival",
     "description": "2026년 서울시 민간축제 지원·육성 사업 2026 서울경기춤페스타 모두를 위한 소원 서울을 향한 염원 서울남산골한옥마을 SEOUL NAMSANGOL HANOK VILLAGE 26.11.15. SUN 11:00 - 18:00 주최 | 서울경기춤연구회 후원 | 서울특별시 대한불교조계종진관사\n운영 시간 11:00~18:00",
@@ -247888,6 +247972,49 @@
     "apply_end": null
   },
   {
+    "title": "[서울백제어린이박물관] 특별전시 [DIMA: 아기 매머드 디마와 함께하는 빙하기 탐험]",
+    "category": "kids_experience",
+    "description": "아기 매머드 디마와 함께하는 빙하기 탐험\n운영 시간 화-금 9:00~18:00, 주말 및 공휴일(사전예약)",
+    "start_date": "2026-11-17",
+    "end_date": "2027-03-07",
+    "location_name": "서울백제어린이박물관",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "latitude": 37.523991,
+    "longitude": 127.124412,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://baekjemuseum.seoul.go.kr/dreamvillage/board/notice/index.jsp?boardid=SDM0401000000&mmode=content&mpid=SDM0401000000&skin=notice&pid=23671&pg=1&cpage=1",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160158",
+    "content_hash": "ebe6531b2096918f4d10432993c1b082ef05a9cf2a5cb1357ff8ca20d374c5a1",
+    "id": "evt-b3d5aaffca",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "오륜동"
+  },
+  {
     "title": "2026 북스타트 엄마북돋움 연계 프로그램 <뽀득뽀득 씻어요!>",
     "category": "kids_experience",
     "description": "은평구립도서관 프로그램이에요. 대상: 가족 만 3~6세(2023~2020년생) 영유아와 보호자 / * 2인 1팀(총 10팀, 20명) 장소: 은평뉴타운 도서관 2층 다목적실 시간: 16:30~18:00 도서관 홈페이지에서 신청해야 해요.",
@@ -247973,6 +248100,51 @@
     "updated_at": "2026-11-09T02:24:44.498548+00:00",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "클래식 스테이지 온 스크린 [아레나 디 베로나 오페라 페스티벌 : 라보엠]",
+    "category": "kids_experience",
+    "description": "클래식 스테이지 온 스크린 공연 실황 상영회 [아레나 디 베로나 오페라 페스티벌 : 라보엠] 서울어린이대공원 아트센터 | 11. 18.(수) 14시 11.20.(금) 19시 11. 25. (수) 14시 11.27.(토) 19시 서울어린이대공원 아트센터 Kevinar Company 고공행진 ENT Askonas Holt Fondazione 문의: 02 455 1079 QR코드 스캔 https://booking.naver.com/booking/12/bizes/1771066\n운영 시간 14:00 / 19:00",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-27",
+    "location_name": "서울어린이대공원 아트센터",
+    "address": "서울특별시 광진구 능동로 216 아트센터",
+    "latitude": 37.5520117940291,
+    "longitude": 127.078770241307,
+    "region": "서울특별시",
+    "district": "광진구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "10,000원",
+    "thumbnail_url": null,
+    "official_link": "https://booking.naver.com/booking/12/bizes/1771066",
+    "tags": [
+      "#야외",
+      "#실내",
+      "#공연"
+    ],
+    "place_types": [
+      "park_playground",
+      "cultural_space"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160166",
+    "content_hash": "8259b6745ffbf1ff1f0f7ade2eb07e10729feb3b1021dd5bcfddd909de52e9b4",
+    "id": "evt-36e89ee16e",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "능동"
   },
   {
     "title": "글마루 [연말 특별] Let's Play English 영어 연극 놀이",
@@ -249089,6 +249261,46 @@
     "created_at": "2026-11-09T02:56:45.633134+00:00",
     "updated_at": "2026-11-09T02:56:45.633134+00:00",
     "dong": "삼전동"
+  },
+  {
+    "title": "[서울문화재단] 서울 청년예술창업 페스타 2026",
+    "category": "festival",
+    "description": "11.21 SAT - 11.24 TUE 청년예술청 주최·주관 서울문화재단 후원 PORSCHE\n운영 시간 상시 전시 13:00~21:00 / 데모데이 13:30~17:00",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-24",
+    "location_name": "청년예술청 SAPY",
+    "address": "서울특별시 서대문구 경기대로 26-26",
+    "latitude": 37.5610226183,
+    "longitude": 126.962192415514,
+    "region": "서울특별시",
+    "district": "서대문구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://event-us.kr/atbt/event/139126",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160156",
+    "content_hash": "2ea4d83af49f8e656bd7e2745a7d2cd1c4a43d8baa171e064af57c3ff5fb2513",
+    "id": "evt-0d2fa9aa08",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "충현동"
   },
   {
     "title": "<온에어(ON-AIR): AI 어린이 뉴스룸> (11/21 토요일 오전)",
@@ -250329,6 +250541,49 @@
     "apply_end": null
   },
   {
+    "title": "제18회 서울문학축제 [2026 문학의 도시 서울]",
+    "category": "festival",
+    "description": "2026 서울시 민간축제 지원사업 「제18회 2026 서울문학축제 - 문학의 도시 서울: 종로의 주민에서 마리서사까지 2026.11.21.(토) 청계광장 프로그램 종로의 주민 명동에 가다 채만식의 작품 속 배경지를 따라 걷는 문학투어 박인환의 서점, 마리서사의 부활 타자기 체험, 캐리커쳐, 근대 의상 체험, 시민 창작물 전시, 박인환과 동시대 문인 전시, 북캠핑존 등 다양한 시민 참여 공간 마리서사의 목소리 시 낭송 및 시민 참여 낭독회 스크린 너머의 시대 영화평론가와 함께 영화 속 문학과 시대를 이야기하는 시네마 토크 청계천 살롱\n운영 시간 13:00~17:00",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "location_name": "청계광장",
+    "address": "서울 중구 태평로1가 1",
+    "latitude": 37.569085502453035,
+    "longitude": 126.97757627056508,
+    "region": "서울특별시",
+    "district": "중구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://artgram.kr/seoul_literature_festival_20261121/",
+    "tags": [
+      "#체험",
+      "#야외",
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160162",
+    "content_hash": "7d3502b0445595e69c0cf5f39f960f2680ae90c0befd0350183fd681ee4218cf",
+    "id": "evt-bdd127265b",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "삼각동"
+  },
+  {
     "title": "은뜨락도서관 7주년 개관기념행사 <AI, 함께 놀자! 다양한 AI 에듀테크 체험>",
     "category": "kids_experience",
     "description": "은평구립도서관 프로그램이에요. 대상: 초등생 초등학교 4~5학년, 12명 장소: 은평구립도서관 구립 은뜨락도서관 1층 문화활동실 시간: 14:00~16:00 도서관 홈페이지에서 신청해야 해요.",
@@ -251176,7 +251431,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "splib-629416",
-    "content_hash": "2282462b496dc8a0114fc107fceca06ec7bd157a383576887577d218375688da",
+    "content_hash": "cfaea0c62edaf268ad661bfba3496e6f8fe112434d9a3de3eb4494f760cb47dd",
     "id": "evt-6ca69a65b0",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
     "updated_at": "2026-11-09T09:15:20.086636+00:00"
@@ -251221,7 +251476,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "splib-629389",
-    "content_hash": "e5398affa5604e5add5f78caba63f9bc684f437ead430c610dd6367be9b3bf61",
+    "content_hash": "5a680c27ca88a915c7c32d30a8c339513c41bb618ed37f49731e2e365424b9dc",
     "id": "evt-80f2ab8ab9",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
     "updated_at": "2026-11-09T09:15:20.086636+00:00"
@@ -251799,7 +252054,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "gnlib-34138",
-    "content_hash": "bda9f8cf9add56245bcb06acde613d8ed338fb5482849a50019ceede8f209e3f",
+    "content_hash": "3d70e522392445c5abfcedcbe5122517b906b81f6daf8f2f42db1548803e4787",
     "id": "evt-4d6ed7beee",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
     "updated_at": "2026-11-09T09:15:20.086636+00:00",
@@ -251848,6 +252103,52 @@
     "created_at": "2026-11-09T09:15:20.086636+00:00",
     "updated_at": "2026-11-09T09:15:20.086636+00:00",
     "dong": "대치1동"
+  },
+  {
+    "title": "[마포구립서강도서관] 11월/어린이 강좌 [소녀돌봄약국]",
+    "category": "kids_experience",
+    "description": "어린이 도서관초대석 소녀돌봄약국 방민경 작가와 함께 『소녀돌봄약국』 책 속 이야기를 나누며, 나에게 꼭 필요한 마음 처방전과 나만의 약 봉투까지 만들어 봅니다. 처방 대상 마음과 몸이 자라는 중인 소녀들 ! 증상 내 마음을 나도 잘 모르겠어요, 사소한 일에도 기분이 오락가락해요, 몸과 마음에 생기는 변화가 궁금해요 진행 : 방민경 작가 글 쓰는 것을 좋아했지만, 작가가 직업이 될 수 없다면 꿈을 접어야 한다고 생각했던 어린이였습니다. 돌고 돌아 글을 쓰며, 어린이들에게 작은 불빛 하나 켜 줄 수 있는 사람이 되고자 합니다. 부산일보\n운영 시간 19:00~20:00",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-27",
+    "location_name": "마포구립서강도서관",
+    "address": "서울특별시 마포구 독막로 165",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "region": "서울특별시",
+    "district": "마포구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://mplib.mapo.go.kr/sglib/MENU1200/PGM3021/lectureDetail.do?currentPageNo=1&lectureId=LEC0017693&searchLibraryCode=",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#야간",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160121",
+    "content_hash": "05e4df6e77a406f2d34c55c9ea6faa26ef5353a6027436c9b8b3d9fe86a670bb",
+    "id": "evt-7ccef1bbc3",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "서강동"
   },
   {
     "id": "evt-8a5b095c90",
@@ -252900,6 +253201,46 @@
     "dong": "일원동"
   },
   {
+    "title": "[세종문화회관] 2026 누구나 꿈나무오케스트라 정기연주회",
+    "category": "kids_experience",
+    "description": "세종문화회관 대극장 전석무료 만 36개월 이상 ？？？？ 연주 | 누구나 꿈나무오케스트라 MBC 모두스 오케스트라 더블베이스코리아 푸르메재단 지휘 | 백윤학 협연 | 박상욱(피아노) 사회 | 다니엘 린데만 찬조연주 | 서울시향 피아노 콰르텟 11. 2026.11.28. 17:00.1\n운영 시간 17:00",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "location_name": "세종문화회관",
+    "address": "서울특별시 종로구 세종대로 175",
+    "latitude": 37.57260128068914,
+    "longitude": 126.97577534746529,
+    "region": "서울특별시",
+    "district": "종로구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": 3.0,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37825&menuNo=200320",
+    "tags": [
+      "#무료"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160163",
+    "content_hash": "72bcb756ed84c73b67d1f66ba8e20a212982592210d70608d91ee5ce54692a7b",
+    "id": "evt-d4d4d0e18e",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "사직동"
+  },
+  {
     "title": "[2026년 작가의 서재 프로그램④] 이반디 작가와의 만남",
     "category": "kids_experience",
     "description": "강남구립도서관 프로그램이에요. 대상: 유아(2019년~2021년생) 및 양육자 장소: 논현도서관 시간: 10:30~12:00 도서관 홈페이지에서 신청해야 해요.",
@@ -253732,6 +254073,50 @@
     "dong": "광양읍",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "거마 [연말 특별] 정보라 작가와의 만남 <아이들의 집>, <너의 유토피아>",
+    "category": "kids_experience",
+    "description": "송파구립도서관 프로그램이에요. 대상: (누구나) 청소년 이상 장소: 거마도서관 시간: 18:30~20:00",
+    "start_date": "2026-12-04",
+    "end_date": "2026-12-04",
+    "location_name": "거마도서관",
+    "address": "서울특별시 송파구 거마로2길 19 (거여동)",
+    "latitude": 37.493545,
+    "longitude": 127.1468274,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=629950",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-629950",
+    "content_hash": "f52e6a1dcdb687f60df2c39f14db41be66d397c140b4f729347cd508d6165d9e",
+    "id": "evt-35dff51529",
+    "created_at": "2026-11-11T00:37:52.905646+00:00",
+    "updated_at": "2026-11-11T00:37:52.905646+00:00",
+    "dong": "거여동"
   },
   {
     "title": "궁디팡팡 캣페스타",

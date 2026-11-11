@@ -957,6 +957,15 @@
   "price": "무료",
   "v": 2
  },
+ "160121": {
+  "age": "초등학교 5~6학년 여자 어린이, 15명",
+  "contact": "02-3141-7053",
+  "fetched": "2026-11-11",
+  "homepage": "https://mplib.mapo.go.kr/sglib/MENU1200/PGM3021/lectureDetail.do?currentPageNo=1&lectureId=LEC0017693&searchLibraryCode=",
+  "hours": "19:00~20:00",
+  "price": "무료",
+  "v": 2
+ },
  "160124": {
   "age": "누구나",
   "contact": "02-3477-2074",
@@ -1027,6 +1036,69 @@
   "homepage": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok®Pwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=¤tPage=&seq=20261106093257087&ctgCd=&showSummaryYn=N",
   "hours": "9:00~18:00(입장마감 17:30)",
   "price": "무료",
+  "v": 2
+ },
+ "160155": {
+  "age": "누구나",
+  "contact": "02-2263-4680",
+  "fetched": "2026-11-11",
+  "homepage": "https://nol.yanolja.com/ticket/products/26015959",
+  "hours": "17:00~18:00",
+  "price": "30,000원",
+  "v": 2
+ },
+ "160156": {
+  "age": "청년 예술 창업에 관심이 있는 누구나",
+  "contact": "031-699-3262",
+  "fetched": "2026-11-11",
+  "homepage": "https://event-us.kr/atbt/event/139126",
+  "hours": "상시 전시 13:00~21:00 / 데모데이 13:30~17:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160158": {
+  "age": "어린이를 동반한 전 연령",
+  "contact": "02-2152-5900",
+  "fetched": "2026-11-11",
+  "homepage": "https://baekjemuseum.seoul.go.kr/dreamvillage/board/notice/index.jsp?boardid=SDM0401000000&mmode=content&mpid=SDM0401000000&skin=notice&pid=23671&pg=1&cpage=1",
+  "hours": "화-금 9:00~18:00, 주말 및 공휴일(사전예약)",
+  "price": "무료",
+  "v": 2
+ },
+ "160162": {
+  "age": "누구나",
+  "contact": "02-2268-9210",
+  "fetched": "2026-11-11",
+  "homepage": "https://artgram.kr/seoul_literature_festival_20261121/",
+  "hours": "13:00~17:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160163": {
+  "age": "3세 이상 관람 가능 (2023년 포함 이전 출생자)",
+  "contact": "세종문화티켓 02-399-1000",
+  "fetched": "2026-11-11",
+  "homepage": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37825&menuNo=200320",
+  "hours": "17:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160166": {
+  "age": "초등학생 이상",
+  "contact": "02-455-1079",
+  "fetched": "2026-11-11",
+  "homepage": "https://booking.naver.com/booking/12/bizes/1771066",
+  "hours": "14:00 / 19:00",
+  "price": "10,000원",
+  "v": 2
+ },
+ "160174": {
+  "age": "누구나",
+  "contact": "서울식물원 02-783-8088, 02-2104-9796",
+  "fetched": "2026-11-11",
+  "homepage": "https://botanicpark.seoul.go.kr/front/board/newsView.do?sn=20821&searchCondition=&searchKeyword=&pageIndex=1",
+  "hours": "금, 토 18:30 ~ 20:30 (18:30 이후 자유 입장 및 관람)",
+  "price": "1인 5,000원 (36개월 미만 유아 무료, 65세 이상 어르신도 사전예약 필수)",
   "v": 2
  }
 }
