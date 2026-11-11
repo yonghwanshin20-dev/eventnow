@@ -516,6 +516,10 @@ class JsonEventStore:
                 for r in deduped
                 if r.get("source") == source and str(r.get("end_date") or "")[:10] >= ref.isoformat()
             ]
+            if source == "local_culture":
+                # 여러 기관을 한 출처로 묶었다 — 이번에 접속하지 못한 기관(목록에 하나도 없음)의 행사는 그대로 둔다
+                sites = {str(sid).rsplit("-", 1)[0] for sid in ids}
+                active = [r for r in active if str(r.get("source_id")).rsplit("-", 1)[0] in sites]
             still = [r for r in active if str(r.get("source_id")) in ids]
             if active and len(still) < len(active) * WITHDRAW_MIN_RATIO:
                 logger.warning(

@@ -590,6 +590,21 @@ def test_json_store_keeps_rows_when_listing_looks_broken(tmp_path):
     stats = store.save([], summary={"status": "ok"}, seen={"culture_portal": {"0", "1", "2"}}, today=TODAY)
     assert stats.withdrawn == 0 and len(store.load()) == 10
 
+def test_json_store_keeps_rows_of_local_sites_that_were_unreachable(tmp_path):
+    rows = [
+        {"id": f"evt-{site}-{i}", "title": f"{site}{i}", "start_date": "2026-10-01", "end_date": "2026-12-01",
+         "source": "local_culture", "source_id": f"{site}-{i}"}
+        for site in ("eplib", "artgy")
+        for i in range(10)
+    ]
+    store = _store(tmp_path, rows)
+    # 은평 도서관은 9개 다시 보이고, 고양문화재단은 접속 실패(하나도 없음) → 은평 1개만 빼고 고양은 그대로
+    seen = {"local_culture": {f"eplib-{i}" for i in range(9)}}
+    stats = store.save([], summary={"status": "ok"}, seen=seen, today=TODAY)
+    ids = {r["id"] for r in store.load()}
+    assert stats.withdrawn == 1 and "evt-eplib-9" not in ids and "evt-artgy-0" in ids
+
+
 def _culture_event(seq, title, start, end, venue="서울시립미술관"):
     from collectors.culture_portal import parse_list
 

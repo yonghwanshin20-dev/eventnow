@@ -55,6 +55,8 @@ jobs:
       DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && 'true' || 'false' }}
       # 좌표 채우기(OpenStreetMap, 초당 1회) 조회 상한 — 버튼 실행은 빠르게
       OSM_MAX_LOOKUPS: ${{ github.event.inputs.quick == 'true' && '40' || '300' }}
+      # 서울 열린데이터광장 인증키 (저장소 Settings → Secrets → Actions 에 SEOUL_API_KEY 로 넣으면 서울 행사를 공식 API로도 받는다)
+      SEOUL_API_KEY: ${{ secrets.SEOUL_API_KEY }}
 
     steps:
       - name: Checkout
@@ -83,6 +85,7 @@ jobs:
           if [ -z "${SOURCES}" ]; then
             if [ "${QUICK}" = "true" ]; then SOURCES="kfes,culture,seoulportal,mcst,city,public,venue,local"; else SOURCES="kfes,culture,seoulportal,mcst,city,public,venue,local,places,popup"; fi
           fi
+          if [ -z "${{ github.event.inputs.sources }}" ] && [ -n "${SEOUL_API_KEY}" ]; then SOURCES="${SOURCES},seoul"; fi
           ARGS=(--store json --parser rules --sources "${SOURCES}")
           if [ "${DRY_RUN}" = "true" ]; then
             ARGS+=(--dry-run)
