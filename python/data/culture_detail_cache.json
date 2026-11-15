@@ -4536,6 +4536,15 @@
   "price": "전석 10,000원",
   "v": 2
  },
+ "406739": {
+  "address": "서울특별시 종로구 창경궁로 258-12 지하",
+  "age": "만 12세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "http://www.whoplus.net",
+  "hours": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(16:00)",
+  "price": "전석 30,000원",
+  "v": 2
+ },
  "406758": {
   "address": "충청남도 보령시 성주산로 101 보령문화예술회관",
   "age": "만 10세 이상",
@@ -4580,6 +4589,15 @@
   "price": "전석 5,000원",
   "v": 2
  },
+ "406840": {
+  "address": "강원특별자치도 강릉시 종합운동장길 84 강릉아트센터",
+  "age": "만 7세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.gn.go.kr/artscenter/index.do",
+  "hours": "토요일 ~ 일요일(14:00,18:00)",
+  "price": "전석 10,000원",
+  "v": 2
+ },
  "406853": {
   "address": "인천광역시 서해구 청라대로 26 청라복합문화센터",
   "fetched": "2026-11-11",
@@ -4613,6 +4631,15 @@
   "homepage": "https://www.chilgokctf.or.kr/ctf/contents.do?mId=0801010000",
   "hours": "목요일(19:00)",
   "price": "전석무료",
+  "v": 2
+ },
+ "407010": {
+  "address": "전북특별자치도 전주시 덕진구 소리로 31 한국소리문화의전당",
+  "age": "만 5세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "http://www.sori21.co.kr/",
+  "hours": "토요일(18:00), 일요일(15:00)",
+  "price": "R석 90,000원, S석 70,000원, A석 50,000원",
   "v": 2
  },
  "407016": {
@@ -4843,12 +4870,29 @@
   "price": "전석 10,000원",
   "v": 2
  },
+ "407501": {
+  "address": "부산광역시 남구 용소로40번길 11 지하",
+  "age": "만 12세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://blog.naver.com/nadatheater",
+  "hours": "수요일 ~ 금요일(19:30), 토요일(17:00)",
+  "price": "전석 25,000원",
+  "v": 2
+ },
  "407511": {
   "address": "서울특별시 강북구 월계로 173 북서울꿈의숲아트센터",
   "fetched": "2026-11-11",
   "homepage": "https://www.sejongpac.or.kr/dfac/main/contents.do?menuNo=1200022",
   "hours": "토요일(16:00)",
   "price": "전석무료",
+  "v": 2
+ },
+ "407533": {
+  "address": "충청북도 진천군 진천읍 남산10길 21",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.jinculture.or.kr/sub.php?code=77",
+  "hours": "화요일(19:00)",
+  "price": "전석 10,000원",
   "v": 2
  },
  "407541": {
@@ -4867,6 +4911,23 @@
   "homepage": "https://www.ansan.go.kr/tourinfo/common/cntnts/selectContents.do?cntnts_id=C0002025",
   "hours": "토요일(15:00,19:00), 일요일(15:00)",
   "price": "전석무료",
+  "v": 2
+ },
+ "407547": {
+  "address": "서울특별시 종로구 이화장1길 24 북극곰소극장",
+  "age": "만 16세(고등학생) 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://kopis.or.kr/mob/db/prfplcView.do?mt10Id=FC001814",
+  "hours": "금요일(19:30), 토요일 ~ 일요일(15:00,19:30)",
+  "price": "전석 15,000원",
+  "v": 2
+ },
+ "407550": {
+  "address": "서울특별시 서대문구 연세로2나길 57 신촌문화발전소",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.scas.or.kr/",
+  "hours": "금요일(20:00), 토요일(16:00,19:00)",
+  "price": "전석 20,000원",
   "v": 2
  },
  "407604": {
@@ -4914,6 +4975,14 @@
   "homepage": "https://www.gdfac.or.kr/Home/ko/Main",
   "hours": "수~토요일 11~18시, 일요일 11~16시",
   "price": "유료 2,500~5,000원",
+  "v": 2
+ },
+ "407632": {
+  "address": "서울특별시 종로구 동숭길 39 지하2층 봄날아트홀",
+  "fetched": "2026-11-16",
+  "homepage": "https://map.naver.com/v5/entry/place/37647778?c=14138050.2976171,4520266.0675156,13,0,0,0,dh&placePath=%2Fhome%3Fentry=plt",
+  "hours": "화요일 ~ 금요일(19:00), 토요일(19:00)",
+  "price": "전석 20,000원",
   "v": 2
  },
  "407641": {
@@ -5351,6 +5420,84 @@
   "homepage": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=8cd70b82-5320-4ea0-b13f-7ccc59c7c660",
   "hours": "평일 19:30 / 주말 오후 15시 / 화 공연없음",
   "price": "전석 40,000원",
+  "v": 2
+ },
+ "408092": {
+  "address": "서울특별시 성동구 왕십리로 281 소월아트홀",
+  "age": "만 13세(중학생) 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.sdfac.or.kr/",
+  "hours": "목요일(19:00)",
+  "price": "전석 20,000원",
+  "v": 2
+ },
+ "408108": {
+  "address": "서울특별시 서초구 남부순환로 2364 국립국악원",
+  "fetched": "2026-11-16",
+  "homepage": "http://www.gugak.go.kr/site/main/index001",
+  "hours": "화요일(19:00)",
+  "price": "전석무료",
+  "v": 2
+ },
+ "408121": {
+  "address": "인천광역시 미추홀구 인하로 126 학산생활문화센터 마당 학산소극장",
+  "age": "만 12세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "http://www.haksanculture.or.kr/",
+  "hours": "금요일(19:30), 토요일(15:00)",
+  "price": "전석 20,000원",
+  "v": 2
+ },
+ "408144": {
+  "address": "전북특별자치도 남원시 양림길 43 춘향문화예술회관",
+  "age": "36개월 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.facebook.com/pages/%EC%B6%98%ED%96%A5%EC%98%88%EC%88%A0%ED%9A%8C%EA%B4%80/230337837075568?fref=ts",
+  "hours": "일요일(17:00)",
+  "price": "1층석 10,000원",
+  "v": 2
+ },
+ "408165": {
+  "address": "대전광역시 중구 중앙로112번길 15 별별마당 우금치",
+  "age": "만 7세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://linktr.ee/wukumchi1990",
+  "hours": "수요일 ~ 금요일(19:30), 토요일(15:00)",
+  "price": "전석 30,000원",
+  "v": 2
+ },
+ "408179": {
+  "address": "경기도 군포시 고산로 599 군포문화예술회관",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.gunpocf.or.kr/art",
+  "hours": "금요일(19:00)",
+  "price": "전석무료",
+  "v": 2
+ },
+ "408227": {
+  "address": "충청남도 보령시 성주산로 101 보령문화예술회관",
+  "age": "만 7세(부모동반) 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.brcn.go.kr/art.do",
+  "hours": "목요일 ~ 금요일(19:00)",
+  "price": "R석 20,000원, S석 20,000원, A석 15,000원",
+  "v": 2
+ },
+ "408321": {
+  "address": "인천광역시 부평구 주부토로 173 3층 문화사랑방",
+  "age": "만 8세 이상",
+  "fetched": "2026-11-16",
+  "homepage": "https://www.icbp.go.kr/tour/culture/sarangbang.jsp",
+  "hours": "금요일(19:00)",
+  "price": "전석 10,000원",
+  "v": 2
+ },
+ "408388": {
+  "address": "강원특별자치도 춘천시 신동면 풍류1길 34 아트팩토리 봄",
+  "fetched": "2026-11-16",
+  "homepage": "http://www.artdomo.co.kr/36",
+  "hours": "금요일(19:30), 토요일(15:00)",
+  "price": "전석 30,000원",
   "v": 2
  },
  "408399": {
