@@ -746,6 +746,15 @@
   "price": "무료",
   "v": 2
  },
+ "160015": {
+  "age": "누구나",
+  "contact": "02-2133-1936",
+  "fetched": "2026-11-17",
+  "homepage": "https://www.seoullightgwanghwamun.com/",
+  "hours": "18:00~23:00",
+  "price": "무료",
+  "v": 2
+ },
  "160029": {
   "age": "유아",
   "contact": "02-307-6030",
@@ -975,6 +984,15 @@
   "price": "무료",
   "v": 2
  },
+ "160135": {
+  "age": "초등학생 이상 관람가능",
+  "contact": "02-3477-2805",
+  "fetched": "2026-11-17",
+  "homepage": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=1021",
+  "hours": "금 19:30",
+  "price": "R석 2만원 S석 1만5천원",
+  "v": 2
+ },
  "160138": {
   "age": "누구나",
   "contact": "02-550-2687",
@@ -1038,6 +1056,15 @@
   "price": "무료",
   "v": 2
  },
+ "160153": {
+  "age": "이공계 진학을 꿈꾸는 청소년 및 과학을 좋아하는 누구나",
+  "contact": "02-970-4581",
+  "fetched": "2026-11-17",
+  "homepage": "https://science.seoul.go.kr/sciEdu/talk/read?menuId=73&progMstId=2418",
+  "hours": "15:00",
+  "price": "무료",
+  "v": 2
+ },
  "160155": {
   "age": "누구나",
   "contact": "02-2263-4680",
@@ -1092,6 +1119,34 @@
   "price": "10,000원",
   "v": 2
  },
+ "160167": {
+  "age": "초등학생 이상",
+  "contact": "02.455.1079",
+  "fetched": "2026-11-17",
+  "homepage": "https://booking.naver.com/booking/12/bizes/1771078",
+  "hours": "14:00 / 19:00",
+  "price": "10,000원",
+  "v": 2
+ },
+ "160170": {
+  "age": "누구나",
+  "apply": "- 관람: 전석 무료 (홈페이지 사전 예약, 11월 21일 오전 10시 오픈)",
+  "contact": "홈페이지 참고",
+  "fetched": "2026-11-17",
+  "homepage": "https://orbisflute.com/reserve/2026-12-05-rewind",
+  "hours": "18:00~20:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160172": {
+  "age": "누구나",
+  "contact": "02-357-0100 (내선 3번)",
+  "fetched": "2026-11-17",
+  "homepage": "https://www.eplib.or.kr/gsvlib/menu/11020/bbs/20001/bbsPostDetail.do?bbsPostIdx=236302&manageCd=MI",
+  "hours": "12:00~14:30",
+  "price": "무료",
+  "v": 2
+ },
  "160174": {
   "age": "누구나",
   "contact": "서울식물원 02-783-8088, 02-2104-9796",
@@ -1099,6 +1154,53 @@
   "homepage": "https://botanicpark.seoul.go.kr/front/board/newsView.do?sn=20821&searchCondition=&searchKeyword=&pageIndex=1",
   "hours": "금, 토 18:30 ~ 20:30 (18:30 이후 자유 입장 및 관람)",
   "price": "1인 5,000원 (36개월 미만 유아 무료, 65세 이상 어르신도 사전예약 필수)",
+  "v": 2
+ },
+ "160178": {
+  "age": "디자인과 기술력을 가진 기업 누구나",
+  "contact": "02-2051-3001",
+  "fetched": "2026-11-17",
+  "homepage": "https://www.kidp.or.kr/?menuno=1202&bbsno=19320&siteno=16&act=view&ztag=rO0ABXQAMzxjYWxsIHR5cGU9ImJvYXJkIiBubz0iNjIyIiBza2luPSJraWRwX2JicyI%2BPC9jYWxsPg%3D%3D",
+  "hours": "10:00~18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160194": {
+  "age": "누구나",
+  "contact": "02-425-1077",
+  "fetched": "2026-11-17",
+  "homepage": "https://archivist.kr/exi?m=gov&i=1793311494",
+  "hours": "화-일요일 10:00~18:00",
+  "price": "3,000~5,000원",
+  "v": 2
+ },
+ "160197": {
+  "age": "누구나",
+  "apply": "참여 방법 : 네이버 사전 예약 * 11.17.(화) 예약 오픈 예정",
+  "contact": "02-970-4500",
+  "fetched": "2026-11-17",
+  "homepage": "https://science.seoul.go.kr/special/special/read?menuId=67&progMstId=2422",
+  "hours": "10:00~20:00 (월요일 휴관)",
+  "price": "무료",
+  "v": 2
+ },
+ "160206": {
+  "age": "프로그램별 상이",
+  "contact": "02-3431-9784",
+  "fetched": "2026-11-17",
+  "homepage": "https://blog.naver.com/exp_space_hosu/224474314422",
+  "hours": "프로그램별 상이",
+  "price": "무료",
+  "v": 2
+ },
+ "160225": {
+  "age": "초등학교 3학년 이상 ~ 성인",
+  "apply": "현장예약 : 매 시간 30분 시작 (현장예약 접수는 오후 12시 30분부터 3층 로비에서 진행될 예정입니다.) 사전 예약 일정 안내 : 11월 24일 오전 10시 예약 오픈",
+  "contact": "02-970-4581",
+  "fetched": "2026-11-17",
+  "homepage": "https://science.seoul.go.kr/sciEdu/experience/read?menuId=70&progMstId=2420",
+  "hours": "13:00~17:00",
+  "price": "팀당 3,000원",
   "v": 2
  }
 }
