@@ -737,6 +737,15 @@
   "price": "무료",
   "v": 2
  },
+ "160011": {
+  "age": "누구나",
+  "contact": "강서구청 문화예술과 02-2600-5890",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.instagram.com/p/Dfl-WZSEf9_/?img_index=2",
+  "hours": "점등식 행사: 2026. 11. 27. 18:30~19:00 / 경관조성: 매일 17:00~22:00",
+  "price": "무료",
+  "v": 2
+ },
  "160013": {
   "age": "누구나",
   "contact": "070-7204-3272",
@@ -1201,6 +1210,132 @@
   "homepage": "https://science.seoul.go.kr/sciEdu/experience/read?menuId=70&progMstId=2420",
   "hours": "13:00~17:00",
   "price": "팀당 3,000원",
+  "v": 2
+ },
+ "160227": {
+  "age": "만 11세 이상 누구나",
+  "contact": "02-941-5855",
+  "fetched": "2026-11-19",
+  "homepage": "https://nol.yanolja.com/ticket/products/26016328",
+  "hours": "평일 19:30 주말 15:00 (매주 토요일 15:00, 19:00 2회차)",
+  "price": "전석 40,000원 (할인 종목 다양)",
+  "v": 2
+ },
+ "160234": {
+  "age": "누구나",
+  "contact": "02-587-9278, 9271",
+  "fetched": "2026-11-19",
+  "homepage": "http://www.seouloratorio.or.kr/",
+  "hours": "19:30",
+  "price": "무료",
+  "v": 2
+ },
+ "160236": {
+  "age": "청소년 및 청소년을 동반한 가족 관람객",
+  "contact": "02-542-2695",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EC%97%B0%EA%B7%B9&k_gubun2=2&kkno=37a749d808e46495a8da1e5352d03cae&gubun2=12",
+  "hours": "12.1.(화) - 12.3.(목) 10:30 | 14:00 | 19:30",
+  "price": "무료",
+  "v": 2
+ },
+ "160237": {
+  "age": "청소년 및 청소년을 동반한 가족 관람객",
+  "contact": "02-542-2695",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EB%AE%A4%EC%A7%80%EC%BB%AC&k_gubun2=2&kkno=bd4c9ab730f5513206b999ec0d90d1fb&gubun2=12",
+  "hours": "12.1.(화) - 12.3.(목) 10:30 | 14:00 | 19:30",
+  "price": "무료",
+  "v": 2
+ },
+ "160238": {
+  "age": "청소년 및 청소년을 동반한 가족 관람객",
+  "contact": "02-542-2695",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EC%A0%84%ED%86%B5%EC%98%88%EC%88%A0&k_gubun2=2&kkno=8d5e957f297893487bd98fa830fa6413&gubun2=12",
+  "hours": "12.10.(목) - 12.12.(토) 10:30 | 14:00 | 19:30",
+  "price": "무료",
+  "v": 2
+ },
+ "160239": {
+  "age": "청소년 및 청소년을 동반한 가족 관람객",
+  "contact": "02-542-2695",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EC%9D%8C%EC%95%85&k_gubun2=2&kkno=a8f15eda80c50adb0e71943adc8015cf&gubun2=12",
+  "hours": "12.10.(목) - 12.12.(토) 10:30 | 14:00 | 19:30",
+  "price": "무료",
+  "v": 2
+ },
+ "160240": {
+  "age": "7세 이상 관람 가능 (2019년 포함 이전 출생자)",
+  "contact": "02-399-1000",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37781&menuNo=1200007",
+  "hours": "17:00",
+  "price": "전석 66,000원",
+  "v": 2
+ },
+ "160241": {
+  "age": "3세 이상 관람 가능 (2023년 포함 이전 출생자)",
+  "contact": "02-399-1000",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37779&menuNo=1200007",
+  "hours": "14:00",
+  "price": "전석 20,000원",
+  "v": 2
+ },
+ "160244": {
+  "age": "8세 이상 관람 가능 (2018년 이전 출생자)",
+  "contact": "02-399-1000",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37105&menuNo=1200007#none",
+  "hours": "11:00",
+  "price": "전석 15,000원",
+  "v": 2
+ },
+ "160260": {
+  "age": "누구나",
+  "contact": "[전시문의] 02-2124-7615 [관람문의] 02-2124-7600",
+  "fetched": "2026-11-19",
+  "homepage": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1607817",
+  "hours": "화-금 10:00~20:00 토·일·공휴일 10:00~18:00 (상세 관람시간 홈페이지 참조)",
+  "price": "무료",
+  "v": 2
+ },
+ "160261": {
+  "age": "누구나",
+  "contact": "[전시문의] 02-2124-8935  [관람문의] 02-2124-8868",
+  "fetched": "2026-11-19",
+  "homepage": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1596752",
+  "hours": "화-목 10:00~20:00 / 금 10:00~21:00 *상세 시간은 홈페이지 참고",
+  "price": "무료",
+  "v": 2
+ },
+ "160262": {
+  "age": "누구나",
+  "contact": "[전시문의] 02-2124-5816  [관람문의] 02-2124-5800",
+  "fetched": "2026-11-19",
+  "homepage": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1611868",
+  "hours": "평일 10:00~20:00 / 주말(하절기) 10:00~19:00, (동절기) 10:00~18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160264": {
+  "age": "누구나",
+  "contact": "02-3399-3065",
+  "fetched": "2026-11-19",
+  "homepage": "https://www.instagram.com/artndesign2026/",
+  "hours": "10:00~16:00",
+  "price": "무료",
+  "v": 2
+ },
+ "160273": {
+  "age": "누구나",
+  "contact": "[전시문의] 02-2124-5269  [관람문의] 02-2124-5248,5249",
+  "fetched": "2026-11-19",
+  "homepage": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1597141",
+  "hours": "화-목 10:00~20:00, 금 10:00~21:00 주말 및 공휴일 10:00~18:00(상세 시간 홈페이지 참조)",
+  "price": "무료",
   "v": 2
  }
 }
