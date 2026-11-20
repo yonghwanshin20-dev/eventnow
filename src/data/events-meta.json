@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-19T08:39:56.271526+00:00",
-  "total": 6914,
+  "generated_at": "2026-11-20T00:25:17.687468+00:00",
+  "total": 6904,
   "by_source": {
     "attraction": 4431,
     "city_calendar": 10,
     "culture_portal": 511,
-    "curated": 262,
-    "kfes": 133,
-    "local_culture": 150,
+    "curated": 257,
+    "kfes": 128,
+    "local_culture": 149,
     "mcst_festival": 28,
     "popply": 448,
     "public_data": 159,
     "seoul_api": 127,
-    "seoul_portal": 103,
+    "seoul_portal": 104,
     "seoul_reservation": 494,
     "venue_fair": 58
   },
@@ -23,12 +23,12 @@
       "local",
       "seoulportal"
     ],
-    "inserted": 131,
+    "inserted": 97,
     "updated": 2,
     "corrected": 0,
-    "deduplicated": 95,
-    "withdrawn": 7,
-    "pruned": 0,
+    "deduplicated": 94,
+    "withdrawn": 3,
+    "pruned": 10,
     "rejected": 0,
     "source_errors": {}
   }

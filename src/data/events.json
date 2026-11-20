@@ -24088,140 +24088,6 @@
     "dong": "자양동"
   },
   {
-    "id": "evt-47ac4d26f3",
-    "title": "과천공연예술축제",
-    "category": "festival",
-    "description": "1997년 세계마당극큰잔치로 시작된 과천공연예술축제는 국내 최초의 거리극 축제로 매년 9월 국내외 야외극·거리극을 중심으로 한 수준 높은 공연으로 매년 개최되며, 국내외 예술가들의 실험의 장으로써 해외공연, 국내공연, 기획공연 등 축제기간동안 풍성한 볼거리를 제공하여 일반 시민 누구나 부담없이 다양한 문화를 즐길 수 있는 축제다. 매년 10만명 이상의 관람객이 찾아오는 과천공연예술축제는 아시아를 대표하는 축제로 발전하고 시민과 함께 만들어가는 시민 주도형 예술 축제로, 2023년부터 과천공연예술축제(GPAF)로 축제명을 변경하여 광장 집중형 공연예술축제로서 시민들과 함께한다.",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "location_name": "경기도 과천시",
-    "address": "경기도 과천시 관문로 64 (중앙동)",
-    "latitude": 37.4273687531597,
-    "longitude": 126.989303817953,
-    "region": "경기도",
-    "district": "과천시",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "무료",
-    "thumbnail_url": "https://kfescdn.visitkorea.or.kr/kfes/upload/contents/db/fd76dc4b-f246-4e1b-a7ef-a0a0619ad08b_50.jpg",
-    "official_link": "https://www.gcfest.or.kr/",
-    "tags": [
-      "#체험",
-      "#야외",
-      "#실내",
-      "#먹거리",
-      "#공연",
-      "#무료"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
-    "place_types": [],
-    "source": "kfes",
-    "source_id": "fd76dc4b-f246-4e1b-a7ef-a0a0619ad08b",
-    "content_hash": "95960cde9a2398c696adbe7404f717b3edae71a544d504a6527e37f05e355760",
-    "age_min": null,
-    "age_max": null,
-    "apply_start": null,
-    "apply_end": null
-  },
-  {
-    "id": "evt-49310fb1b2",
-    "title": "진안홍삼축제",
-    "category": "festival",
-    "description": "대한민국 유일의 홍삼특구 진안군에서 펼쳐지는 진안홍삼축제는 가을의 정취 속에서 건강과 즐거움을 동시에 만나는 특별한 축제이다. 깊은 향과 뛰어난 품질을 자랑하는 진안홍삼을 직접 맛보고, 홍삼을 보다 친근하고 재미있게 경험할 수 있도록 다양한 이색 먹거리와 체험 프로그램이 마련되어 있어 아이부터 어른까지 모두 색다른 즐거움을 느낄 수 있다. 진안홍삼빙고, 홍삼파워존, 홍삼바비큐, 야외족욕체험 등 오직 이곳에서만 즐길 수 있는 참여형 콘텐츠가 가득하며, 전통공연과 초청가수 공연 등 다채로운 무대와 이벤트가 어우러져 축제의 열기를 더한다. 특히 엄격한 기준을 통해 품질이 인증된 진안 홍삼 제품을 합리적인 가격에 만나볼 수 있어 건강한 먹거리와 특별한 추억을 함께 담아갈 수 있는 가을 대표 축제이다.",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "location_name": "전북특별자치도 진안군",
-    "address": "전북특별자치도 진안군 진안읍 마이산로 160 일원",
-    "latitude": 35.773039352113926,
-    "longitude": 127.41624486894176,
-    "region": "전북특별자치도",
-    "district": "진안군",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "입장료 무료(일부 체험프로그램 유료)",
-    "thumbnail_url": "https://kfescdn.visitkorea.or.kr/kfes/upload/contents/db/fdb11408-6de8-46ea-b051-faac6fc020a7_108.jpg",
-    "official_link": "https://www.jinan.go.kr/festival/",
-    "tags": [
-      "#체험",
-      "#야외",
-      "#실내",
-      "#먹거리",
-      "#공연",
-      "#전통",
-      "#무료"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
-    "place_types": [],
-    "source": "kfes",
-    "source_id": "fdb11408-6de8-46ea-b051-faac6fc020a7",
-    "content_hash": "a413639b7535a71b45f22a59d605cc23af934c11863bb23bf6c6533ce3a1de4d",
-    "age_min": null,
-    "age_max": null,
-    "apply_start": null,
-    "apply_end": null
-  },
-  {
-    "id": "evt-51ad87c8cd",
-    "title": "시흥갯골축제",
-    "category": "festival",
-    "description": "시흥갯골축제는 경기도 유일의 내만갯골에 위치한 시흥갯골생태공원에서 펼쳐지는 생태축제로 옛 염전 터와 습지가 어우러진 자연환경을 기반으로 자연에서 쉬고 배우며 즐기는 다양한 프로그램을 통해 자연과 동화되는 축제로 생태공원의 자연환경을 보호하기 위해 차 없는 축제로 진행하고 있다.  대표 프로그램으로는 염판 공연 ‘소금의 기억, 물의 춤’이 있으며 공연으로는 콘서트 in 갯골, 소금창고 인형극장, 나무숲 음악제, 갯골 시니어 런웨이가 펼쳐질 예정이다.  그 밖에 판타지 열기구 체험, 갯골험대, 솔트플레이⋅맨발의 소금길, SEA POOL파티, 폴짝폴짝 곤충체험, 오늘하루 갯골이 내 놀이터, 염전 체험, 느린 우체국, 「걷자 시흥」 걷기 한마당, 시흥염전 소금제, 거리로 나온 예술제, 갯골 전국 미술대회, 갯골 추억의 사진관, 갯골 스탬프 랠리 등 다양한 즐길거리가 제공될 예정이다.",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "location_name": "경기도 시흥시",
-    "address": "경기도 시흥시 동서로 287 (장곡동)",
-    "latitude": 37.389771146858344,
-    "longitude": 126.78124058551218,
-    "region": "경기도",
-    "district": "시흥시",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "무료(일부체험프로그램 유료)",
-    "thumbnail_url": "https://kfescdn.visitkorea.or.kr/kfes/upload/contents/db/0790d425-2b40-44ef-92ea-32c895e7b28e_330.jpg",
-    "official_link": "https://shggfestival.com/",
-    "tags": [
-      "#체험",
-      "#야외",
-      "#공연",
-      "#무료"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
-    "place_types": [
-      "park_playground",
-      "nature"
-    ],
-    "source": "kfes",
-    "source_id": "0790d425-2b40-44ef-92ea-32c895e7b28e",
-    "content_hash": "a302105136591152c451c70c5f94a76838eb65171b0ac3a02b7272950c804f50",
-    "age_min": null,
-    "age_max": null,
-    "apply_start": null,
-    "apply_end": null
-  },
-  {
     "title": "2026 서울어텀페스타",
     "category": "festival",
     "description": null,
@@ -24308,96 +24174,6 @@
     "apply_end": null
   },
   {
-    "id": "evt-683c44c556",
-    "title": "부천국제만화축제",
-    "category": "festival",
-    "description": "2026년, 제29회를 맞이하는 부천국제만화축제는 만화를 사랑하는 누구나 즐길 수 있는 대한민국 만화전문 대표 문화관광축제이다. 올해는 “만화·웹툰 만만합니다” 라는 주제로 풍성한 즐길거리를 통한 관람 만족도를 높이기 위해 다채로운 만화 콘텐츠 프로그램과 문화체험을 제공하고 언제 어디서나 즐길 수 있는 축제이다. 기획·특별전을 비롯해 만화 마니아 행사인 작가와의 만남 프로그램, 다양한 체험의 장을 경험할 수 있는 플레이그라운드와 야외마켓부스, 전 세계 14개국 코스어가 참여하는 국제코스프레챔피언십까지 경험할 수 있는 축제의 장이다.",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "location_name": "경기도 부천시",
-    "address": "경기도 부천시 원미구 길주로 1 (상동)",
-    "latitude": 37.50819874831107,
-    "longitude": 126.74219327149696,
-    "region": "경기도",
-    "district": "부천시",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "price_info": "유료 5,000원 (사전신청 3,000원)",
-    "thumbnail_url": "https://kfescdn.visitkorea.or.kr/kfes/upload/contents/db/883fb3cd-8ce1-482b-9e57-02947b44f038_298.JPG",
-    "official_link": "https://bicof.com/",
-    "tags": [
-      "#체험",
-      "#야외",
-      "#먹거리",
-      "#공연"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
-    "place_types": [],
-    "source": "kfes",
-    "source_id": "883fb3cd-8ce1-482b-9e57-02947b44f038",
-    "content_hash": "73a4a0f66ccbfe4ca83c52e2139d0619495898e10ca772e3092b3cdf6296f62b",
-    "age_min": null,
-    "age_max": null,
-    "apply_start": null,
-    "apply_end": null
-  },
-  {
-    "id": "evt-6cfd8a6bfd",
-    "title": "고양호수예술축제",
-    "category": "festival",
-    "description": "일상 속 공간이 특별한 예술의 리듬으로 채워지는 순간이 2026 고양호수예술축제에서 펼쳐진다. 서커스, 마술, 공중 퍼포먼스 등 장르의 경계를 넘나드는 다채로운 거리예술 공연 100여회와, 누구나 함께 즐기는 체험 프로그램이 찾아온다. 일산호수공원 곳곳에서 펼쳐지는 생동감 넘치는 공연은 관객과 예술가가 함께 호흡하며 소통하는 특별한 경험을 선사하고, 호수의 밤을 밝히는 불꽃놀이와 야간 특별 프로그램은 잊지 못할 낭만을 선사할 것이다. 올 가을, 재미와 설렘이 경쾌하게 피어나는 2026 고양호수예술축제에서 특별한 순간을 만날 수 있다.",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "location_name": "경기도 고양시",
-    "address": "경기도 고양시 일산동구 호수로 595 (장항동) 일산호수공원 및 일산문화광장 일원",
-    "latitude": 37.6552847260535,
-    "longitude": 126.76890828030449,
-    "region": "경기도",
-    "district": "고양시",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "무료",
-    "thumbnail_url": "https://kfescdn.visitkorea.or.kr/kfes/upload/contents/db/ac945acc-1ab3-4c14-8789-02a888245565_58.jpg",
-    "official_link": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=ac945acc-1ab3-4c14-8789-02a888245565",
-    "tags": [
-      "#체험",
-      "#야외",
-      "#야간",
-      "#꽃",
-      "#불꽃",
-      "#공연",
-      "#무료"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-11-09T02:24:44.498548+00:00",
-    "place_types": [
-      "park_playground",
-      "nature"
-    ],
-    "source": "kfes",
-    "source_id": "ac945acc-1ab3-4c14-8789-02a888245565",
-    "content_hash": "4cb5e22dd70fcb53400431e697b834c67d723f57b061f9d4e788d993b0ff36a3",
-    "age_min": null,
-    "age_max": null,
-    "apply_start": null,
-    "apply_end": null
-  },
-  {
     "title": "29CM X LOFT 앙코르 팝업",
     "category": "popup",
     "description": "이구홈 성수 2에서 열리는 팝업스토어예요. \n운영 시간 월~일 11:00 - 22:00 · 안내 및 주의사항 · 📌앙코르 팝업에서만 만날 수 있는 선착순 이벤트 · 🛍️전 구매 고객 → 이와코 지우개 + 로프트 타포린백 증정 · 💌1만 원 이상 구매 → 후루카와시코 ‘소 \n자세한 내용은 팝플리 원문에서 확인하세요.",
@@ -24434,43 +24210,6 @@
     "created_at": "2026-10-20T13:26:20.263025+00:00",
     "updated_at": "2026-10-20T13:46:55.788255+00:00",
     "dong": "성수동"
-  },
-  {
-    "id": "evt-a3dd9ed0b0",
-    "title": "진주탈춤한마당",
-    "category": "festival",
-    "description": "진주탈춤한마당 — 평거야외무대+진주성 야외공연장+진주시전통문화예술회관에서 진행되는 축제·행사입니다. 경상남도. 현장 방문·접수 가능. 요금: 현장 확인.",
-    "start_date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "location_name": "평거야외무대+진주성 야외공연장+진주시전통문화예술회관",
-    "address": "경상남도 진주시 신안동 595-5",
-    "latitude": null,
-    "longitude": null,
-    "region": "경상남도",
-    "district": "진주시",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "amenities": {
-      "parking": true,
-      "stroller": true,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "현장 확인",
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#축제",
-      "#야외축제",
-      "#주말가족",
-      "#체험학습"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-28T00:00:00Z",
-    "place_types": [
-      "cultural_space"
-    ]
   },
   {
     "title": "알파 인더스트리 FW26 팝업",
@@ -24714,41 +24453,6 @@
     "dong": "광희동"
   },
   {
-    "id": "evt-2a76625857",
-    "title": "구로G페스티벌(아시아문화축제)",
-    "category": "festival",
-    "description": "구로G페스티벌(아시아문화축제) — 안양천 일대에서 진행되는 축제·행사입니다. 서울특별시 구로구. 현장 방문·접수 가능. 요금: 현장 확인.",
-    "start_date": "2026-09-19",
-    "end_date": "2026-09-20",
-    "location_name": "안양천 일대",
-    "address": "서울특별시 구로구 구로동 621-8",
-    "latitude": null,
-    "longitude": null,
-    "region": "서울특별시",
-    "district": "구로구",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "amenities": {
-      "parking": true,
-      "stroller": true,
-      "nursing_room": true
-    },
-    "booking_required": false,
-    "price_info": "현장 확인",
-    "thumbnail_url": null,
-    "official_link": "https://www.gfestival.co.kr/",
-    "tags": [
-      "#축제",
-      "#야외축제",
-      "#주말가족",
-      "#체험학습"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-28T00:00:00Z",
-    "place_types": []
-  },
-  {
     "id": "evt-5cd9518573",
     "title": "양천구 신트리문화축제",
     "category": "festival",
@@ -24908,73 +24612,6 @@
     "dong": "홍은동"
   },
   {
-    "id": "evt-b24c2603bb",
-    "title": "하남이성산성문화축제",
-    "category": "festival",
-    "description": "하남이성산성문화축제 — 하남이성산성에서 진행되는 축제·행사입니다. 경기도. 현장 방문·접수 가능. 요금: 현장 확인.",
-    "start_date": "2026-09-19",
-    "end_date": "2026-09-20",
-    "location_name": "하남이성산성",
-    "address": "경기도 하남시 춘궁동 306-12",
-    "latitude": null,
-    "longitude": null,
-    "region": "경기도",
-    "district": "하남시",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "amenities": {
-      "parking": true,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "현장 확인",
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#축제",
-      "#야외축제"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-28T00:00:00Z",
-    "place_types": [
-      "historical"
-    ]
-  },
-  {
-    "id": "evt-d7edf50e79",
-    "title": "구름산예술제",
-    "category": "festival",
-    "description": "구름산예술제 — 시민체육관에서 진행되는 축제·행사입니다. 경기도. 현장 방문·접수 가능. 요금: 현장 확인.",
-    "start_date": "2026-09-19",
-    "end_date": "2026-09-20",
-    "location_name": "시민체육관",
-    "address": "경기도 광명시 하안동 718-2",
-    "latitude": null,
-    "longitude": null,
-    "region": "경기도",
-    "district": "광명시",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "amenities": {
-      "parking": true,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "현장 확인",
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#축제"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-28T00:00:00Z",
-    "place_types": []
-  },
-  {
     "title": "2026 시민뜨락축제",
     "category": "festival",
     "description": "부산시민회관에서 열리는 행사예요. 문의 051-630-5242",
@@ -25012,38 +24649,6 @@
     "updated_at": "2026-11-09T02:24:44.498548+00:00",
     "apply_start": null,
     "apply_end": null
-  },
-  {
-    "id": "evt-0830d0d031",
-    "title": "K-분식페스티벌 &나루터영화제",
-    "category": "festival",
-    "description": "K-분식페스티벌 &나루터영화제 — 노량진축구장에서 진행되는 축제·행사입니다. 서울특별시 동작구. 현장 방문·접수 가능. 요금: 현장 확인.",
-    "start_date": "2026-09-20",
-    "end_date": "2026-09-20",
-    "location_name": "노량진축구장",
-    "address": "서울특별시 동작구 노들로 688",
-    "latitude": null,
-    "longitude": null,
-    "region": "서울특별시",
-    "district": "동작구",
-    "is_family_friendly": false,
-    "target_age_group": null,
-    "amenities": {
-      "parking": true,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "price_info": "현장 확인",
-    "thumbnail_url": null,
-    "official_link": null,
-    "tags": [
-      "#축제"
-    ],
-    "status": "ended",
-    "created_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-28T00:00:00Z",
-    "place_types": []
   },
   {
     "title": "결과만 보는 평가? No. 과정까지 평가하는 진짜 오디션! 제2회 코리아 프롬스",
@@ -64842,7 +64447,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6527",
     "content_hash": "49b33c902927760ef5842c0a758f7e1d2a613d5c7d2345b9321911bdc7368a67",
@@ -65786,7 +65391,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6594",
     "content_hash": "f63faf9714727fb99dc6d660eb4e8d57850b1b250404d0269c342dbea520c864",
@@ -66150,7 +65755,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6595",
     "content_hash": "ea08cedd9cb4f1caece1da96df04dea2c96e124fd38b281f245e35cec993c1f0",
@@ -73022,7 +72627,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6614",
     "content_hash": "f6d3c49bf396ea6d9c9682bba4f59d9bcbb08c207069531401cfbc725eda2651",
@@ -73348,7 +72953,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6582",
     "content_hash": "607f42e9037b4a2f8edb1cc30ea29fdaa7817698e0cbc5ecfcabffe4a2d4e90e",
@@ -73766,7 +73371,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6679",
     "content_hash": "329b2fb82ac43769f6289687f4e4dfb8245c4c9a6ea37105b6b0408f108b4e3e",
@@ -74266,7 +73871,7 @@
       "historical",
       "cultural_space"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "e-de9c9dd6ef24",
     "content_hash": "af61ecc7203a541e859c6c5099d4733caf4ee6b185fe96bfc6689ee90e38eab7",
@@ -74643,7 +74248,7 @@
       "historical",
       "cultural_space"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "e-34d3c5809ff2",
     "content_hash": "85406fee803faf50e77ecee1ca2fd365c9e880d7037cc6f9212b5684a962bc18",
@@ -74889,7 +74494,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "408402",
     "content_hash": "994af32c6d3fd734c6ca02312280f03a71f0f4b39f0dc83949cde941801f6644",
@@ -75597,7 +75202,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6648",
     "content_hash": "9b2fa6e0b0ae9e408a15c947cac40c0f1c853be57968e0dfb6d8a17ba894a90f",
@@ -75756,7 +75361,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "popply",
     "source_id": "6618",
     "content_hash": "ff094dc45c5dff7007606da7dc4b3aae32c07ed90aff4a1f54e4598dbcc5c910",
@@ -82867,7 +82472,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_reservation",
     "source_id": "XML-3461",
     "content_hash": "51b2ece9fd8ab2f264dc1625206d38f12f0ac85afd715fbdcd87232410c8bf66",
@@ -136608,7 +136213,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_reservation",
     "source_id": "S261028175200748554",
     "content_hash": "1f96c1ac0099bdb6505bf7e390b88e8269b287f0a10154df8bad60d3b76de617",
@@ -150746,7 +150351,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_reservation",
     "source_id": "XML-3456",
     "content_hash": "ac3a8777951c24bb2b7fb76495a0dc32513562728fafeeeab3fe3a5a9a9e6533",
@@ -203745,7 +203350,7 @@
     "place_types": [
       "cultural_space"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "public_data",
     "source_id": "e-a75f67c2cb7f",
     "content_hash": "10248e70173b162f5b8b43606516a5b05d3f265f909518c94241a41ff53ad1ed",
@@ -230562,7 +230167,7 @@
       "#실내"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "venue_fair",
     "source_id": "coex-1484b06cf477",
     "content_hash": "a78e850f0aa9f3c8de09abb8d51fbc0d24b345deb7acc3f895c3dd375036f826",
@@ -239382,7 +238987,7 @@
     "place_types": [
       "cultural_space"
     ],
-    "status": "ongoing",
+    "status": "ended",
     "source": "culture_portal",
     "source_id": "403214",
     "content_hash": "98a4ac51fb11cc0c53d8f5b715e9ebf195bd3e3c47647a521e2f0f1a84b5a05f",
@@ -258394,7 +257999,7 @@
       "#실내"
     ],
     "place_types": [],
-    "status": "ongoing",
+    "status": "ended",
     "source": "seoul_reservation",
     "source_id": "S260408113335384200",
     "content_hash": "786ddf5ce3de8bf0443b959fd65a748e5cf875b9de3ccaa61fc6aecfb11982a4",
@@ -274065,7 +273670,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "160206",
     "content_hash": "9f1059153cb04d43c120e9bfd28a251e44d151fadf0aeb581f16e8b860e116dd",
@@ -274101,7 +273706,7 @@
     "official_link": "https://www.coex.co.kr/exhibitions/%eb%a7%88%ec%9d%b8%eb%93%9c%ec%bc%80%ec%96%b4-%ec%9b%b0%eb%8b%88%ec%8a%a4-%eb%a1%9c%ec%bb%ac%eb%b0%94%ec%9d%b4%eb%b8%8c-%ed%8a%b8%eb%9e%98%eb%b8%94-%ec%87%bc/",
     "tags": [],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "venue_fair",
     "source_id": "coex-0ab2da35f8d5",
     "content_hash": "6ea24ef19af551b9367f7c6daffcbedd1d4527cbccd10fed92d25085b6cd25e6",
@@ -274145,7 +273750,7 @@
     "place_types": [
       "cultural_space"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "404523",
     "content_hash": "98e82d56a4aafefa4c14f00a0a6deb468923971ab02b5b239c0bcc2fb6492186",
@@ -274188,7 +273793,7 @@
     "place_types": [
       "museum"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "408663",
     "content_hash": "20a9e04206dc13133adc599331b6b031eab8fa0405d3f13332bc7dd9bc765fa8",
@@ -274232,7 +273837,7 @@
       "historical",
       "museum"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "407369",
     "content_hash": "65fec2046506bafc6411086c8de96d556136f94b5fa4bca8f07eca5bf2dfd858",
@@ -274273,7 +273878,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "408634",
     "content_hash": "045b6ab2dff8f5460e3e7c9d3b264827dbb1a842c6e19cf072dcee0909e278b7",
@@ -274315,7 +273920,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "public_data",
     "source_id": "f-ecdf488f7343",
     "content_hash": "5753188a3c52581045d3d6fa4479b706adea8d19a93d90ac69dcb8211fe727db",
@@ -274359,7 +273964,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261115135907827476",
     "content_hash": "70e2ab75a7f175ee3b038dbc0428962b3d6121f24b2e83fbc6a2743a13588a82",
@@ -274398,7 +274003,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "public_data",
     "source_id": "e-f656a9da2846",
     "content_hash": "6f228696e65a5a692ed6c5860285cf344c42c46a4a8cfe927ad3ea6c31ece4b4",
@@ -274439,7 +274044,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "public_data",
     "source_id": "e-5200e3c17994",
     "content_hash": "62d581bc5ddd345ed6d3fcc73a94af90110526ac083c0bed76d566d441a217e8",
@@ -274483,7 +274088,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261115132158026192",
     "content_hash": "d040c80f5ccc88ceec683b87fb6e8f3824da7f16183fce771f82d8c72c35502f",
@@ -274526,7 +274131,7 @@
       "#무료"
     ],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261112160552632191",
     "content_hash": "00c4117e2f28c819e50d99e554559a50c8080aefb943bdad721847e2997c9d6e",
@@ -274567,7 +274172,7 @@
       "historical",
       "cultural_space"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "public_data",
     "source_id": "e-f3302693b140",
     "content_hash": "96efc82840bfd0abcf8aa57d7ed9d10dde4b2912de3f9370150f2bf232999b21",
@@ -274613,7 +274218,7 @@
     "place_types": [
       "museum"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261103143507528474",
     "content_hash": "0595333509bf74eac8be0fff96b211de348ee8929af4ed78b43b43d2803bcd7e",
@@ -274655,7 +274260,7 @@
     "place_types": [
       "cultural_space"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "397099",
     "content_hash": "da8c48bd8ed0211e3ad87ad631b85294333e1c7e259d7142f9f0b2c93d1ba3f5",
@@ -274701,7 +274306,7 @@
     "place_types": [
       "park_playground"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "kfes",
     "source_id": "47cc094e-78e5-4ebc-a7d5-f65430621719",
     "content_hash": "2e9b6c84635889e27406ff4249168761c258c4227bed144dfc2e29547aeff375",
@@ -274743,7 +274348,7 @@
     "place_types": [
       "religious"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "405410",
     "content_hash": "56cd980ffc1cfc98c00f3b2a69c6493c9e3ece9eb9b40870dc5f6126d68b601e",
@@ -274785,7 +274390,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261116103339034427",
     "content_hash": "3977ae9903331f0015e34f402cf0f72b91bcde0d6622f1c23474a394b7f1e5f0",
@@ -274829,7 +274434,7 @@
       "cultural_space",
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "406220",
     "content_hash": "2f51db0291cb9e00065f3726ebdc09368326689bc3c77df450e606cb2513c7fb",
@@ -274867,7 +274472,7 @@
     "official_link": "https://www.coex.co.kr/exhibitions/2026-%ec%86%8c%eb%8b%b4%eb%a7%88%ec%bc%93/",
     "tags": [],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "venue_fair",
     "source_id": "coex-859a2a667472",
     "content_hash": "e62d7ffaa324ae487172c170168ceda31f1cb3b42d205476dd926a78ba232ff8",
@@ -274911,7 +274516,7 @@
     "place_types": [
       "museum"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261112104339832960",
     "content_hash": "853945f6af3c268db8c562bbe3d9b4512c63887357cbc8299510211254159b3b",
@@ -274953,7 +274558,7 @@
       "museum",
       "cultural_space"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_api",
     "source_id": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160197&menuNo=200009",
     "content_hash": "ad6543da3b97339deff5cb0a3e17fcf6b863f351fa6cf977c83d0b5982c12323",
@@ -274996,7 +274601,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261116144542092336",
     "content_hash": "47fcde86da1602a8881e41122dd6d85413b7e8817f1052012a86a17c2ca6f9ca",
@@ -275034,7 +274639,7 @@
     "place_types": [
       "museum"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "culture_portal",
     "source_id": "365700",
     "content_hash": "da2aa685603e014cbd621ceb4c598c72e96933287d1942c492910c62a19f315e",
@@ -275084,7 +274689,7 @@
     "place_types": [
       "library"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_portal",
     "source_id": "160145",
     "content_hash": "e50a9bf410ae9f6dc933ae7c404c76a2ad0a52b92eabd0df401bcafed8799de8",
@@ -275122,7 +274727,7 @@
     "official_link": "https://www.coex.co.kr/exhibitions/2026%eb%85%84-%ec%95%84%ed%8a%b8%ed%94%84%eb%a6%ac%ec%a6%98-%ec%a0%9c3%ed%9a%8c-%ec%95%84%ed%8a%b8%ed%8e%98%ec%96%b4/",
     "tags": [],
     "place_types": [],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "venue_fair",
     "source_id": "coex-daa8e063a92a",
     "content_hash": "2f94d7dac81a70da3a522485e1bfb9062630e4e28eeebd2baba6f24fe2d51ed3",
@@ -275165,7 +274770,7 @@
     "place_types": [
       "nature"
     ],
-    "status": "upcoming",
+    "status": "ongoing",
     "source": "seoul_reservation",
     "source_id": "S261115111016522816",
     "content_hash": "5ece28b6ae273afa962619a3eb171ba4e5185c0f7267c7dd053ee3567f6c8a88",
@@ -275768,7 +275373,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-235427",
-    "content_hash": "7338e450a71ec55163ca50c7e4e3b79c55da5847147f7952fda4ddf8daa177f6",
+    "content_hash": "e42306eab7bb1cc35c1d817f0313e70c20c99e8afc8d82af8120dee72aaabf88",
     "id": "evt-39e1bf346f",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
     "updated_at": "2026-11-14T00:19:42.432012+00:00",
@@ -275811,7 +275416,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237135",
-    "content_hash": "dda114e1ecae60dec21f8e786682db8deae5117ad9ff2b0be963b79b9e3ac803",
+    "content_hash": "276ffbd70c66d60d2a0d33a5263e38f9efef23f48a432dc9eb4b72b5b7935dee",
     "id": "evt-3b63206eab",
     "created_at": "2026-11-17T14:10:20.276131+00:00",
     "updated_at": "2026-11-17T14:10:20.276131+00:00",
@@ -275966,7 +275571,7 @@
     },
     "booking_required": true,
     "apply_start": "2026-11-07",
-    "apply_end": "2026-11-19",
+    "apply_end": "2026-11-21",
     "price_info": null,
     "thumbnail_url": null,
     "official_link": "https://www.eplib.or.kr/intro/menu/10122/program/30028/eventLectureDetail.do?searchStatus=OPEN&lectureIdx=234737",
@@ -275980,10 +275585,10 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-234737",
-    "content_hash": "a560a125b999125703c0c2c546b458a5e7f42cd7f44b16ecde7419301d099386",
+    "content_hash": "432b34fbfdee4cd0d023225c3ecf4a4cf51d7de8a903a98c0ff9fe1e86b52678",
     "id": "evt-46ae833516",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
-    "updated_at": "2026-11-11T07:08:55.885341+00:00",
+    "updated_at": "2026-11-20T00:21:56.229353+00:00",
     "dong": "녹번동"
   },
   {
@@ -276530,49 +276135,6 @@
     "dong": "묘동"
   },
   {
-    "title": "[2026 사립작은] 그림책으로 나누는 우리 가족 마음 향기 - 초등 고학년 가족",
-    "category": "kids_experience",
-    "description": "강남구립도서관 프로그램이에요. 대상: 초등 고학년 가족 장소: 열린도서관 시간: 10:00~12:00 도서관 홈페이지에서 신청해야 해요.",
-    "start_date": "2026-11-21",
-    "end_date": "2026-11-21",
-    "location_name": "열린도서관",
-    "address": "서울특별시 강남구 일원로115(삼성생명빌딩B동 203호)",
-    "latitude": 37.4840224,
-    "longitude": 127.0844597,
-    "region": "서울특별시",
-    "district": "강남구",
-    "is_family_friendly": true,
-    "target_age_group": "elementary",
-    "age_min": 10.0,
-    "age_max": 12.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "apply_start": "2026-11-10",
-    "apply_end": "2026-11-20",
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34207",
-    "tags": [
-      "#교육",
-      "#실내"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "gnlib-34207",
-    "content_hash": "adf258687814c860f05f1e1b35f429478a100a637e46a7cd33304b07cd870fbc",
-    "id": "evt-813eb2a605",
-    "created_at": "2026-11-11T00:01:56.316751+00:00",
-    "updated_at": "2026-11-11T00:01:56.316751+00:00",
-    "dong": "일원동"
-  },
-  {
     "title": "세계의 미술, 다채로운 문화 이야기 「캔버스 위의 세계 일주」",
     "category": "kids_experience",
     "description": "은평구립도서관 프로그램이에요. 대상: 전연령 장소: 은평어린이영어도서관 (평생학습관 1층) 1층 다목적실1 시간: 15:00~17:00 도서관 홈페이지에서 신청해야 해요.",
@@ -276609,7 +276171,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-233057",
-    "content_hash": "8161abf32dc6ad7550b659fed88885cdc97e83fb204880e3e850b2a29647f230",
+    "content_hash": "330416216c81a94c31c32961c306ffe556c7d7756cec94ef94568c0819ac298b",
     "id": "evt-89d16581b6",
     "created_at": "2026-11-09T09:15:20.086636+00:00",
     "updated_at": "2026-11-09T09:15:20.086636+00:00",
@@ -276776,6 +276338,49 @@
     "id": "evt-981a134e37",
     "created_at": "2026-11-19T01:06:16.259259+00:00",
     "updated_at": "2026-11-19T01:06:16.259259+00:00"
+  },
+  {
+    "title": "[대면] 놀이로 배우는 한국사 : 삼국시대~일제강점기",
+    "category": "kids_experience",
+    "description": "강남구립도서관 프로그램이에요. 대상: 초등 4~6학년 16명 장소: 못골도서관 시간: 14:00~16:00 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-28",
+    "location_name": "못골도서관",
+    "address": "서울특별시 강남구 자곡로 116",
+    "latitude": 37.47153792,
+    "longitude": 127.0965824,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 10.0,
+    "age_max": 12.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-04",
+    "apply_end": "2026-11-20",
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34135",
+    "tags": [
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "gnlib-34135",
+    "content_hash": "1bc9054c2ef18d9ae1d5968c26c6831cf79455fba72841f49d17f42eefbe9e9e",
+    "id": "evt-9e38885c4d",
+    "created_at": "2026-11-20T00:21:56.229353+00:00",
+    "updated_at": "2026-11-20T00:21:56.229353+00:00",
+    "dong": "자곡동"
   },
   {
     "title": "서울 청녕예술창업 페스타 2026",
@@ -277031,50 +276636,6 @@
     "created_at": "2026-11-19T01:06:16.259259+00:00",
     "updated_at": "2026-11-19T01:06:16.259259+00:00",
     "dong": "광양읍"
-  },
-  {
-    "title": "그림책 속 상상공작소 <사랑을 담아요! 우리 가족 마음 클레이 꽃 오르골>",
-    "category": "kids_experience",
-    "description": "강남구립도서관 프로그램이에요. 대상: 유아(6~7세) 및 보호자 8팀(총 16명) 장소: 열린도서관 시간: 10:00~11:30 도서관 홈페이지에서 신청해야 해요.",
-    "start_date": "2026-11-21",
-    "end_date": "2026-11-21",
-    "location_name": "열린도서관",
-    "address": "서울특별시 강남구 일원로115(삼성생명빌딩B동 203호)",
-    "latitude": 37.4840224,
-    "longitude": 127.0844597,
-    "region": "서울특별시",
-    "district": "강남구",
-    "is_family_friendly": true,
-    "target_age_group": "toddler",
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "apply_start": "2026-10-29",
-    "apply_end": "2026-11-19",
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34150",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#꽃"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "gnlib-34150",
-    "content_hash": "00dcb15a00fbb2e5e43aba131fa67b7b44e262d562e8f98b126a7478121f5263",
-    "id": "evt-d35da5cc65",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00",
-    "dong": "일원동"
   },
   {
     "title": "은뜨락도서관 7주년 개관기념행사 <AI, 함께 놀자! 다양한 AI 에듀테크 체험>",
@@ -277453,49 +277014,6 @@
     "dong": "일원1동",
     "apply_start": null,
     "apply_end": null
-  },
-  {
-    "title": "장애물 달리기부터 코인 모으기까지 뚝딱! 어린이 로블록스 입문 특강 (초등 3~6학년)",
-    "category": "kids_experience",
-    "description": "강남구립도서관 프로그램이에요. 대상: 초등 3~6학년 장소: 열린도서관 시간: 10:00~12:00 도서관 홈페이지에서 신청해야 해요.",
-    "start_date": "2026-11-22",
-    "end_date": "2026-11-29",
-    "location_name": "열린도서관",
-    "address": "서울특별시 강남구 일원로115(삼성생명빌딩B동 203호)",
-    "latitude": 37.4840224,
-    "longitude": 127.0844597,
-    "region": "서울특별시",
-    "district": "강남구",
-    "is_family_friendly": true,
-    "target_age_group": "elementary",
-    "age_min": 9.0,
-    "age_max": 12.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "apply_start": "2026-11-10",
-    "apply_end": "2026-11-19",
-    "price_info": null,
-    "thumbnail_url": null,
-    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34169",
-    "tags": [
-      "#교육",
-      "#실내"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "gnlib-34169",
-    "content_hash": "4cb9a7411411158689cca019748766201124a980f4c9a0f09845981acb437b9b",
-    "id": "evt-2bab2467b3",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00",
-    "dong": "일원동"
   },
   {
     "title": "[성동구립도서관] 11월 영어스토리텔링 수업",
@@ -279482,6 +279000,50 @@
     "updated_at": "2026-11-11T04:42:48.515581+00:00"
   },
   {
+    "title": "[힙독서울] 강남구책읽구 : 11월 강남구 오픈 북클럽 책크in강남 『페스트』",
+    "category": "kids_experience",
+    "description": "강남구립도서관 프로그램이에요. 대상: 누구나 장소: 청담도서관 시간: 19:00~21:00 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2026-11-26",
+    "end_date": "2026-11-26",
+    "location_name": "청담도서관",
+    "address": "서울특별시 강남구 압구정로79길 26 (청담문화센터 7층)",
+    "latitude": 37.52509211,
+    "longitude": 127.0492911,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-10-28",
+    "apply_end": "2026-11-26",
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34092",
+    "tags": [
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "cultural_space",
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "gnlib-34092",
+    "content_hash": "0827859544581039ec97e9f638e3404325cbc938b8d27afc51d526173549984c",
+    "id": "evt-7b481d8c19",
+    "created_at": "2026-11-20T00:21:56.229353+00:00",
+    "updated_at": "2026-11-20T00:21:56.229353+00:00",
+    "dong": "청담동"
+  },
+  {
     "title": "[별별공작소] 보석 십자수 그립톡 만들기 11/26",
     "category": "kids_experience",
     "description": "은평구립도서관 프로그램이에요. 대상: 전연령 장소: 은평어린이영어도서관 (평생학습관 1층) 1층 세미나실 시간: 16:00~17:00 도서관 홈페이지에서 신청해야 해요.",
@@ -281315,7 +280877,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "gnlib-34136",
-    "content_hash": "7e64625d16efa98add4f5eb1fc6e308ae2a995dd9b15dcaa454f7a0b6fc327a4",
+    "content_hash": "197583261f4c64bbeac19a0f7d661347deabb454dd751899b5b354bb502a41e1",
     "id": "evt-6e8b026449",
     "created_at": "2026-11-19T08:37:10.510272+00:00",
     "updated_at": "2026-11-19T08:37:10.510272+00:00",
@@ -284717,7 +284279,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237150",
-    "content_hash": "67760b57c29f2e1a256eadd35f8c2fb7d288f3d72bc00b4a178407952ec3d439",
+    "content_hash": "9c09577e941e235c8dda75bbee234079f7db8aee33ad963428c6e930947e0cd2",
     "id": "evt-9a2caa744e",
     "created_at": "2026-11-17T14:10:20.276131+00:00",
     "updated_at": "2026-11-17T14:10:20.276131+00:00",
@@ -285150,7 +284712,7 @@
   {
     "title": "그림책으로 보물찾기(2018년생~2020년생+보호자, 2인 1팀)",
     "category": "kids_experience",
-    "description": "고양시도서관 프로그램이에요. 대상: 2018~2020년생(7~9세) 장소: 행신어린이도서관 2층 동아리방 시간: 10:00~11:50 도서관 홈페이지에서 신청해야 해요.",
+    "description": "고양시도서관 프로그램이에요. 대상: 2018~2020년생(7~9세) 장소: 행신어린이도서관 2층 동아리방 시간: 16:00~17:30 도서관 홈페이지에서 신청해야 해요.",
     "start_date": "2026-12-07",
     "end_date": "2026-12-14",
     "location_name": "행신어린이도서관",
@@ -285185,10 +284747,10 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "goyanglib-524907",
-    "content_hash": "47db3f8cdc3122d0ae1c72f6c21715808dd36be37ff7159614695d60de5531df",
+    "content_hash": "c477cd0421be2d8d9264a7ac9b66758f79747482000bf04eae7099e1bcabbba4",
     "id": "evt-c43346673d",
     "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00",
+    "updated_at": "2026-11-20T00:21:56.229353+00:00",
     "dong": "강매동"
   },
   {
@@ -287226,6 +286788,49 @@
     "created_at": "2026-11-11T00:01:56.316751+00:00",
     "updated_at": "2026-11-11T00:01:56.316751+00:00",
     "dong": "마두1동"
+  },
+  {
+    "title": "[서울시립미술관 서소문본관] 송수련컬렉션 기증기획전 《관조―추상》",
+    "category": "exhibition",
+    "description": "운영 시간 화-목 10:00~20:00 / 금 10:00~21:00 *상세 시간은 홈페이지 참고",
+    "start_date": "2026-12-17",
+    "end_date": "2027-03-21",
+    "location_name": "서울시립미술관 서소문본관",
+    "address": "서울특별시 중구 덕수궁길 61",
+    "latitude": 37.5641060692766,
+    "longitude": 126.973699316136,
+    "region": "서울특별시",
+    "district": "중구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1607616",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "seoul_portal",
+    "source_id": "160274",
+    "content_hash": "517762634a4999492d35d23c49c61ee6e5b2caf128c5bbcb4934e287fbcb7b49",
+    "id": "evt-51aaf73cd0",
+    "created_at": "2026-11-20T00:21:56.229353+00:00",
+    "updated_at": "2026-11-20T00:21:56.229353+00:00",
+    "dong": "소공동"
   },
   {
     "title": "[초등 1, 2학년] 크리스마스는 올까요?",
