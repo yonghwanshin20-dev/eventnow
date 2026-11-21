@@ -4863,11 +4863,6 @@
   "price": "무료",
   "v": 2
  },
- "406342": {
-  "address": "경기",
-  "fetched": "2026-11-06",
-  "homepage": "http://www.amproject.kr"
- },
  "406378": {
   "address": "전북특별자치도 전주시 완산구 경기전길 89 교동아트미술관",
   "age": "전체연령",
@@ -4919,11 +4914,6 @@
   "hours": "10:00~17:30",
   "price": "무료",
   "v": 2
- },
- "406401": {
-  "address": "서울",
-  "fetched": "2026-11-06",
-  "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
  },
  "406405": {
   "address": "부산광역시 남구 우암로 84-1 부산문화재단",
@@ -6595,6 +6585,15 @@
   "price": "5,000원",
   "v": 2
  },
+ "408835": {
+  "address": "충청북도 청주시 상당구 사북로 164 지하 1층 우민아트센터",
+  "age": "전체연령",
+  "fetched": "2026-11-21",
+  "homepage": "http://www.wuminartcenter.org/",
+  "hours": "10:00~18:00",
+  "price": "무료",
+  "v": 2
+ },
  "408874": {
   "address": "전북",
   "fetched": "2026-11-20",
@@ -6625,6 +6624,33 @@
   "homepage": "https://plaza.seoul.go.kr/archives/18966?listPage=1",
   "v": 2
  },
+ "408904": {
+  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-21",
+  "homepage": "http://www.wcf.or.kr/",
+  "hours": "[홈페이지 참고]",
+  "price": "무료",
+  "v": 2
+ },
+ "408905": {
+  "address": "강원특별자치도 춘천시 서면 박사로 854 애니메이션박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-21",
+  "homepage": "https://www.gica.or.kr/Ani/index",
+  "hours": "10:00~18:00",
+  "price": "[홈페이지 참고]",
+  "v": 2
+ },
+ "408910": {
+  "address": "부산광역시 남구 수영로 지하 242 대연지하철역사 공간소극장",
+  "age": "만 13세 이상",
+  "fetched": "2026-11-21",
+  "homepage": "http://cafe.naver.com/ggtheater",
+  "hours": "수요일 ~ 금요일(19:30), 토요일(15:00)",
+  "price": "전석 25,000원",
+  "v": 2
+ },
  "408915": {
   "address": "서울특별시 종로구 창경궁로 260 지하1층",
   "age": "만 13세 이상",
@@ -6641,6 +6667,36 @@
   "homepage": "http://www.sanwoollim.kr/",
   "hours": "화~금 8시 | 토, 일, 공휴일 4시 | 월 공연 없음",
   "price": "전석 50,000원",
+  "v": 2
+ },
+ "408973": {
+  "address": "부산광역시 북구 백양대로 1167 창조활력문화센터 소극장624",
+  "age": "12세 이상",
+  "fetched": "2026-11-21",
+  "homepage": "http://ccacenter.kr/",
+  "hours": "15:00",
+  "price": "30,000원",
+  "v": 2
+ },
+ "409002": {
+  "address": "서울특별시 용산구 서빙고로 137",
+  "fetched": "2026-11-21",
+  "homepage": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?schM=view&amp;catCustomType=united&amp;catId=128&amp;arcId=24111&amp;arcDataType=&amp;cp=1&amp;unitedUse",
+  "v": 2
+ },
+ "409024": {
+  "address": "서울특별시 성북구 성북로 8 (동소문동1가)",
+  "age": "만 13세이상",
+  "fetched": "2026-11-21",
+  "homepage": "https://stccenter.or.kr/",
+  "hours": "평일 19시 30분 / 주말 16시 (월 쉼)",
+  "price": "전석 50,000원",
+  "v": 2
+ },
+ "409038": {
+  "address": "서울",
+  "fetched": "2026-11-21",
+  "homepage": "https://plaza.seoul.go.kr/archives/18966?listPage=1",
   "v": 2
  }
 }
