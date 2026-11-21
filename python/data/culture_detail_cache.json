@@ -4890,14 +4890,6 @@
   "price": "성인: 20,000원 · 청소년 (만 14세~만 18세) 16,000원 · 어린이(24개월~만 13세) 12,000원",
   "v": 2
  },
- "406394": {
-  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
-  "age": "전체연령",
-  "fetched": "2026-11-07",
-  "homepage": "http://www.wcf.or.kr/",
-  "hours": "[홈페이지 참고]",
-  "price": "무료"
- },
  "406395": {
   "address": "강원특별자치도 춘천시 서면 박사로 854 애니메이션박물관",
   "age": "전체연령",
@@ -5300,11 +5292,6 @@
   "price": "전석 50,000원",
   "v": 2
  },
- "407033": {
-  "address": "충북",
-  "fetched": "2026-11-07",
-  "homepage": "https://www.goesan.go.kr/tour/selectBbsNttView.do?key=1421&bbsNo=219&nttNo=140080&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode="
- },
  "407036": {
   "address": "서울특별시 종로구 율곡로3길 4 서울공예박물관",
   "age": "전체연령",
@@ -5313,16 +5300,6 @@
   "hours": "[홈페이지 내용 참고]",
   "price": "무료",
   "v": 2
- },
- "407039": {
-  "address": "경남",
-  "fetched": "2026-11-07",
-  "homepage": "https://www.jinju.go.kr/00130/00139/00140.web?amode=view&sno=561&listMode=all&"
- },
- "407040": {
-  "address": "서울",
-  "fetched": "2026-11-07",
-  "homepage": "https://plaza.seoul.go.kr/archives/18939?listPage=1"
  },
  "407042": {
   "address": "인천광역시 연수구 청량로160번길 26 인천광역시립박물관",
