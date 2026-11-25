@@ -280334,6 +280334,50 @@
     "updated_at": "2026-11-11T04:42:48.515581+00:00"
   },
   {
+    "title": "[힙독서울] 강남구책읽구 : 11월 강남구 오픈 북클럽 책크in강남 『페스트』",
+    "category": "kids_experience",
+    "description": "강남구립도서관 프로그램이에요. 대상: 누구나 장소: 청담도서관 시간: 19:00~21:00 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2026-11-26",
+    "end_date": "2026-11-26",
+    "location_name": "청담도서관",
+    "address": "서울특별시 강남구 압구정로79길 26 (청담문화센터 7층)",
+    "latitude": 37.52509211,
+    "longitude": 127.0492911,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-10-28",
+    "apply_end": "2026-11-26",
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34092",
+    "tags": [
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "cultural_space",
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "gnlib-34092",
+    "content_hash": "0827859544581039ec97e9f638e3404325cbc938b8d27afc51d526173549984c",
+    "id": "evt-7b481d8c19",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "청담동"
+  },
+  {
     "title": "[별별공작소] 보석 십자수 그립톡 만들기 11/26",
     "category": "kids_experience",
     "description": "은평구립도서관 프로그램이에요. 대상: 전연령 장소: 은평어린이영어도서관 (평생학습관 1층) 1층 세미나실 시간: 16:00~17:00 도서관 홈페이지에서 신청해야 해요.",
@@ -280371,55 +280415,11 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-236213",
-    "content_hash": "6294b2998c14745e7c0a1fa9a62bae58d6d9eddd43816e92c77425d6f3db4ffb",
+    "content_hash": "74b86834fde312317602181eb643416c9c003eec21251de8d8e2e6ddc6de5b80",
     "id": "evt-8e8597f4e9",
     "created_at": "2026-11-11T00:01:56.316751+00:00",
     "updated_at": "2026-11-11T00:01:56.316751+00:00",
     "dong": "역촌동"
-  },
-  {
-    "title": "영어야 놀자 Let's Play 시즌 3 (2회차 - 11/26일 수업)",
-    "category": "kids_experience",
-    "description": "고양시도서관 프로그램이에요. 대상: 7~8세 어린이(2019~2020년생) 장소: 덕이도서관 1층 교양교실 시간: 16:00~16:50 도서관 홈페이지에서 신청해야 해요.",
-    "start_date": "2026-11-26",
-    "end_date": "2026-11-26",
-    "location_name": "덕이도서관",
-    "address": "경기도 고양시 일산서구 하이파크로 128(덕이동)",
-    "latitude": 37.702950411,
-    "longitude": 126.7545524212,
-    "region": "경기도",
-    "district": "고양시",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "age_min": 7.0,
-    "age_max": 8.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "apply_start": "2026-11-05",
-    "apply_end": "2026-11-25",
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=522224",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "goyanglib-522224",
-    "content_hash": "a574fdc91a1be100526130fd1b73d25179701d9b0b9d90884206a6fb181b9952",
-    "id": "evt-b7aa1d6ea7",
-    "created_at": "2026-11-09T09:15:20.086636+00:00",
-    "updated_at": "2026-11-09T09:15:20.086636+00:00",
-    "dong": "덕이동"
   },
   {
     "title": "2026 서울디자인페스티벌",
@@ -280536,7 +280536,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237104",
-    "content_hash": "ba00dffd98bf9f4b92b66e64afec1608d1268c5d7a98c45e22d06ca3ec5982ee",
+    "content_hash": "fb098cb2e1f0ba538af8514787e469b540f56914c3531be33e4521e6dc4ec4e7",
     "id": "evt-d814d5dc59",
     "created_at": "2026-11-17T14:10:20.276131+00:00",
     "updated_at": "2026-11-17T14:10:20.276131+00:00",
@@ -281988,7 +281988,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-236571",
-    "content_hash": "83fe1e77b2c7e4c788bb6a5d4089840f19245848d1697a0991ea64dce7064087",
+    "content_hash": "2976934f7ba770fd756c1699b84ccaaa30adf71de7667ad9157b457bb8c1088d",
     "id": "evt-268bb7cf0a",
     "created_at": "2026-11-13T00:07:14.136291+00:00",
     "updated_at": "2026-11-13T00:07:14.136291+00:00",
@@ -282248,50 +282248,6 @@
     "dong": "황금동",
     "apply_start": null,
     "apply_end": null
-  },
-  {
-    "title": "잠실본동 [4분기] 라탄 공예 _ 오! 마이 갓",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (누구나) 가족: 짝지어 참여하기 장소: 소나무언덕잠실본동도서관 시간: 10:30~12:00",
-    "start_date": "2026-11-28",
-    "end_date": "2026-11-28",
-    "location_name": "소나무언덕잠실본동도서관",
-    "address": "서울특별시 송파구 탄천동로 205 (잠실동)",
-    "latitude": 37.50305083,
-    "longitude": 127.0768362,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630440",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630440",
-    "content_hash": "124116a88624a08559dabd87d8bd6e34a72046242159fa069ab8c5bb29b5fa13",
-    "id": "evt-6932627a98",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00",
-    "dong": "잠실본동"
   },
   {
     "title": "[배움] 이야기의 변신 - 동화 읽기에서 낭독까지",
@@ -282842,7 +282798,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "gnlib-34211",
-    "content_hash": "e2c223a4c837bac92854d644a714b8c6c944309bbab5758fa79d94145a08892a",
+    "content_hash": "176e7b11512d657a50bcb2d1428b141d353339297870004e256da43e975b7e47",
     "id": "evt-b534ca834d",
     "created_at": "2026-11-25T03:05:19.271933+00:00",
     "updated_at": "2026-11-25T03:05:19.271933+00:00",
@@ -284583,6 +284539,49 @@
     "dong": "외발산동"
   },
   {
+    "title": "제12회 동행의 빛-순간. 시선. 색으로 이어지다",
+    "category": "exhibition",
+    "description": "고양문화재단 전시이에요. 장소: 고양어울림누리 어울림미술관 입장 연령: 제한없음",
+    "start_date": "2026-12-01",
+    "end_date": "2026-12-05",
+    "location_name": "고양어울림누리",
+    "address": "경기도 고양시 덕양구 어울림로 33",
+    "latitude": 37.6315,
+    "longitude": 126.8321,
+    "region": "경기도",
+    "district": "고양시",
+    "is_family_friendly": false,
+    "target_age_group": "all",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.artgy.or.kr/EH/EH0201V.aspx?showid=0000008546",
+    "tags": [
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "museum"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "artgy-0000008546",
+    "content_hash": "98e8933d6165d00ba445ff786b2fc62ff3603e230ea551b58e5b3b3304204d2d",
+    "id": "evt-74d9803f82",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "화정2동"
+  },
+  {
     "title": "[서울역사박물관] 2026년 딜쿠샤 개관 5주년 기념 작은전시 [딜쿠샤 앳 홈]",
     "category": "exhibition",
     "description": null,
@@ -286026,7 +286025,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237773",
-    "content_hash": "382b54f8be3b96a30be3b78168d6cbc49612a0deffc51efc088beddc177d4b96",
+    "content_hash": "1bba1f8e94f79af498dee131092274944541b9d46b95e3e9fca848ee1358683e",
     "id": "evt-ce3fad8e60",
     "created_at": "2026-11-24T04:23:18.548058+00:00",
     "updated_at": "2026-11-24T04:23:18.548058+00:00",
@@ -286243,6 +286242,51 @@
     "dong": "중동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "2호 ♠[2호] 업사이클링 환경공예 CLASS 재능기부 프로그램(원목트레이 만들기)",
+    "category": "kids_experience",
+    "description": "송파구립도서관 프로그램이에요. 대상: (아동) 부모 및 자녀(초등학생) 7팀 장소: 소나무언덕2호도서관 시간: 16:30~18:00",
+    "start_date": "2026-12-03",
+    "end_date": "2026-12-03",
+    "location_name": "소나무언덕2호도서관",
+    "address": "서울특별시 송파구 석촌호수로 155 (잠실동)",
+    "latitude": 37.50726667,
+    "longitude": 127.0942173,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630882",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "nature",
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-630882",
+    "content_hash": "ef458db4242d6bd954d1190fbd00ea456cea66cfbced9cda067bc6dc81542eb7",
+    "id": "evt-2c0b5383d0",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00"
   },
   {
     "title": "[서울시립 서서울미술관] 뉴미디어 국제전 《셰자드 다우드: 미래의 기억》",
@@ -286577,50 +286621,6 @@
     "updated_at": "2026-11-20T01:12:46.747176+00:00"
   },
   {
-    "title": "<6~7세> 북스타트선생님과 함께하는 '다 함께 그림책 시간-하반기'",
-    "category": "kids_experience",
-    "description": "고양시도서관 프로그램이에요. 대상: 6~7세(2020~2021년생) 장소: 화정어린이도서관 2층 동아리방 시간: 16:00~16:50 도서관 홈페이지에서 신청해야 해요.",
-    "start_date": "2026-12-03",
-    "end_date": "2026-12-03",
-    "location_name": "화정어린이도서관",
-    "address": "경기도 고양시 덕양구 화신로 323(화정동)",
-    "latitude": 37.6328324461,
-    "longitude": 126.8263013146,
-    "region": "경기도",
-    "district": "고양시",
-    "is_family_friendly": true,
-    "target_age_group": "kids",
-    "age_min": 6.0,
-    "age_max": 7.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "apply_start": "2026-11-19",
-    "apply_end": "2026-12-01",
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=514227",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "goyanglib-514227",
-    "content_hash": "9aa14c0bdc7962ded77f5ec99dc782166d797c492fb16edaa04ff73925246f58",
-    "id": "evt-d388dcb6ae",
-    "created_at": "2026-11-09T09:15:20.086636+00:00",
-    "updated_at": "2026-11-09T09:15:20.086636+00:00",
-    "dong": "화정2동"
-  },
-  {
     "title": "2026 송년음악회 부산시립합창단 : A Child of Our Time 우리 시대의 아이",
     "category": "performance",
     "description": "부산콘서트홀에서 열리는 행사예요. 문의 051-607-6000\n운영 시간 목요일(19:30)",
@@ -286699,7 +286699,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237724",
-    "content_hash": "5cc74c5e4cba6b8383924a87589a679e1bc0dba8f95ba9042bdfc0ebba776754",
+    "content_hash": "b4bd2f2648702ed0d9425ee856674e155df0c89c39457121006715af8962766e",
     "id": "evt-f119a78670",
     "created_at": "2026-11-24T04:23:18.548058+00:00",
     "updated_at": "2026-11-24T04:23:18.548058+00:00",
@@ -286867,50 +286867,6 @@
     "dong": "광양읍",
     "apply_start": null,
     "apply_end": null
-  },
-  {
-    "title": "영어 원어민 선생님과 함께하는 Story Book Explorers  (1~2학년)",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (아동) 초등 1~2학년(12명) 장소: 송파어린이영어도서관 시간: 17:00~17:50",
-    "start_date": "2026-12-04",
-    "end_date": "2026-12-04",
-    "location_name": "송파어린이영어도서관",
-    "address": "서울특별시 송파구 오금로 1 (신천동)",
-    "latitude": 37.5223926,
-    "longitude": 127.102983,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": "elementary",
-    "age_min": 7.0,
-    "age_max": 8.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630545",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630545",
-    "content_hash": "0b3c0b2fe412f4c6eec27e2583b2359ad7e7bc41d09def643dced80592c71d92",
-    "id": "evt-3a77fd5972",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00",
-    "dong": "잠실4동"
   },
   {
     "title": "[도서관 개관 5주년 기념] 어린이 독서체험 프로그램 <따뜻한 손길, 그림으로 꽃 피우다>",
@@ -287082,50 +287038,6 @@
     "dong": "일원1동",
     "apply_start": null,
     "apply_end": null
-  },
-  {
-    "title": "영어 원어민 선생님과 함께하는 Story Book Explorers  (6~7세)",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (유아) 6~7세(2020~2021년생)(12명) 장소: 송파어린이영어도서관 시간: 16:00~16:50",
-    "start_date": "2026-12-04",
-    "end_date": "2026-12-04",
-    "location_name": "송파어린이영어도서관",
-    "address": "서울특별시 송파구 오금로 1 (신천동)",
-    "latitude": 37.5223926,
-    "longitude": 127.102983,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": "toddler",
-    "age_min": 6.0,
-    "age_max": 7.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630546",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630546",
-    "content_hash": "2aeb89780b6b976d989cb06d83411902480abb06bc03845245e2a446ea993984",
-    "id": "evt-d4eeed5433",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00",
-    "dong": "잠실4동"
   },
   {
     "title": "기획연주회 <재즈와 캐롤>",
@@ -287685,6 +287597,49 @@
     "dong": "이태원1동"
   },
   {
+    "title": "풍납 [연말 특별] 책 속의 오케스트라 '겨울의 가장 따뜻한 선물'",
+    "category": "performance",
+    "description": "송파구립도서관 프로그램이에요. 대상: (유아) 가족(2020~2021년생 유아, 양육자 각 1명씩 2명) 8팀 장소: 풍납도서관 시간: 15:00~15:40",
+    "start_date": "2026-12-05",
+    "end_date": "2026-12-05",
+    "location_name": "풍납도서관",
+    "address": "서울특별시 송파구 풍성로8길5 (풍납동)",
+    "latitude": 37.53414112,
+    "longitude": 127.1158272,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=631106",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-631106",
+    "content_hash": "2f4440e813a1825f77be9c16719b08a8de7d60d872c7609f08a47ae624ecab6a",
+    "id": "evt-3851abf57f",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00"
+  },
+  {
     "title": "[괴산서울농장] 자연울림 맛의울림-김장편-2 (261205)",
     "category": "kids_experience",
     "description": "서울시 공공서비스예약 농장체험 프로그램이에요. 대상: 가족 장소: 괴산서울농장 예약해야 갈 수 있어요.",
@@ -288052,7 +288007,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237719",
-    "content_hash": "9c7658826b0da83209d963465c8a1c9df0e05b53a6ab0539b80edbe6672d4775",
+    "content_hash": "46152cd6a4c5b3f03022eb368176dd309e3f8e9e56f96cbabb3d5ea12cf9c5d6",
     "id": "evt-807140c5e1",
     "created_at": "2026-11-24T04:23:18.548058+00:00",
     "updated_at": "2026-11-24T04:23:18.548058+00:00",
@@ -288655,6 +288610,136 @@
     "dong": "남창동"
   },
   {
+    "title": "어린이 [공연] 모래가 들려주는 이야기",
+    "category": "performance",
+    "description": "송파구립도서관 프로그램이에요. 대상: (아동) 초등1~3학년(2017~2019년생) 30명 장소: 송파어린이도서관 시간: 16:00~17:00",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "location_name": "송파어린이도서관",
+    "address": "서울특별시 송파구 올림픽로 105 (잠실동)",
+    "latitude": 37.51210126,
+    "longitude": 127.0824285,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 7.0,
+    "age_max": 9.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=631123",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#공연",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-631123",
+    "content_hash": "ab11ab66b232623653f8f6259e62079d27e7c53d83aacabf03bebf9f36ae639b",
+    "id": "evt-1809a465e7",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "잠실동"
+  },
+  {
+    "title": "어린이 Curiosity Lab(호기심 연구실) (12월)",
+    "category": "kids_experience",
+    "description": "송파구립도서관 프로그램이에요. 대상: (유아) 2020년생~2021년생 16명 장소: 송파어린이도서관 시간: 14:00~15:00",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-20",
+    "location_name": "송파어린이도서관",
+    "address": "서울특별시 송파구 올림픽로 105 (잠실동)",
+    "latitude": 37.51210126,
+    "longitude": 127.0824285,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=631125",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-631125",
+    "content_hash": "649db4bc4b533881a2eacd8f2626614e3fc2781a5fecdeb93f2b1e9b8b5a66c0",
+    "id": "evt-1cc929d7ff",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "잠실동"
+  },
+  {
+    "title": "김가현의 Fusione Ⅰ : 푸시오네",
+    "category": "kids_experience",
+    "description": "고양문화재단 공연이에요. 장소: 고양아람누리 새라새극장 입장 연령: 24개월 이상 (24개월 미만 입장불가) [1인1매] 시간: 12월 6일(일) : 오후 5시",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "location_name": "고양아람누리",
+    "address": "경기도 고양시 일산동구 중앙로 1286",
+    "latitude": 37.6577,
+    "longitude": 126.771,
+    "region": "경기도",
+    "district": "고양시",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": 2.0,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "전석 기획사 문의",
+    "thumbnail_url": null,
+    "official_link": "https://www.artgy.or.kr/PF/PF0201V.aspx?showid=0000008543",
+    "tags": [
+      "#공연",
+      "#전통"
+    ],
+    "place_types": [],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "artgy-0000008543",
+    "content_hash": "953e99c66462ddd6c18e6b8095bc07d8eeafaff6c36b3b1d2befcef333ea53f7",
+    "id": "evt-1e51649f49",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "장항2동"
+  },
+  {
     "title": "(일)남산 숲탐정 명탐정",
     "category": "kids_experience",
     "description": "서울시 공공서비스예약 공원탐방 프로그램이에요. 대상: 가족(초등이상 가족) 장소: 남산 한남유아숲체험원 예약해야 갈 수 있어요.",
@@ -288828,6 +288913,93 @@
     "dong": "연희동"
   },
   {
+    "title": "남가좌새롬어린이도서관 크리스마스 센터피스 만들기 <메리 미리 크리스마스>",
+    "category": "kids_experience",
+    "description": "서대문구립도서관 프로그램이에요. 대상: 초등 1~2학년 12명 장소: 남가좌새롬어린이도서관 시간: 14:00~16:00 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "location_name": "남가좌새롬어린이도서관",
+    "address": "서울특별시 서대문구 증가로10길 16-15",
+    "latitude": 37.57833984,
+    "longitude": 126.9240465,
+    "region": "서울특별시",
+    "district": "서대문구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 7.0,
+    "age_max": 8.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-27",
+    "apply_end": "2026-12-04",
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://lib.sdm.or.kr/sdmlib/menu/10091/program/30025/eventDetail.do?eventIdx=199819",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "sdmlib-event-199819",
+    "content_hash": "383b5c9d7909ab1b322125046f68f19cfdf4fadd8a50ba4e8745b31b03de918e",
+    "id": "evt-644fae5944",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00"
+  },
+  {
+    "title": "[유아] 김인자 작가와의 만남: 상상 가득 민화 놀이터",
+    "category": "kids_experience",
+    "description": "강남구립도서관 프로그램이에요. 대상: 6~7세(2020~2021년생) 장소: 논현 문화마루도서관 시간: 14:00~15:30 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "location_name": "논현 문화마루도서관",
+    "address": "서울특별시 강남구",
+    "latitude": null,
+    "longitude": null,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": 6.0,
+    "age_max": 7.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-26",
+    "apply_end": "2026-12-05",
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34328",
+    "tags": [
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "park_playground",
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "gnlib-34328",
+    "content_hash": "faa83eaf204881bd03df1dc1aa55bf40a61eab54ade4a9613b2c426ad474b94f",
+    "id": "evt-74fbfb90de",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00"
+  },
+  {
     "title": "[프로그램] (고학년) VR 모험의 세계로!",
     "category": "kids_experience",
     "description": "은평구립도서관 프로그램이에요. 대상: 초등생 초등학교 4~6학년 장소: 은평구립도서관 상상둥지 시간: 15:40~17:10 도서관 홈페이지에서 신청해야 해요.",
@@ -288955,6 +289127,51 @@
     "created_at": "2026-11-19T08:37:10.510272+00:00",
     "updated_at": "2026-11-20T00:21:56.229353+00:00",
     "dong": "강매동"
+  },
+  {
+    "title": "거마 [연말 특별] 반짝! 산타가 나타났다: 산타 무드등 만들기",
+    "category": "kids_experience",
+    "description": "송파구립도서관 프로그램이에요. 대상: (아동) 초등 3~6학년 장소: 거마도서관 시간: 16:00~17:30",
+    "start_date": "2026-12-08",
+    "end_date": "2026-12-08",
+    "location_name": "거마도서관",
+    "address": "서울특별시 송파구 거마로2길 19 (거여동)",
+    "latitude": 37.493545,
+    "longitude": 127.1468274,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 9.0,
+    "age_max": 12.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=631198",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-631198",
+    "content_hash": "56841832418880c8646b54652b7ffac2d32f67378e57052202f2476e24cca407",
+    "id": "evt-5a29779f61",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "거여동"
   },
   {
     "title": "[아동 대상] 요리Day 재밌Day - 1부(12/8)",
@@ -289163,7 +289380,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237661",
-    "content_hash": "bc1266ef64cf74686f2919c8a9b2b4aea5fd5805c14fc15868f1e5161489aade",
+    "content_hash": "1826739ce970dc3623e061b72e6afffb4b49c86aed7cf4caae64c8ae0c468a47",
     "id": "evt-e8e97519e4",
     "created_at": "2026-11-24T04:23:18.548058+00:00",
     "updated_at": "2026-11-24T04:23:18.548058+00:00",
@@ -289542,6 +289759,51 @@
     "dong": "동춘3동",
     "apply_start": null,
     "apply_end": null
+  },
+  {
+    "title": "어린이 [프로그램] 크리스마스 도어벨 만들기",
+    "category": "kids_experience",
+    "description": "송파구립도서관 프로그램이에요. 대상: (유아) 6~7세 (2020~2021년생 ) 12명 (보호자 1인 동반 필수) 장소: 송파어린이도서관 시간: 16:00~17:00",
+    "start_date": "2026-12-11",
+    "end_date": "2026-12-11",
+    "location_name": "송파어린이도서관",
+    "address": "서울특별시 송파구 올림픽로 105 (잠실동)",
+    "latitude": 37.51210126,
+    "longitude": 127.0824285,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": 6.0,
+    "age_max": 7.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=631131",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-631131",
+    "content_hash": "764ecfe0497c3476b9013e1247fed2549731bd8101506ffa2c52ebfa18a5fb41",
+    "id": "evt-6bb60b2983",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "잠실동"
   },
   {
     "title": "[서초문화재단] 2026 고음악 오디세이 [음악의 언어 Theatrum(극장)]",
@@ -289962,7 +290224,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "splib-630630",
-    "content_hash": "c594a6e0a5e2cb289de516925b5557750be6dc3e871d29800d9cf3ed3312cd8c",
+    "content_hash": "71aaa8f4234bfed7ef94a11f63ac9ebf9bba042bfef3a4e99d59954fa59bf9f4",
     "id": "evt-1cc2a9dd2f",
     "created_at": "2026-11-19T08:37:10.510272+00:00",
     "updated_at": "2026-11-19T08:37:10.510272+00:00",
@@ -290217,50 +290479,6 @@
     "dong": "주엽동"
   },
   {
-    "title": "어린이 「달 목욕탕 」김상근 작가와의 만남",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (유아) 6~7세 유아(2020~2021년생) + 보호자1명 장소: 송파어린이도서관 시간: 14:00~15:30",
-    "start_date": "2026-12-12",
-    "end_date": "2026-12-12",
-    "location_name": "송파어린이도서관",
-    "address": "서울특별시 송파구 올림픽로 105 (잠실동)",
-    "latitude": 37.51210126,
-    "longitude": 127.0824285,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": "toddler",
-    "age_min": 6.0,
-    "age_max": 7.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630261",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630261",
-    "content_hash": "3e021e91326b6df47e4e9e40d67e977f622f9f228f519bfba2d0fd71f0347386",
-    "id": "evt-65990b853a",
-    "created_at": "2026-11-17T14:10:20.276131+00:00",
-    "updated_at": "2026-11-17T14:10:20.276131+00:00",
-    "dong": "잠실동"
-  },
-  {
     "title": "[가족 활동(초등1~6학년 + 양육자)] <우리 가족의 행복한 크리스마스 이야기> 크리스마스 케이크 만들기",
     "category": "kids_experience",
     "description": "서울시 공공서비스예약 교육체험 프로그램이에요. 대상: 가족 장소: 거점 8호 우리동네키움센터 (요리Yo) 예약해야 갈 수 있어요.",
@@ -290342,49 +290560,6 @@
     "created_at": "2026-11-25T03:05:19.271933+00:00",
     "updated_at": "2026-11-25T03:05:19.271933+00:00",
     "dong": "문막읍"
-  },
-  {
-    "title": "[해담는도서관 연말 프로그램] 손 끝으로 뜨는 겨울 (초등 3~6학년)",
-    "category": "kids_experience",
-    "description": "서대문구립도서관 프로그램이에요. 대상: 초등 3~6학년 12명 장소: 해담는도서관 시간: 14:00~16:00 도서관 홈페이지에서 신청해야 해요.",
-    "start_date": "2026-12-12",
-    "end_date": "2026-12-12",
-    "location_name": "해담는도서관",
-    "address": "서울특별시 서대문구",
-    "latitude": null,
-    "longitude": null,
-    "region": "서울특별시",
-    "district": "서대문구",
-    "is_family_friendly": true,
-    "target_age_group": "elementary",
-    "age_min": 9.0,
-    "age_max": 12.0,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": true,
-    "apply_start": "2026-11-23",
-    "apply_end": "2026-12-07",
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://lib.sdm.or.kr/sdmlib/menu/10091/program/30025/eventDetail.do?eventIdx=199687",
-    "tags": [
-      "#교육",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "sdmlib-event-199687",
-    "content_hash": "3ab5a424f3d3a54807aa018ce62be98034fc61447344f76a85a1d46ad24cba8c",
-    "id": "evt-c673e9e7f6",
-    "created_at": "2026-11-17T14:10:20.276131+00:00",
-    "updated_at": "2026-11-17T14:10:20.276131+00:00"
   },
   {
     "title": "STORY HOUR [12/12(토)-1부]",
@@ -290471,52 +290646,6 @@
     "created_at": "2026-11-17T14:10:20.276131+00:00",
     "updated_at": "2026-11-17T14:10:20.276131+00:00",
     "dong": "개포동"
-  },
-  {
-    "title": "돌마리 [개관기념] 최향랑 작가와의 만남 <숲속 재봉사의 바느질 가게>",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (누구나) 가족(보호자 1명+2021~2018년생 어린이 1명) 장소: 돌마리도서관 시간: 10:30~12:00",
-    "start_date": "2026-12-12",
-    "end_date": "2026-12-12",
-    "location_name": "돌마리도서관",
-    "address": "서울특별시 송파구 백제고분로37길 16 (석촌동)",
-    "latitude": 37.50356461,
-    "longitude": 127.1036855,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": "all",
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630311",
-    "tags": [
-      "#교육",
-      "#야외",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "nature",
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630311",
-    "content_hash": "0c22b56eb2c6e12768abf3b00a4fbd30585724d2ca79ca651d884ce2aad6b84d",
-    "id": "evt-f439047f80",
-    "created_at": "2026-11-17T14:10:20.276131+00:00",
-    "updated_at": "2026-11-17T14:10:20.276131+00:00",
-    "dong": "석촌동"
   },
   {
     "title": "이름이 많은 개",
@@ -290856,51 +290985,6 @@
     "created_at": "2026-11-17T02:27:42.369394+00:00",
     "updated_at": "2026-11-17T02:27:42.369394+00:00",
     "dong": "신촌동"
-  },
-  {
-    "title": "위례 [4분기] 문 열면 도어벨! (크리스마스 도어벨 만들기)",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (아동) 초1~6학년 / 12명 장소: 송파위례도서관 시간: 15:00~17:00",
-    "start_date": "2026-12-16",
-    "end_date": "2026-12-16",
-    "location_name": "송파위례도서관",
-    "address": "서울특별시 송파구 위례광장로 210 (장지동)",
-    "latitude": 37.48116665,
-    "longitude": 127.143936,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": null,
-    "age_min": null,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630550",
-    "tags": [
-      "#체험",
-      "#교육",
-      "#야외",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630550",
-    "content_hash": "e477fe47fcf972aefca75c0027a2696b4fcbf85f5b7fd0b1f75182627e1aebf4",
-    "id": "evt-7151926367",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00"
   },
   {
     "title": "겸재 예술학교 강사진전",
@@ -291354,6 +291438,50 @@
     "apply_end": null
   },
   {
+    "title": "영어 A Merry Music Tale - 스토리음악회",
+    "category": "performance",
+    "description": "송파구립도서관 프로그램이에요. 대상: (유아 이상) 6세~초등 2학년 (2018~2021년생) 15명 장소: 송파어린이영어도서관 시간: 16:30~17:30",
+    "start_date": "2026-12-18",
+    "end_date": "2026-12-18",
+    "location_name": "송파어린이영어도서관",
+    "address": "서울특별시 송파구 오금로 1 (신천동)",
+    "latitude": 37.5223926,
+    "longitude": 127.102983,
+    "region": "서울특별시",
+    "district": "송파구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": 6.0,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": false,
+    "apply_start": null,
+    "apply_end": null,
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630947",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "splib-630947",
+    "content_hash": "2fade87a919221a6539eb891765e5f7346c02a765c719b5e1148bfb311720c79",
+    "id": "evt-086179a24a",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "잠실4동"
+  },
+  {
     "title": "해비치아트 전시",
     "category": "exhibition",
     "description": "운영 시간 10:00~17:00\n주관 해비치아트",
@@ -291777,50 +291905,6 @@
     "apply_end": null
   },
   {
-    "title": "위례 [4분기] 크리스마스 매직 벌룬쇼",
-    "category": "kids_experience",
-    "description": "송파구립도서관 프로그램이에요. 대상: (아동) 2022년생~2017년생 (연나이4세~연나이9세) 장소: 송파위례도서관 시간: 14:00~15:00",
-    "start_date": "2026-12-19",
-    "end_date": "2026-12-19",
-    "location_name": "송파위례도서관",
-    "address": "서울특별시 송파구 위례광장로 210 (장지동)",
-    "latitude": 37.48116665,
-    "longitude": 127.143936,
-    "region": "서울특별시",
-    "district": "송파구",
-    "is_family_friendly": true,
-    "target_age_group": "kids",
-    "age_min": 4.0,
-    "age_max": null,
-    "amenities": {
-      "parking": false,
-      "stroller": false,
-      "nursing_room": false
-    },
-    "booking_required": false,
-    "apply_start": null,
-    "apply_end": null,
-    "price_info": "무료",
-    "thumbnail_url": null,
-    "official_link": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventDetail.do?eventIdx=630568",
-    "tags": [
-      "#교육",
-      "#야외",
-      "#실내",
-      "#무료"
-    ],
-    "place_types": [
-      "library"
-    ],
-    "status": "upcoming",
-    "source": "local_culture",
-    "source_id": "splib-630568",
-    "content_hash": "bcfefbcbc9d58445faef65480a21b920031eacbb6df94d287682aca447aedfd8",
-    "id": "evt-9b205f86eb",
-    "created_at": "2026-11-19T08:37:10.510272+00:00",
-    "updated_at": "2026-11-19T08:37:10.510272+00:00"
-  },
-  {
     "title": "[꿈의숲아트센터] 2026 꿈의숲 시즌콘서트 : Winter Blossom_신인류",
     "category": "performance",
     "description": "DREAM FOREST SEASON CONCERT Winter Blosson 2026.12.19.Sat 17:00 꿈의숲아트센터 퍼포먼스홀 초등학생 이상 관람 가능(2019년생 포함) 전석 66,000원 예매 세종문회티켓, NOL티켓 문의 세종문화회관 02-399-1000\n운영 시간 17:00",
@@ -292159,7 +292243,7 @@
     "status": "upcoming",
     "source": "local_culture",
     "source_id": "eplib-237406",
-    "content_hash": "8972f057bb7787a9cbccf928f20da27aee4d0ded8fb9eca3caeb8fea5e43ba56",
+    "content_hash": "04fbf57fb2aea0035368a6ce858b5aa9a8757a4543a9697624787a986d2743d2",
     "id": "evt-73c016f956",
     "created_at": "2026-11-19T08:37:10.510272+00:00",
     "updated_at": "2026-11-19T08:37:10.510272+00:00",
@@ -293761,6 +293845,95 @@
     "dong": "평창동"
   },
   {
+    "title": "[겨울방학 공유학교] 생각이 자라는 책 읽기",
+    "category": "kids_experience",
+    "description": "고양시도서관 프로그램이에요. 대상: 초등3~6학년 장소: 행신어린이도서관 2층 동아리방 시간: 10:00~11:40 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2027-01-11",
+    "end_date": "2027-01-20",
+    "location_name": "행신어린이도서관",
+    "address": "경기도 고양시 덕양구 소원로181번길 42(행신동)",
+    "latitude": 37.6147891698,
+    "longitude": 126.8434670901,
+    "region": "경기도",
+    "district": "고양시",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 9.0,
+    "age_max": 12.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-30",
+    "apply_end": "2026-12-04",
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=525836",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "goyanglib-525836",
+    "content_hash": "a9c5497f9750d8d3d40695dafb02d73d593178773c7b8eb750ad56d51f847630",
+    "id": "evt-207014efad",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "강매동"
+  },
+  {
+    "title": "[겨울방학 공유학교] 방학 동안 책 친구 만들기: 전래놀이와 과학놀이",
+    "category": "kids_experience",
+    "description": "고양시도서관 프로그램이에요. 대상: 2016년생~2017년생 20명 장소: 화정도서관 지하 1층 꽃뜰 시간: 10:00~11:40 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2027-01-11",
+    "end_date": "2027-01-21",
+    "location_name": "화정도서관",
+    "address": "경기도 고양시 덕양구 은빛로77번길 8(화정동)",
+    "latitude": 37.6378353432,
+    "longitude": 126.8371029508,
+    "region": "경기도",
+    "district": "고양시",
+    "is_family_friendly": true,
+    "target_age_group": null,
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-30",
+    "apply_end": "2026-12-04",
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=525839",
+    "tags": [
+      "#체험",
+      "#교육",
+      "#실내",
+      "#꽃",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "goyanglib-525839",
+    "content_hash": "05939b89bde6b4fad2cccdc870df6dc308f30806e4777daa6f6118df7d565399",
+    "id": "evt-225d26bae8",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00"
+  },
+  {
     "title": "[겨울방학 공유학교] 직선과 곡선의 요가 여행(주엽어린이)",
     "category": "kids_experience",
     "description": "고양시도서관 프로그램이에요. 대상: 초등 3~4학년 장소: 주엽어린이도서관 2.5층 어울림터 시간: 10:00~11:40 도서관 홈페이지에서 신청해야 해요.",
@@ -293849,6 +294022,136 @@
     "dong": "마두1동"
   },
   {
+    "title": "[접수예정][비대면] 영어독서프로그램 18기 - SEL",
+    "category": "kids_experience",
+    "description": "강남구립도서관 프로그램이에요. 대상: 정회원 유아(2021년생) ~ 예비 중학교 3학년 장소: 못골도서관 시간: 00:00~00:00 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2027-01-11",
+    "end_date": "2027-06-30",
+    "location_name": "못골도서관",
+    "address": "서울특별시 강남구 자곡로 116",
+    "latitude": 37.47153792,
+    "longitude": 127.0965824,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-12-07",
+    "apply_end": "2026-12-30",
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34326",
+    "tags": [
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "gnlib-34326",
+    "content_hash": "22ad4b74c5f6f14cc5668a5e4e123657fe96c5079d4483b55f9b60b9f72edf34",
+    "id": "evt-aac45184c1",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "자곡동"
+  },
+  {
+    "title": "[접수예정][비대면] 영어독서프로그램 18기 - SR/AR",
+    "category": "kids_experience",
+    "description": "강남구립도서관 프로그램이에요. 대상: 정회원 유아(2021년생) ~ 예비 중학교 3학년 장소: 못골도서관 시간: 00:00~00:00 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2027-01-11",
+    "end_date": "2027-06-30",
+    "location_name": "못골도서관",
+    "address": "서울특별시 강남구 자곡로 116",
+    "latitude": 37.47153792,
+    "longitude": 127.0965824,
+    "region": "서울특별시",
+    "district": "강남구",
+    "is_family_friendly": true,
+    "target_age_group": "toddler",
+    "age_min": null,
+    "age_max": null,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-12-07",
+    "apply_end": "2026-12-30",
+    "price_info": null,
+    "thumbnail_url": null,
+    "official_link": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureDetail.do?lectureIdx=34325",
+    "tags": [
+      "#교육",
+      "#실내"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "gnlib-34325",
+    "content_hash": "c86b7b22c62c610a59ab35bf9737add6ca628562817d10d2923cc8c6b7f1e2dd",
+    "id": "evt-f76afacc59",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "자곡동"
+  },
+  {
+    "title": "[겨울방학 공유학교] 겨울방학은 책과 함께",
+    "category": "kids_experience",
+    "description": "고양시도서관 프로그램이에요. 대상: 2026년 기준 초등5~6학년 20명(14~15년생) 장소: 높빛도서관 2층 나눔터 시간: 10:00~11:40 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2027-01-12",
+    "end_date": "2027-01-21",
+    "location_name": "높빛도서관",
+    "address": "경기도 고양시 덕양구 푸른마을로 34-8(고양동)",
+    "latitude": 37.7101589626,
+    "longitude": 126.9053031047,
+    "region": "경기도",
+    "district": "고양시",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 11.0,
+    "age_max": 12.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-30",
+    "apply_end": "2026-12-04",
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=525667",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "goyanglib-525667",
+    "content_hash": "b79818fafd61197e428b1a0b25a2563e01f46c206387d02aadd949752baeb5c7",
+    "id": "evt-4c4f06c232",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "고양동"
+  },
+  {
     "title": "[겨울방학 공유학교] 책 읽고 뚝딱! 겨울방학 만들기",
     "category": "kids_experience",
     "description": "고양시도서관 프로그램이에요. 대상: 초등3~4학년 (2016~2017년생) 장소: 화정어린이도서관 2층 동아리방 시간: 10:00~11:40 도서관 홈페이지에서 신청해야 해요.",
@@ -293892,6 +294195,50 @@
     "created_at": "2026-11-25T03:05:19.271933+00:00",
     "updated_at": "2026-11-25T03:05:19.271933+00:00",
     "dong": "화정2동"
+  },
+  {
+    "title": "[겨울방학 공유학교] 대화탐정단 : 마음을 찾아라",
+    "category": "kids_experience",
+    "description": "고양시도서관 프로그램이에요. 대상: 초등 3-4학년 (2016~2017년생 / 2026년 기준) 장소: 덕이도서관 1층 교양교실 시간: 10:00~11:40 도서관 홈페이지에서 신청해야 해요.",
+    "start_date": "2027-01-12",
+    "end_date": "2027-01-20",
+    "location_name": "덕이도서관",
+    "address": "경기도 고양시 일산서구 하이파크로 128(덕이동)",
+    "latitude": 37.702950411,
+    "longitude": 126.7545524212,
+    "region": "경기도",
+    "district": "고양시",
+    "is_family_friendly": true,
+    "target_age_group": "elementary",
+    "age_min": 9.0,
+    "age_max": 10.0,
+    "amenities": {
+      "parking": false,
+      "stroller": false,
+      "nursing_room": false
+    },
+    "booking_required": true,
+    "apply_start": "2026-11-30",
+    "apply_end": "2026-12-04",
+    "price_info": "무료",
+    "thumbnail_url": null,
+    "official_link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=525798",
+    "tags": [
+      "#교육",
+      "#실내",
+      "#무료"
+    ],
+    "place_types": [
+      "library"
+    ],
+    "status": "upcoming",
+    "source": "local_culture",
+    "source_id": "goyanglib-525798",
+    "content_hash": "69418374e08fc00838d5f1461ee38f9bee78b93024cb4ec612899b5b37b9675f",
+    "id": "evt-683d8cbfba",
+    "created_at": "2026-11-25T08:51:43.786202+00:00",
+    "updated_at": "2026-11-25T08:51:43.786202+00:00",
+    "dong": "덕이동"
   },
   {
     "title": "[겨울방학 공유학교] 나를 안아주고 너에게 다가가는 시간",
