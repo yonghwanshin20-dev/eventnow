@@ -1,35 +1,45 @@
 {
-  "generated_at": "2026-11-26T00:25:02.013568+00:00",
-  "total": 7047,
+  "generated_at": "2026-11-26T02:15:53.658564+00:00",
+  "total": 7059,
   "by_source": {
     "attraction": 4431,
-    "city_calendar": 10,
-    "culture_portal": 556,
+    "city_calendar": 11,
+    "culture_portal": 573,
     "curated": 255,
-    "kfes": 132,
-    "local_culture": 149,
+    "kfes": 134,
+    "local_culture": 137,
     "mcst_festival": 28,
-    "popply": 516,
+    "popply": 525,
     "public_data": 155,
     "seoul_api": 139,
     "seoul_portal": 100,
-    "seoul_reservation": 510,
-    "venue_fair": 66
+    "seoul_reservation": 504,
+    "venue_fair": 67
   },
   "run": {
-    "status": "ok",
+    "status": "partial",
     "sources": [
       "city",
+      "culture",
+      "kfes",
       "local",
-      "seoulportal"
+      "mcst",
+      "places",
+      "popup",
+      "public",
+      "seoul",
+      "seoulportal",
+      "venue"
     ],
-    "inserted": 88,
-    "updated": 0,
+    "inserted": 124,
+    "updated": 4537,
     "corrected": 0,
-    "deduplicated": 83,
-    "withdrawn": 1,
+    "deduplicated": 56,
+    "withdrawn": 56,
     "pruned": 0,
-    "rejected": 0,
-    "source_errors": {}
+    "rejected": 2,
+    "source_errors": {
+      "seoulportal": "PermissionError: robots.txt disallows https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do"
+    }
   }
 }
