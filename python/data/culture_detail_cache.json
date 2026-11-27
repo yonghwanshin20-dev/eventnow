@@ -2147,23 +2147,6 @@
   "price": "전석 40,000원",
   "v": 2
  },
- "403289": {
-  "address": "부산광역시 수영구 망미번영로52번길 5 (수영동)",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.instagram.com/space.youngyoung/",
-  "hours": "토요일(14:00,16:00,18:00), 일요일(16:00,18:00)",
-  "price": "전석 15,000원",
-  "v": 2
- },
- "403301": {
-  "address": "전남광주통합특별시 서구 마재로 3 서구문화센터",
-  "age": "만 7세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.seomunsen.or.kr/index.php",
-  "hours": "토요일(14:00,18:00)",
-  "price": "전석 10,000원",
-  "v": 2
- },
  "403310": {
   "address": "부산광역시 동래구 문화로 80 동래문화회관",
   "age": "만 7세(초등학생) 이상",
@@ -2179,15 +2162,6 @@
   "fetched": "2026-11-17",
   "homepage": "http://www.gmcf.or.kr/Main/Index",
   "hours": "목요일(19:30)",
-  "price": "전석 10,000원",
-  "v": 2
- },
- "403347": {
-  "address": "전남광주통합특별시 목포시 남농로 102 목포문화예술회관",
-  "age": "만 7세(초등학생) 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.mokpo.go.kr/art/",
-  "hours": "토요일(16:00)",
   "price": "전석 10,000원",
   "v": 2
  },
@@ -2207,15 +2181,6 @@
   "homepage": "http://www.yeongdo.go.kr/culture.web",
   "hours": "금요일(19:30), 토요일(15:00)",
   "price": "전석 20,000원",
-  "v": 2
- },
- "403429": {
-  "address": "대구광역시 달서구 문화회관길 160 (장기동)",
-  "age": "만 7세(초등학생) 이상",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.dscf.or.kr/pages/main/index.html",
-  "hours": "토요일(15:00)",
-  "price": "전석 10,000원",
   "v": 2
  },
  "403433": {
@@ -2242,15 +2207,6 @@
   "homepage": "https://www.sejongpac.or.kr/dfac/main/contents.do?menuNo=1200023",
   "hours": "수요일(19:30)",
   "price": "전석 20,000원",
-  "v": 2
- },
- "403446": {
-  "address": "전남광주통합특별시 북구 첨단과기로176번길 27 이벤트홀",
-  "age": "24개월 이상",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.gdc.or.kr/",
-  "hours": "토요일(11:00,13:00,15:00)",
-  "price": "전석 40,000원, 사전예약 10,000원",
   "v": 2
  },
  "403459": {
@@ -2307,7 +2263,7 @@
  "403563": {
   "address": "서울특별시 종로구 동숭길 122(동숭동)",
   "age": "만 16세(고등학생) 이상",
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-27",
   "homepage": "https://www.sfac.or.kr/site/SFAC_KOR/09/10911010000002021111611.jsp",
   "hours": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00)",
   "price": "전석 50,000원",
@@ -2385,23 +2341,6 @@
   "price": "전석 10,000원",
   "v": 2
  },
- "403643": {
-  "address": "인천 서해구 서달로 190 인천서해구문화회관",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.iscf.kr/_new/html/index/",
-  "hours": "토요일(15:00,19:00)",
-  "price": "전석무료",
-  "v": 2
- },
- "403658": {
-  "address": "경기도 부천시 길주로 1 한국만화박물관",
-  "age": "24개월 이상",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.komacon.kr/comicsmuseum/",
-  "hours": "화요일 ~ 금요일(10:10,11:20), 토요일 ~ 일요일(11:00,13:00,15:00)",
-  "price": "전석 35,000원",
-  "v": 2
- },
  "403671": {
   "address": "인천광역시 남동구 예술로 149 구월동 1408",
   "age": "만 13세(중학생) 이상",
@@ -2427,33 +2366,6 @@
   "homepage": "https://www.gunpocf.or.kr/happy",
   "hours": "목요일(11:00), 금요일(11:00,19:30), 토요일(11:00)",
   "price": "전석 10,000원",
-  "v": 2
- },
- "403697": {
-  "address": "대구광역시 남구 현충로 256 씨어터우전 지하1층",
-  "age": "만 15세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://dpas.kr/new/front/index.php?g_page=performance&m_page=performance03&bb_code=10rp0ak00r5a90c&view=read",
-  "hours": "목요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00,19:00)",
-  "price": "전석 30,000원",
-  "v": 2
- },
- "403722": {
-  "address": "경상북도 안동시 풍천면 도청대로 455 경북도청 동락관",
-  "age": "만 7세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.gb.go.kr/Main/open_contents/section/dongrak/index.do",
-  "hours": "토요일(17:00)",
-  "price": "전석 10,000원",
-  "v": 2
- },
- "403723": {
-  "address": "서울특별시 강동구 동남로 870 강동아트센터",
-  "age": "만 7세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.gdfac.or.kr/home/ko/main",
-  "hours": "토요일(15:00,18:00)",
-  "price": "전석 40,000원",
   "v": 2
  },
  "403734": {
@@ -2534,15 +2446,6 @@
   "price": "R석 50,000원, S석 40,000원",
   "v": 2
  },
- "403867": {
-  "address": "경기도 성남시 수정구 수정로171번길 10 성남아트리움",
-  "age": "만 7세(초등학생) 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.grandculture.net/seongnam/toc/GC00101172",
-  "hours": "토요일 ~ 일요일(15:00)",
-  "price": "R석 30,000원, S석 20,000원",
-  "v": 2
- },
  "403926": {
   "address": "대구광역시 중구 교동길 15 송죽씨어터",
   "age": "만 13세(중학생) 이상",
@@ -2586,15 +2489,6 @@
   "price": "전석 25,000원",
   "v": 2
  },
- "403976": {
-  "address": "전남광주통합특별시 강진군 강진읍 영랑로1길 9 강진군아트홀",
-  "age": "만 3세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.gangjin.go.kr/arthall/index.php",
-  "hours": "토요일(15:00)",
-  "price": "전석 10,000원",
-  "v": 2
- },
  "404012": {
   "address": "서울특별시 종로구 대학로14길 29 링크아트센터",
   "age": "만 13세(중학생) 이상",
@@ -2622,14 +2516,6 @@
   "price": "VIP석 160,000원, R석 140,000원, S석 110,000원, A석 80,000원",
   "v": 2
  },
- "404031": {
-  "address": "경기도 과천시 상하벌로 110 국립과천과학관",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.sciencecenter.go.kr/scipia/",
-  "hours": "토요일 ~ 일요일(11:00,14:00,16:00)",
-  "price": "C석 40,000원",
-  "v": 2
- },
  "404049": {
   "address": "충북 청주시 상당구 중앙로 30 2층",
   "age": "만 12세 이상",
@@ -2637,24 +2523,6 @@
   "homepage": "https://www.cheongju.go.kr/ktour/selectClturCntnts2019View.do?key=20401&clturCntntsNo=2064",
   "hours": "목요일 ~ 금요일(19:30), 토요일(14:00,17:00), 일요일(14:00), HOL(11:00,14:00,17:00)",
   "price": "전석 40,000원",
-  "v": 2
- },
- "404058": {
-  "address": "경기도 수원시 권선구 호매실로 237 빛누리아트홀",
-  "age": "만 7세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.bitnuriart.com/",
-  "hours": "토요일(14:00)",
-  "price": "전석 10,000원",
-  "v": 2
- },
- "404063": {
-  "address": "부산광역시 동구 자성로133번길 16 부산시민회관",
-  "age": "만 7세(초등학생) 이상",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.bscc.or.kr/citizen/06_intro/?mcode=1006010000",
-  "hours": "금요일(19:30), 토요일 ~ 일요일(15:30)",
-  "price": "전석 10,000원",
   "v": 2
  },
  "404088": {
@@ -2780,15 +2648,6 @@
   "price": "전석 30,000원",
   "v": 2
  },
- "404394": {
-  "address": "강원특별자치도 춘천시 영서로 3017 춘천인형극장",
-  "age": "24개월 이상",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.cocobau.com/",
-  "hours": "토요일(13:00,15:00)",
-  "price": "전석 40,000원",
-  "v": 2
- },
  "404421": {
   "address": "서울특별시 양천구 목동동로 233 2층",
   "age": "24개월 이상",
@@ -2857,14 +2716,6 @@
   "homepage": "https://www.facebook.com/bom2011/?fref=ts",
   "hours": "수요일 ~ 목요일(19:00,19:30), 금요일(16:00,19:30), 토요일(15:00,16:00,18:00,19:00), 일요일(15:00,18:00)",
   "price": "전석 30,000원",
-  "v": 2
- },
- "404537": {
-  "address": "제주특별자치도 제주시 오남로 231 제주아트센터",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.jejusi.go.kr/acenter/index.do",
-  "hours": "금요일(19:30), 토요일(15:00,19:00)",
-  "price": "R석 60,000원, S석 40,000원, A석 30,000원",
   "v": 2
  },
  "404542": {
@@ -3323,7 +3174,7 @@
  "405197": {
   "address": "전남광주통합특별시 북구 북문대로 60 광주예술의전당",
   "age": "만 7세(초등학생) 이상",
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-27",
   "homepage": "https://gjart.gwangju.go.kr/",
   "hours": "목요일(19:30), 금요일(14:00,19:30), 토요일(16:00,19:30)",
   "price": "R석 20,000원, S석 10,000원",
@@ -3549,6 +3400,15 @@
   "price": "전석 12,000원",
   "v": 2
  },
+ "405433": {
+  "address": "부산광역시 수영구 수영로 477 화민빌딩",
+  "age": "만 15세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://blog.naver.com/mac1986",
+  "hours": "금요일(19:30), 토요일 ~ 일요일(16:00)",
+  "price": "전석 35,000원",
+  "v": 2
+ },
  "405439": {
   "address": "서울특별시 서초구 남부순환로 2406 예술의전당",
   "age": "만 7세(초등학생) 이상",
@@ -3689,6 +3549,15 @@
   "fetched": "2026-11-24",
   "v": 2
  },
+ "405742": {
+  "address": "대구광역시 달서구 문화회관길 160 (장기동)",
+  "age": "만 5세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.dscf.or.kr/pages/main/index.html",
+  "hours": "토요일(17:00)",
+  "price": "전석 30,000원",
+  "v": 2
+ },
  "405744": {
   "address": "서울특별시 중구 삼일대로9길 12 삼일로창고극장",
   "age": "만 12세 이상",
@@ -3705,6 +3574,15 @@
   "homepage": "https://www.instagram.com/dreamarthall",
   "hours": "수요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00)",
   "price": "전석 30,000원",
+  "v": 2
+ },
+ "405759": {
+  "address": "전남광주통합특별시 서구 풍암공원로 30 서빛마루문화예술회관",
+  "age": "만 6세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://seobitmaru.seogu.gwangju.kr/",
+  "hours": "토요일(15:00,19:00)",
+  "price": "무등급석 10,000원, 휠체어석 5,000원",
   "v": 2
  },
  "405764": {
@@ -3805,6 +3683,15 @@
   "price": "전석 35,000원",
   "v": 2
  },
+ "405887": {
+  "address": "서울특별시 종로구 동숭길 47 나인진홀",
+  "age": "만 11세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.ninejin.com/contact/",
+  "hours": "수요일 ~ 금요일(20:10), 토요일 ~ 일요일(20:10)",
+  "price": "전석 30,000원",
+  "v": 2
+ },
  "405890": {
   "address": "서울특별시 종로구 세종대로 175 세종문화회관",
   "age": "36개월 이상",
@@ -3821,6 +3708,15 @@
   "homepage": "https://www.sdfac.or.kr/",
   "hours": "금요일(19:30)",
   "price": "R석 15,000원, S석 10,000원",
+  "v": 2
+ },
+ "405895": {
+  "address": "경상북도 경주시 알천북로 1 경주예술의전당",
+  "age": "만 7세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.garts.kr/index.do?menuId=00000402",
+  "hours": "토요일 ~ 일요일(14:00,18:30)",
+  "price": "VIP석 160,000원, R석 140,000원, S석 110,000원, 시야제한석 80,000원",
   "v": 2
  },
  "405899": {
@@ -3922,7 +3818,7 @@
  },
  "406207": {
   "address": "서울특별시 성동구 연무장7길 11 우란문화재단",
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-27",
   "homepage": "http://www.wooranfdn.org/main.jsp",
   "hours": "목요일 ~ 금요일(19:30)",
   "price": "전석무료",
@@ -3944,6 +3840,15 @@
   "homepage": "http://www.nonsan.go.kr/arthall/",
   "hours": "금요일(19:00)",
   "price": "전석 10,000원",
+  "v": 2
+ },
+ "406228": {
+  "address": "제주특별자치도 제주시 오남로 231 제주아트센터",
+  "age": "만 7세(초등학생) 이상",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.jejusi.go.kr/acenter/index.do",
+  "hours": "토요일(17:00), 일요일(15:00)",
+  "price": "전석 20,000원",
   "v": 2
  },
  "406231": {
@@ -4121,6 +4026,15 @@
   "price": "전석 15,000원",
   "v": 2
  },
+ "406652": {
+  "address": "대전광역시 서구 둔산대로 181 대전시립연정국악원",
+  "age": "36개월 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.daejeon.go.kr/kmusic/index.do",
+  "hours": "일요일(17:00)",
+  "price": "전석 30,000원",
+  "v": 2
+ },
  "406666": {
   "address": "전북특별자치도 군산시 백토로 203 군산예술의전당",
   "age": "24개월 이상",
@@ -4281,7 +4195,7 @@
  },
  "406834": {
   "address": "경상북도 포항시 남구 시청로 1 문화동대잠홀",
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-27",
   "homepage": "https://phcf.or.kr/phcf/facilities/intro_detail.do?spaceName=%EB%8C%80%EC%9E%A0%ED%99%80",
   "hours": "목요일 ~ 금요일(19:30), 토요일(16:00)",
   "price": "전석 5,000원",
@@ -4294,6 +4208,15 @@
   "homepage": "https://www.gn.go.kr/artscenter/index.do",
   "hours": "토요일 ~ 일요일(14:00,18:00)",
   "price": "전석 10,000원",
+  "v": 2
+ },
+ "406848": {
+  "address": "서울특별시 종로구 대학로12길 31 자유극장",
+  "age": "만 11세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://blog.naver.com/jautheater",
+  "hours": "월요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+  "price": "R석 60,000원, S석 50,000원",
   "v": 2
  },
  "406851": {
@@ -4348,6 +4271,15 @@
   "price": "전석 20,000원",
   "v": 2
  },
+ "406871": {
+  "address": "부산광역시 사하구 낙동남로1233번길 25 을숙도문화회관",
+  "age": "만 4세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.saha.go.kr/eulsukdo/main.do",
+  "hours": "토요일(14:00)",
+  "price": "전석 10,000원",
+  "v": 2
+ },
  "406877": {
   "address": "인천광역시 남구 수봉안길 78 인천수봉문화회관",
   "age": "만 4세 이상",
@@ -4389,15 +4321,6 @@
   "fetched": "2026-11-18",
   "homepage": "https://blog.naver.com/iscf_kr/222475080961",
   "hours": "토요일(15:00)",
-  "price": "전석무료",
-  "v": 2
- },
- "406983": {
-  "address": "경상북도 칠곡군 석적읍 강변대로 1570",
-  "age": "만 7세 이상",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.chilgokctf.or.kr/ctf/contents.do?mId=0801010000",
-  "hours": "목요일(19:00)",
   "price": "전석무료",
   "v": 2
  },
@@ -4498,6 +4421,15 @@
   "price": "무료",
   "v": 2
  },
+ "407058": {
+  "address": "서울특별시 구로구 구로동로26길 54 4층",
+  "age": "36개월 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.guroartsvalley.or.kr/user/home.do",
+  "hours": "금요일(10:30), 토요일(11:00,14:00)",
+  "price": "전석 10,000원",
+  "v": 2
+ },
  "407068": {
   "address": "경기도 화성시 노작로 11-1 (오산동)",
   "age": "만 7세 이상",
@@ -4513,6 +4445,24 @@
   "fetched": "2026-11-26",
   "homepage": "https://www.haman.go.kr/art.web",
   "hours": "토요일(14:00,17:00)",
+  "price": "전석 30,000원",
+  "v": 2
+ },
+ "407098": {
+  "address": "대구광역시 수성구 무학로 180 수성아트피아",
+  "age": "만 7세(초등학생) 이상",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.ssartpia.kr/",
+  "hours": "토요일(17:00)",
+  "price": "전석 10,000원",
+  "v": 2
+ },
+ "407103": {
+  "address": "경기도 오산시 경기동로 41 오산문화예술회관",
+  "age": "만 8세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://osan.go.kr/arts/main.do",
+  "hours": "토요일(14:00)",
   "price": "전석 30,000원",
   "v": 2
  },
@@ -4560,6 +4510,24 @@
   "price": "R석 30,000원, S석 20,000원, A석 10,000원",
   "v": 2
  },
+ "407149": {
+  "address": "서울특별시 노원구 동일로 1229 노원구민의전당",
+  "age": "20개월 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.nowonsc.kr/fmcs/102",
+  "hours": "토요일(11:00,14:00,16:00)",
+  "price": "전석 20,000원",
+  "v": 2
+ },
+ "407154": {
+  "address": "경상남도 진주시 동진로 33 본관 2층",
+  "age": "만 2세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.gnu.ac.kr/main/main.do",
+  "hours": "토요일(11:00,13:00,15:00)",
+  "price": "전석 50,000원",
+  "v": 2
+ },
  "407156": {
   "address": "경상남도 김해시 김해대로 2060 김해문화의전당",
   "fetched": "2026-11-18",
@@ -4603,6 +4571,24 @@
   "price": "전석 30,000원",
   "v": 2
  },
+ "407183": {
+  "address": "경기도 평택시 중앙로 277 남부문화예술회관",
+  "age": "만 2세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.pccf.or.kr/fclt/space.do?spaceCd=FCLT_NAMBU",
+  "hours": "일요일(11:00,14:00,16:00)",
+  "price": "전석 50,000원",
+  "v": 2
+ },
+ "407190": {
+  "address": "경상남도 창원시 진해구 진해대로 325 진해문화센터",
+  "age": "24개월 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.cwcf.or.kr/facility/facility_jhcc.asp",
+  "hours": "토요일 ~ 일요일(11:00,14:00,16:00)",
+  "price": "전석 40,000원",
+  "v": 2
+ },
  "407192": {
   "address": "전남광주통합특별시 여수시 예울마루로 100 예울마루",
   "age": "만 7세(초등학생) 이상",
@@ -4612,6 +4598,32 @@
   "price": "전석 50,000원",
   "v": 2
  },
+ "407195": {
+  "address": "경기도 고양시 덕양구 어울림로 33 고양어울림누리",
+  "age": "24개월 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.artgy.or.kr/oulim/theater.aspx#24",
+  "hours": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+  "price": "전석 66,000원",
+  "v": 2
+ },
+ "407200": {
+  "address": "울산광역시 북구 산업로 1000 울산북구문화예술회관",
+  "age": "24개월 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.bukgu.ulsan.kr/art/main.mo",
+  "hours": "일요일(13:00,15:00,17:00)",
+  "price": "전석 40,000원",
+  "v": 2
+ },
+ "407213": {
+  "address": "경상북도 김천시 김천로 200 김천시립문화회관",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.gc.go.kr/gcart/contents.do?mId=0200000000",
+  "hours": "토요일(11:00,14:00,16:00)",
+  "price": "전석 40,000원",
+  "v": 2
+ },
  "407221": {
   "address": "부산광역시 동래구 문화로 80 동래문화회관",
   "age": "만 11세 이상",
@@ -4619,6 +4631,15 @@
   "homepage": "https://www.dongnae.go.kr/culture/index.dongnae",
   "hours": "금요일(19:30), 토요일 ~ 일요일(14:00,17:00)",
   "price": "전석 30,000원",
+  "v": 2
+ },
+ "407230": {
+  "address": "부산광역시 동구 자성로133번길 16 부산시민회관",
+  "age": "7세 이상(2019년생부터)",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.bscc.or.kr/citizen/06_intro/?mcode=1006010000",
+  "hours": "일요일(17:00)",
+  "price": "VIP석 110,000원, R석 90,000원, S석 60,000원, A석 40,000원",
   "v": 2
  },
  "407250": {
@@ -4781,6 +4802,14 @@
   "homepage": "https://culture.seoul.go.kr/culture/culture/cultureSpace/view.do?facCode=102193&menuNo=200119",
   "hours": "수요일 ~ 금요일(19:00), 토요일 ~ 일요일(14:00), HOL(14:00)",
   "price": "전석 60,000원",
+  "v": 2
+ },
+ "407491": {
+  "address": "대구광역시 남구 계명중앙1길 39-4 골목실험극장",
+  "fetched": "2026-11-27",
+  "homepage": "https://blog.naver.com/dsr1996",
+  "hours": "금요일(19:00), 토요일(19:00)",
+  "price": "전석 30,000원",
   "v": 2
  },
  "407494": {
@@ -5004,16 +5033,10 @@
  "407765": {
   "address": "경기도 광명시 오리로 703 광명업사이클아트센터",
   "age": "전체연령",
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-27",
   "homepage": "http://upcycle.gm.go.kr",
   "hours": "화요일~일요일, 10:00~18:00 (*월요일 및 공휴일 휴관)",
   "price": "무료 *단체관람은 홈페이지 신청 필수",
-  "v": 2
- },
- "407768": {
-  "address": "광주",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.instagram.com/reel/Dflm_rGBn3g/?utm_source=ig_web_copy_link&amp;srtk=MzRlODBiNWFlZA==",
   "v": 2
  },
  "407770": {
@@ -5031,51 +5054,10 @@
   "price": "무료",
   "v": 2
  },
- "407780": {
-  "address": "광주",
-  "fetched": "2026-11-12",
-  "homepage": "https://www.instagram.com/reel/DfaxUfiOuKv/?utm_source=ig_web_copy_link&amp;cplk=MzRlODBiNWFlZA==&amp;srtk=MzRlODBiNWFlZA==",
-  "v": 2
- },
- "407783": {
-  "address": "경상남도 밀양시 밀양대공원로 112 밀양아리랑아트센터",
-  "age": "전연령",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.mycf.or.kr/main/",
-  "hours": "10:00 ~ 18:00",
-  "price": "무료",
-  "v": 2
- },
- "407784": {
-  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
-  "age": "전체연령",
-  "fetched": "2026-11-12",
-  "homepage": "http://www.wcf.or.kr/",
-  "hours": "[홈페이지 참고]",
-  "price": "무료",
-  "v": 2
- },
- "407785": {
-  "address": "강원특별자치도 원주시 중앙로 27 어울림소극장",
-  "fetched": "2026-11-12",
-  "homepage": "https://cafe.naver.com/awoollimtheater.cafe",
-  "hours": "평일 19:30 / 주말 16:00",
-  "price": "전석 20,000원(사전예매 10,000원)",
-  "v": 2
- },
- "407787": {
-  "address": "전북특별자치도 무주군 무주읍 최북로 15 최북미술관",
-  "age": "전체연령",
-  "fetched": "2026-11-12",
-  "homepage": "http://tour.muju.go.kr/art/contents.do?key=290",
-  "hours": "화-일 09:00-18:00 / 월요일 휴관",
-  "price": "무료",
-  "v": 2
- },
  "407789": {
   "address": "서울특별시 성북구 동소문로 177 아리랑아트홀(現미아리고개 예술극장)",
   "age": "만 13세(중학생) 이상 관람가",
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-27",
   "homepage": "https://miari-cooptheater.co.kr/",
   "hours": "평일 19시 30분 / 토요일 15시, 19시 30분 / 일요일 15시 / 월요일 쉼",
   "price": "전석 40,000원",
@@ -5649,6 +5631,15 @@
   "price": "R석 50,000원, S석 30,000원, A석 20,000원, B석 10,000원",
   "v": 2
  },
+ "408337": {
+  "address": "부산광역시 동구 자성로133번길 16 부산시민회관",
+  "age": "만 13세 이상",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.bscc.or.kr/citizen/06_intro/?mcode=1006010000",
+  "hours": "금요일(19:30), 토요일(16:00)",
+  "price": "전석 20,000원",
+  "v": 2
+ },
  "408353": {
   "address": "충청북도 진천군 진천읍 남산10길 21",
   "fetched": "2026-11-23",
@@ -5688,6 +5679,15 @@
   "homepage": "http://www.artdomo.co.kr/36",
   "hours": "금요일(19:30), 토요일(15:00)",
   "price": "전석 30,000원",
+  "v": 2
+ },
+ "408390": {
+  "address": "서울특별시 종로구 대명길 3 (명륜4가)",
+  "age": "만 13세(중학생) 이상",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.sfac.or.kr/artspace/artspace/play_main.do?groupCtgry=g3",
+  "hours": "토요일 ~ 일요일(15:00)",
+  "price": "전석무료",
   "v": 2
  },
  "408393": {
@@ -6441,6 +6441,23 @@
   "price": "무료",
   "v": 2
  },
+ "409528": {
+  "address": "강원특별자치도 강릉시 종합운동장길 84 강릉아트센터",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.gn.go.kr/artscenter/",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409529": {
+  "address": "서울특별시 종로구 인사동길 41-1 인사아트센터",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.cbartgallery.com",
+  "hours": "10:00 ~ 19:00",
+  "price": "무료",
+  "v": 2
+ },
  "409534": {
   "address": "제주특별자치도 제주시 명림로 430 제주4.3평화공원 제주4.3평화기념관",
   "age": "전체연령",
@@ -6456,6 +6473,103 @@
   "fetched": "2026-11-26",
   "homepage": "https://www.instagram.com/jeju43ff/",
   "hours": "09:00~18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409537": {
+  "address": "강원특별자치도 강릉시 종합운동장길 84 강릉아트센터",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.gn.go.kr/artscenter/",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409587": {
+  "address": "전남광주통합특별시 함평군 함평읍 함장로 1160",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.hpftf.or.kr/contentsView.do?pageId=www259",
+  "v": 2
+ },
+ "409612": {
+  "address": "서울특별시 성동구 왕십리로 135 202동 2층",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "https://sihsc.welfare.seoul.kr/knockseoul/main.do",
+  "hours": "금요일 19:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409615": {
+  "address": "서울특별시 강북구 솔샘로48길 14 (미아동)",
+  "fetched": "2026-11-27",
+  "hours": "토요일 14:00, 15:30, 17:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409616": {
+  "address": "부산광역시 해운대구 해운대해변로 266",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.haeundae.go.kr/tour/index.do?menuCd=DOM_000000309006000000",
+  "v": 2
+ },
+ "409618": {
+  "address": "충청남도 논산시 양촌면 이메길 25",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.instagram.com/nonsan.cntf/",
+  "v": 2
+ },
+ "409620": {
+  "address": "서울특별시 종로구 청계천로 1",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.instagram.com/seoullanternfestival/",
+  "v": 2
+ },
+ "409651": {
+  "address": "강원특별자치도 원주시 향교길 77 남산골문화센터 신명관 4층, 원주문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.wcf.or.kr/",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409652": {
+  "fetched": "2026-11-27",
+  "v": 2
+ },
+ "409655": {
+  "address": "경기도 수원시 권선구 수인로 154 국립농업박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.namuk.or.kr/sites/kr/index.do",
+  "hours": "10:00 ~ 18:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409656": {
+  "address": "경기도 수원시 권선구 수인로 154 국립농업박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.namuk.or.kr/sites/kr/index.do",
+  "hours": "화~일요일 10:00~18:00(입장 마감 17:00)",
+  "price": "무료",
+  "v": 2
+ },
+ "409658": {
+  "address": "충청북도 청주시 청원구 향군로94번길 7 충북문화재단",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "http://www.cbfc.or.kr/",
+  "hours": "13:00 / 15:00 / 17:00",
+  "price": "무료",
+  "v": 2
+ },
+ "409659": {
+  "address": "대전광역시 유성구 도안대로 398 대전시립박물관",
+  "age": "전체연령",
+  "fetched": "2026-11-27",
+  "homepage": "https://www.daejeon.go.kr/his/index.do",
+  "hours": "10:00~18:00",
   "price": "무료",
   "v": 2
  }
